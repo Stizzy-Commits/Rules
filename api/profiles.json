@@ -467,7 +467,7 @@
     "name": "Sosa",
     "currentJob": "Burrito",
     "currentModel": "models/props_junk/cardboardbox.mdl",
-    "playtimeSeconds": 247057,
+    "playtimeSeconds": 247335,
     "warns": {
       "active": 0,
       "total": 0,
@@ -479,7 +479,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 345466,
+      "currency": 585466,
       "weapons": [
         {
           "amount": 1,
@@ -549,59 +549,11 @@
       "items": [
         {
           "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
-          "type": "zgo2_weedblock",
-          "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
-        },
-        {
-          "amount": 1,
           "meta": "x1 - zgo2_seed",
           "type": "zgo2_seed",
           "class": "dc9e13b176",
           "name": "dc9e13b176",
           "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
-          "type": "zgo2_weedblock",
-          "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
-          "type": "zgo2_weedblock",
-          "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
-          "type": "zgo2_weedblock",
-          "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
-          "type": "zgo2_weedblock",
-          "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
-          "type": "zgo2_weedblock",
-          "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
         }
       ],
       "vehicles": [],
@@ -609,16 +561,32 @@
     },
     "jobs": [
       {
+        "name": "Burrito",
+        "seconds": 180
+      },
+      {
+        "name": "Professional Grower",
+        "seconds": 120
+      },
+      {
         "name": "Citizen",
         "seconds": 60
       }
     ],
     "models": [
       {
+        "name": "models/props_junk/cardboardbox.mdl",
+        "seconds": 180
+      },
+      {
+        "name": "models/player/fring/gus_suit.mdl",
+        "seconds": 120
+      },
+      {
         "name": "models/player/group01/male_01.mdl",
         "seconds": 60
       }
     ],
-    "updatedAt": "2026-06-20T15:15:56.472Z"
+    "updatedAt": "2026-06-20T15:20:33.455Z"
   }
 }
