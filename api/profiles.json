@@ -491,7 +491,7 @@
     "name": "Sosa",
     "currentJob": "Elite Seller",
     "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 248235,
+    "playtimeSeconds": 248535,
     "warns": {
       "active": 0,
       "total": 0,
@@ -503,7 +503,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585621,
+      "currency": 585731,
       "slotCount": 0,
       "slots": {},
       "weapons": [
@@ -587,12 +587,12 @@
     },
     "jobs": [
       {
-        "name": "BlackMarket Dealer",
-        "seconds": 420
+        "name": "Elite Seller",
+        "seconds": 660
       },
       {
-        "name": "Elite Seller",
-        "seconds": 360
+        "name": "BlackMarket Dealer",
+        "seconds": 420
       },
       {
         "name": "Burrito",
@@ -613,12 +613,12 @@
     ],
     "models": [
       {
-        "name": "models/player/eli.mdl",
-        "seconds": 420
+        "name": "models/player/riot.mdl",
+        "seconds": 660
       },
       {
-        "name": "models/player/riot.mdl",
-        "seconds": 360
+        "name": "models/player/eli.mdl",
+        "seconds": 420
       },
       {
         "name": "models/props_junk/cardboardbox.mdl",
@@ -637,6 +637,6 @@
         "seconds": 60
       }
     ],
-    "updatedAt": "2026-06-20T15:35:33.417Z"
+    "updatedAt": "2026-06-20T15:40:33.423Z"
   }
 }
