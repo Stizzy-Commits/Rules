@@ -296,7 +296,7 @@
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 12px;
       margin-bottom: 22px;
     }
@@ -324,6 +324,7 @@
 
     .inventory {
       padding: 20px;
+      margin-top: 22px;
     }
 
     .section-title {
@@ -378,6 +379,53 @@
       font-size: 14px;
     }
 
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 22px;
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .list-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 12px;
+      border: 1px solid var(--ring);
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.18);
+    }
+
+    .list-main {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .list-sub {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .pill {
+      flex: 0 0 auto;
+      padding: 5px 8px;
+      border-radius: 999px;
+      background: rgba(var(--neutral-200), 0.08);
+      color: var(--text-soft);
+      font-size: 11px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
     .footer {
       width: min(var(--max), calc(100% - 48px));
       margin: 0 auto;
@@ -406,7 +454,8 @@
       }
 
       .stats,
-      .item-grid {
+      .item-grid,
+      .detail-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -464,6 +513,10 @@
               <dd id="statCurrency">-</dd>
             </div>
             <div class="stat">
+              <dt>Playtime</dt>
+              <dd id="statPlaytime">-</dd>
+            </div>
+            <div class="stat">
               <dt>Weapons</dt>
               <dd id="statWeapons">-</dd>
             </div>
@@ -479,6 +532,28 @@
               <div class="empty">Sign in through Steam to load your in-game items.</div>
             </div>
           </div>
+
+          <section class="detail-grid">
+            <div class="panel inventory">
+              <h2 class="section-title">Warnings <span id="warnStatus">-</span></h2>
+              <div class="list" id="warnList"></div>
+            </div>
+
+            <div class="panel inventory">
+              <h2 class="section-title">Bans <span id="banStatus">-</span></h2>
+              <div class="list" id="banList"></div>
+            </div>
+
+            <div class="panel inventory">
+              <h2 class="section-title">Most Used Jobs <span id="jobStatus">Tracking live</span></h2>
+              <div class="list" id="jobList"></div>
+            </div>
+
+            <div class="panel inventory">
+              <h2 class="section-title">Most Used Models <span id="modelStatus">Tracking live</span></h2>
+              <div class="list" id="modelList"></div>
+            </div>
+          </section>
         </section>
       </section>
     </main>
@@ -499,10 +574,17 @@
     const profileActions = document.getElementById("profileActions");
     const steamLogin = document.getElementById("steamLogin");
     const statCurrency = document.getElementById("statCurrency");
+    const statPlaytime = document.getElementById("statPlaytime");
     const statWeapons = document.getElementById("statWeapons");
     const statItems = document.getElementById("statItems");
     const inventoryStatus = document.getElementById("inventoryStatus");
     const inventoryGrid = document.getElementById("inventoryGrid");
+    const warnStatus = document.getElementById("warnStatus");
+    const warnList = document.getElementById("warnList");
+    const banStatus = document.getElementById("banStatus");
+    const banList = document.getElementById("banList");
+    const jobList = document.getElementById("jobList");
+    const modelList = document.getElementById("modelList");
 
     steamLogin.href = `${API_BASE}/auth/steam/start`;
 
@@ -515,6 +597,26 @@
       const name = item.name || "Unknown Item";
       const meta = item.meta || item.type || "Owned item";
       return `<article class="item"><h3 class="item-name">${escapeHtml(name)}</h3><p class="item-meta">${escapeHtml(meta)}</p></article>`;
+    }
+
+    function formatDuration(seconds) {
+      seconds = Number(seconds) || 0;
+      const hours = Math.floor(seconds / 3600);
+      const minutes = Math.floor((seconds % 3600) / 60);
+      if (hours > 0) return `${hours}h ${minutes}m`;
+      return `${minutes}m`;
+    }
+
+    function formatDate(seconds) {
+      seconds = Number(seconds) || 0;
+      if (!seconds) return "Unknown";
+      return new Date(seconds * 1000).toLocaleDateString();
+    }
+
+    function renderList(el, rows, emptyText, renderRow) {
+      el.innerHTML = rows && rows.length
+        ? rows.map(renderRow).join("")
+        : `<div class="empty">${escapeHtml(emptyText)}</div>`;
     }
 
     function escapeHtml(value) {
@@ -532,19 +634,29 @@
       profileTitle.textContent = "Sign in required";
       profileSub.textContent = "Steam login is required before private profile data can be shown.";
       statCurrency.textContent = "-";
+      statPlaytime.textContent = "-";
       statWeapons.textContent = "-";
       statItems.textContent = "-";
       inventoryStatus.textContent = "Not signed in";
       inventoryGrid.innerHTML = '<div class="empty">Sign in through Steam to load your in-game items.</div>';
+      warnStatus.textContent = "-";
+      banStatus.textContent = "-";
+      warnList.innerHTML = '<div class="empty">Sign in through Steam to load warning history.</div>';
+      banList.innerHTML = '<div class="empty">Sign in through Steam to load ban history.</div>';
+      jobList.innerHTML = '<div class="empty">No job tracking data yet.</div>';
+      modelList.innerHTML = '<div class="empty">No model tracking data yet.</div>';
       profileActions.innerHTML = `<a class="button primary" href="${API_BASE}/auth/steam/start">Sign in through Steam</a>`;
     }
 
     function renderProfile(data) {
-      const inv = data.inventory || {};
+      const profile = data.profile || {};
+      const inv = profile.inventory || {};
       const weapons = inv.weapons || [];
       const items = inv.items || [];
       const vehicles = inv.vehicles || [];
       const packages = inv.packages || [];
+      const warns = profile.warns || {};
+      const bans = profile.bans || {};
       const allItems = [
         ...weapons.map(item => ({ ...item, type: item.type || "Weapon" })),
         ...items.map(item => ({ ...item, type: item.type || "Item" })),
@@ -553,15 +665,47 @@
       ];
 
       avatar.textContent = "S";
-      profileTitle.textContent = "Steam Profile";
-      profileSub.textContent = data.steamid64;
+      profileTitle.textContent = profile.name || "Steam Profile";
+      profileSub.textContent = `${data.steamid64}${profile.currentJob ? ` - ${profile.currentJob}` : ""}`;
       statCurrency.textContent = String(inv.currency || 0);
+      statPlaytime.textContent = formatDuration(profile.playtimeSeconds || 0);
       statWeapons.textContent = String(weapons.length);
       statItems.textContent = String(items.length + vehicles.length + packages.length);
       inventoryStatus.textContent = `${allItems.length} synced entries`;
       inventoryGrid.innerHTML = allItems.length
         ? allItems.map(itemCard).join("")
         : '<div class="empty">Steam login works. Inventory sync is the next backend step.</div>';
+      warnStatus.textContent = `${warns.active || 0} active`;
+      banStatus.textContent = bans.active ? "Active ban" : `${bans.total || 0} record(s)`;
+
+      renderList(warnList, warns.recent || [], "No warning history synced.", warn => `
+        <div class="list-row">
+          <div><p class="list-main">${escapeHtml(warn.reason || "No reason provided")}</p><p class="list-sub">${escapeHtml(warn.server || "Server")} - ${escapeHtml(warn.admin || "Unknown admin")}</p></div>
+          <span class="pill">${escapeHtml(formatDate(warn.date))}</span>
+        </div>
+      `);
+
+      renderList(banList, bans.recent || [], "No ban history synced.", ban => `
+        <div class="list-row">
+          <div><p class="list-main">${escapeHtml(ban.reason || "No reason provided")}</p><p class="list-sub">Admin: ${escapeHtml(ban.admin || "Console")}</p></div>
+          <span class="pill">${Number(ban.unban_date || 0) === 0 ? "Permanent" : escapeHtml(formatDate(ban.unban_date))}</span>
+        </div>
+      `);
+
+      renderList(jobList, profile.jobs || [], "Job tracking starts after the updated addon runs.", job => `
+        <div class="list-row">
+          <div><p class="list-main">${escapeHtml(job.name || "Unknown")}</p><p class="list-sub">Tracked server-side while online.</p></div>
+          <span class="pill">${escapeHtml(formatDuration(job.seconds))}</span>
+        </div>
+      `);
+
+      renderList(modelList, profile.models || [], "Model tracking starts after the updated addon runs.", model => `
+        <div class="list-row">
+          <div><p class="list-main">${escapeHtml(model.name || "Unknown model")}</p><p class="list-sub">Current model: ${escapeHtml(profile.currentModel || "Unknown")}</p></div>
+          <span class="pill">${escapeHtml(formatDuration(model.seconds))}</span>
+        </div>
+      `);
+
       profileActions.innerHTML = `
         <a class="button" href="https://steamcommunity.com/profiles/${encodeURIComponent(data.steamid64)}">Open Steam Profile</a>
         <a class="button" href="${API_BASE}/auth/logout">Sign out</a>
