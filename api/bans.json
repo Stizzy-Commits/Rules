@@ -1,11 +1,1 @@
-[
-  {
-    "name": "ExploitUser",
-    "steamid": "STEAM_0:1:22222222",
-    "reason": "Bug abuse",
-    "bannedBy": "Staff",
-    "bannedBySteamId": "STEAM_0:1:48572900",
-    "banLength": "Permanent",
-    "unbanTime": "Never"
-  }
-]
+[]
