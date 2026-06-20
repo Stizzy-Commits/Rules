@@ -59,5 +59,106 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-06-20T15:08:16.935Z"
+  },
+  "76561198249112348": {
+    "steamid64": "76561198249112348",
+    "steamid": "STEAM_0:0:144423310",
+    "name": "Stizzy",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 659061,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 78449,
+      "weapons": [
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_model500",
+          "name": "S&W Model 500",
+          "model": "models/weapons/w_sw_model_500.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_sig_p229r",
+          "name": "SIG Sauer P229R",
+          "model": "models/weapons/w_sig_229r.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_usp",
+          "name": "HK USP",
+          "model": "models/weapons/w_pist_fokkususp.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_model627",
+          "name": "S&W Model 627",
+          "model": "models/weapons/w_sw_model_627.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "weapon_thermal_breacher",
+          "name": "Thermal Breacher",
+          "model": "models/weapons/w_slam.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_m98b",
+          "name": "Barret M98B",
+          "model": "models/weapons/w_barrett_m98b.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_sl8",
+          "name": "HK SL8",
+          "model": "models/weapons/w_hk_sl8.mdl"
+        },
+        {
+          "amount": 2,
+          "meta": "x2 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_svu",
+          "name": "Dragunov SVU",
+          "model": "models/weapons/w_dragunov_svu.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ares_shrike",
+          "name": "Ares Shrike",
+          "model": "models/weapons/w_ares_shrike.mdl"
+        }
+      ],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T15:08:20.792Z"
   }
 }
