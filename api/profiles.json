@@ -427,9 +427,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 247034,
+    "currentJob": "Burrito",
+    "currentModel": "models/props_junk/cardboardbox.mdl",
+    "playtimeSeconds": 247057,
     "warns": {
       "active": 0,
       "total": 0,
@@ -569,8 +569,18 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-20T15:15:33.006Z"
+    "jobs": [
+      {
+        "name": "Citizen",
+        "seconds": 60
+      }
+    ],
+    "models": [
+      {
+        "name": "models/player/group01/male_01.mdl",
+        "seconds": 60
+      }
+    ],
+    "updatedAt": "2026-06-20T15:15:56.472Z"
   }
 }
