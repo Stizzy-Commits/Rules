@@ -1297,14 +1297,14 @@
     "name": "ossama johnladen",
     "currentJob": "Hobo",
     "currentModel": "models/player/corpse1.mdl",
-    "playtimeSeconds": 125083,
+    "playtimeSeconds": 125383,
     "leveling": {
       "level": 46,
-      "xp": 130711,
-      "currentXp": 11941,
+      "xp": 130761,
+      "currentXp": 11991,
       "requiredXp": 12026,
       "maxLevel": 100,
-      "progress": 0.9929135789579999
+      "progress": 0.9970709159341056
     },
     "warns": {
       "active": 0,
@@ -1317,7 +1317,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25020019,
+      "currency": 25020039,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1510,16 +1510,16 @@
     },
     "jobs": [
       {
+        "seconds": 360,
+        "model": "models/player/corpse1.mdl",
+        "name": "Hobo",
+        "iconKey": "profile_model_face_models-player-corpse1.mdl"
+      },
+      {
         "seconds": 300,
         "model": "models/player/mechanic.mdl",
         "name": "Mechanic",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/corpse1.mdl",
-        "name": "Hobo",
-        "iconKey": "profile_model_face_models-player-corpse1.mdl"
       },
       {
         "seconds": 60,
@@ -1542,16 +1542,16 @@
     ],
     "models": [
       {
+        "seconds": 360,
+        "model": "models/player/corpse1.mdl",
+        "name": "models/player/corpse1.mdl",
+        "iconKey": "profile_model_face_models-player-corpse1.mdl"
+      },
+      {
         "seconds": 300,
         "model": "models/player/mechanic.mdl",
         "name": "models/player/mechanic.mdl",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/alyx.mdl",
-        "name": "models/player/alyx.mdl",
-        "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
         "seconds": 60,
@@ -1567,11 +1567,11 @@
       },
       {
         "seconds": 60,
-        "model": "models/player/corpse1.mdl",
-        "name": "models/player/corpse1.mdl",
-        "iconKey": "profile_model_face_models-player-corpse1.mdl"
+        "model": "models/player/alyx.mdl",
+        "name": "models/player/alyx.mdl",
+        "iconKey": "profile_model_face_models-player-alyx.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T22:26:06.004Z"
+    "updatedAt": "2026-06-20T22:31:06.338Z"
   }
 }
