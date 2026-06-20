@@ -159,7 +159,7 @@
     "name": "tort",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 53961,
+    "playtimeSeconds": 54225,
     "warns": {
       "active": 0,
       "total": 0,
@@ -171,7 +171,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1233881,
+      "currency": 1233961,
       "weapons": [
         {
           "amount": 10,
@@ -285,7 +285,7 @@
     },
     "jobs": [],
     "models": [],
-    "updatedAt": "2026-06-20T15:08:23.080Z"
+    "updatedAt": "2026-06-20T15:12:49.385Z"
   },
   "76561198120592615": {
     "steamid64": "76561198120592615",
