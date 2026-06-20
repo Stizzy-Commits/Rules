@@ -556,7 +556,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "BlackMarket Dealer",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 658704,
+    "playtimeSeconds": 659304,
     "warns": {
       "active": 0,
       "total": 0,
@@ -568,7 +568,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402710173,
+      "currency": 99402710343,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -733,16 +733,16 @@
     },
     "jobs": [
       {
+        "seconds": 1260,
+        "model": "models/player/eli.mdl",
+        "name": "BlackMarket Dealer",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 1020,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 660,
-        "model": "models/player/eli.mdl",
-        "name": "BlackMarket Dealer",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 60,
@@ -753,16 +753,22 @@
     ],
     "models": [
       {
+        "seconds": 1200,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 1020,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 660,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
+        "seconds": 60,
+        "model": "models/player/charple.mdl",
+        "name": "models/player/charple.mdl",
+        "iconKey": "profile_model_face_models-player-charple.mdl"
       },
       {
         "seconds": 60,
@@ -771,14 +777,14 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:21:33.872Z",
+    "updatedAt": "2026-06-20T23:31:33.807Z",
     "leveling": {
       "level": 44,
-      "xp": 107660,
-      "currentXp": 9763,
+      "xp": 107760,
+      "currentXp": 9863,
       "requiredXp": 9939,
       "maxLevel": 100,
-      "progress": 0.9823206843428833
+      "progress": 0.9923814398250589
     }
   },
   "76561198043370754": {
