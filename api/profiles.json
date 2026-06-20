@@ -827,9 +827,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "Gun Dealer",
-    "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 251633,
+    "currentJob": "Elite Seller",
+    "currentModel": "models/player/riot.mdl",
+    "playtimeSeconds": 251933,
     "warns": {
       "active": 0,
       "total": 0,
@@ -841,7 +841,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 586106,
+      "currency": 586206,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -998,10 +998,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 360,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
     "models": [
@@ -1012,20 +1018,26 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 360,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:50:06.294Z",
+    "updatedAt": "2026-06-20T23:55:04.814Z",
     "leveling": {
       "level": 34,
-      "xp": 40350,
-      "currentXp": 3528,
+      "xp": 40400,
+      "currentXp": 3578,
       "requiredXp": 3832,
       "maxLevel": 100,
-      "progress": 0.9207611304049381
+      "progress": 0.9338086347423394
     }
   },
   "76561198083253627": {
