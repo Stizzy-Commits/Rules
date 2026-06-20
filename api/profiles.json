@@ -919,5 +919,86 @@
       }
     ],
     "updatedAt": "2026-06-20T16:08:22.381Z"
+  },
+  "76561198083253627": {
+    "steamid64": "76561198083253627",
+    "steamid": "STEAM_0:1:61493949",
+    "name": "Magicviper",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 88059,
+    "leveling": {
+      "level": 0,
+      "xp": 0,
+      "currentXp": 0,
+      "requiredXp": 0,
+      "maxLevel": 0,
+      "progress": 0
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 9054138,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 1,
+          "name": "SPAS 12",
+          "type": "spawned_weapon",
+          "class": "m9k_spas12",
+          "model": "models/weapons/w_spas_12.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_spas12_models-weapons-w_spas_12.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "5": {
+          "slot": 5,
+          "amount": 1,
+          "name": "OG Kush 1000g THC: 50%",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_jar_246224726_models-zerochain-props_growop2-zgo2_jar.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Holds weed."
+        }
+      },
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-20T17:01:23.698Z"
   }
 }
