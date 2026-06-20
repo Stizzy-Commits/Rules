@@ -1,0 +1,1796 @@
+<!DOCTYPE html>
+<html lang="en" color-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rules | OldSchool RP</title>
+
+  <style>
+    :root {
+      --primary-50: 242, 242, 242;
+      --primary-100: 230, 230, 230;
+      --primary-200: 191, 191, 191;
+      --primary-300: 153, 153, 153;
+      --primary-400: 77, 77, 77;
+      --primary-500: 0, 0, 0;
+      --primary-600: 0, 0, 0;
+      --primary-700: 0, 0, 0;
+      --primary-800: 0, 0, 0;
+      --primary-900: 0, 0, 0;
+      --neutral-50: 244, 244, 244;
+      --neutral-100: 232, 232, 232;
+      --neutral-200: 198, 198, 198;
+      --neutral-300: 164, 164, 164;
+      --neutral-400: 96, 96, 96;
+      --neutral-500: 28, 28, 28;
+      --neutral-600: 25, 25, 25;
+      --neutral-700: 21, 21, 21;
+      --neutral-800: 17, 17, 17;
+      --neutral-900: 14, 14, 14;
+      --danger-50: 255, 242, 242;
+      --danger-100: 255, 230, 230;
+      --danger-200: 255, 191, 191;
+      --danger-300: 255, 153, 153;
+      --danger-400: 255, 77, 77;
+      --danger-500: 255, 0, 0;
+      --danger-600: 230, 0, 0;
+      --danger-700: 191, 0, 0;
+      --danger-800: 153, 0, 0;
+      --danger-900: 125, 0, 0;
+      --bg: rgb(var(--neutral-900));
+      --ring: rgba(var(--neutral-200), 0.05);
+      --ring-strong: rgba(var(--neutral-200), 0.09);
+      --text: rgb(var(--neutral-100));
+      --text-soft: rgb(var(--neutral-200));
+      --muted: rgb(var(--neutral-400));
+      --muted-2: rgba(var(--neutral-400), 0.7);
+      --blue: #1f6fd6;
+      --blue-soft: rgba(31, 111, 214, 0.12);
+      --danger: rgb(var(--danger-600));
+      --radius: 12px;
+      --max: 1600px;
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      border: 0 solid rgba(var(--neutral-200), 1);
+    }
+
+    html {
+      min-height: 100%;
+      background: var(--bg);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      -webkit-font-smoothing: antialiased;
+      background: rgb(var(--neutral-900));
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: url("imgs/noise.png");
+      background-size: 220px 220px;
+      opacity: 0.028;
+      mix-blend-mode: screen;
+      z-index: 1;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    /* Intro */
+
+    .intro {
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      display: grid;
+      place-items: center;
+      background: #030303;
+      transition: opacity 850ms ease, visibility 850ms ease;
+    }
+
+    .intro.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .intro img {
+      width: min(440px, 70vw);
+      opacity: 0;
+      transform: scale(0.6);
+      animation: introLogo 1650ms cubic-bezier(.2, .7, .2, 1) forwards;
+    }
+
+    @keyframes introLogo {
+      0% {
+        opacity: 0;
+        transform: scale(0.6);
+      }
+
+      55% {
+        opacity: 0.92;
+        transform: scale(1);
+      }
+
+      100% {
+        opacity: 0.72;
+        transform: scale(1);
+      }
+    }
+
+    .site {
+      position: relative;
+      z-index: 2;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 700ms ease, transform 700ms ease;
+    }
+
+    .site.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Header */
+
+    .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 30;
+      width: 100%;
+    }
+
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      white-space: nowrap;
+      opacity: 1;
+      transition: opacity 150ms ease, color 150ms ease;
+    }
+
+    .brand:hover {
+      color: #fff;
+      opacity: 1;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+      opacity: 1;
+      transition: opacity 150ms ease, color 150ms ease, background 150ms ease;
+    }
+
+    .nav-links a:hover {
+      opacity: 1;
+      color: #fff;
+    }
+
+    .nav-links .active {
+      color: #fff;
+    }
+
+    .nav-links .dash {
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 13px;
+      border-radius: 8px;
+      color: #fff;
+      background: rgba(var(--neutral-700), 0.75);
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 600;
+      white-space: nowrap;
+      box-shadow: 0 0 0 0 transparent;
+    }
+
+    .nav-links .dash:hover {
+      color: #fff;
+      background: rgb(var(--neutral-600));
+    }
+
+    /* Layout */
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 40px 128px;
+    }
+
+    .hero {
+      position: relative;
+      z-index: 0;
+      isolation: isolate;
+      overflow: hidden;
+      padding: 248px 24px 104px;
+      text-align: center;
+      min-height: 600px;
+    }
+
+    .hero-logo-bg {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      z-index: 0;
+      width: min(560px, 78vw);
+      height: min(560px, 78vw);
+      object-fit: contain;
+      transform: translate(-50%, -50%);
+      display: block;
+      opacity: 0.82;
+      filter: blur(9px) brightness(1.08) saturate(1.18);
+      user-select: none;
+      pointer-events: none;
+    }
+
+    .hero h1 {
+      position: relative;
+      z-index: 1;
+      margin: 172px 0 0;
+      color: rgb(var(--neutral-100));
+      font-size: clamp(30px, 2.35vw, 36px);
+      line-height: 1.625;
+      letter-spacing: 0.025em;
+      font-weight: 800;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.72);
+    }
+
+    .hero p {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.5;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.82);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 32px;
+      align-items: start;
+    }
+
+    .content {
+      display: grid;
+      grid-column: span 8;
+      gap: 48px;
+    }
+
+    .side {
+      grid-column: span 4;
+      position: sticky;
+      top: 32px;
+      display: grid;
+      gap: 48px;
+    }
+
+    /* Noclip-like card shell */
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: rgba(var(--neutral-900), 0.60);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+      border: 1px solid rgba(var(--neutral-200), 0.05);
+      --overlay-image: url("");
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+      border-radius: inherit;
+      opacity: .75;
+      background-image: var(--overlay-image);
+      background-size: cover;
+      background-position: center;
+      box-shadow: inset 0 1px 0 0 rgba(var(--primary-50), .05);
+      z-index: 0;
+    }
+
+    .card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px;
+      background: rgba(var(--neutral-900), 0.10);
+      border-bottom: 1px solid var(--ring);
+    }
+
+    .section-title {
+      min-width: 0;
+    }
+
+    .section-title h2 {
+      margin: 0;
+      color: #e5e5e5;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
+      letter-spacing: 0.025em;
+    }
+
+    .section-title p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .section-tag {
+      flex: 0 0 auto;
+      color: var(--muted-2);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .rule-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .rule {
+      display: grid;
+      grid-template-columns: 64px minmax(0, 1fr);
+      gap: 8px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--ring);
+      min-height: 72px;
+    }
+
+    .rule:last-child {
+      border-bottom: 0;
+    }
+
+    .rule-no {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 2px;
+    }
+
+    .rule-pill {
+      min-width: 40px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: rgba(255,255,255,.035);
+      color: #bcbcbc;
+      font-size: 12px;
+      font-weight: 850;
+      box-shadow: inset 0 0 0 1px var(--ring);
+    }
+
+    .rule-main strong {
+      display: block;
+      color: #e7e7e7;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    .rule-main p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .notice {
+      padding: 16px;
+      color: var(--text-soft);
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .notice strong {
+      color: #fff;
+    }
+
+    .notice.warning {
+      border-color: rgba(var(--danger-600), 0.20);
+      background: rgba(var(--danger-600), 0.045);
+    }
+
+    /* Sidebar */
+
+    .side-card {
+      padding: 16px;
+    }
+
+    .side-title {
+      margin: 0 0 10px;
+      color: rgb(var(--neutral-100));
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
+      letter-spacing: 0.025em;
+    }
+
+    .side-text {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .side-action {
+      height: 36px;
+      margin-top: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #fff;
+      background: rgba(var(--primary-500), 1);
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 600;
+      text-shadow: 0 0 2px #000;
+      transition: background 150ms ease, color 150ms ease;
+    }
+
+    .side-action:hover {
+      color: #fff;
+      background: rgba(var(--primary-400), 1);
+    }
+
+    .index-list {
+      display: grid;
+      gap: 4px;
+    }
+
+    .index-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 38px;
+      padding: 0 11px;
+      text-decoration: none;
+      color: #a3a3a3;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: background 150ms ease, color 150ms ease;
+    }
+
+    .index-list a:hover,
+    .index-list a.active {
+      color: #fff;
+      background: rgba(255,255,255,.04);
+    }
+
+    .index-list span {
+      color: var(--muted-2);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .status-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-top: 1px solid var(--ring);
+      margin: 16px -16px -16px;
+    }
+
+    .status-row div {
+      padding: 14px 16px;
+    }
+
+    .status-row div + div {
+      border-left: 1px solid var(--ring);
+    }
+
+    .status-row dt {
+      color: rgb(var(--neutral-200));
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .status-row dd {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    footer {
+      position: relative;
+      z-index: 2;
+      background: rgb(var(--neutral-900));
+      border-top: 1px solid var(--ring);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 22px 32px;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 900px) {
+      .nav-inner {
+        padding: 16px 18px;
+      }
+
+      .nav-links {
+        gap: 12px;
+      }
+
+      .nav-links a:not(.active):not(.dash) {
+        display: none;
+      }
+
+      .wrap {
+        padding: 0 16px 72px;
+      }
+
+      .hero {
+        min-height: 372px;
+        padding: 132px 24px 64px;
+      }
+
+      .hero-logo-bg {
+        top: 36%;
+        width: min(360px, 88vw);
+        height: min(360px, 88vw);
+      }
+
+      .hero h1 {
+        margin-top: 132px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .content,
+      .side {
+        grid-column: auto;
+      }
+
+      .content {
+        gap: 20px;
+      }
+
+      .side {
+        position: relative;
+        top: auto;
+        gap: 48px;
+      }
+
+      .rule {
+        grid-template-columns: 1fr;
+      }
+
+      .rule-no {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="intro" id="intro">
+    <img src="imgs/logo.png" alt="OldSchool RP Logo" />
+  </div>
+
+  <div class="site" id="site">
+    <header class="navbar">
+      <div class="nav-inner">
+        <a class="brand" href="https://oldschoolroleplay.noclip.me/" aria-label="OldSchool RP Home">
+          OldSchool RP
+        </a>
+
+        <nav class="nav-links">
+          <a href="https://oldschoolroleplay.noclip.me/members">Members</a>
+          <a href="https://oldschoolroleplay.noclip.me/store">Store</a>
+          <a href="https://discordapp.com/invite/QrKf6xQH">Discord</a>
+          <a class="active" href="index.html">Rules</a>
+          <a href="https://oldschoolroleplay.noclip.me/#">Updates</a>
+          <a class="dash" href="https://oldschoolroleplay.noclip.me/admin">Dashboard</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero-logo-bg" src="imgs/logo.png" alt="" aria-hidden="true" />
+        <h1>Server Rules</h1>
+        <p>
+          Read these before playing. These rules cover general conduct, vehicles, raiding, bases, homes, shops, and job-specific behavior.
+        </p>
+      </section>
+
+      <div class="wrap">
+        <div class="grid">
+          <div class="content">
+            <section class="card rule-section" id="general-rules">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>General Rules</h2>
+                  <p>13 rules</p>
+                </div>
+                <div class="section-tag">01</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.1</span></div>
+                  <div class="rule-main">
+                    <strong>NLR applies here, do not return to your place of death for at least 3 minutes</strong>
+                    <p>You forget everything that happened in the previous life.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.2</span></div>
+                  <div class="rule-main">
+                    <strong>Acting on and/or relaying information in OOC is metagame, this is not allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.3</span></div>
+                  <div class="rule-main">
+                    <strong>Roleplay related information must be posted in /advert chat and will be considered metagaming if posted in OOC chat(s).</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.4</span></div>
+                  <div class="rule-main">
+                    <strong>English only</strong>
+                    <p>(You can speak any language via PM or in private areas)</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.5</span></div>
+                  <div class="rule-main">
+                    <strong>Don&#x27;t build on any public area</strong>
+                    <p>Hobos are an exception. Radio Hosts and Medics may build a shack/stand in public.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.6</span></div>
+                  <div class="rule-main">
+                    <strong>Random Death Match (RDM) is NOT allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.7</span></div>
+                  <div class="rule-main">
+                    <strong>Prop-abusing is NOT allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.8</span></div>
+                  <div class="rule-main">
+                    <strong>Inappropriate or offensive prop constructions are not allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.9</span></div>
+                  <div class="rule-main">
+                    <strong>You can kill players who insult you after you have given them a text warning to stop and they continue.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.10</span></div>
+                  <div class="rule-main">
+                    <strong>Do not block off public areas, roads, streets, etc.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.11</span></div>
+                  <div class="rule-main">
+                    <strong>Any sort of hacking/cheating isn&#x27;t allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.12</span></div>
+                  <div class="rule-main">
+                    <strong>Threatening to attack the server in any manner will result in a permanent ban.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">1.13</span></div>
+                  <div class="rule-main">
+                    <strong>Bug abuse of any sort is not allowed.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="car-rules">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Car Rules</h2>
+                  <p>3 rules</p>
+                </div>
+                <div class="section-tag">02</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">2.1</span></div>
+                  <div class="rule-main">
+                    <strong>If someone is on your car you may shoot them after giving them a warning.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">2.2</span></div>
+                  <div class="rule-main">
+                    <strong>If the driver of a vehicle is not a co-owner of the car he is driving, cops can assume they are stealing.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">2.3</span></div>
+                  <div class="rule-main">
+                    <strong>Do not block public places or bases with cars</strong>
+                    <p>Do not attempt to drive cars into the water or inside buildings that were not made for cars.</p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="raiding-rules">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Raiding Rules</h2>
+                  <p>14 rules</p>
+                </div>
+                <div class="section-tag">03</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.1</span></div>
+                  <div class="rule-main">
+                    <strong>Do not minge raid</strong>
+                    <p>Raiding a base you know has absolutely nothing in it or raiding an unowned base just to shoot people.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.2</span></div>
+                  <div class="rule-main">
+                    <strong>Props are not a reason to raid or kill.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.3</span></div>
+                  <div class="rule-main">
+                    <strong>If a base is open and you&#x27;re able to examine it without any restrictions, you cannot raid it unless you find valuables inside the base.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.4</span></div>
+                  <div class="rule-main">
+                    <strong>The police can raid to confiscate printers, drugs and weapons but only with a valid warrant. They cannot steal legal items - Health, armor or money.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.5</span></div>
+                  <div class="rule-main">
+                    <strong>After being raided, you must wait 3 minutes before returning to your home (NLR)</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.6</span></div>
+                  <div class="rule-main">
+                    <strong>You must wait 5 minutes after raiding, before raiding the same person again.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.7</span></div>
+                  <div class="rule-main">
+                    <strong>Thieves, Parkours &amp; Gangsters(2 or more) are the only jobs allowed to raid</strong>
+                    <p>Hitmen may raid to take out their hit.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.8</span></div>
+                  <div class="rule-main">
+                    <strong>Gangsters &amp; Mob Boss together are able to raid the PD to release gang members from prison.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.9</span></div>
+                  <div class="rule-main">
+                    <strong>The only other job allowed to raid the PD are terrorists with Osama.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.10</span></div>
+                  <div class="rule-main">
+                    <strong>You CAN be raided while building</strong>
+                    <p>Create an entrance by placing a keypad &amp; fading door before building anything else!</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.11</span></div>
+                  <div class="rule-main">
+                    <strong>You may kill someone in order to steal something that they are holding or if a car owner is standing next to their vehicle.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.12</span></div>
+                  <div class="rule-main">
+                    <strong>You do not need to /advert raid or mug.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.13</span></div>
+                  <div class="rule-main">
+                    <strong>If another player is in the process of lock-picking a vehicle that you desire, you may kill them in order to steal it yourself.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">3.14</span></div>
+                  <div class="rule-main">
+                    <strong>The Radio and Radio host&#x27;s microphone are not reasons to raid</strong>
+                    <p>You are not to steal the Radio host&#x27;s microphone.</p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="shop-bases-and-home-rules">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Shop, Bases &amp; Home Rules</h2>
+                  <p>26 rules</p>
+                </div>
+                <div class="section-tag">04</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.1</span></div>
+                  <div class="rule-main">
+                    <strong>You may only have THREE fading doors for the entrance of your base</strong>
+                    <p>You are allowed to have more fading doors to cover valuables in eg. a container, as long as they do not require keypad cracking.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.2</span></div>
+                  <div class="rule-main">
+                    <strong>Base designs that intentionally delay gaining entrance to the base by an excessive amount are not allowed, example: Zigzag / mazes.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.3</span></div>
+                  <div class="rule-main">
+                    <strong>Shop owners can have a fourth fading door for their enclosed buying area IF the fading door is NOT a part of the entrance.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.4</span></div>
+                  <div class="rule-main">
+                    <strong>There must be AT LEAST one entrance to your shop/base.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.5</span></div>
+                  <div class="rule-main">
+                    <strong>An entrance needs to be clearly indicated.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.6</span></div>
+                  <div class="rule-main">
+                    <strong>Do not make an entrance that requires crouching.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.7</span></div>
+                  <div class="rule-main">
+                    <strong>Your keypad granted length must be set so you have enough time to be able to get inside</strong>
+                    <p>(Minimum 3 seconds)</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.8</span></div>
+                  <div class="rule-main">
+                    <strong>You cannot put keypads or buttons far away from your entrance, or make them hidden</strong>
+                    <p>They must be clearly visible near your door.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.9</span></div>
+                  <div class="rule-main">
+                    <strong>Do not build a base specifically made to trap people (even if it has a keypad to get out).</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.10</span></div>
+                  <div class="rule-main">
+                    <strong>There must be a keypad or button linked to your fading door allowing players to enter and leave.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.11</span></div>
+                  <div class="rule-main">
+                    <strong>Using a toggled fading door does not allow you to use only one button or keypad.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.12</span></div>
+                  <div class="rule-main">
+                    <strong>You can have a maximum of one keypad or one button (each way) per fading door</strong>
+                    <p>- Shop owners can have an additional button to control the fading door leading to their buying area.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.13</span></div>
+                  <div class="rule-main">
+                    <strong>Using the color/material tool to create invisible or barely visible props/buttons/cameras etc is not allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.14</span></div>
+                  <div class="rule-main">
+                    <strong>Using fake keypads, buttons or a fall hatch/trap is NOT allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.15</span></div>
+                  <div class="rule-main">
+                    <strong>Making or owning a base with a job of the opposite class is NOT allowed</strong>
+                    <p>Example: Cops or Mayor basing with criminals.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.16</span></div>
+                  <div class="rule-main">
+                    <strong>A keypad and/or button is required on the inside of any enclosed buying area.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.17</span></div>
+                  <div class="rule-main">
+                    <strong>Do not betray players that you are basing with.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.18</span></div>
+                  <div class="rule-main">
+                    <strong>The official owner of a house is the player who owns the front door.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.19</span></div>
+                  <div class="rule-main">
+                    <strong>Do not buy random houses and doors that you aren&#x27;t going to use.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.20</span></div>
+                  <div class="rule-main">
+                    <strong>Do not charge players money for houses you aren&#x27;t using (You can chargenmoney if someone would like to purchase a place that you are currently using.)</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.21</span></div>
+                  <div class="rule-main">
+                    <strong>Government Officials are not allowed to base with criminals or terrorists and vice versa (Being a corrupt government official is no reason to break this rule).</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.22</span></div>
+                  <div class="rule-main">
+                    <strong>KOS lines/zones are NOT allowed</strong>
+                    <p>The only time &#x27;KOS&#x27; can be used is if the player has entered your property.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.23</span></div>
+                  <div class="rule-main">
+                    <strong>Hit-box abuse is not allowed</strong>
+                    <p>Example: Creating a base that allows you to shoot a raider but the raider cannot shoot you back.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.24</span></div>
+                  <div class="rule-main">
+                    <strong>Fading door abuse is not allowed</strong>
+                    <p>Opening a fading door using the bound key is considered fading door abuse - (Use your keypad/button!)</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.25</span></div>
+                  <div class="rule-main">
+                    <strong>You must warn players to leave your base before killing them unless you have a KOS sign warning them.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">4.26</span></div>
+                  <div class="rule-main">
+                    <strong>Making any part of your base C4-proof or battering ram-proof is not allowed.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="general-job-rules">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>General Job Rules</h2>
+                  <p>18 rules</p>
+                </div>
+                <div class="section-tag">05</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.1</span></div>
+                  <div class="rule-main">
+                    <strong>No class/job can take hostages with the exception of Osama who may take the Mayor hostage.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.2</span></div>
+                  <div class="rule-main">
+                    <strong>Do not job abuse</strong>
+                    <p>Example: Dropping the weapon(s) that you spawned with as a specific job or purchasing weapons for yourself to use as another job.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.3</span></div>
+                  <div class="rule-main">
+                    <strong>Thieves and hobos ARE allowed to pickpocket afk users but may still be arrested for doing so.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.4</span></div>
+                  <div class="rule-main">
+                    <strong>You are only allowed to sell weapons as a weapon dealing job</strong>
+                    <p>( Gun dealer, BMD, Elite Seller and any custom dealer job)</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.5</span></div>
+                  <div class="rule-main">
+                    <strong>The only job that can mug other players are gangsters (2 or more!)</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.6</span></div>
+                  <div class="rule-main">
+                    <strong>The stun-stick and pickaxes are not considered weapons.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.7</span></div>
+                  <div class="rule-main">
+                    <strong>You are not allowed to steal anything from the miners whilst in the mine and you aren&#x27;t allowed to build in it.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.8</span></div>
+                  <div class="rule-main">
+                    <strong>Ingredients and concoctions used for cooking meth/ making weed are illegal</strong>
+                    <p>Equipment such as stoves, pots, jars and canisters are legal unless they&#x27;re in use.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.9</span></div>
+                  <div class="rule-main">
+                    <strong>NLR does not apply if you die in an organized fight as a Fight Club Member</strong>
+                    <p>You may not use weapons to fight.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.10</span></div>
+                  <div class="rule-main">
+                    <strong>Any interaction between you and any player is forgotten / forgiven once you are out of prison.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.11</span></div>
+                  <div class="rule-main">
+                    <strong>Do not randomly stun-stick players.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.12</span></div>
+                  <div class="rule-main">
+                    <strong>Only Gangsters, Cops and Terrorists can defend each other in the street.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.13</span></div>
+                  <div class="rule-main">
+                    <strong>Using cameras for other reasons than surveillance of your own base is not allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.14</span></div>
+                  <div class="rule-main">
+                    <strong>By default all weapons are legal with a license, unless the laws state otherwise.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.15</span></div>
+                  <div class="rule-main">
+                    <strong>Any public homes made with props is considered to be &quot;Inside&quot; during a lockdown.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.16</span></div>
+                  <div class="rule-main">
+                    <strong>Advertising that you are doing something illegal is a valid reason for cops to warrant/wanted you.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.17</span></div>
+                  <div class="rule-main">
+                    <strong>WARS are not allowed (e.g</strong>
+                    <p>hobos vs cops, gang A vs gang B)</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">5.18</span></div>
+                  <div class="rule-main">
+                    <strong>As a parkour, do not place printers where other jobs can&#x27;t reach.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="police">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Police</h2>
+                  <p>14 rules</p>
+                </div>
+                <div class="section-tag">06</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.1</span></div>
+                  <div class="rule-main">
+                    <strong>You can be a corrupted officer in the sense of accepting bribes to unarrest/forget a crime</strong>
+                    <p>You CANNOT accept bribes to warrant/wanted certain people and you CANNOT keep confiscated printers.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.2</span></div>
+                  <div class="rule-main">
+                    <strong>You may confiscate illegal weapons and take cash that was illegally printed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.3</span></div>
+                  <div class="rule-main">
+                    <strong>Placing warrants or wants on people without a valid reason is NOT allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.4</span></div>
+                  <div class="rule-main">
+                    <strong>You may only team up with other government officials</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.5</span></div>
+                  <div class="rule-main">
+                    <strong>Weapon checking people for illegal weapons without a valid reason is NOT allowed</strong>
+                    <p>You need their permission to do so.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.6</span></div>
+                  <div class="rule-main">
+                    <strong>Police must see someone commit an offence/crime to arrest, kill, warrant or want them for it. - Suspicion of illegal activity is not a valid reason!</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.7</span></div>
+                  <div class="rule-main">
+                    <strong>You cannot warrant/want/arrest/kill or raid bank staff for storing illegal items.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.8</span></div>
+                  <div class="rule-main">
+                    <strong>You can still arrest Bank Guards and Managers for illegal activity such as shooting cops.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.9</span></div>
+                  <div class="rule-main">
+                    <strong>Bank Security Guards and the Bank Manager may own heavy weapons with a gun license at any time.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.10</span></div>
+                  <div class="rule-main">
+                    <strong>If you break any laws, you can be arrested or killed for it.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.11</span></div>
+                  <div class="rule-main">
+                    <strong>Police Officers and SWATs CANNOT kill prisoners if they remain in their cell</strong>
+                    <p>If they somehow break the law during their prison time they may still face punishments up until their release.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.12</span></div>
+                  <div class="rule-main">
+                    <strong>You may own a house/home as a cop as long as you do your job.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.13</span></div>
+                  <div class="rule-main">
+                    <strong>You can only arrest people for breaking the law or trespassing in restricted governmental areas.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">6.14</span></div>
+                  <div class="rule-main">
+                    <strong>Sparks from printers are not a valid reason to warrant.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="hitman">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Hitman</h2>
+                  <p>3 rules</p>
+                </div>
+                <div class="section-tag">07</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">7.1</span></div>
+                  <div class="rule-main">
+                    <strong>You must wait 5 minutes before completing a hit on the same player.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">7.2</span></div>
+                  <div class="rule-main">
+                    <strong>You can be arrested or killed for breaking laws just like everyone else.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">7.3</span></div>
+                  <div class="rule-main">
+                    <strong>If you have a hit on a Mod or Admin on Duty, ask them to goto you but state your intention to kill them for a hit.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="medic">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Medic</h2>
+                  <p>3 rules</p>
+                </div>
+                <div class="section-tag">08</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">8.1</span></div>
+                  <div class="rule-main">
+                    <strong>Do not printer camp as a medic.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">8.2</span></div>
+                  <div class="rule-main">
+                    <strong>You must heal anyone who asks for it regardless of their job.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">8.3</span></div>
+                  <div class="rule-main">
+                    <strong>You may only base with other medics.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="gangsters-and-mob-boss">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Gangsters &amp; Mob boss</h2>
+                  <p>10 rules</p>
+                </div>
+                <div class="section-tag">09</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.1</span></div>
+                  <div class="rule-main">
+                    <strong>Shooting cops just because you are a gangster is not allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.2</span></div>
+                  <div class="rule-main">
+                    <strong>Taking &quot;turf&quot; for your gang is NOT allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.3</span></div>
+                  <div class="rule-main">
+                    <strong>Gangsters are allowed to take up unused streets that are not necessary to travel around the map for basing IF they own and use all the buildings inside the region.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.4</span></div>
+                  <div class="rule-main">
+                    <strong>When mugging players, give them at least 10 seconds to react.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.5</span></div>
+                  <div class="rule-main">
+                    <strong>You&#x27;re more than welcome to take up whole apartments, if you are using it all.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.6</span></div>
+                  <div class="rule-main">
+                    <strong>Robbing/mugging people is allowed but make sure killing your victim is a last resort and make sure that the player knows you are mugging them by typing it in chat.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.7</span></div>
+                  <div class="rule-main">
+                    <strong>The maximum amount you may mug for is $1000.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.8</span></div>
+                  <div class="rule-main">
+                    <strong>Wait at least 5 minutes before mugging the same player again.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.9</span></div>
+                  <div class="rule-main">
+                    <strong>You are only allowed to steal from/rob a person with at least 2 gangsters and not with any other job.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">9.10</span></div>
+                  <div class="rule-main">
+                    <strong>You can only raid the PD to break a member of your gang out of jail but the Mob Boss must be with you.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="gun-dealers-elite-sellers-and-black-market-dealers">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Gun dealers, Elite sellers &amp; Black Market Dealers</h2>
+                  <p>2 rules</p>
+                </div>
+                <div class="section-tag">10</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">10.1</span></div>
+                  <div class="rule-main">
+                    <strong>You MUST sell weapons to anyone who wants to buy them regardless of their job.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">10.2</span></div>
+                  <div class="rule-main">
+                    <strong>You can only base with other dealers.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="hobo">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Hobo</h2>
+                  <p>4 rules</p>
+                </div>
+                <div class="section-tag">11</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">11.1</span></div>
+                  <div class="rule-main">
+                    <strong>Do not build in or near the spawn and don&#x27;t block off any sort of public area.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">11.2</span></div>
+                  <div class="rule-main">
+                    <strong>If your base/home is not blocked off with a fading door and a keypad then it is considered public and you can&#x27;t KOS players who enters.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">11.3</span></div>
+                  <div class="rule-main">
+                    <strong>You are not allowed to own houses in the map.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">11.4</span></div>
+                  <div class="rule-main">
+                    <strong>Hobo towns are still considered public allowing only hobos to build in them.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="thief">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Thief</h2>
+                  <p>2 rules</p>
+                </div>
+                <div class="section-tag">12</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">12.1</span></div>
+                  <div class="rule-main">
+                    <strong>Thieves are NOT allowed to mug at all.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">12.2</span></div>
+                  <div class="rule-main">
+                    <strong>You cannot raid with anyone but other thieves or parkours.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="mayor">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Mayor</h2>
+                  <p>11 rules</p>
+                </div>
+                <div class="section-tag">13</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.1</span></div>
+                  <div class="rule-main">
+                    <strong>Abusing laws in anyway, shape or form is NOT allowed</strong>
+                    <p>Example: Making a law that every citizen needs to pay the mayor 1$ every hour.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.2</span></div>
+                  <div class="rule-main">
+                    <strong>If a crime is committed you can accept a bribe to look the other way.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.3</span></div>
+                  <div class="rule-main">
+                    <strong>You cannot make all weapons illegal</strong>
+                    <p>Keep at least one weapon legal with or without a license.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.4</span></div>
+                  <div class="rule-main">
+                    <strong>You&#x27;re only allowed to team up with Government officials.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.5</span></div>
+                  <div class="rule-main">
+                    <strong>Creating a lockdown without a good role-play reason is NOT allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.6</span></div>
+                  <div class="rule-main">
+                    <strong>Only accept search warrants if there is a valid reason.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.7</span></div>
+                  <div class="rule-main">
+                    <strong>Do not purposely get taken hostage by terrorists.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.8</span></div>
+                  <div class="rule-main">
+                    <strong>Do not charge more than $750 for a gun license.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.9</span></div>
+                  <div class="rule-main">
+                    <strong>Do not make laws which contradict the first three default laws.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.10</span></div>
+                  <div class="rule-main">
+                    <strong>If the terrorists have taken you hostage, you do what they tell you to do (As in adding laws and placing lockdowns) but DON&#x27;T comply to actions that are against the server rules.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">13.11</span></div>
+                  <div class="rule-main">
+                    <strong>You may defend yourself and deny orders if they are in the act of taking you hostage but not when they have you captured inside their base.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="osama-terrorists">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Osama/Terrorists</h2>
+                  <p>11 rules</p>
+                </div>
+                <div class="section-tag">14</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.1</span></div>
+                  <div class="rule-main">
+                    <strong>Terrorists with Osama can only raid the PD and home of the Mayor</strong>
+                    <p>- ALL TERRORIST ATTACKS REQUIRES AN OSAMA AND MUST BE PLANNED AND PLACED IN /AGENDA.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.2</span></div>
+                  <div class="rule-main">
+                    <strong>/agenda &quot;Kill cops + Mayor&quot; is NOT a plan</strong>
+                    <p>Be creative.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.3</span></div>
+                  <div class="rule-main">
+                    <strong>Shooting civilians or government officials just because you&#x27;re a terrorist is not allowed.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.4</span></div>
+                  <div class="rule-main">
+                    <strong>Your job is to take control over the government and then the city.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.5</span></div>
+                  <div class="rule-main">
+                    <strong>Do not constantly kill government officials over and over again</strong>
+                    <p>You may kill a cop if he&#x27;s in the way of you completing your agenda.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.6</span></div>
+                  <div class="rule-main">
+                    <strong>Do not give the Mayor orders to create laws that goes against the server rules.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.7</span></div>
+                  <div class="rule-main">
+                    <strong>If you have taken control of the Mayor, you take control of the city</strong>
+                    <p>The Mayor will do what you tell him as long its NOT against the server rules.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.8</span></div>
+                  <div class="rule-main">
+                    <strong>Do not sell/trade/give Jihad bombs to anyone other than terrorists under any circumstances</strong>
+                    <p>- Do not use Jihad bombs as any other job than terrorist.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.9</span></div>
+                  <div class="rule-main">
+                    <strong>Killing more than 3 non-government players is considered RDM.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.10</span></div>
+                  <div class="rule-main">
+                    <strong>Our staff decide if a terrorist tried or not, and lower the punishment if desired.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">14.11</span></div>
+                  <div class="rule-main">
+                    <strong>You cannot base with anyone other than Terrorists/Osama.</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="card rule-section" id="guard">
+              <div class="section-head">
+                <div class="section-title">
+                  <h2>Guard</h2>
+                  <p>4 rules</p>
+                </div>
+                <div class="section-tag">15</div>
+              </div>
+
+              <ul class="rule-list">
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">15.1</span></div>
+                  <div class="rule-main">
+                    <strong>You can be hired by anyone but Government Officials and Bank Manager</strong>
+                    <p>You cannot protect the Bank or the PD.</p>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">15.2</span></div>
+                  <div class="rule-main">
+                    <strong>Guards can only be hired to protect bases, homes &amp; shops.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">15.3</span></div>
+                  <div class="rule-main">
+                    <strong>Do not print in hobo or medic bases that you are guarding.</strong>
+                  </div>
+                </li>
+                <li class="rule">
+                  <div class="rule-no"><span class="rule-pill">15.4</span></div>
+                  <div class="rule-main">
+                    <strong>You cannot engage in job specified actions (Raiding, terrorism, mugging, etc.)</strong>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <aside class="side">
+            <section class="card side-card">
+              <h3 class="side-title">Sections</h3>
+              <div class="index-list">
+                <a href="#general-rules" class="active">General Rules <span>01</span></a>
+                <a href="#car-rules">Car Rules <span>02</span></a>
+                <a href="#raiding-rules">Raiding Rules <span>03</span></a>
+                <a href="#shop-bases-and-home-rules">Shop, Bases &amp; Home Rules <span>04</span></a>
+                <a href="#general-job-rules">General Job Rules <span>05</span></a>
+                <a href="#police">Police <span>06</span></a>
+                <a href="#hitman">Hitman <span>07</span></a>
+                <a href="#medic">Medic <span>08</span></a>
+                <a href="#gangsters-and-mob-boss">Gangsters &amp; Mob boss <span>09</span></a>
+                <a href="#gun-dealers-elite-sellers-and-black-market-dealers">Gun dealers, Elite sellers &amp; Black Market Dealers <span>10</span></a>
+                <a href="#hobo">Hobo <span>11</span></a>
+                <a href="#thief">Thief <span>12</span></a>
+                <a href="#mayor">Mayor <span>13</span></a>
+                <a href="#osama-terrorists">Osama/Terrorists <span>14</span></a>
+                <a href="#guard">Guard <span>15</span></a>
+              </div>
+            </section>
+
+            <section class="card side-card">
+              <h3 class="side-title">Community</h3>
+              <p class="side-text">OldSchool RP</p>
+              <p class="side-text">Join our Discord community.</p>
+              <a class="side-action" href="https://discord.gg/cCg9etWdHc">Join</a>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>© 2026 OldSchool RP. All rights reserved.</div>
+        <div>OldSchool RP Rules</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    window.addEventListener("load", () => {
+      const intro = document.getElementById("intro");
+      const site = document.getElementById("site");
+
+      setTimeout(() => {
+        intro.classList.add("hidden");
+        site.classList.add("visible");
+      }, 1850);
+    });
+
+    const indexLinks = document.querySelectorAll(".index-list a");
+
+    indexLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        indexLinks.forEach(item => item.classList.remove("active"));
+        link.classList.add("active");
+      });
+    });
+  </script>
+</body>
+</html>
