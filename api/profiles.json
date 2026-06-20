@@ -331,7 +331,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 653070,
+    "playtimeSeconds": 653370,
     "warns": {
       "active": 0,
       "total": 0,
@@ -343,7 +343,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402713893,
+      "currency": 99402713933,
       "weapons": [
         {
           "amount": 8,
@@ -450,16 +450,16 @@
     "jobs": [
       {
         "name": "Citizen",
-        "seconds": 360
+        "seconds": 660
       }
     ],
     "models": [
       {
         "name": "models/player/group01/male_02.mdl",
-        "seconds": 360
+        "seconds": 660
       }
     ],
-    "updatedAt": "2026-06-20T15:20:35.398Z"
+    "updatedAt": "2026-06-20T15:25:35.398Z"
   },
   "76561198043370754": {
     "steamid64": "76561198043370754",
