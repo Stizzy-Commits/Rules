@@ -160,5 +160,139 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-06-20T15:08:20.792Z"
+  },
+  "76561198318712668": {
+    "steamid64": "76561198318712668",
+    "steamid": "STEAM_0:0:179223470",
+    "name": "tort",
+    "currentJob": "Meth Cook",
+    "currentModel": "models/walter_white/walter_white.mdl",
+    "playtimeSeconds": 53961,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 1233881,
+      "weapons": [
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_striker12",
+          "name": "Striker 12",
+          "model": "models/weapons/w_striker_12g.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_barret_m82",
+          "name": "Barret M82",
+          "model": "models/weapons/w_barret_m82.mdl"
+        },
+        {
+          "amount": 9,
+          "meta": "x9 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ak47",
+          "name": "AK-47",
+          "model": "models/weapons/w_ak47_m9k.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_spas12",
+          "name": "SPAS 12",
+          "model": "models/weapons/w_spas_12.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_usp",
+          "name": "HK USP",
+          "model": "models/weapons/w_pist_fokkususp.mdl"
+        },
+        {
+          "amount": 2,
+          "meta": "x2 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_striker12",
+          "name": "Striker 12",
+          "model": "models/weapons/w_striker_12g.mdl"
+        },
+        {
+          "amount": 7,
+          "meta": "x7 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "weapon_armor_patch",
+          "name": "weapon_armor_patch",
+          "model": "models/weapons/w_defuser.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_barret_m82",
+          "name": "Barret M82",
+          "model": "models/weapons/w_barret_m82.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_striker12",
+          "name": "Striker 12",
+          "model": "models/weapons/w_striker_12g.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_psg1",
+          "name": "PSG-1",
+          "model": "models/weapons/w_hk_psg1.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ares_shrike",
+          "name": "Ares Shrike",
+          "model": "models/weapons/w_ares_shrike.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_colt1911",
+          "name": "Colt 1911",
+          "model": "models/weapons/s_dmgf_co1911.mdl"
+        }
+      ],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - weapon_armor_patch",
+          "type": "weapon_armor_patch",
+          "class": "50",
+          "name": "50",
+          "model": "models/weapons/w_defuser.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T15:08:23.080Z"
   }
 }
