@@ -1,0 +1,63 @@
+{
+  "76561198109886253": {
+    "steamid64": "76561198109886253",
+    "steamid": "STEAM_0:1:74810262",
+    "name": "Lord Haydes",
+    "currentJob": "Professional Grower",
+    "currentModel": "models/player/fring/gus_suit.mdl",
+    "playtimeSeconds": 109135,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 4159208,
+      "weapons": [],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T15:08:16.935Z"
+  }
+}
