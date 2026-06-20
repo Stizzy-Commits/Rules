@@ -1315,14 +1315,14 @@
     "name": "ossama johnladen",
     "currentJob": "News Reporter",
     "currentModel": "models/player/alyx.mdl",
-    "playtimeSeconds": 128413,
+    "playtimeSeconds": 128713,
     "leveling": {
       "level": 47,
-      "xp": 131261,
-      "currentXp": 464,
+      "xp": 131311,
+      "currentXp": 514,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.0351311688137834
+      "progress": 0.03891056606478851
     },
     "warns": {
       "active": 0,
@@ -1335,7 +1335,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25020579,
+      "currency": 25020619,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1528,7 +1528,7 @@
     },
     "jobs": [
       {
-        "seconds": 1800,
+        "seconds": 2100,
         "model": "models/player/alyx.mdl",
         "name": "News Reporter",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
@@ -1536,12 +1536,18 @@
     ],
     "models": [
       {
-        "seconds": 1800,
+        "seconds": 1980,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/charple.mdl",
+        "name": "models/player/charple.mdl",
+        "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:21:35.775Z"
+    "updatedAt": "2026-06-20T23:26:35.819Z"
   }
 }
