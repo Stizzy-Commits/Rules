@@ -1285,14 +1285,14 @@
     "name": "ossama johnladen",
     "currentJob": "News Reporter",
     "currentModel": "models/player/alyx.mdl",
-    "playtimeSeconds": 126583,
+    "playtimeSeconds": 126913,
     "leveling": {
       "level": 47,
-      "xp": 130961,
-      "currentXp": 164,
+      "xp": 131011,
+      "currentXp": 214,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.01245478530775277
+      "progress": 0.016234182558757877
     },
     "warns": {
       "active": 0,
@@ -1305,7 +1305,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25020249,
+      "currency": 25020309,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1498,68 +1498,20 @@
     },
     "jobs": [
       {
-        "seconds": 1260,
+        "seconds": 300,
         "model": "models/player/alyx.mdl",
         "name": "News Reporter",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/corpse1.mdl",
-        "name": "Hobo",
-        "iconKey": "profile_model_face_models-player-corpse1.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/mechanic.mdl",
-        "name": "Mechanic",
-        "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/barney.mdl",
-        "name": "Casino Manager",
-        "iconKey": "profile_model_face_models-player-barney.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 1260,
+        "seconds": 300,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/corpse1.mdl",
-        "name": "models/player/corpse1.mdl",
-        "iconKey": "profile_model_face_models-player-corpse1.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/mechanic.mdl",
-        "name": "models/player/mechanic.mdl",
-        "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/barney.mdl",
-        "name": "models/player/barney.mdl",
-        "iconKey": "profile_model_face_models-player-barney.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T22:51:05.254Z"
+    "updatedAt": "2026-06-20T22:56:37.148Z"
   }
 }
