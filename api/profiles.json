@@ -297,7 +297,7 @@
     "name": "tort",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 55898,
+    "playtimeSeconds": 56276,
     "warns": {
       "active": 0,
       "total": 0,
@@ -309,133 +309,210 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1234361,
-      "slotCount": 0,
-      "slots": {},
-      "weapons": [
-        {
+      "currency": 1234481,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
           "amount": 10,
-          "meta": "x10 - spawned_weapon",
+          "name": "Striker 12",
           "type": "spawned_weapon",
           "class": "m9k_striker12",
-          "name": "Striker 12",
-          "model": "models/weapons/w_striker_12g.mdl"
+          "model": "models/weapons/w_striker_12g.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_striker12_models-weapons-w_striker_12g.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "2": {
+          "slot": 2,
           "amount": 10,
-          "meta": "x10 - spawned_weapon",
+          "name": "Barret M82",
           "type": "spawned_weapon",
           "class": "m9k_barret_m82",
-          "name": "Barret M82",
-          "model": "models/weapons/w_barret_m82.mdl"
+          "model": "models/weapons/w_barret_m82.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_barret_m82_models-weapons-w_barret_m82.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "3": {
+          "slot": 3,
           "amount": 9,
-          "meta": "x9 - spawned_weapon",
+          "name": "AK-47",
           "type": "spawned_weapon",
           "class": "m9k_ak47",
-          "name": "AK-47",
-          "model": "models/weapons/w_ak47_m9k.mdl"
+          "model": "models/weapons/w_ak47_m9k.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ak47_models-weapons-w_ak47_m9k.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "4": {
+          "slot": 4,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "SPAS 12",
           "type": "spawned_weapon",
           "class": "m9k_spas12",
-          "name": "SPAS 12",
-          "model": "models/weapons/w_spas_12.mdl"
+          "model": "models/weapons/w_spas_12.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_spas12_models-weapons-w_spas_12.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "5": {
+          "slot": 5,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "HK USP",
           "type": "spawned_weapon",
           "class": "m9k_usp",
-          "name": "HK USP",
-          "model": "models/weapons/w_pist_fokkususp.mdl"
+          "model": "models/weapons/w_pist_fokkususp.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_usp_models-weapons-w_pist_fokkususp.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "6": {
+          "slot": 6,
           "amount": 2,
-          "meta": "x2 - spawned_weapon",
+          "name": "Striker 12",
           "type": "spawned_weapon",
           "class": "m9k_striker12",
-          "name": "Striker 12",
-          "model": "models/weapons/w_striker_12g.mdl"
+          "model": "models/weapons/w_striker_12g.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_striker12_models-weapons-w_striker_12g.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "7": {
+          "slot": 7,
           "amount": 7,
-          "meta": "x7 - spawned_weapon",
+          "name": "Unknown",
           "type": "spawned_weapon",
           "class": "weapon_armor_patch",
-          "name": "weapon_armor_patch",
-          "model": "models/weapons/w_defuser.mdl"
+          "model": "models/weapons/w_defuser.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_weapon_armor_patch_models-weapons-w_defuser.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "8": {
+          "slot": 8,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Barret M82",
           "type": "spawned_weapon",
           "class": "m9k_barret_m82",
-          "name": "Barret M82",
-          "model": "models/weapons/w_barret_m82.mdl"
+          "model": "models/weapons/w_barret_m82.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_barret_m82_models-weapons-w_barret_m82.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "9": {
+          "slot": 9,
           "amount": 10,
-          "meta": "x10 - spawned_weapon",
+          "name": "Striker 12",
           "type": "spawned_weapon",
           "class": "m9k_striker12",
-          "name": "Striker 12",
-          "model": "models/weapons/w_striker_12g.mdl"
+          "model": "models/weapons/w_striker_12g.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_striker12_models-weapons-w_striker_12g.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "10": {
+          "slot": 10,
           "amount": 10,
-          "meta": "x10 - spawned_weapon",
+          "name": "PSG-1",
           "type": "spawned_weapon",
           "class": "m9k_psg1",
-          "name": "PSG-1",
-          "model": "models/weapons/w_hk_psg1.mdl"
+          "model": "models/weapons/w_hk_psg1.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_psg1_models-weapons-w_hk_psg1.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "11": {
+          "slot": 11,
           "amount": 10,
-          "meta": "x10 - spawned_weapon",
+          "name": "Ares Shrike",
           "type": "spawned_weapon",
           "class": "m9k_ares_shrike",
-          "name": "Ares Shrike",
-          "model": "models/weapons/w_ares_shrike.mdl"
+          "model": "models/weapons/w_ares_shrike.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ares_shrike_models-weapons-w_ares_shrike.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "13": {
+          "slot": 13,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Colt 1911",
           "type": "spawned_weapon",
           "class": "m9k_colt1911",
-          "name": "Colt 1911",
-          "model": "models/weapons/s_dmgf_co1911.mdl"
-        }
-      ],
-      "items": [
-        {
+          "model": "models/weapons/s_dmgf_co1911.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "14": {
+          "slot": 14,
           "amount": 1,
-          "meta": "x1 - weapon_armor_patch",
+          "name": "Armor Consumable",
           "type": "weapon_armor_patch",
           "class": "50",
-          "name": "50",
-          "model": "models/weapons/w_defuser.mdl"
+          "model": "models/weapons/w_defuser.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "weapon_armor_patch_50_models-weapons-w_defuser.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Repairs up to 50 armor."
         }
-      ],
+      },
+      "weapons": [],
+      "items": [],
       "vehicles": [],
       "packages": []
     },
     "jobs": [
       {
         "name": "Meth Cook",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
     "models": [
       {
         "name": "models/walter_white/walter_white.mdl",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
-    "updatedAt": "2026-06-20T15:40:39.393Z"
+    "updatedAt": "2026-06-20T15:46:57.961Z"
   },
   "76561198120592615": {
     "steamid64": "76561198120592615",
