@@ -1299,14 +1299,14 @@
     "name": "ossama johnladen",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 123811,
+    "playtimeSeconds": 124388,
     "leveling": {
       "level": 46,
-      "xp": 130511,
-      "currentXp": 11741,
+      "xp": 130611,
+      "currentXp": 11841,
       "requiredXp": 12026,
       "maxLevel": 100,
-      "progress": 0.9762842310535775
+      "progress": 0.9845989050057887
     },
     "warns": {
       "active": 0,
@@ -1319,7 +1319,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25019879,
+      "currency": 25019959,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1526,6 +1526,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T22:00:41.281Z"
+    "updatedAt": "2026-06-20T22:10:19.701Z"
   }
 }
