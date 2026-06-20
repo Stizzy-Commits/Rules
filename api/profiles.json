@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 109592,
+    "playtimeSeconds": 109870,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,9 +17,17 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4159208,
+      "currency": 4153728,
       "weapons": [],
       "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
         {
           "amount": 1,
           "meta": "x1 - zgo2_weedblock",
@@ -51,16 +59,16 @@
     "jobs": [
       {
         "name": "Professional Grower",
-        "seconds": 60
+        "seconds": 360
       }
     ],
     "models": [
       {
         "name": "models/player/fring/gus_suit.mdl",
-        "seconds": 60
+        "seconds": 360
       }
     ],
-    "updatedAt": "2026-06-20T15:15:53.374Z"
+    "updatedAt": "2026-06-20T15:20:31.629Z"
   },
   "76561198249112348": {
     "steamid64": "76561198249112348",
