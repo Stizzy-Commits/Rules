@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 655150,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 655727,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402714133,
+      "currency": 99402714453,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -742,27 +742,27 @@
     "jobs": [
       {
         "seconds": 300,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
       {
         "seconds": 300,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T22:00:43.249Z",
+    "updatedAt": "2026-06-20T22:10:20.832Z",
     "leveling": {
       "level": 44,
-      "xp": 107110,
-      "currentXp": 9213,
+      "xp": 107210,
+      "currentXp": 9313,
       "requiredXp": 9939,
       "maxLevel": 100,
-      "progress": 0.9269865291909175
+      "progress": 0.9370472846730932
     }
   },
   "76561198043370754": {
