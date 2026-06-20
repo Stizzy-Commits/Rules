@@ -1038,5 +1038,209 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-06-20T17:56:12.459Z"
+  },
+  "76561198132973367": {
+    "steamid64": "76561198132973367",
+    "steamid": "STEAM_0:1:86353819",
+    "name": "So Doubtful",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 100401,
+    "leveling": {
+      "level": 25,
+      "xp": 16270,
+      "currentXp": 1517,
+      "requiredXp": 1625,
+      "maxLevel": 100,
+      "progress": 0.9339992507095278
+    },
+    "warns": {
+      "active": 1,
+      "total": 1,
+      "recent": [
+        {
+          "date": 1781467494,
+          "reason": "RDM x2",
+          "server": "Old School RP",
+          "admin": "76561198120592615"
+        }
+      ]
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 11508695,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 10,
+          "name": "Barret M98B",
+          "type": "spawned_weapon",
+          "class": "m9k_m98b",
+          "model": "models/weapons/w_barrett_m98b.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m98b_models-weapons-w_barrett_m98b.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "2": {
+          "slot": 2,
+          "amount": 2,
+          "name": "Barret M98B",
+          "type": "spawned_weapon",
+          "class": "m9k_m98b",
+          "model": "models/weapons/w_barrett_m98b.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m98b_models-weapons-w_barrett_m98b.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "3": {
+          "slot": 3,
+          "amount": 10,
+          "name": "PSG-1",
+          "type": "spawned_weapon",
+          "class": "m9k_psg1",
+          "model": "models/weapons/w_hk_psg1.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_psg1_models-weapons-w_hk_psg1.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "4": {
+          "slot": 4,
+          "amount": 5,
+          "name": "PSG-1",
+          "type": "spawned_weapon",
+          "class": "m9k_psg1",
+          "model": "models/weapons/w_hk_psg1.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_psg1_models-weapons-w_hk_psg1.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "5": {
+          "slot": 5,
+          "amount": 7,
+          "name": "Sticky Grenade",
+          "type": "spawned_weapon",
+          "class": "m9k_sticky_grenade",
+          "model": "models/weapons/w_sticky_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_sticky_grenade_models-weapons-w_sticky_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "6": {
+          "slot": 6,
+          "amount": 7,
+          "name": "Advanced Keypad Cracker",
+          "type": "spawned_weapon",
+          "class": "bkeypads_advanced_cracker",
+          "model": "models/bkeypads/cracker.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_bkeypads_advanced_cracker_models-bkeypads-cracker.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "7": {
+          "slot": 7,
+          "amount": 2,
+          "name": "Nerve Gas",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "8": {
+          "slot": 8,
+          "amount": 1,
+          "name": "M202",
+          "type": "spawned_weapon",
+          "class": "m9k_m202",
+          "model": "models/weapons/w_rocket_launcher.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m202_models-weapons-w_rocket_launcher.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "9": {
+          "slot": 9,
+          "amount": 8,
+          "name": "Unknown",
+          "type": "spawned_weapon",
+          "class": "weapon_armor_patch",
+          "model": "models/items/combine_rifle_ammo01.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_weapon_armor_patch_models-items-combine_rifle_ammo01.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "10": {
+          "slot": 10,
+          "amount": 8,
+          "name": "Frag Grenade",
+          "type": "spawned_weapon",
+          "class": "m9k_m61_frag",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m61_frag_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "11": {
+          "slot": 11,
+          "amount": 7,
+          "name": "Timed C4",
+          "type": "spawned_weapon",
+          "class": "m9k_suicide_bomb",
+          "model": "models/weapons/w_sb.mdl",
+          "rarity": "Legendary",
+          "color": {
+            "r": 253,
+            "g": 162,
+            "b": 77
+          },
+          "iconKey": "spawned_weapon_m9k_suicide_bomb_models-weapons-w_sb.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        }
+      },
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T18:34:19.575Z"
   }
 }
