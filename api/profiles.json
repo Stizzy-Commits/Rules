@@ -566,9 +566,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "BlackMarket Dealer",
-    "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 659604,
+    "currentJob": "Medic",
+    "currentModel": "models/player/kleiner.mdl",
+    "playtimeSeconds": 660112,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402710443,
+      "currency": 99402710543,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -745,7 +745,7 @@
     },
     "jobs": [
       {
-        "seconds": 1560,
+        "seconds": 1800,
         "model": "models/player/eli.mdl",
         "name": "BlackMarket Dealer",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -758,6 +758,12 @@
       },
       {
         "seconds": 60,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
+        "seconds": 60,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -765,7 +771,7 @@
     ],
     "models": [
       {
-        "seconds": 1500,
+        "seconds": 1740,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -775,6 +781,12 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 60,
@@ -789,14 +801,14 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:36:35.081Z",
+    "updatedAt": "2026-06-20T23:45:01.429Z",
     "leveling": {
-      "level": 44,
-      "xp": 107810,
-      "currentXp": 9913,
-      "requiredXp": 9939,
+      "level": 45,
+      "xp": 107860,
+      "currentXp": 24,
+      "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.9974118175661467
+      "progress": 0.002220177552031847
     }
   },
   "76561198043370754": {
