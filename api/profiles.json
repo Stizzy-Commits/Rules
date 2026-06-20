@@ -130,7 +130,7 @@
     "name": "Stizzy",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 660998,
+    "playtimeSeconds": 661376,
     "warns": {
       "active": 0,
       "total": 0,
@@ -142,83 +142,137 @@
       "recent": []
     },
     "inventory": {
-      "currency": 78689,
-      "slotCount": 0,
-      "slots": {},
-      "weapons": [
-        {
+      "currency": 78749,
+      "slotCount": 40,
+      "slots": {
+        "1": {
+          "slot": 1,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "S&W Model 500",
           "type": "spawned_weapon",
           "class": "m9k_model500",
-          "name": "S&W Model 500",
-          "model": "models/weapons/w_sw_model_500.mdl"
+          "model": "models/weapons/w_sw_model_500.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_model500_models-weapons-w_sw_model_500.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "2": {
+          "slot": 2,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "SIG Sauer P229R",
           "type": "spawned_weapon",
           "class": "m9k_sig_p229r",
-          "name": "SIG Sauer P229R",
-          "model": "models/weapons/w_sig_229r.mdl"
+          "model": "models/weapons/w_sig_229r.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_sig_p229r_models-weapons-w_sig_229r.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "3": {
+          "slot": 3,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "HK USP",
           "type": "spawned_weapon",
           "class": "m9k_usp",
-          "name": "HK USP",
-          "model": "models/weapons/w_pist_fokkususp.mdl"
+          "model": "models/weapons/w_pist_fokkususp.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_usp_models-weapons-w_pist_fokkususp.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "4": {
+          "slot": 4,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "S&W Model 627",
           "type": "spawned_weapon",
           "class": "m9k_model627",
-          "name": "S&W Model 627",
-          "model": "models/weapons/w_sw_model_627.mdl"
+          "model": "models/weapons/w_sw_model_627.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_model627_models-weapons-w_sw_model_627.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "5": {
+          "slot": 5,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Thermal Breacher",
           "type": "spawned_weapon",
           "class": "weapon_thermal_breacher",
-          "name": "Thermal Breacher",
-          "model": "models/weapons/w_slam.mdl"
+          "model": "models/weapons/w_slam.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_weapon_thermal_breacher_models-weapons-w_slam.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "6": {
+          "slot": 6,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Barret M98B",
           "type": "spawned_weapon",
           "class": "m9k_m98b",
-          "name": "Barret M98B",
-          "model": "models/weapons/w_barrett_m98b.mdl"
+          "model": "models/weapons/w_barrett_m98b.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m98b_models-weapons-w_barrett_m98b.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "7": {
+          "slot": 7,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "HK SL8",
           "type": "spawned_weapon",
           "class": "m9k_sl8",
-          "name": "HK SL8",
-          "model": "models/weapons/w_hk_sl8.mdl"
+          "model": "models/weapons/w_hk_sl8.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_sl8_models-weapons-w_hk_sl8.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "8": {
+          "slot": 8,
           "amount": 2,
-          "meta": "x2 - spawned_weapon",
+          "name": "Dragunov SVU",
           "type": "spawned_weapon",
           "class": "m9k_svu",
-          "name": "Dragunov SVU",
-          "model": "models/weapons/w_dragunov_svu.mdl"
+          "model": "models/weapons/w_dragunov_svu.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_svu_models-weapons-w_dragunov_svu.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "9": {
+          "slot": 9,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Ares Shrike",
           "type": "spawned_weapon",
           "class": "m9k_ares_shrike",
-          "name": "Ares Shrike",
-          "model": "models/weapons/w_ares_shrike.mdl"
+          "model": "models/weapons/w_ares_shrike.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ares_shrike_models-weapons-w_ares_shrike.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
-      ],
+      },
+      "weapons": [],
       "items": [],
       "vehicles": [],
       "packages": []
@@ -226,16 +280,16 @@
     "jobs": [
       {
         "name": "Citizen",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
     "models": [
       {
         "name": "models/player/group01/male_01.mdl",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
-    "updatedAt": "2026-06-20T15:40:38.211Z"
+    "updatedAt": "2026-06-20T15:46:56.176Z"
   },
   "76561198318712668": {
     "steamid64": "76561198318712668",
