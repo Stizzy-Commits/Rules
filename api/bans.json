@@ -1,28 +1,37 @@
 [
   {
-    "name": "Example Player",
-    "steamid": "STEAM_0:1:00000000",
-    "reason": "Mass RDM",
-    "bannedBy": "Console",
+    "name": "STEAM_0:1:111835953",
+    "steamid": "STEAM_0:1:111835953",
+    "reason": "mass rdm",
+    "bannedBy": "Sosa",
+    "bannedBySteamId": "",
+    "banLength": "2026-06-21 13:36:11",
+    "unbanTime": "2026-06-21 13:36:11"
+  },
+  {
+    "name": "STEAM_0:1:629138811",
+    "steamid": "STEAM_0:1:629138811",
+    "reason": "cheating",
+    "bannedBy": "Sosa",
     "bannedBySteamId": "",
     "banLength": "Permanent",
     "unbanTime": "Never"
   },
   {
-    "name": "CooldownBreaker",
-    "steamid": "STEAM_0:0:11111111",
-    "reason": "Repeated raid cooldown abuse",
-    "bannedBy": "Admin",
-    "bannedBySteamId": "STEAM_0:0:444801221",
-    "banLength": "2 Days",
-    "unbanTime": "6-21-26"
+    "name": "RacistVeteran",
+    "steamid": "STEAM_0:1:41404936",
+    "reason": "Actually retarded",
+    "bannedBy": "oRuin #Biceps",
+    "bannedBySteamId": "",
+    "banLength": "Permanent",
+    "unbanTime": "Never"
   },
   {
-    "name": "ExploitUser",
-    "steamid": "STEAM_0:1:22222222",
-    "reason": "Bug abuse",
-    "bannedBy": "Staff",
-    "bannedBySteamId": "STEAM_0:1:48572900",
+    "name": "Хороший Мальчик",
+    "steamid": "STEAM_0:1:366371892",
+    "reason": "Exploiti g",
+    "bannedBy": "Console",
+    "bannedBySteamId": "",
     "banLength": "Permanent",
     "unbanTime": "Never"
   }
