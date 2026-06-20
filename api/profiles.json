@@ -76,7 +76,7 @@
     "name": "Stizzy",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 659520,
+    "playtimeSeconds": 659798,
     "warns": {
       "active": 0,
       "total": 0,
@@ -88,7 +88,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 78509,
+      "currency": 78549,
       "weapons": [
         {
           "amount": 1,
@@ -170,16 +170,16 @@
     "jobs": [
       {
         "name": "Citizen",
-        "seconds": 60
+        "seconds": 360
       }
     ],
     "models": [
       {
         "name": "models/player/group01/male_01.mdl",
-        "seconds": 60
+        "seconds": 360
       }
     ],
-    "updatedAt": "2026-06-20T15:15:59.150Z"
+    "updatedAt": "2026-06-20T15:20:37.415Z"
   },
   "76561198318712668": {
     "steamid64": "76561198318712668",
