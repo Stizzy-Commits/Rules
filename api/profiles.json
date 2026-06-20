@@ -389,7 +389,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 654270,
+    "playtimeSeconds": 654648,
     "warns": {
       "active": 0,
       "total": 0,
@@ -401,125 +401,196 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402714033,
-      "slotCount": 0,
-      "slots": {},
-      "weapons": [
-        {
+      "currency": 99402714093,
+      "slotCount": 40,
+      "slots": {
+        "1": {
+          "slot": 1,
           "amount": 8,
-          "meta": "x8 - spawned_weapon",
+          "name": "Unknown",
           "type": "spawned_weapon",
           "class": "weapon_armor_patch",
-          "name": "weapon_armor_patch",
-          "model": "models/items/combine_rifle_ammo01.mdl"
+          "model": "models/items/combine_rifle_ammo01.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_weapon_armor_patch_models-items-combine_rifle_ammo01.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "2": {
+          "slot": 2,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Ithaca M37",
           "type": "spawned_weapon",
           "class": "m9k_ithacam37",
-          "name": "Ithaca M37",
-          "model": "models/weapons/w_ithaca_m37.mdl"
+          "model": "models/weapons/w_ithaca_m37.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ithacam37_models-weapons-w_ithaca_m37.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "3": {
+          "slot": 3,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "OG Kush 1000g THC: 50%",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_jar_246224726_models-zerochain-props_growop2-zgo2_jar.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Holds weed."
+        },
+        "4": {
+          "slot": 4,
+          "amount": 1,
+          "name": "Unknown",
           "type": "spawned_weapon",
           "class": "arccw_go_awp",
-          "name": "arccw_go_awp",
-          "model": "models/weapons/arccw_go/v_snip_awp.mdl"
+          "model": "models/weapons/arccw_go/v_snip_awp.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_arccw_go_awp_models-weapons-arccw_go-v_snip_awp.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "5": {
+          "slot": 5,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "#bKeypads_KeypadCracker",
           "type": "spawned_weapon",
           "class": "bkeypads_cracker",
-          "name": "#bKeypads_KeypadCracker",
-          "model": "models/bkeypads/cracker.mdl"
+          "model": "models/bkeypads/cracker.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_bkeypads_cracker_models-bkeypads-cracker.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "6": {
+          "slot": 6,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Unknown",
           "type": "spawned_weapon",
           "class": "arccw_go_ace",
-          "name": "arccw_go_ace",
-          "model": "models/weapons/arccw_go/v_rif_ace.mdl"
+          "model": "models/weapons/arccw_go/v_rif_ace.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_arccw_go_ace_models-weapons-arccw_go-v_rif_ace.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "7": {
+          "slot": 7,
+          "amount": 1,
+          "name": "OG Kush 1000g THC: 50%",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_jar_246224726_models-zerochain-props_growop2-zgo2_jar.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Holds weed."
+        },
+        "8": {
+          "slot": 8,
+          "amount": 1,
+          "name": "OG Kush 1000g THC: 50%",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_jar_246224726_models-zerochain-props_growop2-zgo2_jar.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Holds weed."
+        },
+        "9": {
+          "slot": 9,
           "amount": 4,
-          "meta": "x4 - spawned_weapon",
+          "name": "Scripted Weapon",
           "type": "spawned_weapon",
           "class": "ch_mining_jackhammer",
-          "name": "Scripted Weapon",
-          "model": "models/craphead_scripts/mining/w_jackhammer.mdl"
+          "model": "models/craphead_scripts/mining/w_jackhammer.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_ch_mining_jackhammer_models-craphead_scripts-mining-w_jackhammer.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "10": {
+          "slot": 10,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "IED Detonator",
           "type": "spawned_weapon",
           "class": "m9k_ied_detonator",
-          "name": "IED Detonator",
-          "model": "models/weapons/w_camphon2.mdl"
+          "model": "models/weapons/w_camphon2.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ied_detonator_models-weapons-w_camphon2.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
-          "amount": 4,
-          "meta": "x4 - spawned_weapon",
-          "type": "spawned_weapon",
-          "class": "m9k_nerve_gas",
-          "name": "Nerve Gas",
-          "model": "models/weapons/w_grenade.mdl"
-        }
-      ],
-      "items": [
-        {
+        "11": {
+          "slot": 11,
           "amount": 1,
-          "meta": "x1 - zgo2_jar",
-          "type": "zgo2_jar",
-          "class": "246224726",
-          "name": "246224726",
-          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_jar",
-          "type": "zgo2_jar",
-          "class": "246224726",
-          "name": "246224726",
-          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_jar",
-          "type": "zgo2_jar",
-          "class": "246224726",
-          "name": "246224726",
-          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_baggy",
+          "name": "OG Kush 300g THC: 50%",
           "type": "zgo2_baggy",
           "class": "246224726",
-          "name": "246224726",
-          "model": "models/zerochain/props_growop2/zgo2_baggy.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_baggy.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_baggy_246224726_models-zerochain-props_growop2-zgo2_baggy.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Holds weed."
+        },
+        "12": {
+          "slot": 12,
+          "amount": 4,
+          "name": "Nerve Gas",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
-      ],
+      },
+      "weapons": [],
+      "items": [],
       "vehicles": [],
       "packages": []
     },
     "jobs": [
       {
         "name": "Citizen",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
     "models": [
       {
         "name": "models/player/group01/male_02.mdl",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
-    "updatedAt": "2026-06-20T15:40:35.395Z"
+    "updatedAt": "2026-06-20T15:46:53.957Z"
   },
   "76561198043370754": {
     "steamid64": "76561198043370754",
