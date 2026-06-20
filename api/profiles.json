@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 111070,
+    "playtimeSeconds": 111448,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,76 +17,112 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4136532,
-      "slotCount": 0,
-      "slots": {},
-      "weapons": [],
-      "items": [
-        {
+      "currency": 4135532,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
           "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
+          "name": "Purble Haze",
           "type": "zgo2_weedblock",
           "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         },
-        {
+        "2": {
+          "slot": 2,
           "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
+          "name": "Purble Haze",
           "type": "zgo2_weedblock",
           "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         },
-        {
+        "3": {
+          "slot": 3,
           "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
+          "name": "Purble Haze",
           "type": "zgo2_weedblock",
           "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         },
-        {
+        "4": {
+          "slot": 4,
           "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
+          "name": "Purble Haze",
           "type": "zgo2_weedblock",
           "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         },
-        {
+        "5": {
+          "slot": 5,
           "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
+          "name": "Purble Haze",
           "type": "zgo2_weedblock",
           "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         },
-        {
+        "6": {
+          "slot": 6,
           "amount": 1,
-          "meta": "x1 - zgo2_weedblock",
+          "name": "Purble Haze",
           "type": "zgo2_weedblock",
           "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         }
-      ],
+      },
+      "weapons": [],
+      "items": [],
       "vehicles": [],
       "packages": []
     },
     "jobs": [
       {
         "name": "Professional Grower",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
     "models": [
       {
         "name": "models/player/fring/gus_suit.mdl",
-        "seconds": 1560
+        "seconds": 300
       }
     ],
-    "updatedAt": "2026-06-20T15:40:31.646Z"
+    "updatedAt": "2026-06-20T15:46:50.263Z"
   },
   "76561198249112348": {
     "steamid64": "76561198249112348",
