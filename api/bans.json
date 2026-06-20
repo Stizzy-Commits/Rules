@@ -1,14 +1,5 @@
 [
   {
-    "name": "CooldownBreaker",
-    "steamid": "STEAM_0:0:11111111",
-    "reason": "Repeated raid cooldown abuse",
-    "bannedBy": "Admin",
-    "bannedBySteamId": "STEAM_0:0:444801221",
-    "banLength": "2 Days",
-    "unbanTime": "6-21-26"
-  },
-  {
     "name": "ExploitUser",
     "steamid": "STEAM_0:1:22222222",
     "reason": "Bug abuse",
