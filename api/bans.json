@@ -1,5 +1,14 @@
 [
   {
+    "name": "Test Player",
+    "steamid": "STEAM_0:1:123456",
+    "reason": "Worker test",
+    "bannedBy": "Console",
+    "bannedBySteamId": "",
+    "banLength": "Permanent",
+    "unbanTime": "Never"
+  },
+  {
     "name": "Example Player",
     "steamid": "STEAM_0:1:00000000",
     "reason": "Mass RDM",
