@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 655727,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 655949,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402714453,
+      "currency": 99402714553,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -575,20 +575,6 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_weapon_armor_patch_models-items-combine_rifle_ammo01.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "2": {
-          "slot": 2,
-          "amount": 1,
-          "name": "Ithaca M37",
-          "type": "spawned_weapon",
-          "class": "m9k_ithacam37",
-          "model": "models/weapons/w_ithaca_m37.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_ithacam37_models-weapons-w_ithaca_m37.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -741,28 +727,28 @@
     },
     "jobs": [
       {
-        "seconds": 300,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 300,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T22:10:20.832Z",
+    "updatedAt": "2026-06-20T22:17:17.075Z",
     "leveling": {
       "level": 44,
-      "xp": 107210,
-      "currentXp": 9313,
+      "xp": 107260,
+      "currentXp": 9363,
       "requiredXp": 9939,
       "maxLevel": 100,
-      "progress": 0.9370472846730932
+      "progress": 0.9420776624141809
     }
   },
   "76561198043370754": {
