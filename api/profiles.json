@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 657504,
+    "currentJob": "BlackMarket Dealer",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 658104,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402709913,
+      "currency": 99402709973,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -727,28 +727,52 @@
     },
     "jobs": [
       {
-        "seconds": 540,
+        "seconds": 1020,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/eli.mdl",
+        "name": "BlackMarket Dealer",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/monk.mdl",
+        "name": "Gun Dealer",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 540,
+        "seconds": 1020,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/monk.mdl",
+        "name": "models/player/monk.mdl",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:01:33.820Z",
+    "updatedAt": "2026-06-20T23:11:33.842Z",
     "leveling": {
       "level": 44,
-      "xp": 107460,
-      "currentXp": 9563,
+      "xp": 107560,
+      "currentXp": 9663,
       "requiredXp": 9939,
       "maxLevel": 100,
-      "progress": 0.9621991733785321
+      "progress": 0.9722599288607077
     }
   },
   "76561198043370754": {
