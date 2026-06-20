@@ -566,9 +566,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Medic",
-    "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 660112,
+    "currentJob": "Mob Boss",
+    "currentModel": "models/player/gman_high.mdl",
+    "playtimeSeconds": 660412,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402710543,
+      "currency": 99402707583,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -757,7 +757,13 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 180,
+        "model": "models/player/gman_high.mdl",
+        "name": "Mob Boss",
+        "iconKey": "profile_model_face_models-player-gman_high.mdl"
+      },
+      {
+        "seconds": 180,
         "model": "models/player/kleiner.mdl",
         "name": "Medic",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
@@ -783,10 +789,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 180,
         "model": "models/player/kleiner.mdl",
         "name": "models/player/kleiner.mdl",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/gman_high.mdl",
+        "name": "models/player/gman_high.mdl",
+        "iconKey": "profile_model_face_models-player-gman_high.mdl"
       },
       {
         "seconds": 60,
@@ -801,14 +813,14 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:45:01.429Z",
+    "updatedAt": "2026-06-20T23:50:03.930Z",
     "leveling": {
       "level": 45,
-      "xp": 107860,
-      "currentXp": 24,
+      "xp": 107910,
+      "currentXp": 74,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.002220177552031847
+      "progress": 0.006793248225748025
     }
   },
   "76561198043370754": {
