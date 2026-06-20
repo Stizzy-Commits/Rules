@@ -178,8 +178,17 @@
       position: relative;
       width: 100%;
       min-width: 900px;
+      padding: 56px;
       line-height: 0;
       user-select: none;
+    }
+
+    .map-plane {
+      position: relative;
+      width: 100%;
+      transform: rotate(var(--map-rotation, 0deg));
+      transform-origin: center center;
+      transition: transform 120ms ease;
     }
 
     .map-image {
@@ -300,6 +309,12 @@
       color: #fff;
       padding: 0 10px;
       outline: none;
+    }
+
+    input[type="range"] {
+      padding: 0;
+      min-height: 28px;
+      accent-color: var(--accent);
     }
 
     textarea {
@@ -433,6 +448,7 @@
 
       .map-stage {
         min-width: 720px;
+        padding: 40px;
       }
     }
   </style>
@@ -466,9 +482,11 @@
         <section class="panel map-panel">
           <div class="map-scroll">
             <div class="map-stage" id="mapStage">
-              <img class="map-image" id="mapImage" src="assets/maps/rp_downtown_v4c_ug_v20008.jpg" alt="rp_downtown_v4c_ug_v20008 map overview" />
-              <div id="calibrationLayer"></div>
-              <div id="playerLayer"></div>
+              <div class="map-plane" id="mapPlane">
+                <img class="map-image" id="mapImage" src="assets/maps/rp_downtown_v4c_ug_v20008.jpg" alt="rp_downtown_v4c_ug_v20008 map overview" />
+                <div id="calibrationLayer"></div>
+                <div id="playerLayer"></div>
+              </div>
             </div>
           </div>
         </section>
@@ -493,6 +511,10 @@
 
           <section class="panel side-section">
             <h2 class="side-title">Calibration</h2>
+            <div class="field">
+              <label for="mapRotation">Map Rotation <span id="mapRotationValue">0.0</span> deg</label>
+              <input id="mapRotation" type="range" min="-10" max="10" step="0.1" />
+            </div>
             <div class="field">
               <label for="pointSelect">Point</label>
               <select id="pointSelect"></select>
@@ -538,6 +560,9 @@
     const statusEl = document.getElementById("status");
     const connectionMode = document.getElementById("connectionMode");
     const mapStage = document.getElementById("mapStage");
+    const mapPlane = document.getElementById("mapPlane");
+    const mapRotation = document.getElementById("mapRotation");
+    const mapRotationValue = document.getElementById("mapRotationValue");
     const pointSelect = document.getElementById("pointSelect");
     const enableCal = document.getElementById("enableCal");
     const clearCal = document.getElementById("clearCal");
@@ -554,6 +579,7 @@
     const STORE_API = "oldschoolMapApiBase";
     const STORE_TOKEN = "oldschoolMapAdminToken";
     const STORE_IMAGE_POINTS = "oldschoolMapImagePoints";
+    const STORE_MAP_ROTATION = "oldschoolMapRotation";
     let worldPoints = {};
     let imagePoints = readJson(STORE_IMAGE_POINTS, {});
     let players = [];
@@ -562,6 +588,14 @@
 
     apiBaseInput.value = localStorage.getItem(STORE_API) || DEFAULT_API_BASE;
     adminTokenInput.value = localStorage.getItem(STORE_TOKEN) || "";
+    mapRotation.value = localStorage.getItem(STORE_MAP_ROTATION) || "0";
+
+    function applyMapRotation() {
+      const degrees = Number(mapRotation.value) || 0;
+      mapPlane.style.setProperty("--map-rotation", `${degrees}deg`);
+      mapRotationValue.textContent = degrees.toFixed(1);
+      localStorage.setItem(STORE_MAP_ROTATION, String(degrees));
+    }
 
     function readJson(key, fallback) {
       try {
@@ -746,10 +780,18 @@
       const label = pointSelect.value;
       if (!label) return;
 
-      const rect = mapStage.getBoundingClientRect();
+      const rect = mapPlane.getBoundingClientRect();
+      const width = mapPlane.offsetWidth;
+      const height = mapPlane.offsetHeight;
+      const degrees = Number(mapRotation.value) || 0;
+      const radians = degrees * Math.PI / 180;
+      const dx = event.clientX - (rect.left + rect.width / 2);
+      const dy = event.clientY - (rect.top + rect.height / 2);
+      const localX = (dx * Math.cos(radians) + dy * Math.sin(radians)) + width / 2;
+      const localY = (-dx * Math.sin(radians) + dy * Math.cos(radians)) + height / 2;
       imagePoints[label] = {
-        x: Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width)),
-        y: Math.max(0, Math.min(1, (event.clientY - rect.top) / rect.height))
+        x: Math.max(0, Math.min(1, localX / width)),
+        y: Math.max(0, Math.min(1, localY / height))
       };
 
       calibrationArmed = false;
@@ -757,6 +799,8 @@
       saveImagePoints();
       renderCalibration();
     });
+
+    mapRotation.addEventListener("input", applyMapRotation);
 
     enableCal.addEventListener("click", () => {
       calibrationArmed = !calibrationArmed;
@@ -790,6 +834,7 @@
       }
     });
 
+    applyMapRotation();
     loadCalibration();
     loadPlayers();
     setInterval(loadPlayers, 10000);
