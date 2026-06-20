@@ -745,7 +745,7 @@
     "name": "Sosa",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 250056,
+    "playtimeSeconds": 250536,
     "warns": {
       "active": 0,
       "total": 0,
@@ -757,7 +757,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585956,
+      "currency": 585976,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -906,19 +906,17 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "name": "Citizen",
-        "seconds": 600
-      }
-    ],
-    "models": [
-      {
-        "name": "models/player/group01/male_01.mdl",
-        "seconds": 600
-      }
-    ],
-    "updatedAt": "2026-06-20T16:08:22.381Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T20:01:23.603Z",
+    "leveling": {
+      "level": 34,
+      "xp": 40250,
+      "currentXp": 3428,
+      "requiredXp": 3832,
+      "maxLevel": 100,
+      "progress": 0.8946661217301354
+    }
   },
   "76561198083253627": {
     "steamid64": "76561198083253627",
