@@ -1273,7 +1273,7 @@
     "name": "ossama johnladen",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 121451,
+    "playtimeSeconds": 121530,
     "leveling": {
       "level": 46,
       "xp": 130161,
@@ -1486,7 +1486,7 @@
     },
     "jobs": [
       {
-        "seconds": 600,
+        "seconds": 660,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1494,12 +1494,12 @@
     ],
     "models": [
       {
-        "seconds": 600,
+        "seconds": 660,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T20:19:33.395Z"
+    "updatedAt": "2026-06-20T21:22:40.469Z"
   }
 }
