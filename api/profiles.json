@@ -727,9 +727,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "Elite Seller",
-    "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 248913,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 249177,
     "warns": {
       "active": 0,
       "total": 0,
@@ -741,7 +741,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585841,
+      "currency": 585896,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -890,18 +890,8 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "name": "Elite Seller",
-        "seconds": 300
-      }
-    ],
-    "models": [
-      {
-        "name": "models/player/riot.mdl",
-        "seconds": 300
-      }
-    ],
-    "updatedAt": "2026-06-20T15:46:51.955Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T15:53:43.307Z"
   }
 }
