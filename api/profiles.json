@@ -128,9 +128,9 @@
     "steamid64": "76561198249112348",
     "steamid": "STEAM_0:0:144423310",
     "name": "Stizzy",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 688982,
+    "currentJob": "Medic",
+    "currentModel": "models/player/kleiner.mdl",
+    "playtimeSeconds": 689490,
     "warns": {
       "active": 0,
       "total": 0,
@@ -142,7 +142,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 82089,
+      "currency": 82129,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -293,18 +293,30 @@
     },
     "jobs": [
       {
-        "seconds": 2700,
+        "seconds": 2940,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 2640,
+        "seconds": 2880,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 60,
@@ -313,14 +325,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:36:31.835Z",
+    "updatedAt": "2026-06-20T23:44:59.549Z",
     "leveling": {
       "level": 45,
-      "xp": 107900,
-      "currentXp": 64,
+      "xp": 107950,
+      "currentXp": 114,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.005878634091004789
+      "progress": 0.010451704764720968
     }
   },
   "76561198318712668": {
