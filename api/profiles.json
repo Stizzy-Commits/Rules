@@ -527,7 +527,7 @@
     "name": "Sosa",
     "currentJob": "Elite Seller",
     "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 248535,
+    "playtimeSeconds": 248913,
     "warns": {
       "active": 0,
       "total": 0,
@@ -539,140 +539,167 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585731,
-      "slotCount": 0,
-      "slots": {},
-      "weapons": [
-        {
+      "currency": 585841,
+      "slotCount": 40,
+      "slots": {
+        "1": {
+          "slot": 1,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "Davy Crockett",
           "type": "spawned_weapon",
           "class": "m9k_davy_crockett",
-          "name": "Davy Crockett",
-          "model": "models/weapons/w_RL7.mdl"
+          "model": "models/weapons/w_RL7.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_davy_crockett_models-weapons-w_rl7.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "2": {
+          "slot": 2,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
+          "name": "AN-94",
+          "type": "spawned_weapon",
+          "class": "m9k_an94",
+          "model": "models/weapons/w_rif_an_94.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_an94_models-weapons-w_rif_an_94.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "3": {
+          "slot": 3,
+          "amount": 1,
+          "name": "Nitro Glycerine",
           "type": "spawned_weapon",
           "class": "m9k_nitro",
-          "name": "Nitro Glycerine",
-          "model": "models/weapons/w_nitro.mdl"
+          "model": "models/weapons/w_nitro.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_nitro_models-weapons-w_nitro.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "4": {
+          "slot": 4,
           "amount": 2,
-          "meta": "x2 - spawned_weapon",
+          "name": "IED Detonator",
           "type": "spawned_weapon",
           "class": "m9k_ied_detonator",
-          "name": "IED Detonator",
-          "model": "models/weapons/w_camphon2.mdl"
+          "model": "models/weapons/w_camphon2.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ied_detonator_models-weapons-w_camphon2.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "5": {
+          "slot": 5,
           "amount": 6,
-          "meta": "x6 - spawned_weapon",
+          "name": "Nerve Gas",
           "type": "spawned_weapon",
           "class": "m9k_nerve_gas",
-          "name": "Nerve Gas",
-          "model": "models/weapons/w_grenade.mdl"
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         },
-        {
+        "6": {
+          "slot": 6,
           "amount": 1,
-          "meta": "x1 - spawned_weapon",
-          "type": "spawned_weapon",
-          "class": "m9k_matador",
-          "name": "Matador",
-          "model": "models/weapons/w_GDCW_MATADOR_RL.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - spawned_weapon",
-          "type": "spawned_weapon",
-          "class": "m9k_m202",
-          "name": "M202",
-          "model": "models/weapons/w_rocket_launcher.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - spawned_weapon",
-          "type": "spawned_weapon",
-          "class": "m9k_m79gl",
-          "name": "M79 GL",
-          "model": "models/weapons/w_m79_grenadelauncher.mdl"
-        },
-        {
-          "amount": 1,
-          "meta": "x1 - spawned_weapon",
-          "type": "spawned_weapon",
-          "class": "m9k_orbital_strike",
-          "name": "Orbital Strike Marker",
-          "model": "models/weapons/w_binos.mdl"
-        }
-      ],
-      "items": [
-        {
-          "amount": 1,
-          "meta": "x1 - zgo2_seed",
+          "name": "Purble Haze 10x",
           "type": "zgo2_seed",
           "class": "dc9e13b176",
-          "name": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl"
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "7": {
+          "slot": 7,
+          "amount": 1,
+          "name": "Matador",
+          "type": "spawned_weapon",
+          "class": "m9k_matador",
+          "model": "models/weapons/w_GDCW_MATADOR_RL.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_matador_models-weapons-w_gdcw_matador_rl.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "8": {
+          "slot": 8,
+          "amount": 1,
+          "name": "M202",
+          "type": "spawned_weapon",
+          "class": "m9k_m202",
+          "model": "models/weapons/w_rocket_launcher.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m202_models-weapons-w_rocket_launcher.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "9": {
+          "slot": 9,
+          "amount": 1,
+          "name": "M79 GL",
+          "type": "spawned_weapon",
+          "class": "m9k_m79gl",
+          "model": "models/weapons/w_m79_grenadelauncher.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m79gl_models-weapons-w_m79_grenadelauncher.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "10": {
+          "slot": 10,
+          "amount": 1,
+          "name": "Orbital Strike Marker",
+          "type": "spawned_weapon",
+          "class": "m9k_orbital_strike",
+          "model": "models/weapons/w_binos.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_orbital_strike_models-weapons-w_binos.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
-      ],
+      },
+      "weapons": [],
+      "items": [],
       "vehicles": [],
       "packages": []
     },
     "jobs": [
       {
         "name": "Elite Seller",
-        "seconds": 660
-      },
-      {
-        "name": "BlackMarket Dealer",
-        "seconds": 420
-      },
-      {
-        "name": "Burrito",
-        "seconds": 240
-      },
-      {
-        "name": "Professional Grower",
-        "seconds": 120
-      },
-      {
-        "name": "Gun Dealer",
-        "seconds": 60
-      },
-      {
-        "name": "Citizen",
-        "seconds": 60
+        "seconds": 300
       }
     ],
     "models": [
       {
         "name": "models/player/riot.mdl",
-        "seconds": 660
-      },
-      {
-        "name": "models/player/eli.mdl",
-        "seconds": 420
-      },
-      {
-        "name": "models/props_junk/cardboardbox.mdl",
-        "seconds": 240
-      },
-      {
-        "name": "models/player/fring/gus_suit.mdl",
-        "seconds": 120
-      },
-      {
-        "name": "models/player/monk.mdl",
-        "seconds": 60
-      },
-      {
-        "name": "models/player/group01/male_01.mdl",
-        "seconds": 60
+        "seconds": 300
       }
     ],
-    "updatedAt": "2026-06-20T15:40:33.423Z"
+    "updatedAt": "2026-06-20T15:46:51.955Z"
   }
 }
