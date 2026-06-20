@@ -301,7 +301,7 @@
     "name": "tort",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 56534,
+    "playtimeSeconds": 56716,
     "warns": {
       "active": 0,
       "total": 0,
@@ -313,7 +313,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1234521,
+      "currency": 1234541,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -504,9 +504,23 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-20T16:31:54.408Z"
+    "jobs": [
+      {
+        "seconds": 240,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 240,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-20T16:34:57.291Z"
   },
   "76561198120592615": {
     "steamid64": "76561198120592615",
