@@ -1,1 +1,600 @@
-{}
+{
+  "76561198109886253": {
+    "steamid64": "76561198109886253",
+    "steamid": "STEAM_0:1:74810262",
+    "name": "Lord Haydes",
+    "currentJob": "Professional Grower",
+    "currentModel": "models/player/fring/gus_suit.mdl",
+    "playtimeSeconds": 110170,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 4152728,
+      "weapons": [],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "name": "Professional Grower",
+        "seconds": 660
+      }
+    ],
+    "models": [
+      {
+        "name": "models/player/fring/gus_suit.mdl",
+        "seconds": 660
+      }
+    ],
+    "updatedAt": "2026-06-20T15:25:31.591Z"
+  },
+  "76561198249112348": {
+    "steamid64": "76561198249112348",
+    "steamid": "STEAM_0:0:144423310",
+    "name": "Stizzy",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 660098,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 78589,
+      "weapons": [
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_model500",
+          "name": "S&W Model 500",
+          "model": "models/weapons/w_sw_model_500.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_sig_p229r",
+          "name": "SIG Sauer P229R",
+          "model": "models/weapons/w_sig_229r.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_usp",
+          "name": "HK USP",
+          "model": "models/weapons/w_pist_fokkususp.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_model627",
+          "name": "S&W Model 627",
+          "model": "models/weapons/w_sw_model_627.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "weapon_thermal_breacher",
+          "name": "Thermal Breacher",
+          "model": "models/weapons/w_slam.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_m98b",
+          "name": "Barret M98B",
+          "model": "models/weapons/w_barrett_m98b.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_sl8",
+          "name": "HK SL8",
+          "model": "models/weapons/w_hk_sl8.mdl"
+        },
+        {
+          "amount": 2,
+          "meta": "x2 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_svu",
+          "name": "Dragunov SVU",
+          "model": "models/weapons/w_dragunov_svu.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ares_shrike",
+          "name": "Ares Shrike",
+          "model": "models/weapons/w_ares_shrike.mdl"
+        }
+      ],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "name": "Citizen",
+        "seconds": 660
+      }
+    ],
+    "models": [
+      {
+        "name": "models/player/group01/male_01.mdl",
+        "seconds": 660
+      }
+    ],
+    "updatedAt": "2026-06-20T15:25:37.641Z"
+  },
+  "76561198318712668": {
+    "steamid64": "76561198318712668",
+    "steamid": "STEAM_0:0:179223470",
+    "name": "tort",
+    "currentJob": "Meth Cook",
+    "currentModel": "models/walter_white/walter_white.mdl",
+    "playtimeSeconds": 54998,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 1234161,
+      "weapons": [
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_striker12",
+          "name": "Striker 12",
+          "model": "models/weapons/w_striker_12g.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_barret_m82",
+          "name": "Barret M82",
+          "model": "models/weapons/w_barret_m82.mdl"
+        },
+        {
+          "amount": 9,
+          "meta": "x9 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ak47",
+          "name": "AK-47",
+          "model": "models/weapons/w_ak47_m9k.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_spas12",
+          "name": "SPAS 12",
+          "model": "models/weapons/w_spas_12.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_usp",
+          "name": "HK USP",
+          "model": "models/weapons/w_pist_fokkususp.mdl"
+        },
+        {
+          "amount": 2,
+          "meta": "x2 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_striker12",
+          "name": "Striker 12",
+          "model": "models/weapons/w_striker_12g.mdl"
+        },
+        {
+          "amount": 7,
+          "meta": "x7 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "weapon_armor_patch",
+          "name": "weapon_armor_patch",
+          "model": "models/weapons/w_defuser.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_barret_m82",
+          "name": "Barret M82",
+          "model": "models/weapons/w_barret_m82.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_striker12",
+          "name": "Striker 12",
+          "model": "models/weapons/w_striker_12g.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_psg1",
+          "name": "PSG-1",
+          "model": "models/weapons/w_hk_psg1.mdl"
+        },
+        {
+          "amount": 10,
+          "meta": "x10 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ares_shrike",
+          "name": "Ares Shrike",
+          "model": "models/weapons/w_ares_shrike.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_colt1911",
+          "name": "Colt 1911",
+          "model": "models/weapons/s_dmgf_co1911.mdl"
+        }
+      ],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - weapon_armor_patch",
+          "type": "weapon_armor_patch",
+          "class": "50",
+          "name": "50",
+          "model": "models/weapons/w_defuser.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "name": "Meth Cook",
+        "seconds": 660
+      }
+    ],
+    "models": [
+      {
+        "name": "models/walter_white/walter_white.mdl",
+        "seconds": 660
+      }
+    ],
+    "updatedAt": "2026-06-20T15:25:39.397Z"
+  },
+  "76561198120592615": {
+    "steamid64": "76561198120592615",
+    "steamid": "STEAM_0:1:80163443",
+    "name": "oRuin #Biceps",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 653370,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 99402713933,
+      "weapons": [
+        {
+          "amount": 8,
+          "meta": "x8 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "weapon_armor_patch",
+          "name": "weapon_armor_patch",
+          "model": "models/items/combine_rifle_ammo01.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ithacam37",
+          "name": "Ithaca M37",
+          "model": "models/weapons/w_ithaca_m37.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "arccw_go_awp",
+          "name": "arccw_go_awp",
+          "model": "models/weapons/arccw_go/v_snip_awp.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "bkeypads_cracker",
+          "name": "#bKeypads_KeypadCracker",
+          "model": "models/bkeypads/cracker.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "arccw_go_ace",
+          "name": "arccw_go_ace",
+          "model": "models/weapons/arccw_go/v_rif_ace.mdl"
+        },
+        {
+          "amount": 4,
+          "meta": "x4 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "ch_mining_jackhammer",
+          "name": "Scripted Weapon",
+          "model": "models/craphead_scripts/mining/w_jackhammer.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ied_detonator",
+          "name": "IED Detonator",
+          "model": "models/weapons/w_camphon2.mdl"
+        },
+        {
+          "amount": 4,
+          "meta": "x4 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "name": "Nerve Gas",
+          "model": "models/weapons/w_grenade.mdl"
+        }
+      ],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_jar",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_jar",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_jar",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_baggy",
+          "type": "zgo2_baggy",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_baggy.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "name": "Citizen",
+        "seconds": 660
+      }
+    ],
+    "models": [
+      {
+        "name": "models/player/group01/male_02.mdl",
+        "seconds": 660
+      }
+    ],
+    "updatedAt": "2026-06-20T15:25:35.398Z"
+  },
+  "76561198043370754": {
+    "steamid64": "76561198043370754",
+    "steamid": "STEAM_0:0:41552513",
+    "name": "Sosa",
+    "currentJob": "Elite Seller",
+    "currentModel": "models/player/riot.mdl",
+    "playtimeSeconds": 247635,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 585521,
+      "weapons": [
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_davy_crockett",
+          "name": "Davy Crockett",
+          "model": "models/weapons/w_RL7.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_nitro",
+          "name": "Nitro Glycerine",
+          "model": "models/weapons/w_nitro.mdl"
+        },
+        {
+          "amount": 2,
+          "meta": "x2 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ied_detonator",
+          "name": "IED Detonator",
+          "model": "models/weapons/w_camphon2.mdl"
+        },
+        {
+          "amount": 6,
+          "meta": "x6 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "name": "Nerve Gas",
+          "model": "models/weapons/w_grenade.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_matador",
+          "name": "Matador",
+          "model": "models/weapons/w_GDCW_MATADOR_RL.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_m202",
+          "name": "M202",
+          "model": "models/weapons/w_rocket_launcher.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_m79gl",
+          "name": "M79 GL",
+          "model": "models/weapons/w_m79_grenadelauncher.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_orbital_strike",
+          "name": "Orbital Strike Marker",
+          "model": "models/weapons/w_binos.mdl"
+        }
+      ],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_seed",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "name": "Burrito",
+        "seconds": 240
+      },
+      {
+        "name": "Elite Seller",
+        "seconds": 240
+      },
+      {
+        "name": "Professional Grower",
+        "seconds": 120
+      },
+      {
+        "name": "Citizen",
+        "seconds": 60
+      }
+    ],
+    "models": [
+      {
+        "name": "models/player/riot.mdl",
+        "seconds": 240
+      },
+      {
+        "name": "models/props_junk/cardboardbox.mdl",
+        "seconds": 240
+      },
+      {
+        "name": "models/player/fring/gus_suit.mdl",
+        "seconds": 120
+      },
+      {
+        "name": "models/player/group01/male_01.mdl",
+        "seconds": 60
+      }
+    ],
+    "updatedAt": "2026-06-20T15:25:33.392Z"
+  }
+}
