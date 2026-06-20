@@ -475,9 +475,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "Elite Seller",
-    "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 247635,
+    "currentJob": "BlackMarket Dealer",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 247935,
     "warns": {
       "active": 0,
       "total": 0,
@@ -489,7 +489,9 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585521,
+      "currency": 585571,
+      "slotCount": 0,
+      "slots": {},
       "weapons": [
         {
           "amount": 1,
@@ -579,8 +581,16 @@
         "seconds": 240
       },
       {
+        "name": "BlackMarket Dealer",
+        "seconds": 240
+      },
+      {
         "name": "Professional Grower",
         "seconds": 120
+      },
+      {
+        "name": "Gun Dealer",
+        "seconds": 60
       },
       {
         "name": "Citizen",
@@ -597,14 +607,22 @@
         "seconds": 240
       },
       {
+        "name": "models/player/eli.mdl",
+        "seconds": 240
+      },
+      {
         "name": "models/player/fring/gus_suit.mdl",
         "seconds": 120
+      },
+      {
+        "name": "models/player/monk.mdl",
+        "seconds": 60
       },
       {
         "name": "models/player/group01/male_01.mdl",
         "seconds": 60
       }
     ],
-    "updatedAt": "2026-06-20T15:25:33.392Z"
+    "updatedAt": "2026-06-20T15:30:33.394Z"
   }
 }
