@@ -556,7 +556,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "BlackMarket Dealer",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 659304,
+    "playtimeSeconds": 659604,
     "warns": {
       "active": 0,
       "total": 0,
@@ -568,7 +568,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402710343,
+      "currency": 99402710443,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -733,7 +733,7 @@
     },
     "jobs": [
       {
-        "seconds": 1260,
+        "seconds": 1560,
         "model": "models/player/eli.mdl",
         "name": "BlackMarket Dealer",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -753,7 +753,7 @@
     ],
     "models": [
       {
-        "seconds": 1200,
+        "seconds": 1500,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -777,14 +777,14 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:31:33.807Z",
+    "updatedAt": "2026-06-20T23:36:35.081Z",
     "leveling": {
       "level": 44,
-      "xp": 107760,
-      "currentXp": 9863,
+      "xp": 107810,
+      "currentXp": 9913,
       "requiredXp": 9939,
       "maxLevel": 100,
-      "progress": 0.9923814398250589
+      "progress": 0.9974118175661467
     }
   },
   "76561198043370754": {
