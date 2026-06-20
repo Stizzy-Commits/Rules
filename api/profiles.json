@@ -286,5 +286,131 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-06-20T15:08:23.080Z"
+  },
+  "76561198120592615": {
+    "steamid64": "76561198120592615",
+    "steamid": "STEAM_0:1:80163443",
+    "name": "oRuin #Biceps",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 652597,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 99402713833,
+      "weapons": [
+        {
+          "amount": 8,
+          "meta": "x8 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "weapon_armor_patch",
+          "name": "weapon_armor_patch",
+          "model": "models/items/combine_rifle_ammo01.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ithacam37",
+          "name": "Ithaca M37",
+          "model": "models/weapons/w_ithaca_m37.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "arccw_go_awp",
+          "name": "arccw_go_awp",
+          "model": "models/weapons/arccw_go/v_snip_awp.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "bkeypads_cracker",
+          "name": "#bKeypads_KeypadCracker",
+          "model": "models/bkeypads/cracker.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "arccw_go_ace",
+          "name": "arccw_go_ace",
+          "model": "models/weapons/arccw_go/v_rif_ace.mdl"
+        },
+        {
+          "amount": 4,
+          "meta": "x4 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "ch_mining_jackhammer",
+          "name": "Scripted Weapon",
+          "model": "models/craphead_scripts/mining/w_jackhammer.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ied_detonator",
+          "name": "IED Detonator",
+          "model": "models/weapons/w_camphon2.mdl"
+        },
+        {
+          "amount": 4,
+          "meta": "x4 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "name": "Nerve Gas",
+          "model": "models/weapons/w_grenade.mdl"
+        }
+      ],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_jar",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_jar",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_jar",
+          "type": "zgo2_jar",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_jar.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_baggy",
+          "type": "zgo2_baggy",
+          "class": "246224726",
+          "name": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_baggy.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T15:12:42.958Z"
   }
 }
