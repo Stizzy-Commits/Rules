@@ -358,6 +358,16 @@
       background: rgba(var(--danger-600), 1);
     }
 
+    .steam-button {
+      width: 100%;
+      margin-top: 8px;
+      background: rgba(31, 111, 214, 0.45);
+    }
+
+    .steam-button:hover {
+      background: rgba(31, 111, 214, 0.62);
+    }
+
     .small {
       margin: 8px 0 0;
       color: var(--muted);
@@ -508,6 +518,7 @@
               <button class="primary" id="saveConnection" type="button">Save</button>
               <button id="refreshNow" type="button">Refresh</button>
             </div>
+            <button class="steam-button" id="steamLogin" type="button">Sign in with Steam</button>
             <p class="small" id="connectionMode">Own-player mode uses Steam login. Admin mode uses the sync secret.</p>
           </section>
 
@@ -555,6 +566,7 @@
     const adminTokenInput = document.getElementById("adminToken");
     const saveConnection = document.getElementById("saveConnection");
     const refreshNow = document.getElementById("refreshNow");
+    const steamLogin = document.getElementById("steamLogin");
     const statusEl = document.getElementById("status");
     const connectionMode = document.getElementById("connectionMode");
     const mapStage = document.getElementById("mapStage");
@@ -766,6 +778,16 @@
       loadPlayers();
     }
 
+    function startSteamLogin() {
+      apiBaseInput.value = apiBase();
+      adminTokenInput.value = "";
+      localStorage.setItem(STORE_API, apiBaseInput.value);
+      localStorage.removeItem(STORE_TOKEN);
+      const next = new URL(window.location.href);
+      next.hash = "";
+      window.location.href = apiUrl(`/auth/steam/start?next=${encodeURIComponent(next.toString())}`);
+    }
+
     mapStage.addEventListener("click", event => {
       if (!calibrationArmed) return;
       const label = pointSelect.value;
@@ -802,6 +824,7 @@
     });
 
     saveConnection.addEventListener("click", saveConnectionState);
+    steamLogin.addEventListener("click", startSteamLogin);
     refreshNow.addEventListener("click", () => {
       loadCalibration();
       loadPlayers();
