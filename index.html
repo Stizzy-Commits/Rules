@@ -559,6 +559,212 @@
       font-weight: 650;
     }
 
+    /* Member-style ban cards */
+
+    .page-heading {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 152px 40px 36px;
+    }
+
+    .page-heading h1 {
+      margin: 0;
+      color: rgb(var(--neutral-100));
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-weight: 500;
+    }
+
+    .page-heading p {
+      max-width: 680px;
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    .bans-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 40px 128px;
+    }
+
+    .ban-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .ban-count {
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    .ban-search {
+      width: min(320px, 100%);
+      height: 38px;
+      border-radius: 8px;
+      background: rgba(var(--neutral-800), 0.72);
+      color: rgb(var(--neutral-100));
+      border: 1px solid rgba(var(--neutral-200), 0.05);
+      padding: 0 12px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      outline: none;
+    }
+
+    .ban-search::placeholder {
+      color: rgba(var(--neutral-400), 0.78);
+    }
+
+    .ban-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .ban-card {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 278px;
+      border-radius: 12px;
+      background: rgba(var(--neutral-900), 0.60);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(var(--neutral-200), 0.05);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+      transition: transform 250ms cubic-bezier(.4, 0, .2, 1), border-color 250ms cubic-bezier(.4, 0, .2, 1);
+    }
+
+    .ban-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(var(--primary-500), 1);
+    }
+
+    .ban-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      pointer-events: none;
+      border-radius: inherit;
+      box-shadow: inset 0 1px 0 0 rgba(var(--primary-50), .20);
+    }
+
+    .ban-cover {
+      position: relative;
+      overflow: hidden;
+      height: 136px;
+      border-radius: 12px 12px 0 0;
+      user-select: none;
+    }
+
+    .ban-cover img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: blur(28px);
+      opacity: 0.25;
+      transform: scale(1.12);
+      pointer-events: none;
+    }
+
+    .ban-cover::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 10%, rgba(var(--neutral-900), 0.82) 100%);
+    }
+
+    .ban-body {
+      position: relative;
+      z-index: 20;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 0 16px 12px;
+    }
+
+    .ban-avatar-wrap {
+      width: 72px;
+      height: 72px;
+      margin-top: -32px;
+      border-radius: 999px;
+      background: rgb(var(--neutral-700));
+      padding: 4px;
+    }
+
+    .ban-avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 999px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .ban-name {
+      margin: 12px 0 0;
+      color: rgb(var(--neutral-50));
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .ban-steamid,
+    .ban-reason {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      overflow-wrap: anywhere;
+    }
+
+    .ban-reason {
+      flex: 1;
+      margin-top: 10px;
+      color: rgb(var(--neutral-300));
+    }
+
+    .ban-meta {
+      position: relative;
+      z-index: 20;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      padding: 8px 16px 14px;
+    }
+
+    .ban-meta dt {
+      color: rgb(var(--neutral-200));
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    .ban-meta dd {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+    }
+
+    .ban-empty {
+      grid-column: 1 / -1;
+      padding: 32px;
+      text-align: center;
+      color: var(--muted);
+    }
+
     footer {
       position: relative;
       z-index: 2;
@@ -636,6 +842,29 @@
       .rule-no {
         justify-content: flex-start;
       }
+
+      .page-heading,
+      .bans-wrap {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .page-heading {
+        padding-top: 112px;
+      }
+
+      .ban-toolbar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .ban-search {
+        width: 100%;
+      }
+
+      .ban-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -653,10 +882,10 @@
         </a>
 
         <nav class="nav-links">
-          <a href="https://oldschoolroleplay.noclip.me/members">Members</a>
           <a href="https://oldschoolroleplay.noclip.me/store">Store</a>
           <a href="https://discordapp.com/invite/QrKf6xQH">Discord</a>
           <a class="active" href="index.html">Rules</a>
+          <a href="bans.html">Bans</a>
           <a href="https://oldschoolroleplay.noclip.me/#">Updates</a>
           <a class="dash" href="https://oldschoolroleplay.noclip.me/admin">Dashboard</a>
         </nav>

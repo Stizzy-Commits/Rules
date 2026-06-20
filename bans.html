@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en" color-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bans | OldSchool RP</title>
+
+  <style>
+    :root {
+      --primary-50: 242, 242, 242;
+      --primary-100: 230, 230, 230;
+      --primary-200: 191, 191, 191;
+      --primary-300: 153, 153, 153;
+      --primary-400: 77, 77, 77;
+      --primary-500: 0, 0, 0;
+      --primary-600: 0, 0, 0;
+      --primary-700: 0, 0, 0;
+      --primary-800: 0, 0, 0;
+      --primary-900: 0, 0, 0;
+      --neutral-50: 244, 244, 244;
+      --neutral-100: 232, 232, 232;
+      --neutral-200: 198, 198, 198;
+      --neutral-300: 164, 164, 164;
+      --neutral-400: 96, 96, 96;
+      --neutral-500: 28, 28, 28;
+      --neutral-600: 25, 25, 25;
+      --neutral-700: 21, 21, 21;
+      --neutral-800: 17, 17, 17;
+      --neutral-900: 14, 14, 14;
+      --danger-50: 255, 242, 242;
+      --danger-100: 255, 230, 230;
+      --danger-200: 255, 191, 191;
+      --danger-300: 255, 153, 153;
+      --danger-400: 255, 77, 77;
+      --danger-500: 255, 0, 0;
+      --danger-600: 230, 0, 0;
+      --danger-700: 191, 0, 0;
+      --danger-800: 153, 0, 0;
+      --danger-900: 125, 0, 0;
+      --bg: rgb(var(--neutral-900));
+      --ring: rgba(var(--neutral-200), 0.05);
+      --ring-strong: rgba(var(--neutral-200), 0.09);
+      --text: rgb(var(--neutral-100));
+      --text-soft: rgb(var(--neutral-200));
+      --muted: rgb(var(--neutral-400));
+      --muted-2: rgba(var(--neutral-400), 0.7);
+      --blue: #1f6fd6;
+      --blue-soft: rgba(31, 111, 214, 0.12);
+      --danger: rgb(var(--danger-600));
+      --radius: 12px;
+      --max: 1600px;
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      border: 0 solid rgba(var(--neutral-200), 1);
+    }
+
+    html {
+      min-height: 100%;
+      background: var(--bg);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      -webkit-font-smoothing: antialiased;
+      background: rgb(var(--neutral-900));
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: url("imgs/noise.png");
+      background-size: 220px 220px;
+      opacity: 0.028;
+      mix-blend-mode: screen;
+      z-index: 1;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    /* Intro */
+
+    .intro {
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      display: grid;
+      place-items: center;
+      background: #030303;
+      transition: opacity 850ms ease, visibility 850ms ease;
+    }
+
+    .intro.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .intro img {
+      width: min(440px, 70vw);
+      opacity: 0;
+      transform: scale(0.6);
+      animation: introLogo 1650ms cubic-bezier(.2, .7, .2, 1) forwards;
+    }
+
+    @keyframes introLogo {
+      0% {
+        opacity: 0;
+        transform: scale(0.6);
+      }
+
+      55% {
+        opacity: 0.92;
+        transform: scale(1);
+      }
+
+      100% {
+        opacity: 0.72;
+        transform: scale(1);
+      }
+    }
+
+    .site {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 700ms ease, transform 700ms ease;
+    }
+
+    .site.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    /* Header */
+
+    .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 30;
+      width: 100%;
+    }
+
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+      letter-spacing: 0;
+      white-space: nowrap;
+      opacity: 1;
+      transition: opacity 150ms ease, color 150ms ease;
+    }
+
+    .brand:hover {
+      color: #fff;
+      opacity: 1;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+      opacity: 1;
+      transition: opacity 150ms ease, color 150ms ease, background 150ms ease;
+    }
+
+    .nav-links a:hover {
+      opacity: 1;
+      color: #fff;
+    }
+
+    .nav-links .active {
+      color: #fff;
+    }
+
+    .nav-links .dash {
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 13px;
+      border-radius: 8px;
+      color: #fff;
+      background: rgba(var(--neutral-700), 0.75);
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 600;
+      white-space: nowrap;
+      box-shadow: 0 0 0 0 transparent;
+    }
+
+    .nav-links .dash:hover {
+      color: #fff;
+      background: rgb(var(--neutral-600));
+    }
+
+    /* Layout */
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 40px 128px;
+    }
+
+    .hero {
+      position: relative;
+      z-index: 0;
+      isolation: isolate;
+      overflow: hidden;
+      padding: 248px 24px 104px;
+      text-align: center;
+      min-height: 600px;
+    }
+
+    .hero-logo-bg {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      z-index: 0;
+      width: min(560px, 78vw);
+      height: min(560px, 78vw);
+      object-fit: contain;
+      transform: translate(-50%, -50%);
+      display: block;
+      opacity: 0.82;
+      filter: blur(9px) brightness(1.08) saturate(1.18);
+      user-select: none;
+      pointer-events: none;
+    }
+
+    .hero h1 {
+      position: relative;
+      z-index: 1;
+      margin: 172px 0 0;
+      color: rgb(var(--neutral-100));
+      font-size: clamp(30px, 2.35vw, 36px);
+      line-height: 1.625;
+      letter-spacing: 0.025em;
+      font-weight: 800;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.72);
+    }
+
+    .hero p {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.5;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.82);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 32px;
+      align-items: start;
+    }
+
+    .content {
+      display: grid;
+      grid-column: span 8;
+      gap: 48px;
+    }
+
+    .side {
+      grid-column: span 4;
+      position: sticky;
+      top: 32px;
+      display: grid;
+      gap: 48px;
+    }
+
+    /* Noclip-like card shell */
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: rgba(var(--neutral-900), 0.60);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+      border: 1px solid rgba(var(--neutral-200), 0.05);
+      --overlay-image: url("");
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+      border-radius: inherit;
+      opacity: .75;
+      background-image: var(--overlay-image);
+      background-size: cover;
+      background-position: center;
+      box-shadow: inset 0 1px 0 0 rgba(var(--primary-50), .05);
+      z-index: 0;
+    }
+
+    .card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px;
+      background: rgba(var(--neutral-900), 0.10);
+      border-bottom: 1px solid var(--ring);
+    }
+
+    .section-title {
+      min-width: 0;
+    }
+
+    .section-title h2 {
+      margin: 0;
+      color: #e5e5e5;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
+      letter-spacing: 0.025em;
+    }
+
+    .section-title p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .section-tag {
+      flex: 0 0 auto;
+      color: var(--muted-2);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .rule-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .rule {
+      display: grid;
+      grid-template-columns: 64px minmax(0, 1fr);
+      gap: 8px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--ring);
+      min-height: 72px;
+    }
+
+    .rule:last-child {
+      border-bottom: 0;
+    }
+
+    .rule-no {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 2px;
+    }
+
+    .rule-pill {
+      min-width: 40px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: rgba(255,255,255,.035);
+      color: #bcbcbc;
+      font-size: 12px;
+      font-weight: 850;
+      box-shadow: inset 0 0 0 1px var(--ring);
+    }
+
+    .rule-main strong {
+      display: block;
+      color: #e7e7e7;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    .rule-main p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .notice {
+      padding: 16px;
+      color: var(--text-soft);
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .notice strong {
+      color: #fff;
+    }
+
+    .notice.warning {
+      border-color: rgba(var(--danger-600), 0.20);
+      background: rgba(var(--danger-600), 0.045);
+    }
+
+    /* Sidebar */
+
+    .side-card {
+      padding: 16px;
+    }
+
+    .side-title {
+      margin: 0 0 10px;
+      color: rgb(var(--neutral-100));
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
+      letter-spacing: 0.025em;
+    }
+
+    .side-text {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .side-action {
+      height: 36px;
+      margin-top: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #fff;
+      background: rgba(var(--primary-500), 1);
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 600;
+      text-shadow: 0 0 2px #000;
+      transition: background 150ms ease, color 150ms ease;
+    }
+
+    .side-action:hover {
+      color: #fff;
+      background: rgba(var(--primary-400), 1);
+    }
+
+    .index-list {
+      display: grid;
+      gap: 4px;
+    }
+
+    .index-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 38px;
+      padding: 0 11px;
+      text-decoration: none;
+      color: #a3a3a3;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: background 150ms ease, color 150ms ease;
+    }
+
+    .index-list a:hover,
+    .index-list a.active {
+      color: #fff;
+      background: rgba(255,255,255,.04);
+    }
+
+    .index-list span {
+      color: var(--muted-2);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .status-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-top: 1px solid var(--ring);
+      margin: 16px -16px -16px;
+    }
+
+    .status-row div {
+      padding: 14px 16px;
+    }
+
+    .status-row div + div {
+      border-left: 1px solid var(--ring);
+    }
+
+    .status-row dt {
+      color: rgb(var(--neutral-200));
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .status-row dd {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    /* Ban list */
+
+    .bans-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 40px 128px;
+    }
+
+    .ban-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .ban-count {
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    .ban-controls {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+      min-width: 0;
+      flex: 1;
+    }
+
+    .ban-search {
+      width: min(420px, 100%);
+      height: 38px;
+      border-radius: 8px;
+      background: rgba(var(--neutral-800), 0.72);
+      color: rgb(var(--neutral-100));
+      border: 1px solid rgba(var(--neutral-200), 0.05);
+      padding: 0 12px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      outline: none;
+    }
+
+    .ban-search::placeholder {
+      color: rgba(var(--neutral-400), 0.78);
+    }
+
+    .ban-button {
+      height: 38px;
+      min-width: 86px;
+      padding: 0 14px;
+      border-radius: 8px;
+      background: rgba(31, 111, 214, 0.35);
+      color: #fff;
+      font: inherit;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 150ms ease, opacity 150ms ease;
+    }
+
+    .ban-button:hover:not(:disabled) {
+      background: rgba(31, 111, 214, 0.48);
+    }
+
+    .ban-button:disabled {
+      cursor: default;
+      opacity: 0.45;
+    }
+
+    .ban-table-wrap {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      background: rgba(var(--neutral-900), 0.60);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(var(--neutral-200), 0.05);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+    }
+
+    .ban-table-wrap::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      border-radius: inherit;
+      box-shadow: inset 0 1px 0 0 rgba(var(--primary-50), .05);
+    }
+
+    .ban-table-scroll {
+      overflow-x: auto;
+    }
+
+    .ban-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    .ban-table th,
+    .ban-table td {
+      padding: 13px 16px;
+      text-align: center;
+      vertical-align: middle;
+      border-bottom: 1px solid rgba(var(--neutral-200), 0.035);
+    }
+
+    .ban-table th {
+      background: rgba(var(--neutral-800), 0.62);
+      color: rgb(var(--neutral-100));
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 700;
+    }
+
+    .ban-table td {
+      background: rgba(var(--neutral-800), 0.42);
+      color: rgb(var(--neutral-200));
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 600;
+    }
+
+    .ban-table tbody tr:nth-child(even) td {
+      background: rgba(var(--neutral-700), 0.30);
+    }
+
+    .ban-table tbody tr:hover td {
+      background: rgba(var(--neutral-700), 0.48);
+    }
+
+    .ban-player,
+    .ban-admin,
+    .ban-reason-cell {
+      min-width: 0;
+    }
+
+    .ban-main {
+      display: block;
+      color: rgb(var(--neutral-100));
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .ban-sub {
+      display: inline;
+      color: var(--muted);
+      font-size: 0.75rem;
+      line-height: 1rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .ban-reason-cell {
+      color: rgb(var(--neutral-100));
+      overflow-wrap: anywhere;
+    }
+
+    .ban-tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 20px;
+      margin-left: 6px;
+      padding: 0 6px;
+      border-radius: 3px;
+      background: #7a20d8;
+      color: #fff;
+      font-size: 0.72rem;
+      line-height: 1rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .ban-pagination-status {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 0.8125rem;
+      line-height: 1.25rem;
+    }
+
+    .ban-empty-row td {
+      padding: 32px;
+      color: var(--muted);
+    }
+
+    .col-user {
+      width: 24%;
+    }
+
+    .col-admin {
+      width: 22%;
+    }
+
+    .col-reason {
+      width: 32%;
+    }
+
+    .col-length,
+    .col-unban {
+      width: 11%;
+    }
+
+    footer {
+      position: relative;
+      z-index: 2;
+      background: rgb(var(--neutral-900));
+      border-top: 1px solid var(--ring);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 22px 32px;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 900px) {
+      .nav-inner {
+        padding: 16px 18px;
+      }
+
+      .nav-links {
+        gap: 12px;
+      }
+
+      .nav-links a:not(.active):not(.dash) {
+        display: none;
+      }
+
+      .wrap {
+        padding: 0 16px 72px;
+      }
+
+      .hero {
+        min-height: 372px;
+        padding: 132px 24px 64px;
+      }
+
+      .hero-logo-bg {
+        top: 36%;
+        width: min(360px, 88vw);
+        height: min(360px, 88vw);
+      }
+
+      .hero h1 {
+        margin-top: 132px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .content,
+      .side {
+        grid-column: auto;
+      }
+
+      .content {
+        gap: 20px;
+      }
+
+      .side {
+        position: relative;
+        top: auto;
+        gap: 48px;
+      }
+
+      .rule {
+        grid-template-columns: 1fr;
+      }
+
+      .rule-no {
+        justify-content: flex-start;
+      }
+
+      .bans-wrap {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .ban-toolbar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .ban-controls {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .ban-search {
+        width: 100%;
+      }
+
+      .ban-button {
+        width: 100%;
+      }
+
+      .ban-table {
+        min-width: 920px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="intro" id="intro">
+    <img src="imgs/logo.png" alt="OldSchool RP Logo" />
+  </div>
+
+  <div class="site" id="site">
+    <header class="navbar">
+      <div class="nav-inner">
+        <a class="brand" href="https://oldschoolroleplay.noclip.me/" aria-label="OldSchool RP Home">
+          OldSchool RP
+        </a>
+
+        <nav class="nav-links">
+          <a href="https://oldschoolroleplay.noclip.me/store">Store</a>
+          <a href="https://discordapp.com/invite/QrKf6xQH">Discord</a>
+          <a href="index.html">Rules</a>
+          <a class="active" href="bans.html">Bans</a>
+          <a href="https://oldschoolroleplay.noclip.me/#">Updates</a>
+          <a class="dash" href="https://oldschoolroleplay.noclip.me/admin">Dashboard</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero-logo-bg" src="imgs/logo.png" alt="" aria-hidden="true" />
+        <h1>Bans</h1>
+      </section>
+
+      <section class="bans-wrap">
+        <div class="ban-toolbar">
+          <div class="ban-count" id="banCount">Loading bans...</div>
+          <div class="ban-controls">
+            <input class="ban-search" id="banSearch" type="search" placeholder="Search (Name, SteamID, Reason)" autocomplete="off" />
+            <button class="ban-button" id="prevPage" type="button">Previous</button>
+            <button class="ban-button" id="nextPage" type="button">Next</button>
+            <button class="ban-button" id="allBans" type="button">All Bans</button>
+          </div>
+        </div>
+
+        <div class="ban-table-wrap">
+          <div class="ban-table-scroll">
+            <table class="ban-table">
+              <colgroup>
+                <col class="col-user" />
+                <col class="col-admin" />
+                <col class="col-reason" />
+                <col class="col-length" />
+                <col class="col-unban" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>User</th>
+                  <th>Admin</th>
+                  <th>Reason</th>
+                  <th>Ban Length</th>
+                  <th>Unban Time</th>
+                </tr>
+              </thead>
+              <tbody id="banRows"></tbody>
+            </table>
+          </div>
+        </div>
+        <p class="ban-pagination-status" id="banPageStatus"></p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>© 2026 OldSchool RP. All rights reserved.</div>
+        <div>OldSchool RP Bans</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    window.addEventListener("load", () => {
+      const intro = document.getElementById("intro");
+      const site = document.getElementById("site");
+
+      setTimeout(() => {
+        intro.classList.add("hidden");
+        site.classList.add("visible");
+      }, 850);
+    });
+
+    const fallbackBans = [
+      {
+        name: "Example Player",
+        steamid: "STEAM_0:1:00000000",
+        reason: "Mass RDM",
+        bannedBy: "Console",
+        expires: "Permanent",
+        banLength: "Permanent",
+        unbanTime: "Never"
+      },
+      {
+        name: "CooldownBreaker",
+        steamid: "STEAM_0:0:11111111",
+        reason: "Repeated raid cooldown abuse",
+        bannedBy: "Admin",
+        expires: "2 days",
+        banLength: "2 Days",
+        unbanTime: "6-21-26"
+      },
+      {
+        name: "ExploitUser",
+        steamid: "STEAM_0:1:22222222",
+        reason: "Bug abuse",
+        bannedBy: "Staff",
+        expires: "Permanent",
+        banLength: "Permanent",
+        unbanTime: "Never"
+      }
+    ];
+
+    const rows = document.getElementById("banRows");
+    const count = document.getElementById("banCount");
+    const search = document.getElementById("banSearch");
+    const prevPage = document.getElementById("prevPage");
+    const nextPage = document.getElementById("nextPage");
+    const allBans = document.getElementById("allBans");
+    const pageStatus = document.getElementById("banPageStatus");
+    const pageSize = 18;
+    let bans = [];
+    let filteredBans = [];
+    let currentPage = 0;
+    let showingAll = false;
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char]));
+    }
+
+    function formatUnbanTime(ban) {
+      const value = ban.unbanTime || ban.unban || ban.expiresAt || ban.expires;
+      if (!value) return "Unknown";
+      if (/permanent/i.test(String(value))) return "Never";
+
+      const date = new Date(value);
+      if (!Number.isNaN(date.getTime())) {
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+        const year = String(date.getFullYear()).slice(-2);
+        return `${month}-${day}-${year}`;
+      }
+
+      return String(value);
+    }
+
+    function formatBanLength(ban) {
+      return ban.banLength || ban.length || ban.duration || ban.expires || "Permanent";
+    }
+
+    function render() {
+      const total = filteredBans.length;
+      const start = showingAll ? 0 : currentPage * pageSize;
+      const pageItems = showingAll ? filteredBans : filteredBans.slice(start, start + pageSize);
+      const pageCount = Math.max(1, Math.ceil(total / pageSize));
+
+      count.textContent = `${total} banned ${total === 1 ? "user" : "users"}`;
+      prevPage.disabled = showingAll || currentPage === 0;
+      nextPage.disabled = showingAll || currentPage >= pageCount - 1;
+
+      if (!total) {
+        rows.innerHTML = '<tr class="ban-empty-row"><td colspan="5">No bans found.</td></tr>';
+        pageStatus.textContent = "Showing 0 bans";
+        return;
+      }
+
+      rows.innerHTML = pageItems.map(ban => {
+        const name = escapeHtml(ban.name || "Unknown Player");
+        const steamid = escapeHtml(ban.steamid || "Unknown SteamID");
+        const reason = escapeHtml(ban.reason || "No reason provided");
+        const bannedBy = escapeHtml(ban.bannedBy || "Staff");
+        const bannedById = escapeHtml(ban.bannedBySteamId || ban.adminSteamid || ban.adminSteamID || "");
+        const length = escapeHtml(formatBanLength(ban));
+        const unbanTime = escapeHtml(formatUnbanTime(ban));
+        const antiCheat = /anti[-\s]?cheat|console/i.test(`${bannedBy} ${reason}`) && /cheat|lua|integrity/i.test(reason);
+
+        return `
+          <tr>
+            <td class="ban-player"><span class="ban-main">${name}</span> <span class="ban-sub">(${steamid})</span></td>
+            <td class="ban-admin"><span class="ban-main">${bannedBy}${antiCheat ? '<span class="ban-tag">Anti-Cheat</span>' : ''}</span>${bannedById ? ` <span class="ban-sub">(${bannedById})</span>` : ""}</td>
+            <td class="ban-reason-cell">${reason}</td>
+            <td>${length}</td>
+            <td>${unbanTime}</td>
+          </tr>
+        `;
+      }).join("");
+
+      if (showingAll) {
+        pageStatus.textContent = `Showing all ${total} bans`;
+      } else {
+        pageStatus.textContent = `Showing ${start + 1}-${Math.min(start + pageSize, total)} of ${total} bans`;
+      }
+    }
+
+    function applyFilter() {
+      const term = search.value.trim().toLowerCase();
+      filteredBans = !term ? bans : bans.filter(ban => [
+        ban.name,
+        ban.steamid,
+        ban.reason,
+        ban.bannedBy,
+        ban.bannedBySteamId,
+        ban.adminSteamid,
+        ban.adminSteamID,
+        ban.expires,
+        ban.banLength,
+        ban.unbanTime
+      ].some(value => String(value || "").toLowerCase().includes(term)));
+      currentPage = 0;
+      showingAll = false;
+      render();
+    }
+
+    fetch("/api/bans", { cache: "no-store" })
+      .then(response => response.ok ? response.json() : fetch("api/bans.json", { cache: "no-store" }).then(fallback => fallback.ok ? fallback.json() : fallbackBans))
+      .then(data => {
+        bans = Array.isArray(data) ? data : fallbackBans;
+        filteredBans = bans;
+        render();
+      })
+      .catch(() => {
+        bans = fallbackBans;
+        filteredBans = bans;
+        render();
+      });
+
+    search.addEventListener("input", applyFilter);
+    prevPage.addEventListener("click", () => {
+      currentPage = Math.max(0, currentPage - 1);
+      showingAll = false;
+      render();
+    });
+    nextPage.addEventListener("click", () => {
+      currentPage += 1;
+      showingAll = false;
+      render();
+    });
+    allBans.addEventListener("click", () => {
+      showingAll = true;
+      render();
+    });
+  </script>
+</body>
+</html>
