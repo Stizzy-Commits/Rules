@@ -1242,5 +1242,240 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-06-20T18:34:19.575Z"
+  },
+  "76561197961551415": {
+    "steamid64": "76561197961551415",
+    "steamid": "STEAM_0:1:642843",
+    "name": "ossama johnladen",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 120922,
+    "leveling": {
+      "level": 46,
+      "xp": 130111,
+      "currentXp": 11341,
+      "requiredXp": 12026,
+      "maxLevel": 100,
+      "progress": 0.9430255352447325
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 23004155,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 1,
+          "name": "#weapon_smg1",
+          "type": "spawned_weapon",
+          "class": "weapon_smg1",
+          "model": "models/weapons/w_smg1.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_weapon_smg1_models-weapons-w_smg1.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "2": {
+          "slot": 2,
+          "amount": 8,
+          "name": "Advanced Keypad Cracker",
+          "type": "spawned_weapon",
+          "class": "bkeypads_advanced_cracker",
+          "model": "models/bkeypads/cracker.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_bkeypads_advanced_cracker_models-bkeypads-cracker.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "3": {
+          "slot": 3,
+          "amount": 2,
+          "name": "M60 Machine Gun",
+          "type": "spawned_weapon",
+          "class": "m9k_m60",
+          "model": "models/weapons/w_m60_machine_gun.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m60_models-weapons-w_m60_machine_gun.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "4": {
+          "slot": 4,
+          "amount": 8,
+          "name": "Intervention",
+          "type": "spawned_weapon",
+          "class": "m9k_intervention",
+          "model": "models/weapons/w_snip_int.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_intervention_models-weapons-w_snip_int.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "5": {
+          "slot": 5,
+          "amount": 7,
+          "name": "M60 Machine Gun",
+          "type": "spawned_weapon",
+          "class": "m9k_m60",
+          "model": "models/weapons/w_m60_machine_gun.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m60_models-weapons-w_m60_machine_gun.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "6": {
+          "slot": 6,
+          "amount": 8,
+          "name": "Frag Grenade",
+          "type": "spawned_weapon",
+          "class": "m9k_m61_frag",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m61_frag_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "7": {
+          "slot": 7,
+          "amount": 7,
+          "name": "Frag Grenade",
+          "type": "spawned_weapon",
+          "class": "m9k_m61_frag",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m61_frag_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "8": {
+          "slot": 8,
+          "amount": 7,
+          "name": "Frag Grenade",
+          "type": "spawned_weapon",
+          "class": "m9k_m61_frag",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m61_frag_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "9": {
+          "slot": 9,
+          "amount": 10,
+          "name": "AK-47",
+          "type": "spawned_weapon",
+          "class": "m9k_ak47",
+          "model": "models/weapons/w_ak47_m9k.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ak47_models-weapons-w_ak47_m9k.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "10": {
+          "slot": 10,
+          "amount": 10,
+          "name": "AK-47",
+          "type": "spawned_weapon",
+          "class": "m9k_ak47",
+          "model": "models/weapons/w_ak47_m9k.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ak47_models-weapons-w_ak47_m9k.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "11": {
+          "slot": 11,
+          "amount": 8,
+          "name": "Striker 12",
+          "type": "spawned_weapon",
+          "class": "m9k_striker12",
+          "model": "models/weapons/w_striker_12g.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_striker12_models-weapons-w_striker_12g.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "12": {
+          "slot": 12,
+          "amount": 1,
+          "name": "HK MP7",
+          "type": "spawned_weapon",
+          "class": "m9k_mp7",
+          "model": "models/weapons/w_mp7_silenced.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_mp7_models-weapons-w_mp7_silenced.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "13": {
+          "slot": 13,
+          "amount": 10,
+          "name": "FAMAS",
+          "type": "spawned_weapon",
+          "class": "m9k_famas",
+          "model": "models/weapons/w_tct_famas.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_famas_models-weapons-w_tct_famas.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        }
+      },
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-20T19:13:41.476Z"
   }
 }
