@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" color-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Map | OldSchool RP</title>
+
+  <style>
+    :root {
+      --neutral-50: 244, 244, 244;
+      --neutral-100: 232, 232, 232;
+      --neutral-200: 198, 198, 198;
+      --neutral-300: 164, 164, 164;
+      --neutral-400: 96, 96, 96;
+      --neutral-500: 28, 28, 28;
+      --neutral-600: 25, 25, 25;
+      --neutral-700: 21, 21, 21;
+      --neutral-800: 17, 17, 17;
+      --neutral-900: 14, 14, 14;
+      --danger-600: 230, 0, 0;
+      --bg: rgb(var(--neutral-900));
+      --ring: rgba(var(--neutral-200), 0.06);
+      --ring-strong: rgba(var(--neutral-200), 0.12);
+      --text: rgb(var(--neutral-100));
+      --muted: rgb(var(--neutral-400));
+      --accent: rgb(var(--danger-600));
+      --max: 1600px;
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+      background: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      background: rgb(var(--neutral-900));
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: url("imgs/noise.png");
+      background-size: 220px 220px;
+      opacity: 0.028;
+      mix-blend-mode: screen;
+      z-index: 1;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .site {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      position: relative;
+      z-index: 30;
+      width: 100%;
+      border-bottom: 1px solid var(--ring);
+      background: rgba(var(--neutral-900), 0.72);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand,
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-width: 0;
+    }
+
+    .nav-links a {
+      color: #bdbdbd;
+    }
+
+    .nav-links a:hover,
+    .nav-links .active {
+      color: #fff;
+    }
+
+    main {
+      flex: 1;
+      max-width: var(--max);
+      width: 100%;
+      margin: 0 auto;
+      padding: 34px 40px 96px;
+    }
+
+    .page-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      color: rgb(var(--neutral-100));
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-weight: 800;
+    }
+
+    .status {
+      color: var(--muted);
+      font-size: 0.8125rem;
+      line-height: 1.25rem;
+      text-align: right;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .panel {
+      overflow: hidden;
+      border-radius: 12px;
+      background: rgba(var(--neutral-900), 0.62);
+      border: 1px solid var(--ring);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.18), 0 8px 10px -6px rgba(0, 0, 0, 0.16);
+    }
+
+    .map-panel {
+      position: relative;
+      min-height: 520px;
+    }
+
+    .map-scroll {
+      overflow: auto;
+      max-height: calc(100vh - 190px);
+      background: #030303;
+    }
+
+    .map-stage {
+      position: relative;
+      width: 100%;
+      min-width: 900px;
+      line-height: 0;
+      user-select: none;
+    }
+
+    .map-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      filter: brightness(1.06) contrast(1.06) saturate(1.02);
+    }
+
+    .dot,
+    .cal-point {
+      position: absolute;
+      left: calc(var(--x) * 100%);
+      top: calc(var(--y) * 100%);
+      transform: translate(-50%, -50%);
+      pointer-events: auto;
+    }
+
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      background: #ff2d2d;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 4px rgba(230, 0, 0, 0.24), 0 8px 18px rgba(0, 0, 0, 0.55);
+    }
+
+    .dot::after {
+      content: attr(data-name);
+      position: absolute;
+      left: 50%;
+      bottom: 16px;
+      transform: translateX(-50%);
+      max-width: 180px;
+      padding: 4px 7px;
+      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.82);
+      color: #fff;
+      font-size: 11px;
+      line-height: 14px;
+      font-weight: 800;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      opacity: 0;
+      transition: opacity 120ms ease;
+    }
+
+    .dot:hover::after {
+      opacity: 1;
+    }
+
+    .cal-point {
+      min-width: 18px;
+      height: 18px;
+      padding: 0 5px;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(31, 111, 214, 0.90);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      font-size: 10px;
+      line-height: 18px;
+      font-weight: 900;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
+    }
+
+    .side {
+      display: grid;
+      gap: 14px;
+      position: sticky;
+      top: 18px;
+    }
+
+    .side-section {
+      padding: 16px;
+    }
+
+    .side-title {
+      margin: 0 0 12px;
+      color: #fff;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 800;
+    }
+
+    .field {
+      display: grid;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    label {
+      color: #a8a8a8;
+      font-size: 0.75rem;
+      line-height: 1rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    input,
+    select,
+    textarea,
+    button {
+      font: inherit;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      min-height: 38px;
+      border-radius: 8px;
+      border: 1px solid var(--ring-strong);
+      background: rgba(var(--neutral-800), 0.76);
+      color: #fff;
+      padding: 0 10px;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 88px;
+      padding: 10px;
+      resize: vertical;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .button-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    button {
+      min-height: 38px;
+      border-radius: 8px;
+      border: 0;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .primary {
+      background: rgba(var(--danger-600), 0.82);
+    }
+
+    .primary:hover {
+      background: rgba(var(--danger-600), 1);
+    }
+
+    .small {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 0.8125rem;
+      line-height: 1.25rem;
+    }
+
+    .player-list,
+    .point-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+      max-height: 240px;
+      overflow: auto;
+    }
+
+    .row {
+      display: grid;
+      gap: 2px;
+      padding: 9px 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.035);
+      border: 1px solid var(--ring);
+      color: #e8e8e8;
+      font-size: 0.8125rem;
+      line-height: 1.15rem;
+      font-weight: 800;
+    }
+
+    .row span {
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      border-top: 1px solid var(--ring);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 22px 40px;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 1000px) {
+      .nav-inner,
+      main,
+      .footer-inner {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .nav-links {
+        gap: 12px;
+      }
+
+      .nav-links a:not(.active) {
+        display: none;
+      }
+
+      .page-head {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .status {
+        text-align: left;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .side {
+        position: relative;
+        top: auto;
+      }
+
+      .map-scroll {
+        max-height: none;
+      }
+
+      .map-stage {
+        min-width: 720px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site">
+    <header class="navbar">
+      <div class="nav-inner">
+        <a class="brand" href="https://oldschoolroleplay.noclip.me/">OldSchool RP</a>
+        <nav class="nav-links">
+          <a href="index.html">Rules</a>
+          <a href="bans.html">Bans</a>
+          <a href="profile.html">Profile</a>
+          <a class="active" href="map.html">Map</a>
+          <a href="https://oldschoolroleplay.noclip.me/store">Store</a>
+          <a href="https://discordapp.com/invite/QrKf6xQH">Discord</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-head">
+        <div>
+          <h1>Live Map</h1>
+        </div>
+        <div class="status" id="status">Loading map...</div>
+      </div>
+
+      <div class="layout">
+        <section class="panel map-panel">
+          <div class="map-scroll">
+            <div class="map-stage" id="mapStage">
+              <img class="map-image" id="mapImage" src="assets/maps/rp_downtown_v4c_ug_v20008.jpg" alt="rp_downtown_v4c_ug_v20008 map overview" />
+              <div id="calibrationLayer"></div>
+              <div id="playerLayer"></div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="side">
+          <section class="panel side-section">
+            <h2 class="side-title">Connection</h2>
+            <div class="field">
+              <label for="apiBase">Worker URL</label>
+              <input id="apiBase" type="url" placeholder="https://oldschool-bans-sync.YOURNAME.workers.dev" />
+            </div>
+            <div class="field">
+              <label for="adminToken">Admin Token</label>
+              <input id="adminToken" type="password" placeholder="Optional for all players" autocomplete="off" />
+            </div>
+            <div class="button-row">
+              <button class="primary" id="saveConnection" type="button">Save</button>
+              <button id="refreshNow" type="button">Refresh</button>
+            </div>
+            <p class="small" id="connectionMode">Own-player mode uses Steam login. Admin mode uses the sync secret.</p>
+          </section>
+
+          <section class="panel side-section">
+            <h2 class="side-title">Calibration</h2>
+            <div class="field">
+              <label for="pointSelect">Point</label>
+              <select id="pointSelect"></select>
+            </div>
+            <div class="button-row">
+              <button class="primary" id="enableCal" type="button">Click Point</button>
+              <button id="clearCal" type="button">Clear</button>
+            </div>
+            <p class="small" id="calStatus">Need 3 linked points.</p>
+            <div class="point-list" id="pointList"></div>
+          </section>
+
+          <section class="panel side-section">
+            <h2 class="side-title">Players</h2>
+            <div class="player-list" id="playerList"></div>
+          </section>
+
+          <section class="panel side-section">
+            <h2 class="side-title">Backup</h2>
+            <textarea id="backupBox" spellcheck="false"></textarea>
+            <div class="button-row">
+              <button id="exportCal" type="button">Export</button>
+              <button id="importCal" type="button">Import</button>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>OldSchool RP Live Map</div>
+        <div>rp_downtown_v4c_ug_v20008</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const apiBaseInput = document.getElementById("apiBase");
+    const adminTokenInput = document.getElementById("adminToken");
+    const saveConnection = document.getElementById("saveConnection");
+    const refreshNow = document.getElementById("refreshNow");
+    const statusEl = document.getElementById("status");
+    const connectionMode = document.getElementById("connectionMode");
+    const mapStage = document.getElementById("mapStage");
+    const pointSelect = document.getElementById("pointSelect");
+    const enableCal = document.getElementById("enableCal");
+    const clearCal = document.getElementById("clearCal");
+    const calStatus = document.getElementById("calStatus");
+    const pointList = document.getElementById("pointList");
+    const playerList = document.getElementById("playerList");
+    const playerLayer = document.getElementById("playerLayer");
+    const calibrationLayer = document.getElementById("calibrationLayer");
+    const backupBox = document.getElementById("backupBox");
+    const exportCal = document.getElementById("exportCal");
+    const importCal = document.getElementById("importCal");
+
+    const STORE_API = "oldschoolMapApiBase";
+    const STORE_TOKEN = "oldschoolMapAdminToken";
+    const STORE_IMAGE_POINTS = "oldschoolMapImagePoints";
+    let worldPoints = {};
+    let imagePoints = readJson(STORE_IMAGE_POINTS, {});
+    let players = [];
+    let calibrationArmed = false;
+    let transform = null;
+
+    apiBaseInput.value = localStorage.getItem(STORE_API) || "";
+    adminTokenInput.value = localStorage.getItem(STORE_TOKEN) || "";
+
+    function readJson(key, fallback) {
+      try {
+        return JSON.parse(localStorage.getItem(key) || "");
+      } catch {
+        return fallback;
+      }
+    }
+
+    function saveImagePoints() {
+      localStorage.setItem(STORE_IMAGE_POINTS, JSON.stringify(imagePoints));
+    }
+
+    function apiBase() {
+      return apiBaseInput.value.trim().replace(/\/+$/, "");
+    }
+
+    function apiUrl(path) {
+      return `${apiBase()}${path}`;
+    }
+
+    function authHeaders() {
+      const token = adminTokenInput.value.trim();
+      return token ? { Authorization: `Bearer ${token}` } : {};
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char]));
+    }
+
+    function solve3(matrix, vector) {
+      const m = matrix.map((row, index) => [...row, vector[index]]);
+      for (let col = 0; col < 3; col += 1) {
+        let pivot = col;
+        for (let row = col + 1; row < 3; row += 1) {
+          if (Math.abs(m[row][col]) > Math.abs(m[pivot][col])) pivot = row;
+        }
+        if (Math.abs(m[pivot][col]) < 1e-9) return null;
+        [m[col], m[pivot]] = [m[pivot], m[col]];
+        const div = m[col][col];
+        for (let k = col; k < 4; k += 1) m[col][k] /= div;
+        for (let row = 0; row < 3; row += 1) {
+          if (row === col) continue;
+          const factor = m[row][col];
+          for (let k = col; k < 4; k += 1) m[row][k] -= factor * m[col][k];
+        }
+      }
+      return [m[0][3], m[1][3], m[2][3]];
+    }
+
+    function buildTransform() {
+      const pairs = Object.entries(worldPoints)
+        .filter(([label]) => imagePoints[label])
+        .map(([label, point]) => ({
+          world: point.world,
+          image: imagePoints[label]
+        }));
+
+      if (pairs.length < 3) return null;
+
+      const normal = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+      const bx = [0, 0, 0];
+      const by = [0, 0, 0];
+
+      for (const pair of pairs) {
+        const row = [Number(pair.world.x), Number(pair.world.y), 1];
+        for (let r = 0; r < 3; r += 1) {
+          bx[r] += row[r] * pair.image.x;
+          by[r] += row[r] * pair.image.y;
+          for (let c = 0; c < 3; c += 1) normal[r][c] += row[r] * row[c];
+        }
+      }
+
+      const xParams = solve3(normal, bx);
+      const yParams = solve3(normal, by);
+      if (!xParams || !yParams) return null;
+
+      return { x: xParams, y: yParams, pairCount: pairs.length };
+    }
+
+    function worldToMap(player) {
+      if (!transform) return null;
+      const x = transform.x[0] * player.x + transform.x[1] * player.y + transform.x[2];
+      const y = transform.y[0] * player.x + transform.y[1] * player.y + transform.y[2];
+      if (!Number.isFinite(x) || !Number.isFinite(y)) return null;
+      if (x < -0.1 || x > 1.1 || y < -0.1 || y > 1.1) return null;
+      return { x, y };
+    }
+
+    function renderCalibration() {
+      transform = buildTransform();
+      const linked = Object.keys(worldPoints).filter(label => imagePoints[label]).length;
+      calStatus.textContent = transform ? `${transform.pairCount} linked points. Map dots enabled.` : `${linked}/3 linked points.`;
+
+      const labels = Object.keys(worldPoints).sort();
+      pointSelect.innerHTML = labels.length
+        ? labels.map(label => `<option value="${escapeHtml(label)}">${escapeHtml(worldPoints[label].title || label)}</option>`).join("")
+        : '<option value="">No points synced</option>';
+
+      pointList.innerHTML = labels.length ? labels.map(label => {
+        const point = worldPoints[label];
+        const img = imagePoints[label];
+        return `<div class="row">${escapeHtml(point.title || label)}<span>World ${Math.round(point.world.x)}, ${Math.round(point.world.y)}${img ? ` | Image ${(img.x * 100).toFixed(2)}%, ${(img.y * 100).toFixed(2)}%` : " | Click to place"}</span></div>`;
+      }).join("") : '<div class="row">No calibration points<span>Run oldschool_map_point plaza in-game.</span></div>';
+
+      calibrationLayer.innerHTML = labels
+        .filter(label => imagePoints[label])
+        .map(label => `<div class="cal-point" style="--x:${imagePoints[label].x};--y:${imagePoints[label].y};">${escapeHtml(label.slice(0, 2).toUpperCase())}</div>`)
+        .join("");
+
+      renderPlayers();
+    }
+
+    function renderPlayers() {
+      playerList.innerHTML = players.length ? players.map(player => {
+        return `<div class="row">${escapeHtml(player.name)}<span>${escapeHtml(player.job)} | ${Math.round(player.x)}, ${Math.round(player.y)}, ${Math.round(player.z)}</span></div>`;
+      }).join("") : '<div class="row">No players visible<span>Log in with Steam or use admin token.</span></div>';
+
+      playerLayer.innerHTML = players.map(player => {
+        const point = worldToMap(player);
+        if (!point) return "";
+        return `<div class="dot" style="--x:${point.x};--y:${point.y};" data-name="${escapeHtml(player.name)}"></div>`;
+      }).join("");
+    }
+
+    async function loadCalibration() {
+      try {
+        const response = await fetch(apiUrl("/api/map/calibration"), { cache: "no-store" });
+        const data = response.ok ? await response.json() : { points: {} };
+        worldPoints = data.points && typeof data.points === "object" ? data.points : {};
+      } catch {
+        worldPoints = {};
+      }
+      renderCalibration();
+    }
+
+    async function loadPlayers() {
+      const token = adminTokenInput.value.trim();
+      const all = token ? "?all=1" : "";
+      connectionMode.textContent = token ? "Admin mode: showing every synced player." : "Own-player mode: showing only your Steam session.";
+
+      try {
+        const response = await fetch(apiUrl(`/api/map/players${all}`), {
+          cache: "no-store",
+          credentials: "include",
+          headers: authHeaders()
+        });
+        const data = response.ok ? await response.json() : { players: [] };
+        players = Array.isArray(data.players) ? data.players : [];
+        const when = data.updatedAt ? new Date(data.updatedAt).toLocaleTimeString() : "never";
+        statusEl.textContent = `${players.length} visible player${players.length === 1 ? "" : "s"} | updated ${when}`;
+      } catch {
+        players = [];
+        statusEl.textContent = "Map API unavailable";
+      }
+
+      renderPlayers();
+    }
+
+    function saveConnectionState() {
+      localStorage.setItem(STORE_API, apiBaseInput.value.trim());
+      localStorage.setItem(STORE_TOKEN, adminTokenInput.value.trim());
+      loadCalibration();
+      loadPlayers();
+    }
+
+    mapStage.addEventListener("click", event => {
+      if (!calibrationArmed) return;
+      const label = pointSelect.value;
+      if (!label) return;
+
+      const rect = mapStage.getBoundingClientRect();
+      imagePoints[label] = {
+        x: Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width)),
+        y: Math.max(0, Math.min(1, (event.clientY - rect.top) / rect.height))
+      };
+
+      calibrationArmed = false;
+      enableCal.textContent = "Click Point";
+      saveImagePoints();
+      renderCalibration();
+    });
+
+    enableCal.addEventListener("click", () => {
+      calibrationArmed = !calibrationArmed;
+      enableCal.textContent = calibrationArmed ? "Armed" : "Click Point";
+    });
+
+    clearCal.addEventListener("click", () => {
+      imagePoints = {};
+      saveImagePoints();
+      renderCalibration();
+    });
+
+    saveConnection.addEventListener("click", saveConnectionState);
+    refreshNow.addEventListener("click", () => {
+      loadCalibration();
+      loadPlayers();
+    });
+
+    exportCal.addEventListener("click", () => {
+      backupBox.value = JSON.stringify(imagePoints, null, 2);
+    });
+
+    importCal.addEventListener("click", () => {
+      try {
+        const parsed = JSON.parse(backupBox.value || "{}");
+        imagePoints = parsed && typeof parsed === "object" ? parsed : {};
+        saveImagePoints();
+        renderCalibration();
+      } catch {
+        calStatus.textContent = "Import failed.";
+      }
+    });
+
+    loadCalibration();
+    loadPlayers();
+    setInterval(loadPlayers, 10000);
+  </script>
+</body>
+</html>
