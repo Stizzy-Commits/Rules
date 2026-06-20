@@ -1295,16 +1295,16 @@
     "steamid64": "76561197961551415",
     "steamid": "STEAM_0:1:642843",
     "name": "ossama johnladen",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 124612,
+    "currentJob": "Hobo",
+    "currentModel": "models/player/corpse1.mdl",
+    "playtimeSeconds": 125083,
     "leveling": {
       "level": 46,
-      "xp": 130661,
-      "currentXp": 11891,
+      "xp": 130711,
+      "currentXp": 11941,
       "requiredXp": 12026,
       "maxLevel": 100,
-      "progress": 0.9887562419818944
+      "progress": 0.9929135789579999
     },
     "warns": {
       "active": 0,
@@ -1317,7 +1317,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25019979,
+      "currency": 25020019,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1510,20 +1510,68 @@
     },
     "jobs": [
       {
+        "seconds": 300,
+        "model": "models/player/mechanic.mdl",
+        "name": "Mechanic",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/corpse1.mdl",
+        "name": "Hobo",
+        "iconKey": "profile_model_face_models-player-corpse1.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/alyx.mdl",
+        "name": "News Reporter",
+        "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/barney.mdl",
+        "name": "Casino Manager",
+        "iconKey": "profile_model_face_models-player-barney.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 300,
+        "model": "models/player/mechanic.mdl",
+        "name": "models/player/mechanic.mdl",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/alyx.mdl",
+        "name": "models/player/alyx.mdl",
+        "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/barney.mdl",
+        "name": "models/player/barney.mdl",
+        "iconKey": "profile_model_face_models-player-barney.mdl"
+      },
       {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/corpse1.mdl",
+        "name": "models/player/corpse1.mdl",
+        "iconKey": "profile_model_face_models-player-corpse1.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T22:18:15.296Z"
+    "updatedAt": "2026-06-20T22:26:06.004Z"
   }
 }
