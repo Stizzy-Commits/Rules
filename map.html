@@ -510,16 +510,12 @@
               <label for="apiBase">Worker URL</label>
               <input id="apiBase" type="url" placeholder="https://oldschool-bans-sync.mnstizzy.workers.dev" />
             </div>
-            <div class="field">
-              <label for="adminToken">Admin Token</label>
-              <input id="adminToken" type="password" placeholder="Optional for all players" autocomplete="off" />
-            </div>
             <div class="button-row">
               <button class="primary" id="saveConnection" type="button">Save</button>
               <button id="refreshNow" type="button">Refresh</button>
             </div>
             <button class="steam-button" id="steamLogin" type="button">Sign in with Steam</button>
-            <p class="small" id="connectionMode">Own-player mode uses Steam login. Admin mode uses the sync secret.</p>
+            <p class="small" id="connectionMode">Sign in with Steam to see your live position.</p>
           </section>
 
           <section class="panel side-section">
@@ -563,7 +559,6 @@
 
   <script>
     const apiBaseInput = document.getElementById("apiBase");
-    const adminTokenInput = document.getElementById("adminToken");
     const saveConnection = document.getElementById("saveConnection");
     const refreshNow = document.getElementById("refreshNow");
     const steamLogin = document.getElementById("steamLogin");
@@ -585,7 +580,6 @@
 
     const DEFAULT_API_BASE = "https://oldschool-bans-sync.mnstizzy.workers.dev";
     const STORE_API = "oldschoolMapApiBase";
-    const STORE_TOKEN = "oldschoolMapAdminToken";
     const STORE_IMAGE_POINTS = "oldschoolMapImagePoints";
     const MAP_VIEW = {
       rotation: -1.9,
@@ -598,7 +592,6 @@
     let transform = null;
 
     apiBaseInput.value = localStorage.getItem(STORE_API) || DEFAULT_API_BASE;
-    adminTokenInput.value = localStorage.getItem(STORE_TOKEN) || "";
 
     function readJson(key, fallback) {
       try {
@@ -621,11 +614,6 @@
 
     function apiUrl(path) {
       return `${apiBase()}${path}`;
-    }
-
-    function authHeaders() {
-      const token = adminTokenInput.value.trim();
-      return token ? { Authorization: `Bearer ${token}` } : {};
     }
 
     function escapeHtml(value) {
@@ -747,19 +735,31 @@
     }
 
     async function loadPlayers() {
-      const token = adminTokenInput.value.trim();
-      const all = token ? "?all=1" : "";
-      connectionMode.textContent = token ? "Admin mode: showing every synced player." : "Own-player mode: showing only your Steam session.";
-
       try {
-        const response = await fetch(apiUrl(`/api/map/players${all}`), {
+        let response = await fetch(apiUrl("/api/map/players"), {
           cache: "no-store",
-          credentials: "include",
-          headers: authHeaders()
+          credentials: "include"
         });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
+        let data = await response.json();
+        if (data.isMapAdmin) {
+          response = await fetch(apiUrl("/api/map/players?all=1"), {
+            cache: "no-store",
+            credentials: "include"
+          });
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          data = await response.json();
+        }
+
         players = Array.isArray(data.players) ? data.players : [];
+        if (!data.loggedIn) {
+          connectionMode.textContent = "Not signed in. Use Steam login to see your live position.";
+        } else if (data.isMapAdmin) {
+          connectionMode.textContent = "Steam admin mode: showing every synced player.";
+        } else {
+          connectionMode.textContent = "Steam user mode: showing your live position only.";
+        }
+
         const when = data.updatedAt ? new Date(data.updatedAt).toLocaleTimeString() : "never";
         statusEl.textContent = `${players.length} visible player${players.length === 1 ? "" : "s"} | updated ${when}`;
       } catch (error) {
@@ -773,16 +773,13 @@
     function saveConnectionState() {
       apiBaseInput.value = apiBase();
       localStorage.setItem(STORE_API, apiBaseInput.value);
-      localStorage.setItem(STORE_TOKEN, adminTokenInput.value.trim());
       loadCalibration();
       loadPlayers();
     }
 
     function startSteamLogin() {
       apiBaseInput.value = apiBase();
-      adminTokenInput.value = "";
       localStorage.setItem(STORE_API, apiBaseInput.value);
-      localStorage.removeItem(STORE_TOKEN);
       const next = new URL(window.location.href);
       next.hash = "";
       window.location.href = apiUrl(`/auth/steam/start?next=${encodeURIComponent(next.toString())}`);
