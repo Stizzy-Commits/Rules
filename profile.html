@@ -430,6 +430,13 @@
       text-transform: uppercase;
     }
 
+    .slot-icon {
+      max-width: 92%;
+      max-height: 92%;
+      object-fit: contain;
+      filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.45));
+    }
+
     .slot-model-path {
       max-width: 100%;
       color: rgba(var(--neutral-200), 0.48);
@@ -770,6 +777,12 @@
         .join("") || "?";
     }
 
+    function itemIconUrl(item) {
+      if (item.icon) return item.icon;
+      if (item.iconKey) return `api/item-icons/${encodeURIComponent(item.iconKey)}.png`;
+      return "";
+    }
+
     function slotTooltip(item) {
       const rows = [
         item.type,
@@ -788,13 +801,16 @@
       const name = item.name || "Unknown Item";
       const amount = Number(item.amount) || 1;
       const model = item.model || item.class || item.type || "";
+      const icon = itemIconUrl(item);
       return `
         <article class="inventory-slot filled" ${colorStyle(item)} aria-label="${escapeHtml(name)}">
           <span class="slot-accent"></span>
           ${item.equipped ? '<span class="slot-equipped" title="Equipped"></span>' : ""}
           ${amount > 1 ? `<span class="slot-amount">x${escapeHtml(amount)}</span>` : ""}
           <div class="slot-model">
-            ${model ? `<span class="slot-model-path">${escapeHtml(model)}</span>` : escapeHtml(itemInitials(name))}
+            ${icon
+              ? `<img class="slot-icon" src="${escapeHtml(icon)}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='-webkit-box';"><span class="slot-model-path" style="display:none;">${escapeHtml(model || itemInitials(name))}</span>`
+              : (model ? `<span class="slot-model-path">${escapeHtml(model)}</span>` : escapeHtml(itemInitials(name)))}
           </div>
           <p class="slot-name">${escapeHtml(name)}</p>
           ${slotTooltip(item)}
