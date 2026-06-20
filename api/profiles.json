@@ -729,7 +729,7 @@
     "name": "Sosa",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 249177,
+    "playtimeSeconds": 249472,
     "warns": {
       "active": 0,
       "total": 0,
@@ -741,7 +741,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585896,
+      "currency": 585916,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -890,8 +890,18 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-20T15:53:43.307Z"
+    "jobs": [
+      {
+        "name": "Citizen",
+        "seconds": 300
+      }
+    ],
+    "models": [
+      {
+        "name": "models/player/group01/male_01.mdl",
+        "seconds": 300
+      }
+    ],
+    "updatedAt": "2026-06-20T15:58:37.758Z"
   }
 }
