@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 110470,
+    "playtimeSeconds": 110770,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4149228,
+      "currency": 4148032,
       "slotCount": 0,
       "slots": {},
       "weapons": [],
@@ -69,16 +69,16 @@
     "jobs": [
       {
         "name": "Professional Grower",
-        "seconds": 960
+        "seconds": 1260
       }
     ],
     "models": [
       {
         "name": "models/player/fring/gus_suit.mdl",
-        "seconds": 960
+        "seconds": 1260
       }
     ],
-    "updatedAt": "2026-06-20T15:30:31.666Z"
+    "updatedAt": "2026-06-20T15:35:31.665Z"
   },
   "76561198249112348": {
     "steamid64": "76561198249112348",
