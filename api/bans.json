@@ -1,5 +1,14 @@
 [
   {
+    "name": "STEAM_0:1:123456",
+    "steamid": "STEAM_0:1:123456",
+    "reason": "live sync test",
+    "bannedBy": "Stizzy",
+    "bannedBySteamId": "",
+    "banLength": "2026-06-20 10:28:29",
+    "unbanTime": "2026-06-20 10:28:29"
+  },
+  {
     "name": "reme leader 049",
     "steamid": "STEAM_0:1:111835953",
     "reason": "Faggot",
