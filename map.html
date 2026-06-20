@@ -186,7 +186,10 @@
     .map-plane {
       position: relative;
       width: 100%;
-      transform: rotate(var(--map-rotation, 0deg));
+      transform:
+        translate(var(--map-pan-x, 0px), var(--map-pan-y, 0px))
+        rotate(var(--map-rotation, 0deg))
+        scale(var(--map-zoom, 1));
       transform-origin: center center;
       transition: transform 120ms ease;
     }
@@ -516,6 +519,18 @@
               <input id="mapRotation" type="range" min="-10" max="10" step="0.1" />
             </div>
             <div class="field">
+              <label for="mapZoom">Map Zoom <span id="mapZoomValue">1.00</span>x</label>
+              <input id="mapZoom" type="range" min="0.6" max="1.6" step="0.01" />
+            </div>
+            <div class="field">
+              <label for="mapPanX">Pan X <span id="mapPanXValue">0</span>px</label>
+              <input id="mapPanX" type="range" min="-320" max="320" step="1" />
+            </div>
+            <div class="field">
+              <label for="mapPanY">Pan Y <span id="mapPanYValue">0</span>px</label>
+              <input id="mapPanY" type="range" min="-320" max="320" step="1" />
+            </div>
+            <div class="field">
               <label for="pointSelect">Point</label>
               <select id="pointSelect"></select>
             </div>
@@ -563,6 +578,12 @@
     const mapPlane = document.getElementById("mapPlane");
     const mapRotation = document.getElementById("mapRotation");
     const mapRotationValue = document.getElementById("mapRotationValue");
+    const mapZoom = document.getElementById("mapZoom");
+    const mapZoomValue = document.getElementById("mapZoomValue");
+    const mapPanX = document.getElementById("mapPanX");
+    const mapPanXValue = document.getElementById("mapPanXValue");
+    const mapPanY = document.getElementById("mapPanY");
+    const mapPanYValue = document.getElementById("mapPanYValue");
     const pointSelect = document.getElementById("pointSelect");
     const enableCal = document.getElementById("enableCal");
     const clearCal = document.getElementById("clearCal");
@@ -580,6 +601,9 @@
     const STORE_TOKEN = "oldschoolMapAdminToken";
     const STORE_IMAGE_POINTS = "oldschoolMapImagePoints";
     const STORE_MAP_ROTATION = "oldschoolMapRotation";
+    const STORE_MAP_ZOOM = "oldschoolMapZoom";
+    const STORE_MAP_PAN_X = "oldschoolMapPanX";
+    const STORE_MAP_PAN_Y = "oldschoolMapPanY";
     let worldPoints = {};
     let imagePoints = readJson(STORE_IMAGE_POINTS, {});
     let players = [];
@@ -589,12 +613,27 @@
     apiBaseInput.value = localStorage.getItem(STORE_API) || DEFAULT_API_BASE;
     adminTokenInput.value = localStorage.getItem(STORE_TOKEN) || "";
     mapRotation.value = localStorage.getItem(STORE_MAP_ROTATION) || "0";
+    mapZoom.value = localStorage.getItem(STORE_MAP_ZOOM) || "1";
+    mapPanX.value = localStorage.getItem(STORE_MAP_PAN_X) || "0";
+    mapPanY.value = localStorage.getItem(STORE_MAP_PAN_Y) || "0";
 
-    function applyMapRotation() {
+    function applyMapView() {
       const degrees = Number(mapRotation.value) || 0;
+      const zoom = Math.max(0.6, Math.min(1.6, Number(mapZoom.value) || 1));
+      const panX = Number(mapPanX.value) || 0;
+      const panY = Number(mapPanY.value) || 0;
       mapPlane.style.setProperty("--map-rotation", `${degrees}deg`);
+      mapPlane.style.setProperty("--map-zoom", zoom);
+      mapPlane.style.setProperty("--map-pan-x", `${panX}px`);
+      mapPlane.style.setProperty("--map-pan-y", `${panY}px`);
       mapRotationValue.textContent = degrees.toFixed(1);
+      mapZoomValue.textContent = zoom.toFixed(2);
+      mapPanXValue.textContent = String(Math.round(panX));
+      mapPanYValue.textContent = String(Math.round(panY));
       localStorage.setItem(STORE_MAP_ROTATION, String(degrees));
+      localStorage.setItem(STORE_MAP_ZOOM, String(zoom));
+      localStorage.setItem(STORE_MAP_PAN_X, String(panX));
+      localStorage.setItem(STORE_MAP_PAN_Y, String(panY));
     }
 
     function readJson(key, fallback) {
@@ -784,11 +823,12 @@
       const width = mapPlane.offsetWidth;
       const height = mapPlane.offsetHeight;
       const degrees = Number(mapRotation.value) || 0;
+      const zoom = Math.max(0.6, Math.min(1.6, Number(mapZoom.value) || 1));
       const radians = degrees * Math.PI / 180;
       const dx = event.clientX - (rect.left + rect.width / 2);
       const dy = event.clientY - (rect.top + rect.height / 2);
-      const localX = (dx * Math.cos(radians) + dy * Math.sin(radians)) + width / 2;
-      const localY = (-dx * Math.sin(radians) + dy * Math.cos(radians)) + height / 2;
+      const localX = (dx * Math.cos(radians) + dy * Math.sin(radians)) / zoom + width / 2;
+      const localY = (-dx * Math.sin(radians) + dy * Math.cos(radians)) / zoom + height / 2;
       imagePoints[label] = {
         x: Math.max(0, Math.min(1, localX / width)),
         y: Math.max(0, Math.min(1, localY / height))
@@ -800,7 +840,10 @@
       renderCalibration();
     });
 
-    mapRotation.addEventListener("input", applyMapRotation);
+    mapRotation.addEventListener("input", applyMapView);
+    mapZoom.addEventListener("input", applyMapView);
+    mapPanX.addEventListener("input", applyMapView);
+    mapPanY.addEventListener("input", applyMapView);
 
     enableCal.addEventListener("click", () => {
       calibrationArmed = !calibrationArmed;
@@ -834,7 +877,7 @@
       }
     });
 
-    applyMapRotation();
+    applyMapView();
     loadCalibration();
     loadPlayers();
     setInterval(loadPlayers, 10000);
