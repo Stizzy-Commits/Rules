@@ -1,5 +1,14 @@
 [
   {
+    "name": "GMod Test",
+    "steamid": "STEAM_0:1:999999",
+    "reason": "Testing sync from server",
+    "bannedBy": "Console",
+    "bannedBySteamId": "",
+    "banLength": "Permanent",
+    "unbanTime": "Never"
+  },
+  {
     "name": "Test Player",
     "steamid": "STEAM_0:1:123456",
     "reason": "Worker test",
