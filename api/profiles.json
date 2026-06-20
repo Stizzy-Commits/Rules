@@ -299,9 +299,9 @@
     "steamid64": "76561198318712668",
     "steamid": "STEAM_0:0:179223470",
     "name": "tort",
-    "currentJob": "Meth Cook",
-    "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 56276,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 56534,
     "warns": {
       "active": 0,
       "total": 0,
@@ -313,7 +313,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1234481,
+      "currency": 1234521,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -504,19 +504,9 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "name": "Meth Cook",
-        "seconds": 300
-      }
-    ],
-    "models": [
-      {
-        "name": "models/walter_white/walter_white.mdl",
-        "seconds": 300
-      }
-    ],
-    "updatedAt": "2026-06-20T15:46:57.961Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T16:31:54.408Z"
   },
   "76561198120592615": {
     "steamid64": "76561198120592615",
