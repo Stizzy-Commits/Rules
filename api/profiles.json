@@ -465,9 +465,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "Burrito",
-    "currentModel": "models/props_junk/cardboardbox.mdl",
-    "playtimeSeconds": 247335,
+    "currentJob": "Elite Seller",
+    "currentModel": "models/player/riot.mdl",
+    "playtimeSeconds": 247635,
     "warns": {
       "active": 0,
       "total": 0,
@@ -479,7 +479,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585466,
+      "currency": 585521,
       "weapons": [
         {
           "amount": 1,
@@ -562,7 +562,11 @@
     "jobs": [
       {
         "name": "Burrito",
-        "seconds": 180
+        "seconds": 240
+      },
+      {
+        "name": "Elite Seller",
+        "seconds": 240
       },
       {
         "name": "Professional Grower",
@@ -575,8 +579,12 @@
     ],
     "models": [
       {
+        "name": "models/player/riot.mdl",
+        "seconds": 240
+      },
+      {
         "name": "models/props_junk/cardboardbox.mdl",
-        "seconds": 180
+        "seconds": 240
       },
       {
         "name": "models/player/fring/gus_suit.mdl",
@@ -587,6 +595,6 @@
         "seconds": 60
       }
     ],
-    "updatedAt": "2026-06-20T15:20:33.455Z"
+    "updatedAt": "2026-06-20T15:25:33.392Z"
   }
 }
