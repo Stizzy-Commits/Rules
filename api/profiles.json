@@ -412,5 +412,155 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-06-20T15:12:42.958Z"
+  },
+  "76561198043370754": {
+    "steamid64": "76561198043370754",
+    "steamid": "STEAM_0:0:41552513",
+    "name": "Sosa",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 247034,
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 345466,
+      "weapons": [
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_davy_crockett",
+          "name": "Davy Crockett",
+          "model": "models/weapons/w_RL7.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_nitro",
+          "name": "Nitro Glycerine",
+          "model": "models/weapons/w_nitro.mdl"
+        },
+        {
+          "amount": 2,
+          "meta": "x2 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_ied_detonator",
+          "name": "IED Detonator",
+          "model": "models/weapons/w_camphon2.mdl"
+        },
+        {
+          "amount": 6,
+          "meta": "x6 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "name": "Nerve Gas",
+          "model": "models/weapons/w_grenade.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_matador",
+          "name": "Matador",
+          "model": "models/weapons/w_GDCW_MATADOR_RL.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_m202",
+          "name": "M202",
+          "model": "models/weapons/w_rocket_launcher.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_m79gl",
+          "name": "M79 GL",
+          "model": "models/weapons/w_m79_grenadelauncher.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - spawned_weapon",
+          "type": "spawned_weapon",
+          "class": "m9k_orbital_strike",
+          "name": "Orbital Strike Marker",
+          "model": "models/weapons/w_binos.mdl"
+        }
+      ],
+      "items": [
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_seed",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        },
+        {
+          "amount": 1,
+          "meta": "x1 - zgo2_weedblock",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "name": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl"
+        }
+      ],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-20T15:15:33.006Z"
   }
 }
