@@ -562,6 +562,29 @@
       background: rgba(0, 0, 0, 0.18);
     }
 
+    .list-content {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .profile-icon {
+      width: 44px;
+      height: 44px;
+      flex: 0 0 auto;
+      object-fit: cover;
+      object-position: center 18%;
+      border-radius: 6px;
+      border: 1px solid rgba(var(--neutral-200), 0.14);
+      background: rgba(0, 0, 0, 0.34);
+      filter: brightness(1.45) contrast(1.12) saturate(1.05);
+    }
+
+    .profile-icon.is-hidden {
+      display: none;
+    }
+
     .list-main {
       margin: 0;
       font-size: 13px;
@@ -804,6 +827,12 @@
       return "";
     }
 
+    function profileModelIcon(row) {
+      const icon = itemIconUrl(row);
+      if (!icon) return "";
+      return `<img class="profile-icon" src="${escapeHtml(icon)}" alt="" loading="lazy" onerror="this.classList.add('is-hidden');">`;
+    }
+
     function slotTooltip(item) {
       const rows = [
         item.type,
@@ -949,14 +978,20 @@
 
       renderList(jobList, profile.jobs || [], "Job tracking starts after the updated addon runs.", job => `
         <div class="list-row">
-          <div><p class="list-main">${escapeHtml(job.name || "Unknown")}</p><p class="list-sub">Tracked server-side while online.</p></div>
+          <div class="list-content">
+            ${profileModelIcon(job)}
+            <div><p class="list-main">${escapeHtml(job.name || "Unknown")}</p><p class="list-sub">${escapeHtml(job.model || "Tracked server-side while online.")}</p></div>
+          </div>
           <span class="pill">${escapeHtml(formatDuration(job.seconds))}</span>
         </div>
       `);
 
       renderList(modelList, profile.models || [], "Model tracking starts after the updated addon runs.", model => `
         <div class="list-row">
-          <div><p class="list-main">${escapeHtml(model.name || "Unknown model")}</p><p class="list-sub">Current model: ${escapeHtml(profile.currentModel || "Unknown")}</p></div>
+          <div class="list-content">
+            ${profileModelIcon(model)}
+            <div><p class="list-main">${escapeHtml(model.name || "Unknown model")}</p><p class="list-sub">Current model: ${escapeHtml(profile.currentModel || "Unknown")}</p></div>
+          </div>
           <span class="pill">${escapeHtml(formatDuration(model.seconds))}</span>
         </div>
       `);
