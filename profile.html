@@ -430,28 +430,30 @@
       text-transform: uppercase;
     }
 
-    .slot-model::before {
-      content: "";
-      position: absolute;
-      inset: 2px;
-      border-radius: 5px;
-      background:
-        radial-gradient(circle at 50% 42%, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.035) 46%, transparent 72%);
-      pointer-events: none;
-    }
-
     .slot-icon {
       position: relative;
       z-index: 1;
-      max-width: 92%;
-      max-height: 92%;
+      max-width: 96%;
+      max-height: 96%;
       object-fit: contain;
-      filter: brightness(2.25) contrast(1.18) saturate(1.08) drop-shadow(0 8px 12px rgba(0, 0, 0, 0.42));
-      opacity: 0.96;
+      filter:
+        brightness(3.15)
+        contrast(1.32)
+        saturate(1.1)
+        drop-shadow(0 0 1px rgba(255, 255, 255, 0.9))
+        drop-shadow(0 0 4px rgba(255, 255, 255, 0.28))
+        drop-shadow(0 8px 12px rgba(0, 0, 0, 0.48));
+      opacity: 1;
     }
 
     .inventory-slot:hover .slot-icon {
-      filter: brightness(2.55) contrast(1.2) saturate(1.12) drop-shadow(0 8px 14px rgba(0, 0, 0, 0.46));
+      filter:
+        brightness(3.45)
+        contrast(1.34)
+        saturate(1.12)
+        drop-shadow(0 0 1px rgba(255, 255, 255, 1))
+        drop-shadow(0 0 5px rgba(255, 255, 255, 0.34))
+        drop-shadow(0 8px 14px rgba(0, 0, 0, 0.5));
     }
 
     .slot-model-path {
