@@ -1,14 +1,5 @@
 [
   {
-    "name": "Example Player",
-    "steamid": "STEAM_0:1:00000000",
-    "reason": "Mass RDM",
-    "bannedBy": "Console",
-    "bannedBySteamId": "",
-    "banLength": "Permanent",
-    "unbanTime": "Never"
-  },
-  {
     "name": "CooldownBreaker",
     "steamid": "STEAM_0:0:11111111",
     "reason": "Repeated raid cooldown abuse",
