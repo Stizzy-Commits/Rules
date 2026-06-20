@@ -481,9 +481,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "BlackMarket Dealer",
-    "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 247935,
+    "currentJob": "Elite Seller",
+    "currentModel": "models/player/riot.mdl",
+    "playtimeSeconds": 248235,
     "warns": {
       "active": 0,
       "total": 0,
@@ -495,7 +495,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 585571,
+      "currency": 585621,
       "slotCount": 0,
       "slots": {},
       "weapons": [
@@ -579,15 +579,15 @@
     },
     "jobs": [
       {
-        "name": "Burrito",
-        "seconds": 240
+        "name": "BlackMarket Dealer",
+        "seconds": 420
       },
       {
         "name": "Elite Seller",
-        "seconds": 240
+        "seconds": 360
       },
       {
-        "name": "BlackMarket Dealer",
+        "name": "Burrito",
         "seconds": 240
       },
       {
@@ -605,15 +605,15 @@
     ],
     "models": [
       {
+        "name": "models/player/eli.mdl",
+        "seconds": 420
+      },
+      {
         "name": "models/player/riot.mdl",
-        "seconds": 240
+        "seconds": 360
       },
       {
         "name": "models/props_junk/cardboardbox.mdl",
-        "seconds": 240
-      },
-      {
-        "name": "models/player/eli.mdl",
         "seconds": 240
       },
       {
@@ -629,6 +629,6 @@
         "seconds": 60
       }
     ],
-    "updatedAt": "2026-06-20T15:30:33.394Z"
+    "updatedAt": "2026-06-20T15:35:33.417Z"
   }
 }
