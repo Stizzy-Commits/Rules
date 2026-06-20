@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 655949,
+    "currentJob": "Parkour",
+    "currentModel": "models/player/arctic.mdl",
+    "playtimeSeconds": 656176,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402714553,
+      "currency": 99402714593,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -727,6 +727,12 @@
     },
     "jobs": [
       {
+        "seconds": 240,
+        "model": "models/player/arctic.mdl",
+        "name": "Parkour",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
@@ -735,13 +741,19 @@
     ],
     "models": [
       {
+        "seconds": 240,
+        "model": "models/player/arctic.mdl",
+        "name": "models/player/arctic.mdl",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T22:17:17.075Z",
+    "updatedAt": "2026-06-20T22:21:03.319Z",
     "leveling": {
       "level": 44,
       "xp": 107260,
