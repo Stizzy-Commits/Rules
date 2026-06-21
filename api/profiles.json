@@ -825,7 +825,7 @@
     "name": "Sosa",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 258029,
+    "playtimeSeconds": 258329,
     "warns": {
       "active": 0,
       "total": 0,
@@ -837,7 +837,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 579941,
+      "currency": 580031,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -974,7 +974,7 @@
     },
     "jobs": [
       {
-        "seconds": 780,
+        "seconds": 1080,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -988,7 +988,7 @@
     ],
     "models": [
       {
-        "seconds": 780,
+        "seconds": 1080,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1000,14 +1000,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T14:44:20.953Z",
+    "updatedAt": "2026-06-21T14:49:20.926Z",
     "leveling": {
       "level": 35,
-      "xp": 41350,
-      "currentXp": 696,
+      "xp": 41400,
+      "currentXp": 746,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.16519201559360494
+      "progress": 0.1770533831730607
     }
   },
   "76561198083253627": {
