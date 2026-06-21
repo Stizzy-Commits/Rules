@@ -1411,14 +1411,14 @@
     "name": "ossama johnladen",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 133280,
+    "playtimeSeconds": 133578,
     "leveling": {
       "level": 47,
-      "xp": 132061,
-      "currentXp": 1264,
+      "xp": 132111,
+      "currentXp": 1314,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.09560152482986509
+      "progress": 0.0993809220808702
     },
     "warns": {
       "active": 0,
@@ -1431,7 +1431,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25021959,
+      "currency": 25022059,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1534,7 +1534,7 @@
         },
         "8": {
           "slot": 8,
-          "amount": 7,
+          "amount": 5,
           "name": "Frag Grenade",
           "type": "spawned_weapon",
           "class": "m9k_m61_frag",
@@ -1662,16 +1662,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
+        "seconds": 360,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/swat.mdl",
         "name": "S.W.A.T Sniper",
         "iconKey": "profile_model_face_models-player-swat.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
@@ -1700,10 +1700,10 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 120,
-        "model": "models/player/swat.mdl",
-        "name": "models/player/swat.mdl",
-        "iconKey": "profile_model_face_models-player-swat.mdl"
+        "seconds": 360,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 120,
@@ -1712,19 +1712,19 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       },
       {
+        "seconds": 120,
+        "model": "models/player/swat.mdl",
+        "name": "models/player/swat.mdl",
+        "iconKey": "profile_model_face_models-player-swat.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:15:08.461Z"
+    "updatedAt": "2026-06-21T01:20:04.652Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
