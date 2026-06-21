@@ -1865,5 +1865,58 @@
       }
     ],
     "updatedAt": "2026-06-21T03:25:07.177Z"
+  },
+  "76561199610282984": {
+    "steamid64": "76561199610282984",
+    "steamid": "STEAM_0:0:825008628",
+    "name": "billypopdog",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 120893,
+    "leveling": {
+      "level": 28,
+      "xp": 20150,
+      "currentXp": 18,
+      "requiredXp": 2163,
+      "maxLevel": 100,
+      "progress": 0.008556777026985419
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 7525674,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 1,
+          "name": "Scripted Weapon",
+          "type": "spawned_weapon",
+          "class": "ch_mining_jackhammer",
+          "model": "models/craphead_scripts/mining/w_jackhammer.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_ch_mining_jackhammer_models-craphead_scripts-mining-w_jackhammer.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        }
+      },
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-21T10:44:11.434Z"
   }
 }
