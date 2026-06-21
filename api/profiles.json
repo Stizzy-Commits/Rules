@@ -1423,14 +1423,14 @@
     "name": "john",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 136310,
+    "playtimeSeconds": 136610,
     "leveling": {
       "level": 47,
-      "xp": 132511,
-      "currentXp": 1714,
+      "xp": 132561,
+      "currentXp": 1764,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.12961610008891103
+      "progress": 0.13339549733991612
     },
     "warns": {
       "active": 0,
@@ -1443,7 +1443,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24022459,
+      "currency": 24022499,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1636,16 +1636,16 @@
     },
     "jobs": [
       {
+        "seconds": 3300,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 3120,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 3000,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 2220,
@@ -1674,16 +1674,16 @@
     ],
     "models": [
       {
+        "seconds": 3240,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 3120,
         "model": "models/player/riot.mdl",
         "name": "models/player/riot.mdl",
         "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 2940,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 2100,
@@ -1722,7 +1722,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:10:04.639Z"
+    "updatedAt": "2026-06-21T03:15:04.633Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
