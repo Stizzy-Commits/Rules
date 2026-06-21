@@ -1331,7 +1331,7 @@
     "name": "john the best",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 137556,
+    "playtimeSeconds": 137696,
     "leveling": {
       "level": 47,
       "xp": 132711,
@@ -1358,7 +1358,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24022619,
+      "currency": 24022639,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1549,9 +1549,23 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-21T03:35:26.425Z"
+    "jobs": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-21T03:37:47.330Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
