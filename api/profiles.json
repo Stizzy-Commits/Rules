@@ -1261,7 +1261,7 @@
     "name": "john the best",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 138367,
+    "playtimeSeconds": 138451,
     "leveling": {
       "level": 47,
       "xp": 132811,
@@ -1481,7 +1481,7 @@
     },
     "jobs": [
       {
-        "seconds": 360,
+        "seconds": 480,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1489,7 +1489,7 @@
     ],
     "models": [
       {
-        "seconds": 300,
+        "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1501,7 +1501,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T20:29:51.606Z"
+    "updatedAt": "2026-06-21T20:31:16.582Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
