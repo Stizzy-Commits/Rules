@@ -1660,14 +1660,14 @@
     "name": "Egg",
     "currentJob": "Hitman",
     "currentModel": "models/player/leet.mdl",
-    "playtimeSeconds": 1488,
+    "playtimeSeconds": 1788,
     "leveling": {
       "level": 1,
-      "xp": 200,
-      "currentXp": 50,
+      "xp": 250,
+      "currentXp": 100,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.30303030303030304
+      "progress": 0.6060606060606061
     },
     "warns": {
       "active": 0,
@@ -1680,7 +1680,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30060,
+      "currency": 30160,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1696,16 +1696,16 @@
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
       },
       {
+        "seconds": 420,
+        "model": "models/player/leet.mdl",
+        "name": "Hitman",
+        "iconKey": "profile_model_face_models-player-leet.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/kleiner.mdl",
         "name": "Fight Club Medic",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/leet.mdl",
-        "name": "Hitman",
-        "iconKey": "profile_model_face_models-player-leet.mdl"
       },
       {
         "seconds": 60,
@@ -1728,16 +1728,16 @@
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
       },
       {
+        "seconds": 420,
+        "model": "models/player/leet.mdl",
+        "name": "models/player/leet.mdl",
+        "iconKey": "profile_model_face_models-player-leet.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/kleiner.mdl",
         "name": "models/player/kleiner.mdl",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/leet.mdl",
-        "name": "models/player/leet.mdl",
-        "iconKey": "profile_model_face_models-player-leet.mdl"
       },
       {
         "seconds": 60,
@@ -1752,6 +1752,6 @@
         "iconKey": "profile_model_face_models-player-group03-female_05.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:50:08.627Z"
+    "updatedAt": "2026-06-21T00:55:08.639Z"
   }
 }
