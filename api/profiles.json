@@ -566,9 +566,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "S.W.A.T Sniper",
-    "currentModel": "models/player/swat.mdl",
-    "playtimeSeconds": 669413,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 669713,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402710313,
+      "currency": 99402710378,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -717,7 +717,7 @@
     },
     "jobs": [
       {
-        "seconds": 4800,
+        "seconds": 5040,
         "model": "models/player/swat.mdl",
         "name": "S.W.A.T Sniper",
         "iconKey": "profile_model_face_models-player-swat.mdl"
@@ -751,11 +751,17 @@
         "model": "models/player/kleiner.mdl",
         "name": "Medic",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 4800,
+        "seconds": 5040,
         "model": "models/player/swat.mdl",
         "name": "models/player/swat.mdl",
         "iconKey": "profile_model_face_models-player-swat.mdl"
@@ -792,19 +798,25 @@
       },
       {
         "seconds": 60,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 60,
         "model": "models/player/charple.mdl",
         "name": "models/player/charple.mdl",
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:20:02.675Z",
+    "updatedAt": "2026-06-21T02:25:02.735Z",
     "leveling": {
       "level": 45,
-      "xp": 109410,
-      "currentXp": 1574,
+      "xp": 109460,
+      "currentXp": 1624,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.14398536843723336
+      "progress": 0.14855843911094954
     }
   },
   "76561198043370754": {
