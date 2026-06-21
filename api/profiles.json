@@ -128,9 +128,9 @@
     "steamid64": "76561198249112348",
     "steamid": "STEAM_0:0:144423310",
     "name": "Stizzy",
-    "currentJob": "Medic",
-    "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 702691,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 703041,
     "warns": {
       "active": 0,
       "total": 0,
@@ -142,7 +142,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 85159,
+      "currency": 85239,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -291,48 +291,16 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 13260,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 2940,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 13260,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 2880,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/charple.mdl",
-        "name": "models/player/charple.mdl",
-        "iconKey": "profile_model_face_models-player-charple.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-21T03:25:01.055Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-21T03:34:28.086Z",
     "leveling": {
       "level": 45,
-      "xp": 110150,
-      "currentXp": 2314,
+      "xp": 110250,
+      "currentXp": 2414,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.2116668144082328
+      "progress": 0.22081295575566515
     }
   },
   "76561198318712668": {
