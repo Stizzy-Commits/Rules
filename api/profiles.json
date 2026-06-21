@@ -1827,17 +1827,17 @@
   "76561198719736626": {
     "steamid64": "76561198719736626",
     "steamid": "STEAM_0:0:379735449",
-    "name": "mamirrhill123",
+    "name": "supreme",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 2717,
+    "playtimeSeconds": 3017,
     "leveling": {
-      "level": 2,
-      "xp": 450,
-      "currentXp": 135,
-      "requiredXp": 181,
+      "level": 3,
+      "xp": 500,
+      "currentXp": 3,
+      "requiredXp": 199,
       "maxLevel": 100,
-      "progress": 0.7438016528925618
+      "progress": 0.017530678687703475
     },
     "warns": {
       "active": 0,
@@ -1850,7 +1850,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30625,
+      "currency": 30715,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1903,7 +1903,7 @@
     },
     "jobs": [
       {
-        "seconds": 2160,
+        "seconds": 2460,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1917,7 +1917,7 @@
     ],
     "models": [
       {
-        "seconds": 2160,
+        "seconds": 2460,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1929,6 +1929,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:15:06.957Z"
+    "updatedAt": "2026-06-21T03:20:08.364Z"
   }
 }
