@@ -1842,16 +1842,16 @@
     "steamid64": "76561198719736626",
     "steamid": "STEAM_0:0:379735449",
     "name": "mamirrhill123",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 317,
+    "currentJob": "Gun Dealer",
+    "currentModel": "models/player/monk.mdl",
+    "playtimeSeconds": 615,
     "leveling": {
       "level": 0,
-      "xp": 50,
-      "currentXp": 50,
+      "xp": 100,
+      "currentXp": 100,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0.3333333333333333
+      "progress": 0.6666666666666666
     },
     "warns": {
       "active": 0,
@@ -1864,7 +1864,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30020,
+      "currency": 30060,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1874,20 +1874,32 @@
     },
     "jobs": [
       {
-        "seconds": 360,
+        "seconds": 600,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/monk.mdl",
+        "name": "Gun Dealer",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 360,
+        "seconds": 600,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/monk.mdl",
+        "name": "models/player/monk.mdl",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:35:07.170Z"
+    "updatedAt": "2026-06-21T02:40:05.201Z"
   }
 }
