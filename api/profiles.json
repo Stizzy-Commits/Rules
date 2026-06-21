@@ -1844,14 +1844,14 @@
     "name": "mamirrhill123",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 30,
+    "playtimeSeconds": 317,
     "leveling": {
       "level": 0,
-      "xp": 0,
-      "currentXp": 0,
+      "xp": 50,
+      "currentXp": 50,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.3333333333333333
     },
     "warns": {
       "active": 0,
@@ -1864,7 +1864,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30000,
+      "currency": 30020,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1874,7 +1874,7 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 360,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -1882,12 +1882,12 @@
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 360,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:30:19.217Z"
+    "updatedAt": "2026-06-21T02:35:07.170Z"
   }
 }
