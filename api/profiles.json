@@ -1423,7 +1423,7 @@
     "name": "ossama johnladen",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 134006,
+    "playtimeSeconds": 134210,
     "leveling": {
       "level": 47,
       "xp": 132161,
@@ -1443,7 +1443,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25022179,
+      "currency": 25022199,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1662,16 +1662,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
+        "seconds": 900,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 720,
         "model": "models/player/gasmask.mdl",
         "name": "S.W.A.T Leader",
         "iconKey": "profile_model_face_models-player-gasmask.mdl"
-      },
-      {
-        "seconds": 660,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 480,
@@ -1700,16 +1700,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
+        "seconds": 840,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 720,
         "model": "models/player/gasmask.mdl",
         "name": "models/player/gasmask.mdl",
         "iconKey": "profile_model_face_models-player-gasmask.mdl"
-      },
-      {
-        "seconds": 600,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 480,
@@ -1719,15 +1719,15 @@
       },
       {
         "seconds": 120,
-        "model": "models/player/charple.mdl",
-        "name": "models/player/charple.mdl",
-        "iconKey": "profile_model_face_models-player-charple.mdl"
-      },
-      {
-        "seconds": 120,
         "model": "models/player/swat.mdl",
         "name": "models/player/swat.mdl",
         "iconKey": "profile_model_face_models-player-swat.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/charple.mdl",
+        "name": "models/player/charple.mdl",
+        "iconKey": "profile_model_face_models-player-charple.mdl"
       },
       {
         "seconds": 60,
@@ -1736,7 +1736,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:31:41.117Z"
+    "updatedAt": "2026-06-21T02:35:04.857Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
