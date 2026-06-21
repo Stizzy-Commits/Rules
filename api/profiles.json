@@ -843,7 +843,7 @@
     "name": "Sosa",
     "currentJob": "Elite Seller",
     "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 252233,
+    "playtimeSeconds": 252533,
     "warns": {
       "active": 0,
       "total": 0,
@@ -855,7 +855,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 586261,
+      "currency": 586371,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -1006,7 +1006,7 @@
     },
     "jobs": [
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
@@ -1026,7 +1026,7 @@
     ],
     "models": [
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/player/riot.mdl",
         "name": "models/player/riot.mdl",
         "iconKey": "profile_model_face_models-player-riot.mdl"
@@ -1044,14 +1044,14 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:00:03.449Z",
+    "updatedAt": "2026-06-21T00:05:03.458Z",
     "leveling": {
       "level": 34,
-      "xp": 40450,
-      "currentXp": 3628,
+      "xp": 40500,
+      "currentXp": 3678,
       "requiredXp": 3832,
       "maxLevel": 100,
-      "progress": 0.9468561390797408
+      "progress": 0.9599036434171422
     }
   },
   "76561198083253627": {
