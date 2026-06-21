@@ -568,7 +568,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 661612,
+    "playtimeSeconds": 661912,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402707508,
+      "currency": 99402707598,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -729,16 +729,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
+        "seconds": 840,
+        "model": "models/player/monk.mdl",
+        "name": "Gun Dealer",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
         "seconds": 780,
         "model": "models/player/gman_high.mdl",
         "name": "Mob Boss",
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/monk.mdl",
-        "name": "Gun Dealer",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
         "seconds": 180,
@@ -761,16 +761,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
+        "seconds": 840,
+        "model": "models/player/monk.mdl",
+        "name": "models/player/monk.mdl",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
         "seconds": 780,
         "model": "models/player/gman_high.mdl",
         "name": "models/player/gman_high.mdl",
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/monk.mdl",
-        "name": "models/player/monk.mdl",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
         "seconds": 180,
@@ -785,14 +785,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:10:01.539Z",
+    "updatedAt": "2026-06-21T00:15:01.429Z",
     "leveling": {
       "level": 45,
-      "xp": 108110,
-      "currentXp": 274,
+      "xp": 108160,
+      "currentXp": 324,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.025085530920612737
+      "progress": 0.029658601594328916
     }
   },
   "76561198043370754": {
