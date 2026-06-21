@@ -801,7 +801,7 @@
     "name": "Sosa",
     "currentJob": "Police Chief",
     "currentModel": "models/player/combine_soldier.mdl",
-    "playtimeSeconds": 254334,
+    "playtimeSeconds": 254634,
     "warns": {
       "active": 0,
       "total": 0,
@@ -813,7 +813,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 586906,
+      "currency": 587056,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -860,7 +860,7 @@
         },
         "4": {
           "slot": 4,
-          "amount": 2,
+          "amount": 1,
           "name": "IED Detonator",
           "type": "spawned_weapon",
           "class": "m9k_ied_detonator",
@@ -964,6 +964,12 @@
     },
     "jobs": [
       {
+        "seconds": 1020,
+        "model": "models/player/combine_soldier.mdl",
+        "name": "Police Chief",
+        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
+      },
+      {
         "seconds": 840,
         "model": "models/player/kleiner.mdl",
         "name": "Medic",
@@ -974,12 +980,6 @@
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 720,
-        "model": "models/player/combine_soldier.mdl",
-        "name": "Police Chief",
-        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
       },
       {
         "seconds": 420,
@@ -1008,6 +1008,12 @@
     ],
     "models": [
       {
+        "seconds": 1020,
+        "model": "models/player/combine_soldier.mdl",
+        "name": "models/player/combine_soldier.mdl",
+        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
+      },
+      {
         "seconds": 840,
         "model": "models/player/kleiner.mdl",
         "name": "models/player/kleiner.mdl",
@@ -1018,12 +1024,6 @@
         "model": "models/player/riot.mdl",
         "name": "models/player/riot.mdl",
         "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 720,
-        "model": "models/player/combine_soldier.mdl",
-        "name": "models/player/combine_soldier.mdl",
-        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
       },
       {
         "seconds": 420,
@@ -1050,14 +1050,14 @@
         "iconKey": "profile_model_face_models-player-urban.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:35:05.191Z",
+    "updatedAt": "2026-06-21T00:40:04.654Z",
     "leveling": {
       "level": 35,
-      "xp": 40800,
-      "currentXp": 146,
+      "xp": 40850,
+      "currentXp": 196,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.03471697221959146
+      "progress": 0.046578339799047234
     }
   },
   "76561198083253627": {
