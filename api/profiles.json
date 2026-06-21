@@ -1399,16 +1399,16 @@
     "steamid64": "76561197961551415",
     "steamid": "STEAM_0:1:642843",
     "name": "ossama johnladen",
-    "currentJob": "Elite Seller",
-    "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 132380,
+    "currentJob": "S.W.A.T Leader",
+    "currentModel": "models/player/gasmask.mdl",
+    "playtimeSeconds": 132680,
     "leveling": {
       "level": 47,
-      "xp": 131911,
-      "currentXp": 1114,
+      "xp": 131961,
+      "currentXp": 1164,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.08426333307684977
+      "progress": 0.08804273032785487
     },
     "warns": {
       "active": 0,
@@ -1421,7 +1421,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25021679,
+      "currency": 25021749,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1510,7 +1510,7 @@
         },
         "7": {
           "slot": 7,
-          "amount": 7,
+          "amount": 6,
           "name": "Frag Grenade",
           "type": "spawned_weapon",
           "class": "m9k_m61_frag",
@@ -1630,6 +1630,12 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/gasmask.mdl",
+        "name": "S.W.A.T Leader",
+        "iconKey": "profile_model_face_models-player-gasmask.mdl"
       }
     ],
     "models": [
@@ -1652,6 +1658,12 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
+        "seconds": 300,
+        "model": "models/player/gasmask.mdl",
+        "name": "models/player/gasmask.mdl",
+        "iconKey": "profile_model_face_models-player-gasmask.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/charple.mdl",
         "name": "models/player/charple.mdl",
@@ -1664,7 +1676,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:00:08.412Z"
+    "updatedAt": "2026-06-21T01:05:06.755Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
