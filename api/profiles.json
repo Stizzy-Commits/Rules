@@ -1830,14 +1830,14 @@
     "name": "mamirrhill123",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 2417,
+    "playtimeSeconds": 2717,
     "leveling": {
       "level": 2,
-      "xp": 400,
-      "currentXp": 85,
+      "xp": 450,
+      "currentXp": 135,
       "requiredXp": 181,
       "maxLevel": 100,
-      "progress": 0.46831955922865004
+      "progress": 0.7438016528925618
     },
     "warns": {
       "active": 0,
@@ -1850,9 +1850,23 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30535,
+      "currency": 30625,
       "slotCount": 20,
       "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 1,
+          "name": "HK MP7",
+          "type": "spawned_weapon",
+          "class": "m9k_mp7",
+          "model": "models/weapons/w_mp7_silenced.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_mp7_models-weapons-w_mp7_silenced.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
         "2": {
           "slot": 2,
           "amount": 1,
@@ -1889,7 +1903,7 @@
     },
     "jobs": [
       {
-        "seconds": 1860,
+        "seconds": 2160,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1903,7 +1917,7 @@
     ],
     "models": [
       {
-        "seconds": 1860,
+        "seconds": 2160,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1915,6 +1929,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:10:06.685Z"
+    "updatedAt": "2026-06-21T03:15:06.957Z"
   }
 }
