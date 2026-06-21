@@ -811,9 +811,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "S.W.A.T Medic",
-    "currentModel": "models/player/urban.mdl",
-    "playtimeSeconds": 256434,
+    "currentJob": "Terrorist",
+    "currentModel": "models/player/phoenix.mdl",
+    "playtimeSeconds": 256734,
     "warns": {
       "active": 0,
       "total": 0,
@@ -825,7 +825,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 587776,
+      "currency": 587891,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -897,20 +897,6 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
-        },
-        "6": {
-          "slot": 6,
-          "amount": 1,
-          "name": "Purble Haze 10x",
-          "type": "zgo2_seed",
-          "class": "dc9e13b176",
-          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "Some weed seeds."
         },
         "7": {
           "slot": 7,
@@ -1016,6 +1002,18 @@
         "model": "models/player/swat.mdl",
         "name": "S.W.A.T Sniper",
         "iconKey": "profile_model_face_models-player-swat.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/police.mdl",
+        "name": "Civil Protection",
+        "iconKey": "profile_model_face_models-player-police.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/phoenix.mdl",
+        "name": "Terrorist",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
     "models": [
@@ -1057,19 +1055,31 @@
       },
       {
         "seconds": 180,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
+      },
+      {
+        "seconds": 180,
         "model": "models/player/swat.mdl",
         "name": "models/player/swat.mdl",
         "iconKey": "profile_model_face_models-player-swat.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:10:07.090Z",
+    "updatedAt": "2026-06-21T01:15:07.011Z",
     "leveling": {
       "level": 35,
-      "xp": 41150,
-      "currentXp": 496,
+      "xp": 41200,
+      "currentXp": 546,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.11774654527578186
+      "progress": 0.12960791285523762
     }
   },
   "76561198083253627": {
