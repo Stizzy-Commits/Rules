@@ -568,7 +568,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 662212,
+    "playtimeSeconds": 662513,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402707688,
+      "currency": 99402707778,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -723,7 +723,7 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 1140,
+        "seconds": 1440,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -755,7 +755,7 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 1140,
+        "seconds": 1440,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -785,14 +785,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:20:02.770Z",
+    "updatedAt": "2026-06-21T00:25:02.658Z",
     "leveling": {
       "level": 45,
-      "xp": 108210,
-      "currentXp": 374,
+      "xp": 108260,
+      "currentXp": 424,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.03423167226804509
+      "progress": 0.03880474294176127
     }
   },
   "76561198043370754": {
