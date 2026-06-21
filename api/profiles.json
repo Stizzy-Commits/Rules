@@ -130,7 +130,7 @@
     "name": "Stizzy",
     "currentJob": "Medic",
     "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 692191,
+    "playtimeSeconds": 692491,
     "warns": {
       "active": 0,
       "total": 0,
@@ -142,7 +142,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 82559,
+      "currency": 82599,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -293,30 +293,30 @@
     },
     "jobs": [
       {
+        "seconds": 3060,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
         "seconds": 2940,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 2760,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 3060,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
       {
         "seconds": 2880,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 2760,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 60,
@@ -325,14 +325,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:30:00.773Z",
+    "updatedAt": "2026-06-21T00:35:01.062Z",
     "leveling": {
       "level": 45,
-      "xp": 108400,
-      "currentXp": 564,
+      "xp": 108450,
+      "currentXp": 614,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.05160934082816657
+      "progress": 0.056182411501882745
     }
   },
   "76561198318712668": {
