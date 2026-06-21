@@ -1830,14 +1830,14 @@
     "name": "mamirrhill123",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 1815,
+    "playtimeSeconds": 2115,
     "leveling": {
-      "level": 1,
-      "xp": 300,
-      "currentXp": 150,
-      "requiredXp": 165,
+      "level": 2,
+      "xp": 350,
+      "currentXp": 35,
+      "requiredXp": 181,
       "maxLevel": 100,
-      "progress": 0.9090909090909091
+      "progress": 0.19283746556473827
     },
     "warns": {
       "active": 0,
@@ -1850,9 +1850,52 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30355,
+      "currency": 30445,
       "slotCount": 20,
-      "slots": {},
+      "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 1,
+          "name": "HK MP7",
+          "type": "spawned_weapon",
+          "class": "m9k_mp7",
+          "model": "models/weapons/w_mp7_silenced.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_mp7_models-weapons-w_mp7_silenced.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "2": {
+          "slot": 2,
+          "amount": 1,
+          "name": "M60 Machine Gun",
+          "type": "spawned_weapon",
+          "class": "m9k_m60",
+          "model": "models/weapons/w_m60_machine_gun.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m60_models-weapons-w_m60_machine_gun.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "3": {
+          "slot": 3,
+          "amount": 1,
+          "name": "Intervention",
+          "type": "spawned_weapon",
+          "class": "m9k_intervention",
+          "model": "models/weapons/w_snip_int.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_intervention_models-weapons-w_snip_int.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        }
+      },
       "weapons": [],
       "items": [],
       "vehicles": [],
@@ -1860,7 +1903,7 @@
     },
     "jobs": [
       {
-        "seconds": 1260,
+        "seconds": 1560,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1874,7 +1917,7 @@
     ],
     "models": [
       {
-        "seconds": 1260,
+        "seconds": 1560,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1886,6 +1929,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:00:04.660Z"
+    "updatedAt": "2026-06-21T03:05:07.140Z"
   }
 }
