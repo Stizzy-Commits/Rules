@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Mayor",
     "currentModel": "models/player/breen.mdl",
-    "playtimeSeconds": 675836,
+    "playtimeSeconds": 676136,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402596538,
+      "currency": 99402596738,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -729,7 +729,7 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
-        "seconds": 420,
+        "seconds": 720,
         "model": "models/player/breen.mdl",
         "name": "Mayor",
         "iconKey": "profile_model_face_models-player-breen.mdl"
@@ -767,10 +767,10 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 420,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+        "seconds": 720,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 420,
@@ -780,9 +780,9 @@
       },
       {
         "seconds": 420,
-        "model": "models/player/breen.mdl",
-        "name": "models/player/breen.mdl",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
         "seconds": 180,
@@ -797,14 +797,14 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T09:40:18.651Z",
+    "updatedAt": "2026-06-21T09:45:18.695Z",
     "leveling": {
       "level": 45,
-      "xp": 110410,
-      "currentXp": 2574,
+      "xp": 110460,
+      "currentXp": 2624,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.2354467819115569
+      "progress": 0.24001985258527309
     }
   },
   "76561198043370754": {
