@@ -801,7 +801,7 @@
     "name": "Sosa",
     "currentJob": "Police Chief",
     "currentModel": "models/player/combine_soldier.mdl",
-    "playtimeSeconds": 255234,
+    "playtimeSeconds": 255534,
     "warns": {
       "active": 0,
       "total": 0,
@@ -813,7 +813,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 587281,
+      "currency": 587431,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -964,7 +964,7 @@
     },
     "jobs": [
       {
-        "seconds": 1620,
+        "seconds": 1920,
         "model": "models/player/combine_soldier.mdl",
         "name": "Police Chief",
         "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
@@ -1008,7 +1008,7 @@
     ],
     "models": [
       {
-        "seconds": 1620,
+        "seconds": 1920,
         "model": "models/player/combine_soldier.mdl",
         "name": "models/player/combine_soldier.mdl",
         "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
@@ -1050,14 +1050,14 @@
         "iconKey": "profile_model_face_models-player-urban.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:50:05.145Z",
+    "updatedAt": "2026-06-21T00:55:04.632Z",
     "leveling": {
       "level": 35,
-      "xp": 40950,
-      "currentXp": 296,
+      "xp": 41000,
+      "currentXp": 346,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.07030107495795877
+      "progress": 0.08216244253741455
     }
   },
   "76561198083253627": {
