@@ -568,7 +568,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "S.W.A.T Sniper",
     "currentModel": "models/player/swat.mdl",
-    "playtimeSeconds": 664913,
+    "playtimeSeconds": 665213,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402708428,
+      "currency": 99402708558,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -741,7 +741,7 @@
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
       },
       {
-        "seconds": 300,
+        "seconds": 600,
         "model": "models/player/swat.mdl",
         "name": "S.W.A.T Sniper",
         "iconKey": "profile_model_face_models-player-swat.mdl"
@@ -779,7 +779,7 @@
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
       },
       {
-        "seconds": 300,
+        "seconds": 600,
         "model": "models/player/swat.mdl",
         "name": "models/player/swat.mdl",
         "iconKey": "profile_model_face_models-player-swat.mdl"
@@ -797,14 +797,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:05:04.007Z",
+    "updatedAt": "2026-06-21T01:10:02.722Z",
     "leveling": {
       "level": 45,
-      "xp": 108660,
-      "currentXp": 824,
+      "xp": 108710,
+      "currentXp": 874,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.0753893083314907
+      "progress": 0.07996237900520688
     }
   },
   "76561198043370754": {
