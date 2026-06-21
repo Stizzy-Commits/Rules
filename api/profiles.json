@@ -799,9 +799,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "Medic",
-    "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 253133,
+    "currentJob": "S.W.A.T Sniper",
+    "currentModel": "models/player/swat.mdl",
+    "playtimeSeconds": 253433,
     "warns": {
       "active": 0,
       "total": 0,
@@ -813,7 +813,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 586491,
+      "currency": 586571,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -964,16 +964,16 @@
     },
     "jobs": [
       {
+        "seconds": 840,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
         "seconds": 780,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 600,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 420,
@@ -986,20 +986,26 @@
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/swat.mdl",
+        "name": "S.W.A.T Sniper",
+        "iconKey": "profile_model_face_models-player-swat.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 840,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
       {
         "seconds": 780,
         "model": "models/player/riot.mdl",
         "name": "models/player/riot.mdl",
         "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 600,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 420,
@@ -1012,16 +1018,22 @@
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/swat.mdl",
+        "name": "models/player/swat.mdl",
+        "iconKey": "profile_model_face_models-player-swat.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:15:03.439Z",
+    "updatedAt": "2026-06-21T00:20:03.467Z",
     "leveling": {
       "level": 34,
-      "xp": 40600,
-      "currentXp": 3778,
+      "xp": 40650,
+      "currentXp": 3828,
       "requiredXp": 3832,
       "maxLevel": 100,
-      "progress": 0.9859986520919448
+      "progress": 0.9990461564293462
     }
   },
   "76561198083253627": {
