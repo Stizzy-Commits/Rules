@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 674036,
+    "playtimeSeconds": 674336,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402670998,
+      "currency": 99402671038,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -723,7 +723,7 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
-        "seconds": 600,
+        "seconds": 900,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -743,6 +743,12 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
+        "seconds": 480,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
@@ -753,22 +759,16 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T09:10:18.721Z",
+    "updatedAt": "2026-06-21T09:15:18.675Z",
     "leveling": {
       "level": 45,
-      "xp": 110110,
-      "currentXp": 2274,
+      "xp": 110160,
+      "currentXp": 2324,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.20800835786925986
+      "progress": 0.21258142854297604
     }
   },
   "76561198043370754": {
