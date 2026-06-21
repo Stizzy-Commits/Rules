@@ -1401,14 +1401,14 @@
     "name": "ossama johnladen",
     "currentJob": "S.W.A.T Leader",
     "currentModel": "models/player/gasmask.mdl",
-    "playtimeSeconds": 132680,
+    "playtimeSeconds": 132980,
     "leveling": {
       "level": 47,
-      "xp": 131961,
-      "currentXp": 1164,
+      "xp": 132011,
+      "currentXp": 1214,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.08804273032785487
+      "progress": 0.09182212757885998
     },
     "warns": {
       "active": 0,
@@ -1421,7 +1421,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25021749,
+      "currency": 25021889,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1626,16 +1626,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
+        "seconds": 600,
+        "model": "models/player/gasmask.mdl",
+        "name": "S.W.A.T Leader",
+        "iconKey": "profile_model_face_models-player-gasmask.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/gasmask.mdl",
-        "name": "S.W.A.T Leader",
-        "iconKey": "profile_model_face_models-player-gasmask.mdl"
       }
     ],
     "models": [
@@ -1652,16 +1652,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
+        "seconds": 600,
+        "model": "models/player/gasmask.mdl",
+        "name": "models/player/gasmask.mdl",
+        "iconKey": "profile_model_face_models-player-gasmask.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/gasmask.mdl",
-        "name": "models/player/gasmask.mdl",
-        "iconKey": "profile_model_face_models-player-gasmask.mdl"
       },
       {
         "seconds": 120,
@@ -1676,7 +1676,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:05:06.755Z"
+    "updatedAt": "2026-06-21T01:10:08.460Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
