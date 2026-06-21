@@ -1837,14 +1837,14 @@
     "name": "supreme",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 3017,
+    "playtimeSeconds": 3317,
     "leveling": {
       "level": 3,
-      "xp": 500,
-      "currentXp": 3,
+      "xp": 550,
+      "currentXp": 53,
       "requiredXp": 199,
       "maxLevel": 100,
-      "progress": 0.017530678687703475
+      "progress": 0.267968945654896
     },
     "warns": {
       "active": 0,
@@ -1857,7 +1857,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30715,
+      "currency": 30805,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1910,7 +1910,7 @@
     },
     "jobs": [
       {
-        "seconds": 2460,
+        "seconds": 2760,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1924,7 +1924,7 @@
     ],
     "models": [
       {
-        "seconds": 2460,
+        "seconds": 2760,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1936,6 +1936,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:20:08.364Z"
+    "updatedAt": "2026-06-21T03:25:07.177Z"
   }
 }
