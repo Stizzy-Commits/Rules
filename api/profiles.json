@@ -566,9 +566,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Mob Boss",
-    "currentModel": "models/player/gman_high.mdl",
-    "playtimeSeconds": 661012,
+    "currentJob": "Gun Dealer",
+    "currentModel": "models/player/monk.mdl",
+    "playtimeSeconds": 661312,
     "warns": {
       "active": 0,
       "total": 0,
@@ -593,6 +593,20 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_weapon_armor_patch_models-items-combine_rifle_ammo01.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "2": {
+          "slot": 2,
+          "amount": 1,
+          "name": "Unknown",
+          "type": "spawned_weapon",
+          "class": "arccw_go_ace",
+          "model": "models/weapons/arccw_go/v_rif_ace.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_arccw_go_ace_models-weapons-arccw_go-v_rif_ace.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -745,7 +759,7 @@
     },
     "jobs": [
       {
-        "seconds": 1800,
+        "seconds": 1920,
         "model": "models/player/eli.mdl",
         "name": "BlackMarket Dealer",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -763,21 +777,21 @@
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
       },
       {
+        "seconds": 240,
+        "model": "models/player/monk.mdl",
+        "name": "Gun Dealer",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
         "seconds": 180,
         "model": "models/player/kleiner.mdl",
         "name": "Medic",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/monk.mdl",
-        "name": "Gun Dealer",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 1740,
+        "seconds": 1860,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -795,6 +809,12 @@
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
       },
       {
+        "seconds": 240,
+        "model": "models/player/monk.mdl",
+        "name": "models/player/monk.mdl",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
         "seconds": 180,
         "model": "models/player/kleiner.mdl",
         "name": "models/player/kleiner.mdl",
@@ -805,22 +825,16 @@
         "model": "models/player/charple.mdl",
         "name": "models/player/charple.mdl",
         "iconKey": "profile_model_face_models-player-charple.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/monk.mdl",
-        "name": "models/player/monk.mdl",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:00:01.438Z",
+    "updatedAt": "2026-06-21T00:05:01.537Z",
     "leveling": {
       "level": 45,
-      "xp": 108010,
-      "currentXp": 174,
+      "xp": 108060,
+      "currentXp": 224,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.01593938957318038
+      "progress": 0.02051246024689656
     }
   },
   "76561198043370754": {
