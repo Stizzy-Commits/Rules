@@ -1260,8 +1260,8 @@
     "steamid": "STEAM_0:1:642843",
     "name": "john the best",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 138019,
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 138046,
     "leveling": {
       "level": 47,
       "xp": 132761,
@@ -1495,7 +1495,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T20:01:16.598Z"
+    "updatedAt": "2026-06-21T20:01:42.978Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
