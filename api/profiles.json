@@ -813,7 +813,7 @@
     "name": "Sosa",
     "currentJob": "S.W.A.T Medic",
     "currentModel": "models/player/urban.mdl",
-    "playtimeSeconds": 255834,
+    "playtimeSeconds": 256134,
     "warns": {
       "active": 0,
       "total": 0,
@@ -825,7 +825,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 587581,
+      "currency": 587646,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -1000,6 +1000,12 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
+        "seconds": 420,
+        "model": "models/player/urban.mdl",
+        "name": "S.W.A.T Medic",
+        "iconKey": "profile_model_face_models-player-urban.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
@@ -1010,12 +1016,6 @@
         "model": "models/player/swat.mdl",
         "name": "S.W.A.T Sniper",
         "iconKey": "profile_model_face_models-player-swat.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/urban.mdl",
-        "name": "S.W.A.T Medic",
-        "iconKey": "profile_model_face_models-player-urban.mdl"
       }
     ],
     "models": [
@@ -1039,6 +1039,12 @@
       },
       {
         "seconds": 420,
+        "model": "models/player/urban.mdl",
+        "name": "models/player/urban.mdl",
+        "iconKey": "profile_model_face_models-player-urban.mdl"
+      },
+      {
+        "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1054,22 +1060,16 @@
         "model": "models/player/swat.mdl",
         "name": "models/player/swat.mdl",
         "iconKey": "profile_model_face_models-player-swat.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/urban.mdl",
-        "name": "models/player/urban.mdl",
-        "iconKey": "profile_model_face_models-player-urban.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:00:04.627Z",
+    "updatedAt": "2026-06-21T01:05:05.261Z",
     "leveling": {
       "level": 35,
-      "xp": 41050,
-      "currentXp": 396,
+      "xp": 41100,
+      "currentXp": 446,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.09402381011687032
+      "progress": 0.10588517769632609
     }
   },
   "76561198083253627": {
