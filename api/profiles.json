@@ -1872,14 +1872,14 @@
     "name": "billypopdog",
     "currentJob": "tiny shrek",
     "currentModel": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-    "playtimeSeconds": 121562,
+    "playtimeSeconds": 121862,
     "leveling": {
       "level": 28,
-      "xp": 20250,
-      "currentXp": 118,
+      "xp": 20300,
+      "currentXp": 168,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.054785676689927586
+      "progress": 0.07790012652139867
     },
     "warns": {
       "active": 0,
@@ -1917,7 +1917,7 @@
     },
     "jobs": [
       {
-        "seconds": 300,
+        "seconds": 600,
         "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "name": "tiny shrek",
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
@@ -1937,16 +1937,16 @@
     ],
     "models": [
       {
+        "seconds": 600,
+        "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
+        "name": "models/cktheamazingfrog/player/shrek/shrek.mdl",
+        "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
+      },
+      {
         "seconds": 300,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-        "name": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-        "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
       },
       {
         "seconds": 120,
@@ -1955,6 +1955,6 @@
         "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T10:55:21.094Z"
+    "updatedAt": "2026-06-21T11:00:20.597Z"
   }
 }
