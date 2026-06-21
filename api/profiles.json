@@ -813,7 +813,7 @@
     "name": "Sosa",
     "currentJob": "S.W.A.T Medic",
     "currentModel": "models/player/urban.mdl",
-    "playtimeSeconds": 256134,
+    "playtimeSeconds": 256434,
     "warns": {
       "active": 0,
       "total": 0,
@@ -825,7 +825,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 587646,
+      "currency": 587776,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -994,16 +994,16 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
+        "seconds": 720,
+        "model": "models/player/urban.mdl",
+        "name": "S.W.A.T Medic",
+        "iconKey": "profile_model_face_models-player-urban.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/urban.mdl",
-        "name": "S.W.A.T Medic",
-        "iconKey": "profile_model_face_models-player-urban.mdl"
       },
       {
         "seconds": 360,
@@ -1038,7 +1038,7 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
-        "seconds": 420,
+        "seconds": 720,
         "model": "models/player/urban.mdl",
         "name": "models/player/urban.mdl",
         "iconKey": "profile_model_face_models-player-urban.mdl"
@@ -1062,14 +1062,14 @@
         "iconKey": "profile_model_face_models-player-swat.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:05:05.261Z",
+    "updatedAt": "2026-06-21T01:10:07.090Z",
     "leveling": {
       "level": 35,
-      "xp": 41100,
-      "currentXp": 446,
+      "xp": 41150,
+      "currentXp": 496,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.10588517769632609
+      "progress": 0.11774654527578186
     }
   },
   "76561198083253627": {
