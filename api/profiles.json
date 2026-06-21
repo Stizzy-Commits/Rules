@@ -1261,14 +1261,14 @@
     "name": "john the best",
     "currentJob": "Terrorist",
     "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 139651,
+    "playtimeSeconds": 139951,
     "leveling": {
       "level": 47,
-      "xp": 133011,
-      "currentXp": 2214,
+      "xp": 133061,
+      "currentXp": 2264,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.1674100725989621
+      "progress": 0.1711894698499672
     },
     "warns": {
       "active": 1,
@@ -1288,7 +1288,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24022929,
+      "currency": 24022989,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1481,7 +1481,7 @@
     },
     "jobs": [
       {
-        "seconds": 1200,
+        "seconds": 1500,
         "model": "models/player/phoenix.mdl",
         "name": "Terrorist",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
@@ -1495,7 +1495,7 @@
     ],
     "models": [
       {
-        "seconds": 1200,
+        "seconds": 1500,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
@@ -1513,7 +1513,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T20:51:16.044Z"
+    "updatedAt": "2026-06-21T20:56:16.042Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
