@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Osama",
-    "currentModel": "models/jessev92/kuma/characters/osama_ply.mdl",
-    "playtimeSeconds": 677336,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 677636,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402491298,
+      "currency": 99402491358,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -717,10 +717,10 @@
     },
     "jobs": [
       {
-        "seconds": 1680,
-        "model": "models/player/group01/male_01.mdl",
+        "seconds": 1800,
+        "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
         "seconds": 1260,
@@ -747,16 +747,16 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 240,
+        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "name": "Osama",
+        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/alyx.mdl",
         "name": "News Reporter",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
-        "name": "Osama",
-        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
       }
     ],
     "models": [
@@ -791,32 +791,32 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 420,
+        "seconds": 540,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "name": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
       },
       {
         "seconds": 120,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
-        "name": "models/jessev92/kuma/characters/osama_ply.mdl",
-        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T10:05:18.649Z",
+    "updatedAt": "2026-06-21T10:10:18.676Z",
     "leveling": {
       "level": 45,
-      "xp": 110660,
-      "currentXp": 2824,
+      "xp": 110710,
+      "currentXp": 2874,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.2583121352801378
+      "progress": 0.262885205953854
     }
   },
   "76561198043370754": {
