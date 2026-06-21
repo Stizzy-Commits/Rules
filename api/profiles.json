@@ -534,9 +534,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 672099,
+    "currentJob": "Gun Dealer",
+    "currentModel": "models/player/monk.mdl",
+    "playtimeSeconds": 672699,
     "warns": {
       "active": 0,
       "total": 0,
@@ -548,7 +548,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402699538,
+      "currency": 99402695423,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -703,6 +703,12 @@
     },
     "jobs": [
       {
+        "seconds": 600,
+        "model": "models/player/monk.mdl",
+        "name": "Gun Dealer",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
         "seconds": 300,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
@@ -711,20 +717,26 @@
     ],
     "models": [
       {
+        "seconds": 600,
+        "model": "models/player/monk.mdl",
+        "name": "models/player/monk.mdl",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
         "seconds": 300,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:37:42.895Z",
+    "updatedAt": "2026-06-21T03:47:43.113Z",
     "leveling": {
       "level": 45,
-      "xp": 109810,
-      "currentXp": 1974,
+      "xp": 109910,
+      "currentXp": 2074,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.1805699338269628
+      "progress": 0.18971607517439515
     }
   },
   "76561198043370754": {
