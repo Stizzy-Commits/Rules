@@ -566,9 +566,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Gun Dealer",
-    "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 664313,
+    "currentJob": "S.W.A.T Sniper",
+    "currentModel": "models/player/swat.mdl",
+    "playtimeSeconds": 664613,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402708273,
+      "currency": 99402708363,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -717,7 +717,7 @@
     },
     "jobs": [
       {
-        "seconds": 3240,
+        "seconds": 3540,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -749,7 +749,7 @@
     ],
     "models": [
       {
-        "seconds": 3240,
+        "seconds": 3540,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -785,14 +785,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:55:02.637Z",
+    "updatedAt": "2026-06-21T01:00:02.649Z",
     "leveling": {
       "level": 45,
-      "xp": 108560,
-      "currentXp": 724,
+      "xp": 108610,
+      "currentXp": 774,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.06624316698405834
+      "progress": 0.07081623765777452
     }
   },
   "76561198043370754": {
