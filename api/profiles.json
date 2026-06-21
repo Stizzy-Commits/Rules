@@ -801,7 +801,7 @@
     "name": "Sosa",
     "currentJob": "Police Chief",
     "currentModel": "models/player/combine_soldier.mdl",
-    "playtimeSeconds": 253734,
+    "playtimeSeconds": 254334,
     "warns": {
       "active": 0,
       "total": 0,
@@ -813,7 +813,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 586636,
+      "currency": 586906,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -976,6 +976,12 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
+        "seconds": 720,
+        "model": "models/player/combine_soldier.mdl",
+        "name": "Police Chief",
+        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
@@ -992,12 +998,6 @@
         "model": "models/player/swat.mdl",
         "name": "S.W.A.T Sniper",
         "iconKey": "profile_model_face_models-player-swat.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/combine_soldier.mdl",
-        "name": "Police Chief",
-        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
       },
       {
         "seconds": 60,
@@ -1020,6 +1020,12 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
+        "seconds": 720,
+        "model": "models/player/combine_soldier.mdl",
+        "name": "models/player/combine_soldier.mdl",
+        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
@@ -1038,26 +1044,20 @@
         "iconKey": "profile_model_face_models-player-swat.mdl"
       },
       {
-        "seconds": 120,
-        "model": "models/player/combine_soldier.mdl",
-        "name": "models/player/combine_soldier.mdl",
-        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
-      },
-      {
         "seconds": 60,
         "model": "models/player/urban.mdl",
         "name": "models/player/urban.mdl",
         "iconKey": "profile_model_face_models-player-urban.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:25:04.663Z",
+    "updatedAt": "2026-06-21T00:35:05.191Z",
     "leveling": {
       "level": 35,
-      "xp": 40700,
-      "currentXp": 46,
+      "xp": 40800,
+      "currentXp": 146,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.010994237060679918
+      "progress": 0.03471697221959146
     }
   },
   "76561198083253627": {
