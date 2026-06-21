@@ -568,7 +568,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Mob Boss",
     "currentModel": "models/player/gman_high.mdl",
-    "playtimeSeconds": 660712,
+    "playtimeSeconds": 661012,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402707288,
+      "currency": 99402707418,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -757,7 +757,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/player/gman_high.mdl",
         "name": "Mob Boss",
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
@@ -789,7 +789,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/player/gman_high.mdl",
         "name": "models/player/gman_high.mdl",
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
@@ -813,14 +813,14 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:55:01.464Z",
+    "updatedAt": "2026-06-21T00:00:01.438Z",
     "leveling": {
       "level": 45,
-      "xp": 107960,
-      "currentXp": 124,
+      "xp": 108010,
+      "currentXp": 174,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.011366318899464203
+      "progress": 0.01593938957318038
     }
   },
   "76561198043370754": {
