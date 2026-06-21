@@ -1732,14 +1732,14 @@
     "name": "Egg",
     "currentJob": "Hitman",
     "currentModel": "models/player/leet.mdl",
-    "playtimeSeconds": 2988,
+    "playtimeSeconds": 3286,
     "leveling": {
-      "level": 2,
-      "xp": 450,
-      "currentXp": 135,
-      "requiredXp": 181,
+      "level": 3,
+      "xp": 500,
+      "currentXp": 3,
+      "requiredXp": 199,
       "maxLevel": 100,
-      "progress": 0.7438016528925618
+      "progress": 0.017530678687703475
     },
     "warns": {
       "active": 0,
@@ -1752,7 +1752,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30510,
+      "currency": 30560,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1762,7 +1762,7 @@
     },
     "jobs": [
       {
-        "seconds": 1620,
+        "seconds": 1920,
         "model": "models/player/leet.mdl",
         "name": "Hitman",
         "iconKey": "profile_model_face_models-player-leet.mdl"
@@ -1794,7 +1794,7 @@
     ],
     "models": [
       {
-        "seconds": 1620,
+        "seconds": 1920,
         "model": "models/player/leet.mdl",
         "name": "models/player/leet.mdl",
         "iconKey": "profile_model_face_models-player-leet.mdl"
@@ -1824,6 +1824,6 @@
         "iconKey": "profile_model_face_models-player-group03-female_05.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:15:09.566Z"
+    "updatedAt": "2026-06-21T01:20:06.891Z"
   }
 }
