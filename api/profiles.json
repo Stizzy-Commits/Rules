@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 674636,
+    "playtimeSeconds": 674936,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402671078,
+      "currency": 99402671118,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -717,16 +717,16 @@
     },
     "jobs": [
       {
+        "seconds": 1500,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 1260,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 1200,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 420,
@@ -743,7 +743,7 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
-        "seconds": 780,
+        "seconds": 1080,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -761,14 +761,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T09:20:18.678Z",
+    "updatedAt": "2026-06-21T09:25:18.670Z",
     "leveling": {
       "level": 45,
-      "xp": 110210,
-      "currentXp": 2374,
+      "xp": 110260,
+      "currentXp": 2424,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.2171544992166922
+      "progress": 0.22172756989040837
     }
   },
   "76561198043370754": {
