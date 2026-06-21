@@ -1844,7 +1844,7 @@
     "name": "mamirrhill123",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 15,
+    "playtimeSeconds": 30,
     "leveling": {
       "level": 0,
       "xp": 0,
@@ -1888,6 +1888,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:30:05.951Z"
+    "updatedAt": "2026-06-21T02:30:19.217Z"
   }
 }
