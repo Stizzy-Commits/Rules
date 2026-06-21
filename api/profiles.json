@@ -801,7 +801,7 @@
     "name": "Sosa",
     "currentJob": "Medic",
     "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 252833,
+    "playtimeSeconds": 253133,
     "warns": {
       "active": 0,
       "total": 0,
@@ -813,7 +813,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 586411,
+      "currency": 586491,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -970,6 +970,12 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
+        "seconds": 600,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
@@ -980,12 +986,6 @@
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       }
     ],
     "models": [
@@ -994,6 +994,12 @@
         "model": "models/player/riot.mdl",
         "name": "models/player/riot.mdl",
         "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
+        "seconds": 600,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 420,
@@ -1006,22 +1012,16 @@
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:10:03.444Z",
+    "updatedAt": "2026-06-21T00:15:03.439Z",
     "leveling": {
       "level": 34,
-      "xp": 40550,
-      "currentXp": 3728,
+      "xp": 40600,
+      "currentXp": 3778,
       "requiredXp": 3832,
       "maxLevel": 100,
-      "progress": 0.9729511477545435
+      "progress": 0.9859986520919448
     }
   },
   "76561198083253627": {
