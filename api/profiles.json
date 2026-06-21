@@ -1331,14 +1331,14 @@
     "name": "john the best",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 137210,
+    "playtimeSeconds": 137556,
     "leveling": {
       "level": 47,
-      "xp": 132661,
-      "currentXp": 1864,
+      "xp": 132711,
+      "currentXp": 1914,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.14095429184192634
+      "progress": 0.14473368909293144
     },
     "warns": {
       "active": 1,
@@ -1358,7 +1358,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24022579,
+      "currency": 24022619,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1549,95 +1549,9 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 3900,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 3120,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 2220,
-        "model": "models/player/alyx.mdl",
-        "name": "News Reporter",
-        "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 720,
-        "model": "models/player/gasmask.mdl",
-        "name": "S.W.A.T Leader",
-        "iconKey": "profile_model_face_models-player-gasmask.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/swat.mdl",
-        "name": "S.W.A.T Sniper",
-        "iconKey": "profile_model_face_models-player-swat.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 3840,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 3120,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 2100,
-        "model": "models/player/alyx.mdl",
-        "name": "models/player/alyx.mdl",
-        "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 720,
-        "model": "models/player/gasmask.mdl",
-        "name": "models/player/gasmask.mdl",
-        "iconKey": "profile_model_face_models-player-gasmask.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/swat.mdl",
-        "name": "models/player/swat.mdl",
-        "iconKey": "profile_model_face_models-player-swat.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/charple.mdl",
-        "name": "models/player/charple.mdl",
-        "iconKey": "profile_model_face_models-player-charple.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-21T03:25:04.638Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-21T03:35:26.425Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
