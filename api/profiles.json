@@ -566,9 +566,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 670313,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 670618,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99401701678,
+      "currency": 99402699378,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -735,22 +735,22 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 1020,
+        "seconds": 1080,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 900,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 780,
         "model": "models/player/gman_high.mdl",
         "name": "Mob Boss",
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
-      },
-      {
-        "seconds": 660,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 180,
@@ -779,22 +779,22 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 1020,
+        "seconds": 1080,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 900,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 780,
         "model": "models/player/gman_high.mdl",
         "name": "models/player/gman_high.mdl",
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
-      },
-      {
-        "seconds": 660,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 180,
@@ -809,14 +809,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:35:02.653Z",
+    "updatedAt": "2026-06-21T03:10:03.978Z",
     "leveling": {
       "level": 45,
-      "xp": 109560,
-      "currentXp": 1724,
+      "xp": 109610,
+      "currentXp": 1774,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.1577045804583819
+      "progress": 0.16227765113209808
     }
   },
   "76561198043370754": {
