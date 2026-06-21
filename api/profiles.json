@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Gun Dealer",
-    "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 673299,
+    "currentJob": "Professional Grower",
+    "currentModel": "models/player/fring/gus_suit.mdl",
+    "playtimeSeconds": 673599,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402695603,
+      "currency": 99402670978,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -717,7 +717,7 @@
     },
     "jobs": [
       {
-        "seconds": 1200,
+        "seconds": 1260,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -727,11 +727,17 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 1200,
+        "seconds": 1260,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -741,16 +747,22 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:57:43.135Z",
+    "updatedAt": "2026-06-21T04:02:43.121Z",
     "leveling": {
       "level": 45,
-      "xp": 110010,
-      "currentXp": 2174,
+      "xp": 110060,
+      "currentXp": 2224,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.1988622165218275
+      "progress": 0.20343528719554368
     }
   },
   "76561198043370754": {
