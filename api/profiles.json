@@ -568,7 +568,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "S.W.A.T Sniper",
     "currentModel": "models/player/swat.mdl",
-    "playtimeSeconds": 666413,
+    "playtimeSeconds": 666713,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402709078,
+      "currency": 99402709208,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -723,16 +723,16 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
+        "seconds": 2100,
+        "model": "models/player/swat.mdl",
+        "name": "S.W.A.T Sniper",
+        "iconKey": "profile_model_face_models-player-swat.mdl"
+      },
+      {
         "seconds": 1920,
         "model": "models/player/eli.mdl",
         "name": "BlackMarket Dealer",
         "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 1800,
-        "model": "models/player/swat.mdl",
-        "name": "S.W.A.T Sniper",
-        "iconKey": "profile_model_face_models-player-swat.mdl"
       },
       {
         "seconds": 1020,
@@ -761,16 +761,16 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
+        "seconds": 2100,
+        "model": "models/player/swat.mdl",
+        "name": "models/player/swat.mdl",
+        "iconKey": "profile_model_face_models-player-swat.mdl"
+      },
+      {
         "seconds": 1860,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 1800,
-        "model": "models/player/swat.mdl",
-        "name": "models/player/swat.mdl",
-        "iconKey": "profile_model_face_models-player-swat.mdl"
       },
       {
         "seconds": 1020,
@@ -797,14 +797,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:30:02.637Z",
+    "updatedAt": "2026-06-21T01:35:02.631Z",
     "leveling": {
       "level": 45,
-      "xp": 108910,
-      "currentXp": 1074,
+      "xp": 108960,
+      "currentXp": 1124,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.09825466170007158
+      "progress": 0.10282773237378776
     }
   },
   "76561198043370754": {
