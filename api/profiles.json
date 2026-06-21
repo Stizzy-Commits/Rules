@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 672999,
+    "playtimeSeconds": 673299,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402695513,
+      "currency": 99402695603,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -581,7 +581,7 @@
         },
         "2": {
           "slot": 2,
-          "amount": 9,
+          "amount": 8,
           "name": "Timed C4",
           "type": "spawned_weapon",
           "class": "m9k_suicide_bomb",
@@ -717,7 +717,7 @@
     },
     "jobs": [
       {
-        "seconds": 900,
+        "seconds": 1200,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -731,7 +731,7 @@
     ],
     "models": [
       {
-        "seconds": 900,
+        "seconds": 1200,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -743,14 +743,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:52:43.158Z",
+    "updatedAt": "2026-06-21T03:57:43.135Z",
     "leveling": {
       "level": 45,
-      "xp": 109960,
-      "currentXp": 2124,
+      "xp": 110010,
+      "currentXp": 2174,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.19428914584811133
+      "progress": 0.1988622165218275
     }
   },
   "76561198043370754": {
