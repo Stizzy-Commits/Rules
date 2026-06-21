@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Professional Grower",
-    "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 677036,
+    "currentJob": "Osama",
+    "currentModel": "models/jessev92/kuma/characters/osama_ply.mdl",
+    "playtimeSeconds": 677336,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402499708,
+      "currency": 99402491298,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -735,22 +735,28 @@
         "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
+        "seconds": 720,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 540,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 480,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
         "seconds": 120,
         "model": "models/player/alyx.mdl",
         "name": "News Reporter",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "name": "Osama",
+        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
       }
     ],
     "models": [
@@ -773,16 +779,16 @@
         "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
+        "seconds": 720,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 540,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
         "seconds": 420,
@@ -795,16 +801,22 @@
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "name": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T10:00:18.674Z",
+    "updatedAt": "2026-06-21T10:05:18.649Z",
     "leveling": {
       "level": 45,
-      "xp": 110610,
-      "currentXp": 2774,
+      "xp": 110660,
+      "currentXp": 2824,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.25373906460642165
+      "progress": 0.2583121352801378
     }
   },
   "76561198043370754": {
