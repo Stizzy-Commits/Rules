@@ -1423,14 +1423,14 @@
     "name": "ossama johnladen",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 134508,
+    "playtimeSeconds": 134808,
     "leveling": {
       "level": 47,
-      "xp": 132211,
-      "currentXp": 1414,
+      "xp": 132261,
+      "currentXp": 1464,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.1069397165828804
+      "progress": 0.11071911383388551
     },
     "warns": {
       "active": 0,
@@ -1443,7 +1443,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24021239,
+      "currency": 24022279,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1662,7 +1662,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 1200,
+        "seconds": 1500,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1700,7 +1700,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 1140,
+        "seconds": 1440,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1736,7 +1736,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:40:02.666Z"
+    "updatedAt": "2026-06-21T02:45:02.642Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
