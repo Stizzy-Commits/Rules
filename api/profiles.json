@@ -568,7 +568,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 671218,
+    "playtimeSeconds": 671865,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402699438,
+      "currency": 99402699518,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -593,6 +593,24 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_weapon_armor_patch_models-items-combine_rifle_ammo01.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "2": {
+          "slot": 2,
+          "amount": 9,
+          "name": "Timed C4",
+          "type": "spawned_weapon",
+          "class": "m9k_suicide_bomb",
+          "model": "models/weapons/w_sb.mdl",
+          "rarity": "Uncommon",
+          "color": {
+            "r": 104,
+            "g": 255,
+            "b": 104
+          },
+          "iconKey": "spawned_weapon_m9k_suicide_bomb_models-weapons-w_sb.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -717,106 +735,28 @@
     },
     "jobs": [
       {
-        "seconds": 5040,
-        "model": "models/player/swat.mdl",
-        "name": "S.W.A.T Sniper",
-        "iconKey": "profile_model_face_models-player-swat.mdl"
-      },
-      {
-        "seconds": 3540,
-        "model": "models/player/monk.mdl",
-        "name": "Gun Dealer",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 1920,
-        "model": "models/player/eli.mdl",
-        "name": "BlackMarket Dealer",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 1680,
+        "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 900,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 780,
-        "model": "models/player/gman_high.mdl",
-        "name": "Mob Boss",
-        "iconKey": "profile_model_face_models-player-gman_high.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 5040,
-        "model": "models/player/swat.mdl",
-        "name": "models/player/swat.mdl",
-        "iconKey": "profile_model_face_models-player-swat.mdl"
-      },
-      {
-        "seconds": 3540,
-        "model": "models/player/monk.mdl",
-        "name": "models/player/monk.mdl",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 1860,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 1680,
+        "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 900,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 780,
-        "model": "models/player/gman_high.mdl",
-        "name": "models/player/gman_high.mdl",
-        "iconKey": "profile_model_face_models-player-gman_high.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/charple.mdl",
-        "name": "models/player/charple.mdl",
-        "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:20:02.630Z",
+    "updatedAt": "2026-06-21T03:33:49.378Z",
     "leveling": {
       "level": 45,
-      "xp": 109710,
-      "currentXp": 1874,
+      "xp": 109810,
+      "currentXp": 1974,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.17142379247953043
+      "progress": 0.1805699338269628
     }
   },
   "76561198043370754": {
