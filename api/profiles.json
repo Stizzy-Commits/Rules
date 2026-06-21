@@ -1658,16 +1658,16 @@
     "steamid64": "76561198056517817",
     "steamid": "STEAM_0:1:48126044",
     "name": "Egg",
-    "currentJob": "Hobo",
-    "currentModel": "models/player/corpse1.mdl",
-    "playtimeSeconds": 1188,
+    "currentJob": "Hitman",
+    "currentModel": "models/player/leet.mdl",
+    "playtimeSeconds": 1488,
     "leveling": {
       "level": 1,
-      "xp": 150,
-      "currentXp": 0,
+      "xp": 200,
+      "currentXp": 50,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.30303030303030304
     },
     "warns": {
       "active": 0,
@@ -1680,7 +1680,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30050,
+      "currency": 30060,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1696,10 +1696,28 @@
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
       },
       {
+        "seconds": 120,
+        "model": "models/player/kleiner.mdl",
+        "name": "Fight Club Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/leet.mdl",
+        "name": "Hitman",
+        "iconKey": "profile_model_face_models-player-leet.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group03/female_05.mdl",
+        "name": "Gangster",
+        "iconKey": "profile_model_face_models-player-group03-female_05.mdl"
       }
     ],
     "models": [
@@ -1710,12 +1728,30 @@
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
       },
       {
+        "seconds": 120,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/leet.mdl",
+        "name": "models/player/leet.mdl",
+        "iconKey": "profile_model_face_models-player-leet.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group03/female_05.mdl",
+        "name": "models/player/group03/female_05.mdl",
+        "iconKey": "profile_model_face_models-player-group03-female_05.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:45:08.635Z"
+    "updatedAt": "2026-06-21T00:50:08.627Z"
   }
 }
