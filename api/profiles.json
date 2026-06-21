@@ -1844,14 +1844,14 @@
     "name": "mamirrhill123",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 1515,
+    "playtimeSeconds": 1815,
     "leveling": {
       "level": 1,
-      "xp": 250,
-      "currentXp": 100,
+      "xp": 300,
+      "currentXp": 150,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.6060606060606061
+      "progress": 0.9090909090909091
     },
     "warns": {
       "active": 0,
@@ -1864,24 +1864,9 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30245,
+      "currency": 30355,
       "slotCount": 20,
-      "slots": {
-        "1": {
-          "slot": 1,
-          "amount": 1,
-          "name": "Intervention",
-          "type": "spawned_weapon",
-          "class": "m9k_intervention",
-          "model": "models/weapons/w_snip_int.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_intervention_models-weapons-w_snip_int.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        }
-      },
+      "slots": {},
       "weapons": [],
       "items": [],
       "vehicles": [],
@@ -1889,7 +1874,7 @@
     },
     "jobs": [
       {
-        "seconds": 960,
+        "seconds": 1260,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1903,7 +1888,7 @@
     ],
     "models": [
       {
-        "seconds": 960,
+        "seconds": 1260,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -1915,6 +1900,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:55:05.316Z"
+    "updatedAt": "2026-06-21T03:00:04.660Z"
   }
 }
