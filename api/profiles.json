@@ -1420,17 +1420,17 @@
   "76561197961551415": {
     "steamid64": "76561197961551415",
     "steamid": "STEAM_0:1:642843",
-    "name": "ossama johnladen",
+    "name": "john",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 135408,
+    "playtimeSeconds": 136008,
     "leveling": {
       "level": 47,
-      "xp": 132361,
-      "currentXp": 1564,
+      "xp": 132461,
+      "currentXp": 1664,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.11827790833589572
+      "progress": 0.12583670283790593
     },
     "warns": {
       "active": 0,
@@ -1443,7 +1443,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24022339,
+      "currency": 24022419,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1476,7 +1476,7 @@
         },
         "3": {
           "slot": 3,
-          "amount": 3,
+          "amount": 6,
           "name": "M60 Machine Gun",
           "type": "spawned_weapon",
           "class": "m9k_m60",
@@ -1504,7 +1504,7 @@
         },
         "5": {
           "slot": 5,
-          "amount": 6,
+          "amount": 2,
           "name": "M60 Machine Gun",
           "type": "spawned_weapon",
           "class": "m9k_m60",
@@ -1600,20 +1600,6 @@
           "equipped": false,
           "meta": "A shooty stick!"
         },
-        "12": {
-          "slot": 12,
-          "amount": 1,
-          "name": "HK MP7",
-          "type": "spawned_weapon",
-          "class": "m9k_mp7",
-          "model": "models/weapons/w_mp7_silenced.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_mp7_models-weapons-w_mp7_silenced.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
         "13": {
           "slot": 13,
           "amount": 10,
@@ -1656,16 +1642,16 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
+        "seconds": 2700,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 2220,
         "model": "models/player/alyx.mdl",
         "name": "News Reporter",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 2100,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 720,
@@ -1694,16 +1680,16 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
+        "seconds": 2640,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 2100,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 2040,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 720,
@@ -1736,7 +1722,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:55:02.666Z"
+    "updatedAt": "2026-06-21T03:05:02.642Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
