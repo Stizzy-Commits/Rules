@@ -1423,19 +1423,26 @@
     "name": "john the best",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 136910,
+    "playtimeSeconds": 137210,
     "leveling": {
       "level": 47,
-      "xp": 132611,
-      "currentXp": 1814,
+      "xp": 132661,
+      "currentXp": 1864,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.13717489459092125
+      "progress": 0.14095429184192634
     },
     "warns": {
-      "active": 0,
-      "total": 0,
-      "recent": []
+      "active": 1,
+      "total": 1,
+      "recent": [
+        {
+          "date": 1782012225,
+          "reason": "RDM",
+          "server": "Old School RP",
+          "admin": "76561198120592615"
+        }
+      ]
     },
     "bans": {
       "active": false,
@@ -1443,7 +1450,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24022539,
+      "currency": 24022579,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1636,7 +1643,7 @@
     },
     "jobs": [
       {
-        "seconds": 3600,
+        "seconds": 3900,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1674,7 +1681,7 @@
     ],
     "models": [
       {
-        "seconds": 3540,
+        "seconds": 3840,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1722,7 +1729,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:20:07.018Z"
+    "updatedAt": "2026-06-21T03:25:04.638Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
