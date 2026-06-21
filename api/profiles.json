@@ -829,7 +829,7 @@
     "name": "Sosa",
     "currentJob": "Elite Seller",
     "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 251933,
+    "playtimeSeconds": 252233,
     "warns": {
       "active": 0,
       "total": 0,
@@ -841,7 +841,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 586206,
+      "currency": 586261,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -992,6 +992,12 @@
     },
     "jobs": [
       {
+        "seconds": 480,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
@@ -1002,15 +1008,15 @@
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 480,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
       {
         "seconds": 420,
         "model": "models/player/group01/male_01.mdl",
@@ -1022,22 +1028,16 @@
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
-    "updatedAt": "2026-06-20T23:55:04.814Z",
+    "updatedAt": "2026-06-21T00:00:03.449Z",
     "leveling": {
       "level": 34,
-      "xp": 40400,
-      "currentXp": 3578,
+      "xp": 40450,
+      "currentXp": 3628,
       "requiredXp": 3832,
       "maxLevel": 100,
-      "progress": 0.9338086347423394
+      "progress": 0.9468561390797408
     }
   },
   "76561198083253627": {
