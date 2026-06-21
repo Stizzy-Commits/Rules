@@ -1389,14 +1389,14 @@
     "name": "ossama johnladen",
     "currentJob": "Elite Seller",
     "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 131480,
+    "playtimeSeconds": 131780,
     "leveling": {
       "level": 47,
-      "xp": 131761,
-      "currentXp": 964,
+      "xp": 131811,
+      "currentXp": 1014,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.07292514132383446
+      "progress": 0.07670453857483955
     },
     "warns": {
       "active": 0,
@@ -1409,7 +1409,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25021404,
+      "currency": 25021514,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1602,16 +1602,16 @@
     },
     "jobs": [
       {
+        "seconds": 2520,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 2220,
         "model": "models/player/alyx.mdl",
         "name": "News Reporter",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 2220,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
         "seconds": 420,
@@ -1622,7 +1622,7 @@
     ],
     "models": [
       {
-        "seconds": 2220,
+        "seconds": 2520,
         "model": "models/player/riot.mdl",
         "name": "models/player/riot.mdl",
         "iconKey": "profile_model_face_models-player-riot.mdl"
@@ -1652,7 +1652,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:45:06.690Z"
+    "updatedAt": "2026-06-21T00:50:09.393Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
