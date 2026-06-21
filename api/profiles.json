@@ -568,7 +568,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Gun Dealer",
     "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 661312,
+    "playtimeSeconds": 661612,
     "warns": {
       "active": 0,
       "total": 0,
@@ -580,7 +580,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402707418,
+      "currency": 99402707508,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -593,20 +593,6 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_weapon_armor_patch_models-items-combine_rifle_ammo01.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "2": {
-          "slot": 2,
-          "amount": 1,
-          "name": "Unknown",
-          "type": "spawned_weapon",
-          "class": "arccw_go_ace",
-          "model": "models/weapons/arccw_go/v_rif_ace.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_arccw_go_ace_models-weapons-arccw_go-v_rif_ace.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -625,20 +611,6 @@
           "equipped": false,
           "meta": "Holds weed."
         },
-        "4": {
-          "slot": 4,
-          "amount": 1,
-          "name": "Unknown",
-          "type": "spawned_weapon",
-          "class": "arccw_go_awp",
-          "model": "models/weapons/arccw_go/v_snip_awp.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_arccw_go_awp_models-weapons-arccw_go-v_snip_awp.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
         "5": {
           "slot": 5,
           "amount": 1,
@@ -649,20 +621,6 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_bkeypads_cracker_models-bkeypads-cracker.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "6": {
-          "slot": 6,
-          "amount": 1,
-          "name": "Unknown",
-          "type": "spawned_weapon",
-          "class": "arccw_go_ace",
-          "model": "models/weapons/arccw_go/v_rif_ace.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_arccw_go_ace_models-weapons-arccw_go-v_rif_ace.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -777,7 +735,7 @@
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -809,7 +767,7 @@
         "iconKey": "profile_model_face_models-player-gman_high.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
@@ -827,14 +785,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:05:01.537Z",
+    "updatedAt": "2026-06-21T00:10:01.539Z",
     "leveling": {
       "level": 45,
-      "xp": 108060,
-      "currentXp": 224,
+      "xp": 108110,
+      "currentXp": 274,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.02051246024689656
+      "progress": 0.025085530920612737
     }
   },
   "76561198043370754": {
