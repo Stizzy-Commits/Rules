@@ -130,7 +130,7 @@
     "name": "Stizzy",
     "currentJob": "Medic",
     "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 691891,
+    "playtimeSeconds": 692191,
     "warns": {
       "active": 0,
       "total": 0,
@@ -142,7 +142,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 82479,
+      "currency": 82559,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -299,7 +299,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 2460,
+        "seconds": 2760,
         "model": "models/player/kleiner.mdl",
         "name": "Medic",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
@@ -313,7 +313,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 2460,
+        "seconds": 2760,
         "model": "models/player/kleiner.mdl",
         "name": "models/player/kleiner.mdl",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
@@ -325,14 +325,14 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:25:00.749Z",
+    "updatedAt": "2026-06-21T00:30:00.773Z",
     "leveling": {
       "level": 45,
-      "xp": 108350,
-      "currentXp": 514,
+      "xp": 108400,
+      "currentXp": 564,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.04703627015445039
+      "progress": 0.05160934082816657
     }
   },
   "76561198318712668": {
