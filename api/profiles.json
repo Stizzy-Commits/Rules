@@ -1260,8 +1260,8 @@
     "steamid": "STEAM_0:1:642843",
     "name": "john the best",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 137996,
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 138019,
     "leveling": {
       "level": 47,
       "xp": 132761,
@@ -1288,7 +1288,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24022659,
+      "currency": 24022679,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1481,21 +1481,21 @@
     },
     "jobs": [
       {
-        "seconds": 480,
-        "model": "models/player/group01/male_01.mdl",
+        "seconds": 60,
+        "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 480,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+        "seconds": 60,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T03:42:47.111Z"
+    "updatedAt": "2026-06-21T20:01:16.598Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
