@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 675236,
+    "currentJob": "Mayor",
+    "currentModel": "models/player/breen.mdl",
+    "playtimeSeconds": 675536,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402671138,
+      "currency": 99402596238,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -735,10 +735,22 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 120,
+        "seconds": 180,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/alyx.mdl",
+        "name": "News Reporter",
+        "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/breen.mdl",
+        "name": "Mayor",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       }
     ],
     "models": [
@@ -756,31 +768,43 @@
       },
       {
         "seconds": 420,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 420,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 120,
+        "seconds": 420,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 180,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/alyx.mdl",
+        "name": "models/player/alyx.mdl",
+        "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T09:30:18.717Z",
+    "updatedAt": "2026-06-21T09:35:18.667Z",
     "leveling": {
       "level": 45,
-      "xp": 110310,
-      "currentXp": 2474,
+      "xp": 110360,
+      "currentXp": 2524,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.22630064056412455
+      "progress": 0.23087371123784073
     }
   },
   "76561198043370754": {
