@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 676736,
+    "currentJob": "Professional Grower",
+    "currentModel": "models/player/fring/gus_suit.mdl",
+    "playtimeSeconds": 677036,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402522008,
+      "currency": 99402499708,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -735,16 +735,16 @@
         "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
-        "seconds": 420,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 300,
+        "seconds": 540,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 480,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
         "seconds": 120,
@@ -773,22 +773,22 @@
         "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
-        "seconds": 420,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "seconds": 540,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 420,
+        "seconds": 480,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 300,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
+        "seconds": 420,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
         "seconds": 120,
@@ -797,14 +797,14 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T09:55:18.653Z",
+    "updatedAt": "2026-06-21T10:00:18.674Z",
     "leveling": {
       "level": 45,
-      "xp": 110560,
-      "currentXp": 2724,
+      "xp": 110610,
+      "currentXp": 2774,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.24916599393270544
+      "progress": 0.25373906460642165
     }
   },
   "76561198043370754": {
