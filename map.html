@@ -627,6 +627,8 @@
     let imagePoints = { ...IMAGE_POINTS };
     let players = [];
     let transform = null;
+    let playersRequestInFlight = false;
+    let lastPlayersUpdatedAt = "";
 
     function readJson(key, fallback) {
       try {
@@ -755,23 +757,22 @@
     }
 
     async function loadPlayers() {
+      if (playersRequestInFlight) return;
+      playersRequestInFlight = true;
       try {
-        let response = await fetch(apiUrl("/api/map/players"), {
+        const response = await fetch(apiUrl("/api/map/players"), {
           cache: "no-store",
           credentials: "include"
         });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        let data = await response.json();
-        if (data.isMapAdmin) {
-          response = await fetch(apiUrl("/api/map/players?all=1"), {
-            cache: "no-store",
-            credentials: "include"
-          });
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          data = await response.json();
+        const data = await response.json();
+
+        const nextPlayers = Array.isArray(data.players) ? data.players : [];
+        if (nextPlayers.length > 0 || data.snapshotFresh || players.length === 0) {
+          players = nextPlayers;
+          lastPlayersUpdatedAt = data.updatedAt || lastPlayersUpdatedAt;
         }
 
-        players = Array.isArray(data.players) ? data.players : [];
         if (!data.loggedIn) {
           connectionMode.textContent = "Not signed in. Use Steam login to see your live position.";
         } else if (data.isMapAdmin) {
@@ -780,14 +781,14 @@
           connectionMode.textContent = "Steam user mode: showing your live position only.";
         }
 
-        const when = data.updatedAt ? new Date(data.updatedAt).toLocaleTimeString() : "never";
+        const when = lastPlayersUpdatedAt ? new Date(lastPlayersUpdatedAt).toLocaleTimeString() : "never";
         statusEl.textContent = `${players.length} visible player${players.length === 1 ? "" : "s"} | updated ${when}`;
       } catch (error) {
-        players = [];
-        statusEl.textContent = `Map API unavailable: ${error.message}`;
+        statusEl.textContent = `Map API unavailable: ${error.message}. Showing last known positions.`;
+      } finally {
+        renderPlayers();
+        playersRequestInFlight = false;
       }
-
-      renderPlayers();
     }
 
     async function loadSignedInProfile() {
@@ -844,7 +845,7 @@
     loadSignedInProfile();
     loadPlayers();
     setInterval(loadSignedInProfile, 60000);
-    setInterval(loadPlayers, 10000);
+    setInterval(loadPlayers, 1000);
   </script>
 </body>
 </html>
