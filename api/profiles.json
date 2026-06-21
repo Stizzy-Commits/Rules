@@ -1684,14 +1684,14 @@
     "name": "Egg",
     "currentJob": "Hitman",
     "currentModel": "models/player/leet.mdl",
-    "playtimeSeconds": 2388,
+    "playtimeSeconds": 2688,
     "leveling": {
       "level": 2,
-      "xp": 350,
-      "currentXp": 35,
+      "xp": 400,
+      "currentXp": 85,
       "requiredXp": 181,
       "maxLevel": 100,
-      "progress": 0.19283746556473827
+      "progress": 0.46831955922865004
     },
     "warns": {
       "active": 0,
@@ -1704,7 +1704,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30310,
+      "currency": 30410,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1714,16 +1714,16 @@
     },
     "jobs": [
       {
+        "seconds": 1320,
+        "model": "models/player/leet.mdl",
+        "name": "Hitman",
+        "iconKey": "profile_model_face_models-player-leet.mdl"
+      },
+      {
         "seconds": 1140,
         "model": "models/player/corpse1.mdl",
         "name": "Hobo",
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
-      },
-      {
-        "seconds": 1020,
-        "model": "models/player/leet.mdl",
-        "name": "Hitman",
-        "iconKey": "profile_model_face_models-player-leet.mdl"
       },
       {
         "seconds": 120,
@@ -1746,16 +1746,16 @@
     ],
     "models": [
       {
+        "seconds": 1320,
+        "model": "models/player/leet.mdl",
+        "name": "models/player/leet.mdl",
+        "iconKey": "profile_model_face_models-player-leet.mdl"
+      },
+      {
         "seconds": 1140,
         "model": "models/player/corpse1.mdl",
         "name": "models/player/corpse1.mdl",
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
-      },
-      {
-        "seconds": 1020,
-        "model": "models/player/leet.mdl",
-        "name": "models/player/leet.mdl",
-        "iconKey": "profile_model_face_models-player-leet.mdl"
       },
       {
         "seconds": 120,
@@ -1776,6 +1776,6 @@
         "iconKey": "profile_model_face_models-player-group03-female_05.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T01:05:11.308Z"
+    "updatedAt": "2026-06-21T01:10:09.575Z"
   }
 }
