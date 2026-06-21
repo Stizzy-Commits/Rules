@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Mayor",
     "currentModel": "models/player/breen.mdl",
-    "playtimeSeconds": 676136,
+    "playtimeSeconds": 676436,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402596738,
+      "currency": 99402596938,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -581,7 +581,7 @@
         },
         "2": {
           "slot": 2,
-          "amount": 8,
+          "amount": 7,
           "name": "Timed C4",
           "type": "spawned_weapon",
           "class": "m9k_suicide_bomb",
@@ -729,7 +729,7 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
-        "seconds": 720,
+        "seconds": 1020,
         "model": "models/player/breen.mdl",
         "name": "Mayor",
         "iconKey": "profile_model_face_models-player-breen.mdl"
@@ -767,7 +767,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 720,
+        "seconds": 1020,
         "model": "models/player/breen.mdl",
         "name": "models/player/breen.mdl",
         "iconKey": "profile_model_face_models-player-breen.mdl"
@@ -797,14 +797,14 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T09:45:18.695Z",
+    "updatedAt": "2026-06-21T09:50:18.656Z",
     "leveling": {
       "level": 45,
-      "xp": 110460,
-      "currentXp": 2624,
+      "xp": 110510,
+      "currentXp": 2674,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.24001985258527309
+      "progress": 0.24459292325898926
     }
   },
   "76561198043370754": {
