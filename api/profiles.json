@@ -1351,9 +1351,9 @@
     "steamid64": "76561197961551415",
     "steamid": "STEAM_0:1:642843",
     "name": "ossama johnladen",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 129215,
+    "currentJob": "Elite Seller",
+    "currentModel": "models/player/riot.mdl",
+    "playtimeSeconds": 129379,
     "leveling": {
       "level": 47,
       "xp": 131411,
@@ -1373,7 +1373,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25020669,
+      "currency": 25020689,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1557,48 +1557,6 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
-        },
-        "14": {
-          "slot": 14,
-          "amount": 1,
-          "name": "Unknown",
-          "type": "spawned_weapon",
-          "class": "arccw_go_tec9",
-          "model": "models/weapons/arccw_go/v_pist_tec9.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_arccw_go_tec9_models-weapons-arccw_go-v_pist_tec9.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "15": {
-          "slot": 15,
-          "amount": 1,
-          "name": "Unknown",
-          "type": "spawned_weapon",
-          "class": "arccw_go_m1014",
-          "model": "models/weapons/arccw_go/v_shot_m1014.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_arccw_go_m1014_models-weapons-arccw_go-v_shot_m1014.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "16": {
-          "slot": 16,
-          "amount": 1,
-          "name": "Unknown",
-          "type": "spawned_weapon",
-          "class": "arccw_go_bizon",
-          "model": "models/weapons/arccw_go/v_smg_bizon.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_arccw_go_bizon_models-weapons-arccw_go-v_smg_bizon.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -1614,13 +1572,13 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 300,
-        "model": "models/player/group01/male_02.mdl",
+        "seconds": 420,
+        "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 120,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
@@ -1634,7 +1592,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 360,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1646,18 +1604,18 @@
         "iconKey": "profile_model_face_models-player-charple.mdl"
       },
       {
+        "seconds": 120,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:07:21.802Z"
+    "updatedAt": "2026-06-21T00:10:05.639Z"
   }
 }
