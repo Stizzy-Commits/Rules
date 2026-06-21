@@ -1423,7 +1423,7 @@
     "name": "ossama johnladen",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 133762,
+    "playtimeSeconds": 134006,
     "leveling": {
       "level": 47,
       "xp": 132161,
@@ -1443,7 +1443,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25022159,
+      "currency": 25022179,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1668,16 +1668,16 @@
         "iconKey": "profile_model_face_models-player-gasmask.mdl"
       },
       {
+        "seconds": 660,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 480,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 120,
@@ -1706,16 +1706,16 @@
         "iconKey": "profile_model_face_models-player-gasmask.mdl"
       },
       {
+        "seconds": 600,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 480,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 120,
@@ -1736,7 +1736,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T02:25:37.182Z"
+    "updatedAt": "2026-06-21T02:31:41.117Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
