@@ -1660,14 +1660,14 @@
     "name": "Egg",
     "currentJob": "Hobo",
     "currentModel": "models/player/corpse1.mdl",
-    "playtimeSeconds": 288,
+    "playtimeSeconds": 588,
     "leveling": {
       "level": 0,
-      "xp": 0,
-      "currentXp": 0,
+      "xp": 50,
+      "currentXp": 50,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.3333333333333333
     },
     "warns": {
       "active": 0,
@@ -1680,7 +1680,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 29980,
+      "currency": 30020,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1690,7 +1690,7 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/corpse1.mdl",
         "name": "Hobo",
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
@@ -1704,7 +1704,7 @@
     ],
     "models": [
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/corpse1.mdl",
         "name": "models/player/corpse1.mdl",
         "iconKey": "profile_model_face_models-player-corpse1.mdl"
@@ -1716,6 +1716,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T00:30:08.660Z"
+    "updatedAt": "2026-06-21T00:35:08.661Z"
   }
 }
