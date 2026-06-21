@@ -244,20 +244,58 @@
     }
 
     .cal-point {
-      min-width: 18px;
-      height: 18px;
-      padding: 0 5px;
-      border-radius: 4px;
+      min-width: 10px;
+      height: 10px;
+      padding: 0;
+      border-radius: 999px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       background: rgba(31, 111, 214, 0.90);
       color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.55);
-      font-size: 10px;
-      line-height: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.65);
+      font-size: 0;
+      line-height: 10px;
       font-weight: 900;
-      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.45);
+    }
+
+    .profile-chip {
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      margin-top: 12px;
+      padding: 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--ring);
+    }
+
+    .profile-chip img {
+      width: 42px;
+      height: 42px;
+      border-radius: 7px;
+      object-fit: cover;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .profile-name {
+      color: #fff;
+      font-size: 0.875rem;
+      line-height: 1.2rem;
+      font-weight: 900;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .profile-meta {
+      color: var(--muted);
+      font-size: 0.75rem;
+      line-height: 1rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
     }
 
     .side {
@@ -506,29 +544,23 @@
         <aside class="side">
           <section class="panel side-section">
             <h2 class="side-title">Connection</h2>
-            <div class="field">
-              <label for="apiBase">Worker URL</label>
-              <input id="apiBase" type="url" placeholder="https://oldschool-bans-sync.mnstizzy.workers.dev" />
-            </div>
             <div class="button-row">
-              <button class="primary" id="saveConnection" type="button">Save</button>
+              <button class="primary" id="steamLogin" type="button">Sign in with Steam</button>
               <button id="refreshNow" type="button">Refresh</button>
             </div>
-            <button class="steam-button" id="steamLogin" type="button">Sign in with Steam</button>
+            <div class="profile-chip" id="profileChip" hidden>
+              <img id="profileAvatar" alt="" />
+              <div>
+                <div class="profile-name" id="profileName">Steam Profile</div>
+                <div class="profile-meta" id="profileMeta"></div>
+              </div>
+            </div>
             <p class="small" id="connectionMode">Sign in with Steam to see your live position.</p>
           </section>
 
           <section class="panel side-section">
             <h2 class="side-title">Calibration</h2>
-            <div class="field">
-              <label for="pointSelect">Point</label>
-              <select id="pointSelect"></select>
-            </div>
-            <div class="button-row">
-              <button class="primary" id="enableCal" type="button">Click Point</button>
-              <button id="clearCal" type="button">Clear</button>
-            </div>
-            <p class="small" id="calStatus">Need 3 linked points.</p>
+            <p class="small" id="calStatus">Loading map calibration...</p>
             <div class="point-list" id="pointList"></div>
           </section>
 
@@ -558,17 +590,16 @@
   </div>
 
   <script>
-    const apiBaseInput = document.getElementById("apiBase");
-    const saveConnection = document.getElementById("saveConnection");
     const refreshNow = document.getElementById("refreshNow");
     const steamLogin = document.getElementById("steamLogin");
     const statusEl = document.getElementById("status");
     const connectionMode = document.getElementById("connectionMode");
+    const profileChip = document.getElementById("profileChip");
+    const profileAvatar = document.getElementById("profileAvatar");
+    const profileName = document.getElementById("profileName");
+    const profileMeta = document.getElementById("profileMeta");
     const mapStage = document.getElementById("mapStage");
     const mapPlane = document.getElementById("mapPlane");
-    const pointSelect = document.getElementById("pointSelect");
-    const enableCal = document.getElementById("enableCal");
-    const clearCal = document.getElementById("clearCal");
     const calStatus = document.getElementById("calStatus");
     const pointList = document.getElementById("pointList");
     const playerList = document.getElementById("playerList");
@@ -578,20 +609,24 @@
     const exportCal = document.getElementById("exportCal");
     const importCal = document.getElementById("importCal");
 
-    const DEFAULT_API_BASE = "https://oldschool-bans-sync.mnstizzy.workers.dev";
-    const STORE_API = "oldschoolMapApiBase";
-    const STORE_IMAGE_POINTS = "oldschoolMapImagePoints";
+    const API_BASE = "https://oldschool-bans-sync.mnstizzy.workers.dev";
+    const IMAGE_POINTS = {
+      beach: { x: 0.28978509666172936, y: 0.8101307984304524 },
+      pd: { x: 0.555169624716304, y: 0.6326880795629011 },
+      fountain: { x: 0.5627913133361006, y: 0.5418591670038831 },
+      mine: { x: 0.36386733667702753, y: 0.5453445341780444 },
+      gasstation: { x: 0.5404680486298539, y: 0.25617621967503507 },
+      industrial: { x: 0.6019915534303226, y: 0.7700254049575695 },
+      spawn: { x: 0.4743287521332461, y: 0.5893043377544154 }
+    };
     const MAP_VIEW = {
       rotation: -1.9,
       zoom: 1.5
     };
     let worldPoints = {};
-    let imagePoints = readJson(STORE_IMAGE_POINTS, {});
+    let imagePoints = { ...IMAGE_POINTS };
     let players = [];
-    let calibrationArmed = false;
     let transform = null;
-
-    apiBaseInput.value = localStorage.getItem(STORE_API) || DEFAULT_API_BASE;
 
     function readJson(key, fallback) {
       try {
@@ -601,19 +636,8 @@
       }
     }
 
-    function saveImagePoints() {
-      localStorage.setItem(STORE_IMAGE_POINTS, JSON.stringify(imagePoints));
-    }
-
-    function apiBase() {
-      let value = apiBaseInput.value.trim() || DEFAULT_API_BASE;
-      if (!/^https?:\/\//i.test(value)) value = `https://${value}`;
-      value = value.replace(/\/api\/bans\/?$/i, "");
-      return value.replace(/\/+$/, "");
-    }
-
     function apiUrl(path) {
-      return `${apiBase()}${path}`;
+      return `${API_BASE}${path}`;
     }
 
     function escapeHtml(value) {
@@ -691,10 +715,6 @@
       calStatus.textContent = transform ? `${transform.pairCount} linked points. Map dots enabled.` : `${linked}/3 linked points.`;
 
       const labels = Object.keys(worldPoints).sort();
-      pointSelect.innerHTML = labels.length
-        ? labels.map(label => `<option value="${escapeHtml(label)}">${escapeHtml(worldPoints[label].title || label)}</option>`).join("")
-        : '<option value="">No points synced</option>';
-
       pointList.innerHTML = labels.length ? labels.map(label => {
         const point = worldPoints[label];
         const img = imagePoints[label];
@@ -770,60 +790,39 @@
       renderPlayers();
     }
 
-    function saveConnectionState() {
-      apiBaseInput.value = apiBase();
-      localStorage.setItem(STORE_API, apiBaseInput.value);
-      loadCalibration();
-      loadPlayers();
+    async function loadSignedInProfile() {
+      try {
+        const response = await fetch(apiUrl("/api/me"), {
+          cache: "no-store",
+          credentials: "include"
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const data = await response.json();
+        if (!data.loggedIn) {
+          profileChip.hidden = true;
+          return;
+        }
+
+        profileChip.hidden = false;
+        profileAvatar.src = data.steam && (data.steam.avatarFull || data.steam.avatar) || "imgs/logo.png";
+        profileName.textContent = data.steam && data.steam.personaName || data.profile && data.profile.name || "Steam Profile";
+        profileMeta.textContent = data.steamid64 || "";
+      } catch {
+        profileChip.hidden = true;
+      }
     }
 
     function startSteamLogin() {
-      apiBaseInput.value = apiBase();
-      localStorage.setItem(STORE_API, apiBaseInput.value);
       const next = new URL(window.location.href);
       next.hash = "";
       window.location.href = apiUrl(`/auth/steam/start?next=${encodeURIComponent(next.toString())}`);
     }
 
-    mapStage.addEventListener("click", event => {
-      if (!calibrationArmed) return;
-      const label = pointSelect.value;
-      if (!label) return;
-
-      const rect = mapPlane.getBoundingClientRect();
-      const width = mapPlane.offsetWidth;
-      const height = mapPlane.offsetHeight;
-      const radians = MAP_VIEW.rotation * Math.PI / 180;
-      const dx = event.clientX - (rect.left + rect.width / 2);
-      const dy = event.clientY - (rect.top + rect.height / 2);
-      const localX = (dx * Math.cos(radians) + dy * Math.sin(radians)) / MAP_VIEW.zoom + width / 2;
-      const localY = (-dx * Math.sin(radians) + dy * Math.cos(radians)) / MAP_VIEW.zoom + height / 2;
-      imagePoints[label] = {
-        x: Math.max(0, Math.min(1, localX / width)),
-        y: Math.max(0, Math.min(1, localY / height))
-      };
-
-      calibrationArmed = false;
-      enableCal.textContent = "Click Point";
-      saveImagePoints();
-      renderCalibration();
-    });
-
-    enableCal.addEventListener("click", () => {
-      calibrationArmed = !calibrationArmed;
-      enableCal.textContent = calibrationArmed ? "Armed" : "Click Point";
-    });
-
-    clearCal.addEventListener("click", () => {
-      imagePoints = {};
-      saveImagePoints();
-      renderCalibration();
-    });
-
-    saveConnection.addEventListener("click", saveConnectionState);
     steamLogin.addEventListener("click", startSteamLogin);
     refreshNow.addEventListener("click", () => {
       loadCalibration();
+      loadSignedInProfile();
       loadPlayers();
     });
 
@@ -835,7 +834,6 @@
       try {
         const parsed = JSON.parse(backupBox.value || "{}");
         imagePoints = parsed && typeof parsed === "object" ? parsed : {};
-        saveImagePoints();
         renderCalibration();
       } catch {
         calStatus.textContent = "Import failed.";
@@ -843,7 +841,9 @@
     });
 
     loadCalibration();
+    loadSignedInProfile();
     loadPlayers();
+    setInterval(loadSignedInProfile, 60000);
     setInterval(loadPlayers, 10000);
   </script>
 </body>
