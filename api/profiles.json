@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Professional Grower",
-    "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 673599,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 673821,
     "warns": {
       "active": 0,
       "total": 0,
@@ -723,16 +723,16 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
-        "seconds": 300,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 240,
+        "seconds": 420,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
+        "seconds": 360,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
     "models": [
@@ -743,26 +743,26 @@
         "iconKey": "profile_model_face_models-player-monk.mdl"
       },
       {
-        "seconds": 300,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 240,
+        "seconds": 420,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
+        "seconds": 360,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-21T04:02:43.121Z",
+    "updatedAt": "2026-06-21T09:06:43.759Z",
     "leveling": {
       "level": 45,
-      "xp": 110060,
-      "currentXp": 2224,
+      "xp": 110110,
+      "currentXp": 2274,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.20343528719554368
+      "progress": 0.20800835786925986
     }
   },
   "76561198043370754": {
