@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 723067,
+    "playtimeSeconds": 723077,
     "warns": {
       "active": 0,
       "total": 0,
@@ -731,7 +731,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:44:27.457Z",
+    "updatedAt": "2026-06-22T21:44:38.081Z",
     "leveling": {
       "level": 45,
       "xp": 118160,
