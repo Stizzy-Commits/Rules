@@ -745,9 +745,9 @@
     "steamid64": "76561198043370754",
     "steamid": "STEAM_0:0:41552513",
     "name": "Sosa",
-    "currentJob": "Gun Dealer",
-    "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 259529,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 259691,
     "warns": {
       "active": 0,
       "total": 0,
@@ -759,7 +759,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 580346,
+      "currency": 580391,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -894,42 +894,16 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 2280,
-        "model": "models/player/monk.mdl",
-        "name": "Gun Dealer",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 2280,
-        "model": "models/player/monk.mdl",
-        "name": "models/player/monk.mdl",
-        "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-21T15:09:20.935Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-22T12:18:14.353Z",
     "leveling": {
       "level": 35,
-      "xp": 41600,
-      "currentXp": 946,
+      "xp": 41650,
+      "currentXp": 996,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.2244988534908838
+      "progress": 0.23636022107033958
     }
   },
   "76561198083253627": {
