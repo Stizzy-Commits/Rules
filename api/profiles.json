@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Terrorist",
     "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 700703,
+    "playtimeSeconds": 701003,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402489228,
+      "currency": 99402489288,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -600,16 +600,16 @@
         "3": {
           "slot": 3,
           "amount": 1,
-          "name": "OG Kush 1000g THC: 50%",
-          "type": "zgo2_jar",
-          "class": "246224726",
-          "model": "models/zerochain/props_growop2/zgo2_jar.mdl",
+          "name": "#weapon_smg1",
+          "type": "spawned_weapon",
+          "class": "weapon_smg1",
+          "model": "models/weapons/w_smg1.mdl",
           "rarity": "",
           "color": null,
-          "iconKey": "zgo2_jar_246224726_models-zerochain-props_growop2-zgo2_jar.mdl",
+          "iconKey": "spawned_weapon_weapon_smg1_models-weapons-w_smg1.mdl",
           "icon": "",
           "equipped": false,
-          "meta": "Holds weed."
+          "meta": "A shooty stick!"
         },
         "5": {
           "slot": 5,
@@ -723,7 +723,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/phoenix.mdl",
         "name": "Terrorist",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
@@ -737,20 +737,20 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T05:39:01.998Z",
+    "updatedAt": "2026-06-22T05:44:01.992Z",
     "leveling": {
       "level": 45,
-      "xp": 114460,
-      "currentXp": 6624,
+      "xp": 114510,
+      "currentXp": 6674,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.6058655064825673
+      "progress": 0.6104385771562835
     }
   },
   "76561198043370754": {
