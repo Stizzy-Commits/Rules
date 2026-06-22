@@ -1668,16 +1668,16 @@
     "steamid64": "76561199610282984",
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
-    "currentJob": "drip goku",
-    "currentModel": "models/argentini/gokudrip.mdl",
-    "playtimeSeconds": 125691,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 125804,
     "leveling": {
       "level": 28,
-      "xp": 20850,
-      "currentXp": 718,
+      "xp": 20900,
+      "currentXp": 768,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.3321590746675806
+      "progress": 0.3552735244990517
     },
     "warns": {
       "active": 0,
@@ -1715,13 +1715,13 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/argentini/gokudrip.mdl",
         "name": "drip goku",
         "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1729,19 +1729,19 @@
     ],
     "models": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/argentini/gokudrip.mdl",
         "name": "models/argentini/gokudrip.mdl",
         "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:56:49.664Z"
+    "updatedAt": "2026-06-22T21:59:17.998Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
