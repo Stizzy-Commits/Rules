@@ -1831,9 +1831,9 @@
     "steamid64": "76561198054121273",
     "steamid": "STEAM_0:1:46927772",
     "name": "Frank Miller",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 6718,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 6878,
     "leveling": {
       "level": 5,
       "xp": 1050,
@@ -1863,20 +1863,32 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:01:40.546Z"
+    "updatedAt": "2026-06-22T21:04:20.512Z"
   }
 }
