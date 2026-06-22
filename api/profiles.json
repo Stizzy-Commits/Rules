@@ -1235,14 +1235,14 @@
     "name": "john the best",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 140881,
+    "playtimeSeconds": 141181,
     "leveling": {
       "level": 47,
-      "xp": 133211,
-      "currentXp": 2414,
+      "xp": 133261,
+      "currentXp": 2464,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.1825276616029825
+      "progress": 0.1863070588539876
     },
     "warns": {
       "active": 1,
@@ -1262,7 +1262,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24023109,
+      "currency": 24023309,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1455,7 +1455,7 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 360,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1469,7 +1469,7 @@
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 360,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1481,7 +1481,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:34:26.079Z"
+    "updatedAt": "2026-06-22T21:39:26.058Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
