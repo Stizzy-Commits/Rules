@@ -1233,16 +1233,16 @@
     "steamid64": "76561197961551415",
     "steamid": "STEAM_0:1:642843",
     "name": "john the best",
-    "currentJob": "Terrorist",
-    "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 140551,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 140795,
     "leveling": {
       "level": 47,
-      "xp": 133161,
-      "currentXp": 2364,
+      "xp": 133211,
+      "currentXp": 2414,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.1787482643519774
+      "progress": 0.1825276616029825
     },
     "warns": {
       "active": 1,
@@ -1453,41 +1453,9 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 2100,
-        "model": "models/player/phoenix.mdl",
-        "name": "Terrorist",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 2100,
-        "model": "models/player/phoenix.mdl",
-        "name": "models/player/phoenix.mdl",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-21T21:06:16.051Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-22T21:32:59.508Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
