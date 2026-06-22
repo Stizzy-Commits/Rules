@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Terrorist",
-    "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 701003,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 701304,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402489288,
+      "currency": 99402489318,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -723,10 +723,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 780,
         "model": "models/player/phoenix.mdl",
         "name": "Terrorist",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
@@ -737,20 +743,26 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 780,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T05:44:01.992Z",
+    "updatedAt": "2026-06-22T05:49:02.278Z",
     "leveling": {
       "level": 45,
-      "xp": 114510,
-      "currentXp": 6674,
+      "xp": 114560,
+      "currentXp": 6724,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.6104385771562835
+      "progress": 0.6150116478299997
     }
   },
   "76561198043370754": {
