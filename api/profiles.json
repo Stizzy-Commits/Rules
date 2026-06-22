@@ -1694,16 +1694,16 @@
     "steamid64": "76561199610282984",
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
-    "currentJob": "the hero of time",
-    "currentModel": "models/player/link3ds_pm.mdl",
-    "playtimeSeconds": 129157,
+    "currentJob": "Mine Worker",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 129457,
     "leveling": {
       "level": 28,
-      "xp": 21400,
-      "currentXp": 1268,
+      "xp": 21450,
+      "currentXp": 1318,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.5864180228137625
+      "progress": 0.6095324726452336
     },
     "warns": {
       "active": 0,
@@ -1716,7 +1716,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2897697,
+      "currency": 2899076,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1748,21 +1748,39 @@
       },
       {
         "seconds": 300,
-        "model": "models/argentini/gokudrip.mdl",
-        "name": "drip goku",
-        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
-      },
-      {
-        "seconds": 300,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/link3ds_pm.mdl",
         "name": "the hero of time",
         "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/argentini/gokudrip.mdl",
+        "name": "drip goku",
+        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/phoenix.mdl",
+        "name": "Heroin Cook",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/eli.mdl",
+        "name": "BlackMarket Dealer",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
       }
     ],
     "models": [
@@ -1780,18 +1798,30 @@
       },
       {
         "seconds": 300,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "models/player/link3ds_pm.mdl",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
+        "seconds": 300,
         "model": "models/argentini/gokudrip.mdl",
         "name": "models/argentini/gokudrip.mdl",
         "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       },
       {
-        "seconds": 240,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "models/player/link3ds_pm.mdl",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+        "seconds": 120,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T22:56:51.126Z"
+    "updatedAt": "2026-06-22T23:01:51.183Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
