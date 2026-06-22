@@ -1219,16 +1219,16 @@
     "steamid64": "76561197961551415",
     "steamid": "STEAM_0:1:642843",
     "name": "john the best",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 141481,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 141786,
     "leveling": {
       "level": 47,
-      "xp": 133311,
-      "currentXp": 2514,
+      "xp": 133361,
+      "currentXp": 2564,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.19008645610499272
+      "progress": 0.19386585335599782
     },
     "warns": {
       "active": 1,
@@ -1248,7 +1248,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 24023409,
+      "currency": 24023609,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1439,35 +1439,9 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 660,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 660,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-22T21:44:26.444Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-22T21:56:24.245Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
