@@ -1833,7 +1833,7 @@
     "name": "Frank Miller",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 6628,
+    "playtimeSeconds": 6718,
     "leveling": {
       "level": 5,
       "xp": 1050,
@@ -1853,7 +1853,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 55291,
+      "currency": 55311,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1863,7 +1863,7 @@
     },
     "jobs": [
       {
-        "seconds": 120,
+        "seconds": 240,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -1871,12 +1871,12 @@
     ],
     "models": [
       {
-        "seconds": 120,
+        "seconds": 240,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T18:36:57.507Z"
+    "updatedAt": "2026-06-22T21:01:40.546Z"
   }
 }
