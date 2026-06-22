@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 700403,
+    "currentJob": "Terrorist",
+    "currentModel": "models/player/phoenix.mdl",
+    "playtimeSeconds": 700703,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402489198,
+      "currency": 99402489228,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -717,28 +717,40 @@
     },
     "jobs": [
       {
-        "seconds": 3900,
+        "seconds": 3960,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/phoenix.mdl",
+        "name": "Terrorist",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 3900,
+        "seconds": 3960,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T05:34:02.042Z",
+    "updatedAt": "2026-06-22T05:39:01.998Z",
     "leveling": {
       "level": 45,
-      "xp": 114410,
-      "currentXp": 6574,
+      "xp": 114460,
+      "currentXp": 6624,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.6012924358088512
+      "progress": 0.6058655064825673
     }
   },
   "76561198043370754": {
