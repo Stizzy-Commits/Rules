@@ -1696,14 +1696,14 @@
     "name": "billypopdog",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 132157,
+    "playtimeSeconds": 132457,
     "leveling": {
       "level": 28,
-      "xp": 21900,
-      "currentXp": 1768,
+      "xp": 21950,
+      "currentXp": 1818,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.8175625211284734
+      "progress": 0.8406769709599444
     },
     "warns": {
       "active": 0,
@@ -1716,7 +1716,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2900942,
+      "currency": 2901092,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1741,16 +1741,16 @@
     },
     "jobs": [
       {
+        "seconds": 3060,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 2940,
         "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "name": "tiny shrek",
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
-      },
-      {
-        "seconds": 2760,
-        "model": "models/player/eli.mdl",
-        "name": "Mine Worker",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 300,
@@ -1785,16 +1785,16 @@
     ],
     "models": [
       {
+        "seconds": 3120,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 2940,
         "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "name": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
-      },
-      {
-        "seconds": 2820,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 300,
@@ -1821,7 +1821,7 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T23:46:51.107Z"
+    "updatedAt": "2026-06-22T23:51:51.115Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
