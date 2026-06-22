@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 723417,
+    "playtimeSeconds": 723912,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402492098,
+      "currency": 99402492158,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -607,6 +607,20 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_weapon_smg1_models-weapons-w_smg1.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "4": {
+          "slot": 4,
+          "amount": 1,
+          "name": "Ares Shrike",
+          "type": "spawned_weapon",
+          "class": "m9k_ares_shrike",
+          "model": "models/weapons/w_ares_shrike.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_ares_shrike_models-weapons-w_ares_shrike.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -715,16 +729,30 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-22T21:53:36.822Z",
+    "jobs": [
+      {
+        "seconds": 540,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 540,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-22T22:01:51.846Z",
     "leveling": {
       "level": 45,
-      "xp": 118210,
-      "currentXp": 10374,
+      "xp": 118260,
+      "currentXp": 10424,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.9488458070112806
+      "progress": 0.9534188776849969
     }
   },
   "76561198043370754": {
