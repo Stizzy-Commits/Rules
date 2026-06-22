@@ -1700,16 +1700,16 @@
     "steamid64": "76561199610282984",
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
-    "currentJob": "tiny shrek",
-    "currentModel": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-    "playtimeSeconds": 122685,
+    "currentJob": "the hero of time",
+    "currentModel": "models/player/link3ds_pm.mdl",
+    "playtimeSeconds": 122985,
     "leveling": {
       "level": 28,
-      "xp": 20400,
-      "currentXp": 268,
+      "xp": 20450,
+      "currentXp": 318,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.12412902618434084
+      "progress": 0.14724347601581192
     },
     "warns": {
       "active": 0,
@@ -1753,6 +1753,12 @@
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
       },
       {
+        "seconds": 300,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "the hero of time",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
@@ -1767,13 +1773,19 @@
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
       },
       {
+        "seconds": 300,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "models/player/link3ds_pm.mdl",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:04:18.664Z"
+    "updatedAt": "2026-06-22T21:09:18.642Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
