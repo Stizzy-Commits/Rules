@@ -1839,14 +1839,14 @@
     "name": "Frank Miller",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 8679,
+    "playtimeSeconds": 8979,
     "leveling": {
       "level": 6,
-      "xp": 1350,
-      "currentXp": 192,
+      "xp": 1400,
+      "currentXp": 242,
       "requiredXp": 265,
       "maxLevel": 100,
-      "progress": 0.72500467102177
+      "progress": 0.9131626477063625
     },
     "warns": {
       "active": 0,
@@ -1859,7 +1859,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 6135,
+      "currency": 4275,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1869,7 +1869,7 @@
     },
     "jobs": [
       {
-        "seconds": 1920,
+        "seconds": 2220,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1883,7 +1883,7 @@
     ],
     "models": [
       {
-        "seconds": 1920,
+        "seconds": 2220,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1895,7 +1895,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:34:21.547Z"
+    "updatedAt": "2026-06-22T21:39:21.553Z"
   },
   "76561199103546480": {
     "steamid64": "76561199103546480",
