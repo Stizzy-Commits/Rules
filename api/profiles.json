@@ -1837,9 +1837,9 @@
     "steamid64": "76561198054121273",
     "steamid": "STEAM_0:1:46927772",
     "name": "Frank Miller",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 9581,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 9635,
     "leveling": {
       "level": 7,
       "xp": 1500,
@@ -1867,35 +1867,9 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 2820,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 2820,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-22T21:49:24.003Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-22T22:32:48.180Z"
   },
   "76561199103546480": {
     "steamid64": "76561199103546480",
