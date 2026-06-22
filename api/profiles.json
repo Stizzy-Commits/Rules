@@ -1864,8 +1864,8 @@
     "steamid": "STEAM_0:0:571640376",
     "name": "dennypasha",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 1194,
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 1234,
     "leveling": {
       "level": 1,
       "xp": 150,
@@ -1895,10 +1895,10 @@
     },
     "jobs": [
       {
-        "seconds": 120,
-        "model": "models/player/group01/male_02.mdl",
+        "seconds": 180,
+        "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
     "models": [
@@ -1907,8 +1907,14 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:56:55.625Z"
+    "updatedAt": "2026-06-22T21:59:01.953Z"
   }
 }
