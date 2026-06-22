@@ -1877,7 +1877,7 @@
     "name": "dennypasha",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 30,
+    "playtimeSeconds": 184,
     "leveling": {
       "level": 0,
       "xp": 0,
@@ -1897,7 +1897,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30000,
+      "currency": 30020,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1905,8 +1905,22 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-22T21:31:49.926Z"
+    "jobs": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-22T21:34:23.473Z"
   }
 }
