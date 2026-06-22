@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "the hero of time",
     "currentModel": "models/player/link3ds_pm.mdl",
-    "playtimeSeconds": 702204,
+    "playtimeSeconds": 702504,
     "warns": {
       "active": 0,
       "total": 0,
@@ -723,16 +723,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
+        "seconds": 900,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "the hero of time",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
         "seconds": 780,
         "model": "models/player/phoenix.mdl",
         "name": "Terrorist",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 600,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "the hero of time",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       },
       {
         "seconds": 360,
@@ -749,16 +749,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
+        "seconds": 900,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "models/player/link3ds_pm.mdl",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
         "seconds": 780,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 600,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "models/player/link3ds_pm.mdl",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       },
       {
         "seconds": 360,
@@ -767,14 +767,14 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T06:04:02.292Z",
+    "updatedAt": "2026-06-22T06:09:02.329Z",
     "leveling": {
       "level": 45,
-      "xp": 114710,
-      "currentXp": 6874,
+      "xp": 114760,
+      "currentXp": 6924,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.6287308598511482
+      "progress": 0.6333039305248644
     }
   },
   "76561198043370754": {
