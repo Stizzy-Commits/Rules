@@ -322,8 +322,8 @@
     "steamid": "STEAM_0:0:179223470",
     "name": "tort",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 56716,
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 56877,
     "warns": {
       "active": 0,
       "total": 0,
@@ -335,7 +335,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1234541,
+      "currency": 1234561,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -526,23 +526,17 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 240,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 240,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-20T16:34:57.291Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-22T23:52:28.071Z",
+    "leveling": {
+      "level": 20,
+      "xp": 9100,
+      "currentXp": 508,
+      "requiredXp": 1009,
+      "maxLevel": 100,
+      "progress": 0.504149713706146
+    }
   },
   "76561198120592615": {
     "steamid64": "76561198120592615",
