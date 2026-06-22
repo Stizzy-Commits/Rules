@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "the hero of time",
-    "currentModel": "models/player/link3ds_pm.mdl",
-    "playtimeSeconds": 702504,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 702690,
     "warns": {
       "active": 0,
       "total": 0,
@@ -715,66 +715,16 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 3960,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 900,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "the hero of time",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
-      },
-      {
-        "seconds": 780,
-        "model": "models/player/phoenix.mdl",
-        "name": "Terrorist",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 3960,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 900,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "models/player/link3ds_pm.mdl",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
-      },
-      {
-        "seconds": 780,
-        "model": "models/player/phoenix.mdl",
-        "name": "models/player/phoenix.mdl",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-22T06:09:02.329Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-22T06:20:50.274Z",
     "leveling": {
       "level": 45,
-      "xp": 114760,
-      "currentXp": 6924,
+      "xp": 114810,
+      "currentXp": 6974,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.6333039305248644
+      "progress": 0.6378770011985806
     }
   },
   "76561198043370754": {
