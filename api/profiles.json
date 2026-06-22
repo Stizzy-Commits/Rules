@@ -548,9 +548,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 701604,
+    "currentJob": "the hero of time",
+    "currentModel": "models/player/link3ds_pm.mdl",
+    "playtimeSeconds": 701904,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402489418,
+      "currency": 99402489518,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -733,6 +733,12 @@
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "the hero of time",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       }
     ],
     "models": [
@@ -753,16 +759,22 @@
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "models/player/link3ds_pm.mdl",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T05:54:02.285Z",
+    "updatedAt": "2026-06-22T05:59:02.306Z",
     "leveling": {
       "level": 45,
-      "xp": 114610,
-      "currentXp": 6774,
+      "xp": 114660,
+      "currentXp": 6824,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.6195847185037159
+      "progress": 0.624157789177432
     }
   },
   "76561198043370754": {
