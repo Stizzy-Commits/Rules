@@ -1700,9 +1700,9 @@
     "steamid64": "76561199610282984",
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 121983,
+    "currentJob": "tiny shrek",
+    "currentModel": "models/cktheamazingfrog/player/shrek/shrek.mdl",
+    "playtimeSeconds": 122085,
     "leveling": {
       "level": 28,
       "xp": 20300,
@@ -1747,6 +1747,12 @@
     },
     "jobs": [
       {
+        "seconds": 120,
+        "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
+        "name": "tiny shrek",
+        "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
@@ -1755,13 +1761,19 @@
     ],
     "models": [
       {
+        "seconds": 120,
+        "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
+        "name": "models/cktheamazingfrog/player/shrek/shrek.mdl",
+        "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T20:52:36.452Z"
+    "updatedAt": "2026-06-22T20:54:18.422Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
