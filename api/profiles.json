@@ -1838,5 +1838,43 @@
       }
     ],
     "updatedAt": "2026-06-21T21:12:26.980Z"
+  },
+  "76561198054121273": {
+    "steamid64": "76561198054121273",
+    "steamid": "STEAM_0:1:46927772",
+    "name": "Frank Miller",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 6558,
+    "leveling": {
+      "level": 5,
+      "xp": 1050,
+      "currentXp": 134,
+      "requiredXp": 241,
+      "maxLevel": 100,
+      "progress": 0.5556624920056373
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 55291,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-22T18:35:47.281Z"
   }
 }
