@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "the hero of time",
     "currentModel": "models/player/link3ds_pm.mdl",
-    "playtimeSeconds": 701904,
+    "playtimeSeconds": 702204,
     "warns": {
       "active": 0,
       "total": 0,
@@ -729,16 +729,16 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
+        "seconds": 600,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "the hero of time",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "the hero of time",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       }
     ],
     "models": [
@@ -755,26 +755,26 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
+        "seconds": 600,
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "models/player/link3ds_pm.mdl",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "models/player/link3ds_pm.mdl",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T05:59:02.306Z",
+    "updatedAt": "2026-06-22T06:04:02.292Z",
     "leveling": {
       "level": 45,
-      "xp": 114660,
-      "currentXp": 6824,
+      "xp": 114710,
+      "currentXp": 6874,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.624157789177432
+      "progress": 0.6287308598511482
     }
   },
   "76561198043370754": {
