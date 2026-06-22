@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 701304,
+    "playtimeSeconds": 701604,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402489318,
+      "currency": 99402489418,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -729,7 +729,7 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 360,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -749,20 +749,20 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 360,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T05:49:02.278Z",
+    "updatedAt": "2026-06-22T05:54:02.285Z",
     "leveling": {
       "level": 45,
-      "xp": 114560,
-      "currentXp": 6724,
+      "xp": 114610,
+      "currentXp": 6774,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.6150116478299997
+      "progress": 0.6195847185037159
     }
   },
   "76561198043370754": {
