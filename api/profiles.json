@@ -1709,8 +1709,8 @@
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 125956,
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 126019,
     "leveling": {
       "level": 28,
       "xp": 20900,
@@ -1781,7 +1781,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T22:01:50.011Z"
+    "updatedAt": "2026-06-22T22:04:33.036Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
