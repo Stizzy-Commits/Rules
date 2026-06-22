@@ -1696,14 +1696,14 @@
     "name": "billypopdog",
     "currentJob": "tiny shrek",
     "currentModel": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-    "playtimeSeconds": 126457,
+    "playtimeSeconds": 126757,
     "leveling": {
       "level": 28,
-      "xp": 20950,
-      "currentXp": 818,
+      "xp": 21000,
+      "currentXp": 868,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.37838797433052274
+      "progress": 0.40150242416199383
     },
     "warns": {
       "active": 0,
@@ -1716,7 +1716,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3091604,
+      "currency": 3077104,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1741,7 +1741,7 @@
     },
     "jobs": [
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "name": "tiny shrek",
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
@@ -1761,7 +1761,7 @@
     ],
     "models": [
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "name": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
@@ -1779,7 +1779,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T22:11:51.123Z"
+    "updatedAt": "2026-06-22T22:16:51.129Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
