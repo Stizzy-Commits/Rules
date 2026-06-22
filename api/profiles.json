@@ -1696,14 +1696,14 @@
     "name": "billypopdog",
     "currentJob": "the hero of time",
     "currentModel": "models/player/link3ds_pm.mdl",
-    "playtimeSeconds": 124786,
+    "playtimeSeconds": 125086,
     "leveling": {
       "level": 28,
-      "xp": 20750,
-      "currentXp": 618,
+      "xp": 20800,
+      "currentXp": 668,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.2859301750046384
+      "progress": 0.3090446248361095
     },
     "warns": {
       "active": 0,
@@ -1741,7 +1741,7 @@
     },
     "jobs": [
       {
-        "seconds": 2100,
+        "seconds": 2400,
         "model": "models/player/link3ds_pm.mdl",
         "name": "the hero of time",
         "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
@@ -1761,7 +1761,7 @@
     ],
     "models": [
       {
-        "seconds": 2100,
+        "seconds": 2400,
         "model": "models/player/link3ds_pm.mdl",
         "name": "models/player/link3ds_pm.mdl",
         "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
@@ -1779,7 +1779,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:39:19.637Z"
+    "updatedAt": "2026-06-22T21:44:19.589Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
