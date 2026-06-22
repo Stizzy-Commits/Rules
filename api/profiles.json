@@ -1696,14 +1696,14 @@
     "name": "billypopdog",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 131557,
+    "playtimeSeconds": 131857,
     "leveling": {
       "level": 28,
-      "xp": 21800,
-      "currentXp": 1668,
+      "xp": 21850,
+      "currentXp": 1718,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.7713336214655312
+      "progress": 0.7944480712970022
     },
     "warns": {
       "active": 0,
@@ -1716,7 +1716,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2900642,
+      "currency": 2900792,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1747,7 +1747,7 @@
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
       },
       {
-        "seconds": 2160,
+        "seconds": 2460,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1791,7 +1791,7 @@
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
       },
       {
-        "seconds": 2220,
+        "seconds": 2520,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1821,7 +1821,7 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T23:36:51.116Z"
+    "updatedAt": "2026-06-22T23:41:51.122Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
