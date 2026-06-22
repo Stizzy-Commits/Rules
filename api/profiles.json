@@ -1696,14 +1696,14 @@
     "name": "billypopdog",
     "currentJob": "the hero of time",
     "currentModel": "models/player/link3ds_pm.mdl",
-    "playtimeSeconds": 125086,
+    "playtimeSeconds": 125388,
     "leveling": {
       "level": 28,
-      "xp": 20800,
-      "currentXp": 668,
+      "xp": 20850,
+      "currentXp": 718,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.3090446248361095
+      "progress": 0.3321590746675806
     },
     "warns": {
       "active": 0,
@@ -1716,7 +1716,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 7603084,
+      "currency": 7601084,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1741,7 +1741,7 @@
     },
     "jobs": [
       {
-        "seconds": 2400,
+        "seconds": 2640,
         "model": "models/player/link3ds_pm.mdl",
         "name": "the hero of time",
         "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
@@ -1754,6 +1754,12 @@
       },
       {
         "seconds": 60,
+        "model": "models/player/monk.mdl",
+        "name": "Gun Dealer",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1761,7 +1767,7 @@
     ],
     "models": [
       {
-        "seconds": 2400,
+        "seconds": 2640,
         "model": "models/player/link3ds_pm.mdl",
         "name": "models/player/link3ds_pm.mdl",
         "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
@@ -1777,9 +1783,15 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/monk.mdl",
+        "name": "models/player/monk.mdl",
+        "iconKey": "profile_model_face_models-player-monk.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:44:19.589Z"
+    "updatedAt": "2026-06-22T21:49:22.129Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
