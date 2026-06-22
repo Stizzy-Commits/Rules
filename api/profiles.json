@@ -550,7 +550,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 708036,
+    "playtimeSeconds": 708336,
     "warns": {
       "active": 0,
       "total": 0,
@@ -562,7 +562,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402490178,
+      "currency": 99402490218,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -717,7 +717,7 @@
     },
     "jobs": [
       {
-        "seconds": 5400,
+        "seconds": 5700,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -725,20 +725,20 @@
     ],
     "models": [
       {
-        "seconds": 5400,
+        "seconds": 5700,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T07:49:56.375Z",
+    "updatedAt": "2026-06-22T07:54:56.362Z",
     "leveling": {
       "level": 45,
-      "xp": 115660,
-      "currentXp": 7824,
+      "xp": 115710,
+      "currentXp": 7874,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.7156192026517556
+      "progress": 0.7201922733254718
     }
   },
   "76561198043370754": {
