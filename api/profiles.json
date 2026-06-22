@@ -1905,7 +1905,7 @@
     "name": "dennypasha",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 1234,
+    "playtimeSeconds": 1408,
     "leveling": {
       "level": 1,
       "xp": 150,
@@ -1925,7 +1925,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30120,
+      "currency": 30140,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1935,7 +1935,7 @@
     },
     "jobs": [
       {
-        "seconds": 180,
+        "seconds": 360,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1943,18 +1943,18 @@
     ],
     "models": [
       {
+        "seconds": 240,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-22T21:59:01.953Z"
+    "updatedAt": "2026-06-22T22:01:55.846Z"
   }
 }
