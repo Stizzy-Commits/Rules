@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 111781,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 112081,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4132532,
+      "currency": 4132632,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -126,6 +126,12 @@
     },
     "jobs": [
       {
+        "seconds": 300,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
@@ -134,20 +140,26 @@
     ],
     "models": [
       {
+        "seconds": 300,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T20:29:44.746Z",
+    "updatedAt": "2026-06-23T20:34:45.049Z",
     "leveling": {
       "level": 27,
-      "xp": 18300,
-      "currentXp": 135,
+      "xp": 18350,
+      "currentXp": 185,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.06865434658881124
+      "progress": 0.09408024140342944
     }
   },
   "76561198249112348": {
