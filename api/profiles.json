@@ -2400,16 +2400,16 @@
     "steamid64": "76561198050435611",
     "steamid": "STEAM_0:1:45084941",
     "name": "scoobyvu",
-    "currentJob": "Gun Dealer",
-    "currentModel": "models/player/monk.mdl",
-    "playtimeSeconds": 439,
+    "currentJob": "Mayor",
+    "currentModel": "models/player/breen.mdl",
+    "playtimeSeconds": 739,
     "leveling": {
       "level": 0,
-      "xp": 50,
-      "currentXp": 50,
+      "xp": 100,
+      "currentXp": 100,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0.3333333333333333
+      "progress": 0.6666666666666666
     },
     "warns": {
       "active": 0,
@@ -2422,7 +2422,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 28065,
+      "currency": 27710,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2432,10 +2432,16 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/breen.mdl",
+        "name": "Mayor",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 240,
@@ -2446,10 +2452,16 @@
     ],
     "models": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 240,
@@ -2458,6 +2470,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:21:57.970Z"
+    "updatedAt": "2026-06-23T03:26:57.002Z"
   }
 }
