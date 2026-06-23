@@ -2414,14 +2414,14 @@
     "name": "scoobyvu",
     "currentJob": "Mayor",
     "currentModel": "models/player/breen.mdl",
-    "playtimeSeconds": 739,
+    "playtimeSeconds": 1039,
     "leveling": {
-      "level": 0,
-      "xp": 100,
-      "currentXp": 100,
-      "requiredXp": 150,
+      "level": 1,
+      "xp": 150,
+      "currentXp": 0,
+      "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.6666666666666666
+      "progress": 0
     },
     "warns": {
       "active": 0,
@@ -2434,7 +2434,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 27710,
+      "currency": 27910,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2444,16 +2444,16 @@
     },
     "jobs": [
       {
+        "seconds": 540,
+        "model": "models/player/breen.mdl",
+        "name": "Mayor",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
+      },
+      {
         "seconds": 300,
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/breen.mdl",
-        "name": "Mayor",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 240,
@@ -2464,16 +2464,16 @@
     ],
     "models": [
       {
+        "seconds": 540,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
+      },
+      {
         "seconds": 300,
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/breen.mdl",
-        "name": "models/player/breen.mdl",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 240,
@@ -2482,6 +2482,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:26:57.002Z"
+    "updatedAt": "2026-06-23T03:31:56.967Z"
   }
 }
