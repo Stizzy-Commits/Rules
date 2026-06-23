@@ -1964,5 +1964,302 @@
       }
     ],
     "updatedAt": "2026-06-22T22:11:57.579Z"
+  },
+  "76561198805607993": {
+    "steamid64": "76561198805607993",
+    "steamid": "STEAM_0:1:422671132",
+    "name": "Turtle Boot",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 18749,
+    "leveling": {
+      "level": 12,
+      "xp": 3300,
+      "currentXp": 92,
+      "requiredXp": 470,
+      "maxLevel": 100,
+      "progress": 0.19618616673141426
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 3300017,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 2,
+          "name": "AK47",
+          "type": "spawned_weapon",
+          "class": "weapon_ak472",
+          "model": "models/weapons/w_rif_ak47.mdl",
+          "rarity": "Legendary",
+          "color": {
+            "r": 253,
+            "g": 162,
+            "b": 77
+          },
+          "iconKey": "spawned_weapon_weapon_ak472_models-weapons-w_rif_ak47.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "2": {
+          "slot": 2,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "3": {
+          "slot": 3,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "4": {
+          "slot": 4,
+          "amount": 10,
+          "name": "Timed C4",
+          "type": "spawned_weapon",
+          "class": "m9k_suicide_bomb",
+          "model": "models/weapons/w_sb.mdl",
+          "rarity": "Uncommon",
+          "color": {
+            "r": 104,
+            "g": 255,
+            "b": 104
+          },
+          "iconKey": "spawned_weapon_m9k_suicide_bomb_models-weapons-w_sb.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "5": {
+          "slot": 5,
+          "amount": 10,
+          "name": "Timed C4",
+          "type": "spawned_weapon",
+          "class": "m9k_suicide_bomb",
+          "model": "models/weapons/w_sb.mdl",
+          "rarity": "Uncommon",
+          "color": {
+            "r": 104,
+            "g": 255,
+            "b": 104
+          },
+          "iconKey": "spawned_weapon_m9k_suicide_bomb_models-weapons-w_sb.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "6": {
+          "slot": 6,
+          "amount": 2,
+          "name": "Timed C4",
+          "type": "spawned_weapon",
+          "class": "m9k_suicide_bomb",
+          "model": "models/weapons/w_sb.mdl",
+          "rarity": "Uncommon",
+          "color": {
+            "r": 104,
+            "g": 255,
+            "b": 104
+          },
+          "iconKey": "spawned_weapon_m9k_suicide_bomb_models-weapons-w_sb.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "7": {
+          "slot": 7,
+          "amount": 10,
+          "name": "Barret M98B",
+          "type": "spawned_weapon",
+          "class": "m9k_m98b",
+          "model": "models/weapons/w_barrett_m98b.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m98b_models-weapons-w_barrett_m98b.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "8": {
+          "slot": 8,
+          "amount": 10,
+          "name": "Sticky Grenade",
+          "type": "spawned_weapon",
+          "class": "m9k_sticky_grenade",
+          "model": "models/weapons/w_sticky_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_sticky_grenade_models-weapons-w_sticky_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "9": {
+          "slot": 9,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "10": {
+          "slot": 10,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "11": {
+          "slot": 11,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "12": {
+          "slot": 12,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "13": {
+          "slot": 13,
+          "amount": 10,
+          "name": "AAC Honey Badger",
+          "type": "spawned_weapon",
+          "class": "m9k_honeybadger",
+          "model": "models/weapons/w_aac_honeybadger.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_honeybadger_models-weapons-w_aac_honeybadger.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "14": {
+          "slot": 14,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "15": {
+          "slot": 15,
+          "amount": 1,
+          "name": "Purble Haze 10x",
+          "type": "zgo2_seed",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedseeds.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_seed_dc9e13b176_models-zerochain-props_growop2-zgo2_weedseeds.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Some weed seeds."
+        },
+        "16": {
+          "slot": 16,
+          "amount": 10,
+          "name": "Timed C4",
+          "type": "spawned_weapon",
+          "class": "m9k_suicide_bomb",
+          "model": "models/weapons/w_sb.mdl",
+          "rarity": "Uncommon",
+          "color": {
+            "r": 104,
+            "g": 255,
+            "b": 104
+          },
+          "iconKey": "spawned_weapon_m9k_suicide_bomb_models-weapons-w_sb.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        }
+      },
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-23T02:41:01.962Z"
   }
 }
