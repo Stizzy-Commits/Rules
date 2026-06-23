@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mayor",
     "currentModel": "models/player/breen.mdl",
-    "playtimeSeconds": 116827,
+    "playtimeSeconds": 117127,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3078367,
+      "currency": 3045467,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -182,7 +182,7 @@
     },
     "jobs": [
       {
-        "seconds": 1560,
+        "seconds": 1860,
         "model": "models/player/breen.mdl",
         "name": "Mayor",
         "iconKey": "profile_model_face_models-player-breen.mdl"
@@ -226,7 +226,7 @@
     ],
     "models": [
       {
-        "seconds": 1560,
+        "seconds": 1860,
         "model": "models/player/breen.mdl",
         "name": "models/player/breen.mdl",
         "iconKey": "profile_model_face_models-player-breen.mdl"
@@ -268,14 +268,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:54:45.146Z",
+    "updatedAt": "2026-06-23T21:59:45.039Z",
     "leveling": {
       "level": 27,
-      "xp": 19100,
-      "currentXp": 935,
+      "xp": 19150,
+      "currentXp": 985,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.4754686636227023
+      "progress": 0.5008945584373204
     }
   },
   "76561198249112348": {
