@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mayor",
     "currentModel": "models/player/breen.mdl",
-    "playtimeSeconds": 116227,
+    "playtimeSeconds": 116527,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3176377,
+      "currency": 3176767,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -173,20 +173,6 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
-        },
-        "12": {
-          "slot": 12,
-          "amount": 1,
-          "name": "HK USP",
-          "type": "spawned_weapon",
-          "class": "m9k_usp",
-          "model": "models/weapons/w_pist_fokkususp.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_usp_models-weapons-w_pist_fokkususp.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -202,16 +188,16 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 1260,
+        "model": "models/player/breen.mdl",
+        "name": "Mayor",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
+      },
+      {
         "seconds": 1200,
         "model": "models/player/guerilla.mdl",
         "name": "Cocaine Cook",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
-      },
-      {
-        "seconds": 960,
-        "model": "models/player/breen.mdl",
-        "name": "Mayor",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 540,
@@ -246,16 +232,16 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 1260,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
+      },
+      {
         "seconds": 1200,
         "model": "models/player/guerilla.mdl",
         "name": "models/player/guerilla.mdl",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
-      },
-      {
-        "seconds": 960,
-        "model": "models/player/breen.mdl",
-        "name": "models/player/breen.mdl",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 540,
@@ -282,14 +268,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:44:45.129Z",
+    "updatedAt": "2026-06-23T21:49:45.042Z",
     "leveling": {
       "level": 27,
-      "xp": 19000,
-      "currentXp": 835,
+      "xp": 19050,
+      "currentXp": 885,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.4246168739934659
+      "progress": 0.4500427688080841
     }
   },
   "76561198249112348": {
