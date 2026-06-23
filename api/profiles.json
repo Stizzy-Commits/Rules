@@ -1734,16 +1734,16 @@
     "steamid64": "76561199610282984",
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
-    "currentJob": "Mine Worker",
-    "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 175957,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 176171,
     "leveling": {
       "level": 31,
-      "xp": 29200,
-      "currentXp": 1908,
+      "xp": 29250,
+      "currentXp": 1958,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.6628641596718642
+      "progress": 0.6802303879449454
     },
     "warns": {
       "active": 0,
@@ -1756,7 +1756,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3813021,
+      "currency": 3813293,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1766,99 +1766,21 @@
     },
     "jobs": [
       {
-        "seconds": 46320,
-        "model": "models/player/eli.mdl",
-        "name": "Mine Worker",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 3000,
-        "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-        "name": "tiny shrek",
-        "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/argentini/gokudrip.mdl",
-        "name": "drip goku",
-        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "the hero of time",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
-      },
-      {
-        "seconds": 300,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/odessa.mdl",
-        "name": "Cardealer Job",
-        "iconKey": "profile_model_face_models-player-odessa.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/phoenix.mdl",
-        "name": "Heroin Cook",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/eli.mdl",
-        "name": "BlackMarket Dealer",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 46380,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 3000,
-        "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-        "name": "models/cktheamazingfrog/player/shrek/shrek.mdl",
-        "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/argentini/gokudrip.mdl",
-        "name": "models/argentini/gokudrip.mdl",
-        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
-      },
-      {
-        "seconds": 300,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "models/player/link3ds_pm.mdl",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/phoenix.mdl",
-        "name": "models/player/phoenix.mdl",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/odessa.mdl",
-        "name": "models/player/odessa.mdl",
-        "iconKey": "profile_model_face_models-player-odessa.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T11:56:51.132Z"
+    "updatedAt": "2026-06-23T12:03:38.263Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
