@@ -1969,16 +1969,16 @@
     "steamid64": "76561198805607993",
     "steamid": "STEAM_0:1:422671132",
     "name": "Turtle Boot",
-    "currentJob": "Mine Worker",
-    "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 19702,
+    "currentJob": "Elite Seller",
+    "currentModel": "models/player/riot.mdl",
+    "playtimeSeconds": 20002,
     "leveling": {
       "level": 12,
-      "xp": 3450,
-      "currentXp": 242,
+      "xp": 3500,
+      "currentXp": 292,
       "requiredXp": 470,
       "maxLevel": 100,
-      "progress": 0.5148169844417708
+      "progress": 0.6210272570118897
     },
     "warns": {
       "active": 0,
@@ -1991,7 +1991,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3827025,
+      "currency": 3683580,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -2246,10 +2246,16 @@
     },
     "jobs": [
       {
-        "seconds": 900,
+        "seconds": 960,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
         "seconds": 120,
@@ -2260,10 +2266,16 @@
     ],
     "models": [
       {
-        "seconds": 900,
+        "seconds": 960,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
         "seconds": 120,
@@ -2272,6 +2284,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T02:56:54.981Z"
+    "updatedAt": "2026-06-23T03:01:55.021Z"
   }
 }
