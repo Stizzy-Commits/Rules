@@ -544,7 +544,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 730748,
+    "playtimeSeconds": 730859,
     "warns": {
       "active": 0,
       "total": 0,
@@ -587,20 +587,6 @@
             "b": 104
           },
           "iconKey": "spawned_weapon_m9k_suicide_bomb_models-weapons-w_sb.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "3": {
-          "slot": 3,
-          "amount": 1,
-          "name": "#weapon_smg1",
-          "type": "spawned_weapon",
-          "class": "weapon_smg1",
-          "model": "models/weapons/w_smg1.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_weapon_smg1_models-weapons-w_smg1.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -767,7 +753,7 @@
     },
     "jobs": [
       {
-        "seconds": 7380,
+        "seconds": 7500,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -775,13 +761,13 @@
     ],
     "models": [
       {
-        "seconds": 7380,
+        "seconds": 7500,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:16:53.022Z",
+    "updatedAt": "2026-06-23T03:21:11.126Z",
     "leveling": {
       "level": 46,
       "xp": 119410,
