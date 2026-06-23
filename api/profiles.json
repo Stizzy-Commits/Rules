@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 112669,
+    "playtimeSeconds": 112927,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4131482,
+      "currency": 4131532,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -126,7 +126,7 @@
     },
     "jobs": [
       {
-        "seconds": 840,
+        "seconds": 1140,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -140,7 +140,7 @@
     ],
     "models": [
       {
-        "seconds": 840,
+        "seconds": 1140,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -152,7 +152,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T20:45:26.593Z",
+    "updatedAt": "2026-06-23T20:49:47.492Z",
     "leveling": {
       "level": 27,
       "xp": 18450,
