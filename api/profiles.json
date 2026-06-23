@@ -1736,14 +1736,14 @@
     "name": "billypopdog",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 168757,
+    "playtimeSeconds": 169057,
     "leveling": {
       "level": 31,
-      "xp": 28000,
-      "currentXp": 708,
+      "xp": 28050,
+      "currentXp": 758,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.24607468111791544
+      "progress": 0.2634409093909966
     },
     "warns": {
       "active": 0,
@@ -1756,7 +1756,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3592238,
+      "currency": 3609000,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1781,7 +1781,7 @@
     },
     "jobs": [
       {
-        "seconds": 39360,
+        "seconds": 39540,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1794,9 +1794,9 @@
       },
       {
         "seconds": 300,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+        "model": "models/player/link3ds_pm.mdl",
+        "name": "the hero of time",
+        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       },
       {
         "seconds": 300,
@@ -1806,9 +1806,15 @@
       },
       {
         "seconds": 300,
-        "model": "models/player/link3ds_pm.mdl",
-        "name": "the hero of time",
-        "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/odessa.mdl",
+        "name": "Cardealer Job",
+        "iconKey": "profile_model_face_models-player-odessa.mdl"
       },
       {
         "seconds": 120,
@@ -1825,7 +1831,7 @@
     ],
     "models": [
       {
-        "seconds": 39420,
+        "seconds": 39600,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1838,9 +1844,9 @@
       },
       {
         "seconds": 300,
-        "model": "models/argentini/gokudrip.mdl",
-        "name": "models/argentini/gokudrip.mdl",
-        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 300,
@@ -1850,18 +1856,24 @@
       },
       {
         "seconds": 300,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+        "model": "models/argentini/gokudrip.mdl",
+        "name": "models/argentini/gokudrip.mdl",
+        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       },
       {
         "seconds": 120,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/odessa.mdl",
+        "name": "models/player/odessa.mdl",
+        "iconKey": "profile_model_face_models-player-odessa.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T09:56:51.167Z"
+    "updatedAt": "2026-06-23T10:01:51.161Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
