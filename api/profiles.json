@@ -2432,14 +2432,14 @@
     "name": "scoobyvu",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 2539,
+    "playtimeSeconds": 2839,
     "leveling": {
       "level": 2,
-      "xp": 400,
-      "currentXp": 85,
+      "xp": 450,
+      "currentXp": 135,
       "requiredXp": 181,
       "maxLevel": 100,
-      "progress": 0.46831955922865004
+      "progress": 0.7438016528925618
     },
     "warns": {
       "active": 0,
@@ -2452,7 +2452,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 28550,
+      "currency": 28750,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2462,7 +2462,7 @@
     },
     "jobs": [
       {
-        "seconds": 1440,
+        "seconds": 1740,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -2494,7 +2494,7 @@
     ],
     "models": [
       {
-        "seconds": 1440,
+        "seconds": 1740,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -2524,6 +2524,6 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:56:56.985Z"
+    "updatedAt": "2026-06-23T04:01:57.005Z"
   }
 }
