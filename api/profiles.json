@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 112927,
+    "currentJob": "Heroin Cook",
+    "currentModel": "models/player/phoenix.mdl",
+    "playtimeSeconds": 113227,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4131532,
+      "currency": 4131432,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -126,7 +126,7 @@
     },
     "jobs": [
       {
-        "seconds": 1140,
+        "seconds": 1380,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -136,11 +136,17 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/phoenix.mdl",
+        "name": "Heroin Cook",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 1140,
+        "seconds": 1380,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -150,16 +156,22 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T20:49:47.492Z",
+    "updatedAt": "2026-06-23T20:54:45.054Z",
     "leveling": {
       "level": 27,
-      "xp": 18450,
-      "currentXp": 285,
+      "xp": 18500,
+      "currentXp": 335,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.1449320310326658
+      "progress": 0.17035792584728401
     }
   },
   "76561198249112348": {
