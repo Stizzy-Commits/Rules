@@ -1736,14 +1736,14 @@
     "name": "billypopdog",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 169657,
+    "playtimeSeconds": 169957,
     "leveling": {
       "level": 31,
-      "xp": 28150,
-      "currentXp": 858,
+      "xp": 28200,
+      "currentXp": 908,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.29817336593715904
+      "progress": 0.31553959421024025
     },
     "warns": {
       "active": 0,
@@ -1756,24 +1756,9 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3557446,
+      "currency": 3557596,
       "slotCount": 20,
-      "slots": {
-        "2": {
-          "slot": 2,
-          "amount": 1,
-          "name": "Scripted Weapon",
-          "type": "spawned_weapon",
-          "class": "ch_mining_jackhammer",
-          "model": "models/craphead_scripts/mining/w_jackhammer.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_ch_mining_jackhammer_models-craphead_scripts-mining-w_jackhammer.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        }
-      },
+      "slots": {},
       "weapons": [],
       "items": [],
       "vehicles": [],
@@ -1781,7 +1766,7 @@
     },
     "jobs": [
       {
-        "seconds": 40140,
+        "seconds": 40440,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1831,7 +1816,7 @@
     ],
     "models": [
       {
-        "seconds": 40200,
+        "seconds": 40500,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1873,7 +1858,7 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T10:11:51.162Z"
+    "updatedAt": "2026-06-23T10:16:51.164Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
