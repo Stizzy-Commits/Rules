@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mayor",
     "currentModel": "models/player/breen.mdl",
-    "playtimeSeconds": 116527,
+    "playtimeSeconds": 116827,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3176767,
+      "currency": 3078367,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -182,16 +182,16 @@
     },
     "jobs": [
       {
+        "seconds": 1560,
+        "model": "models/player/breen.mdl",
+        "name": "Mayor",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
+      },
+      {
         "seconds": 1380,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 1260,
-        "model": "models/player/breen.mdl",
-        "name": "Mayor",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 1200,
@@ -226,16 +226,16 @@
     ],
     "models": [
       {
+        "seconds": 1560,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
+      },
+      {
         "seconds": 1380,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 1260,
-        "model": "models/player/breen.mdl",
-        "name": "models/player/breen.mdl",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 1200,
@@ -268,14 +268,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:49:45.042Z",
+    "updatedAt": "2026-06-23T21:54:45.146Z",
     "leveling": {
       "level": 27,
-      "xp": 19050,
-      "currentXp": 885,
+      "xp": 19100,
+      "currentXp": 935,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.4500427688080841
+      "progress": 0.4754686636227023
     }
   },
   "76561198249112348": {
