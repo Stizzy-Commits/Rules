@@ -2344,14 +2344,14 @@
     "name": "KentuckyFT",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 822,
+    "playtimeSeconds": 1122,
     "leveling": {
-      "level": 0,
-      "xp": 100,
-      "currentXp": 100,
-      "requiredXp": 150,
+      "level": 1,
+      "xp": 150,
+      "currentXp": 0,
+      "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.6666666666666666
+      "progress": 0
     },
     "warns": {
       "active": 0,
@@ -2364,7 +2364,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30122,
+      "currency": 30124,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2374,7 +2374,7 @@
     },
     "jobs": [
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/walter_white/walter_white.mdl",
         "name": "Meth Cook",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
@@ -2388,7 +2388,7 @@
     ],
     "models": [
       {
-        "seconds": 480,
+        "seconds": 780,
         "model": "models/walter_white/walter_white.mdl",
         "name": "models/walter_white/walter_white.mdl",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
@@ -2406,7 +2406,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:26:55.105Z"
+    "updatedAt": "2026-06-23T03:31:55.089Z"
   },
   "76561198050435611": {
     "steamid64": "76561198050435611",
