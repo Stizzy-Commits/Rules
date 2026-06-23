@@ -2350,14 +2350,14 @@
     "name": "KentuckyFT",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 1422,
+    "playtimeSeconds": 1722,
     "leveling": {
       "level": 1,
-      "xp": 200,
-      "currentXp": 50,
+      "xp": 250,
+      "currentXp": 100,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.30303030303030304
+      "progress": 0.6060606060606061
     },
     "warns": {
       "active": 0,
@@ -2370,7 +2370,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30226,
+      "currency": 30426,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2386,16 +2386,16 @@
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
+        "seconds": 540,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
@@ -2406,7 +2406,7 @@
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -2424,7 +2424,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:36:54.984Z"
+    "updatedAt": "2026-06-23T03:41:54.997Z"
   },
   "76561198050435611": {
     "steamid64": "76561198050435611",
