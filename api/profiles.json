@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Professional Grower",
-    "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 111448,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 111714,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4135532,
+      "currency": 4132532,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -103,6 +103,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A block of weed."
+        },
+        "7": {
+          "slot": 7,
+          "amount": 1,
+          "name": "Purble Haze",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         }
       },
       "weapons": [],
@@ -110,19 +124,17 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "name": "Professional Grower",
-        "seconds": 300
-      }
-    ],
-    "models": [
-      {
-        "name": "models/player/fring/gus_suit.mdl",
-        "seconds": 300
-      }
-    ],
-    "updatedAt": "2026-06-20T15:46:50.263Z"
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-23T20:28:37.878Z",
+    "leveling": {
+      "level": 27,
+      "xp": 18300,
+      "currentXp": 135,
+      "requiredXp": 1966,
+      "maxLevel": 100,
+      "progress": 0.06865434658881124
+    }
   },
   "76561198249112348": {
     "steamid64": "76561198249112348",
