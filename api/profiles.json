@@ -2377,5 +2377,57 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-06-23T03:13:42.975Z"
+  },
+  "76561198050435611": {
+    "steamid64": "76561198050435611",
+    "steamid": "STEAM_0:1:45084941",
+    "name": "scoobyvu",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 30,
+    "leveling": {
+      "level": 0,
+      "xp": 0,
+      "currentXp": 0,
+      "requiredXp": 150,
+      "maxLevel": 100,
+      "progress": 0
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 30000,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-23T03:15:08.196Z"
   }
 }
