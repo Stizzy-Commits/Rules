@@ -477,7 +477,7 @@
     "name": "tort",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 57034,
+    "playtimeSeconds": 57244,
     "warns": {
       "active": 0,
       "total": 0,
@@ -680,9 +680,23 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-23T21:46:16.725Z",
+    "jobs": [
+      {
+        "seconds": 240,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 240,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-23T21:49:47.059Z",
     "leveling": {
       "level": 20,
       "xp": 9100,
