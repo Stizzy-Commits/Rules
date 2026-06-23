@@ -475,9 +475,9 @@
     "steamid64": "76561198318712668",
     "steamid": "STEAM_0:0:179223470",
     "name": "tort",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 57244,
+    "currentJob": "Osama",
+    "currentModel": "models/jessev92/kuma/characters/osama_ply.mdl",
+    "playtimeSeconds": 57544,
     "warns": {
       "active": 0,
       "total": 0,
@@ -489,7 +489,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1234561,
+      "currency": 1234603,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -634,7 +634,7 @@
         },
         "11": {
           "slot": 11,
-          "amount": 10,
+          "amount": 9,
           "name": "Ares Shrike",
           "type": "spawned_weapon",
           "class": "m9k_ares_shrike",
@@ -682,28 +682,40 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "name": "Osama",
+        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "name": "models/jessev92/kuma/characters/osama_ply.mdl",
+        "iconKey": "profile_model_face_models-jessev92-kuma-characters-osama_ply.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:49:47.059Z",
+    "updatedAt": "2026-06-23T21:54:47.032Z",
     "leveling": {
       "level": 20,
-      "xp": 9100,
-      "currentXp": 508,
+      "xp": 9150,
+      "currentXp": 558,
       "requiredXp": 1009,
       "maxLevel": 100,
-      "progress": 0.504149713706146
+      "progress": 0.5536975897141938
     }
   },
   "76561198120592615": {
