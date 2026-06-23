@@ -1718,14 +1718,14 @@
     "name": "billypopdog",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 145057,
+    "playtimeSeconds": 145357,
     "leveling": {
       "level": 29,
-      "xp": 24050,
-      "currentXp": 1755,
+      "xp": 24100,
+      "currentXp": 1805,
       "requiredXp": 2379,
       "maxLevel": 100,
-      "progress": 0.7377126035288459
+      "progress": 0.7587257397392742
     },
     "warns": {
       "active": 0,
@@ -1738,7 +1738,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2906942,
+      "currency": 2907092,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1763,7 +1763,7 @@
     },
     "jobs": [
       {
-        "seconds": 15660,
+        "seconds": 15960,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1807,7 +1807,7 @@
     ],
     "models": [
       {
-        "seconds": 15720,
+        "seconds": 16020,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1843,7 +1843,7 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:21:51.139Z"
+    "updatedAt": "2026-06-23T03:26:51.170Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
