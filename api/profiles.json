@@ -544,7 +544,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 730148,
+    "playtimeSeconds": 730448,
     "warns": {
       "active": 0,
       "total": 0,
@@ -556,7 +556,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402492918,
+      "currency": 99402492958,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -629,6 +629,20 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_bkeypads_cracker_models-bkeypads-cracker.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "6": {
+          "slot": 6,
+          "amount": 10,
+          "name": "Colt 1911",
+          "type": "spawned_weapon",
+          "class": "m9k_colt1911",
+          "model": "models/weapons/s_dmgf_co1911.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -716,6 +730,34 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
+        },
+        "13": {
+          "slot": 13,
+          "amount": 10,
+          "name": "Colt 1911",
+          "type": "spawned_weapon",
+          "class": "m9k_colt1911",
+          "model": "models/weapons/s_dmgf_co1911.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "14": {
+          "slot": 14,
+          "amount": 8,
+          "name": "Colt 1911",
+          "type": "spawned_weapon",
+          "class": "m9k_colt1911",
+          "model": "models/weapons/s_dmgf_co1911.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -725,7 +767,7 @@
     },
     "jobs": [
       {
-        "seconds": 6780,
+        "seconds": 7080,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -733,20 +775,20 @@
     ],
     "models": [
       {
-        "seconds": 6780,
+        "seconds": 7080,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:06:52.998Z",
+    "updatedAt": "2026-06-23T03:11:52.980Z",
     "leveling": {
       "level": 46,
-      "xp": 119310,
-      "currentXp": 540,
+      "xp": 119360,
+      "currentXp": 590,
       "requiredXp": 12026,
       "maxLevel": 100,
-      "progress": 0.04495760166639734
+      "progress": 0.04911493864250296
     }
   },
   "76561198043370754": {
