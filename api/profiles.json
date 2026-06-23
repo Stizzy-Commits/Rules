@@ -2350,14 +2350,14 @@
     "name": "KentuckyFT",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 1722,
+    "playtimeSeconds": 2022,
     "leveling": {
       "level": 1,
-      "xp": 250,
-      "currentXp": 100,
+      "xp": 300,
+      "currentXp": 150,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.6060606060606061
+      "progress": 0.9090909090909091
     },
     "warns": {
       "active": 0,
@@ -2370,7 +2370,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30426,
+      "currency": 30626,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2386,7 +2386,7 @@
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 840,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -2401,15 +2401,15 @@
     "models": [
       {
         "seconds": 840,
-        "model": "models/walter_white/walter_white.mdl",
-        "name": "models/walter_white/walter_white.mdl",
-        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
-      },
-      {
-        "seconds": 540,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 840,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "models/walter_white/walter_white.mdl",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
         "seconds": 180,
@@ -2424,7 +2424,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:41:54.997Z"
+    "updatedAt": "2026-06-23T03:46:54.985Z"
   },
   "76561198050435611": {
     "steamid64": "76561198050435611",
