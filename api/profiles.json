@@ -1971,7 +1971,7 @@
     "name": "Turtle Boot",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 18749,
+    "playtimeSeconds": 18802,
     "leveling": {
       "level": 12,
       "xp": 3300,
@@ -2246,7 +2246,7 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 120,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -2254,12 +2254,12 @@
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 120,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T02:41:01.962Z"
+    "updatedAt": "2026-06-23T02:41:55.024Z"
   }
 }
