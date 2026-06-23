@@ -1971,14 +1971,14 @@
     "name": "Turtle Boot",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 19402,
+    "playtimeSeconds": 19702,
     "leveling": {
       "level": 12,
-      "xp": 3400,
-      "currentXp": 192,
+      "xp": 3450,
+      "currentXp": 242,
       "requiredXp": 470,
       "maxLevel": 100,
-      "progress": 0.408606711871652
+      "progress": 0.5148169844417708
     },
     "warns": {
       "active": 0,
@@ -1991,7 +1991,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3822590,
+      "currency": 3827025,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -2246,7 +2246,7 @@
     },
     "jobs": [
       {
-        "seconds": 600,
+        "seconds": 900,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -2260,7 +2260,7 @@
     ],
     "models": [
       {
-        "seconds": 600,
+        "seconds": 900,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -2272,6 +2272,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T02:51:55.098Z"
+    "updatedAt": "2026-06-23T02:56:54.981Z"
   }
 }
