@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Cocaine Cook",
     "currentModel": "models/player/guerilla.mdl",
-    "playtimeSeconds": 114727,
+    "playtimeSeconds": 115027,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3965917,
+      "currency": 3963847,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -202,7 +202,7 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 840,
+        "seconds": 1140,
         "model": "models/player/guerilla.mdl",
         "name": "Cocaine Cook",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
@@ -234,7 +234,7 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 840,
+        "seconds": 1140,
         "model": "models/player/guerilla.mdl",
         "name": "models/player/guerilla.mdl",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
@@ -258,14 +258,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:19:45.131Z",
+    "updatedAt": "2026-06-23T21:24:45.250Z",
     "leveling": {
       "level": 27,
-      "xp": 18750,
-      "currentXp": 585,
+      "xp": 18800,
+      "currentXp": 635,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.297487399920375
+      "progress": 0.32291329473499314
     }
   },
   "76561198249112348": {
