@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Heroin Cook",
     "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 113527,
+    "playtimeSeconds": 113827,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3962687,
+      "currency": 3961417,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -202,16 +202,16 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 480,
+        "model": "models/player/phoenix.mdl",
+        "name": "Heroin Cook",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
         "seconds": 180,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/phoenix.mdl",
-        "name": "Heroin Cook",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
         "seconds": 120,
@@ -228,7 +228,7 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
@@ -246,14 +246,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T20:59:45.327Z",
+    "updatedAt": "2026-06-23T21:04:45.105Z",
     "leveling": {
       "level": 27,
-      "xp": 18550,
-      "currentXp": 385,
+      "xp": 18600,
+      "currentXp": 435,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.1957838206619022
+      "progress": 0.22120971547652038
     }
   },
   "76561198249112348": {
