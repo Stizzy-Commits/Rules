@@ -2332,14 +2332,14 @@
     "name": "KentuckyFT",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 522,
+    "playtimeSeconds": 822,
     "leveling": {
       "level": 0,
-      "xp": 50,
-      "currentXp": 50,
+      "xp": 100,
+      "currentXp": 100,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0.3333333333333333
+      "progress": 0.6666666666666666
     },
     "warns": {
       "active": 0,
@@ -2352,7 +2352,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30080,
+      "currency": 30122,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2362,19 +2362,25 @@
     },
     "jobs": [
       {
+        "seconds": 480,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "Meth Cook",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/walter_white/walter_white.mdl",
-        "name": "Meth Cook",
-        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 480,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "models/walter_white/walter_white.mdl",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
       {
         "seconds": 180,
         "model": "models/player/group01/male_01.mdl",
@@ -2383,18 +2389,12 @@
       },
       {
         "seconds": 180,
-        "model": "models/walter_white/walter_white.mdl",
-        "name": "models/walter_white/walter_white.mdl",
-        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
-      },
-      {
-        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:21:54.987Z"
+    "updatedAt": "2026-06-23T03:26:55.105Z"
   },
   "76561198050435611": {
     "steamid64": "76561198050435611",
