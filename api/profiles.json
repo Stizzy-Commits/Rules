@@ -2432,14 +2432,14 @@
     "name": "scoobyvu",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 1339,
+    "playtimeSeconds": 1639,
     "leveling": {
       "level": 1,
-      "xp": 200,
-      "currentXp": 50,
+      "xp": 250,
+      "currentXp": 100,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.30303030303030304
+      "progress": 0.6060606060606061
     },
     "warns": {
       "active": 0,
@@ -2452,7 +2452,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 28010,
+      "currency": 28210,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2461,6 +2461,12 @@
       "packages": []
     },
     "jobs": [
+      {
+        "seconds": 540,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
       {
         "seconds": 540,
         "model": "models/player/breen.mdl",
@@ -2472,12 +2478,6 @@
         "model": "models/player/monk.mdl",
         "name": "Gun Dealer",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 240,
@@ -2495,6 +2495,12 @@
     "models": [
       {
         "seconds": 540,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 540,
         "model": "models/player/breen.mdl",
         "name": "models/player/breen.mdl",
         "iconKey": "profile_model_face_models-player-breen.mdl"
@@ -2504,12 +2510,6 @@
         "model": "models/player/monk.mdl",
         "name": "models/player/monk.mdl",
         "iconKey": "profile_model_face_models-player-monk.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 240,
@@ -2524,6 +2524,6 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:36:56.993Z"
+    "updatedAt": "2026-06-23T03:41:56.996Z"
   }
 }
