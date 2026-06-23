@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Heroin Cook",
     "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 113227,
+    "playtimeSeconds": 113527,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4131432,
+      "currency": 3962687,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -117,6 +117,76 @@
           "icon": "",
           "equipped": false,
           "meta": "A block of weed."
+        },
+        "8": {
+          "slot": 8,
+          "amount": 10,
+          "name": "Nerve Gas",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "9": {
+          "slot": 9,
+          "amount": 9,
+          "name": "Prox Mine",
+          "type": "spawned_weapon",
+          "class": "m9k_proxy_mine",
+          "model": "models/weapons/w_px.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_proxy_mine_models-weapons-w_px.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "10": {
+          "slot": 10,
+          "amount": 1,
+          "name": "Lock Pick",
+          "type": "spawned_weapon",
+          "class": "lockpick",
+          "model": "models/weapons/w_crowbar.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_lockpick_models-weapons-w_crowbar.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "11": {
+          "slot": 11,
+          "amount": 1,
+          "name": "Colt 1911",
+          "type": "spawned_weapon",
+          "class": "m9k_colt1911",
+          "model": "models/weapons/s_dmgf_co1911.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "12": {
+          "slot": 12,
+          "amount": 1,
+          "name": "HK USP",
+          "type": "spawned_weapon",
+          "class": "m9k_usp",
+          "model": "models/weapons/w_pist_fokkususp.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_usp_models-weapons-w_pist_fokkususp.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -132,16 +202,22 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 180,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/phoenix.mdl",
+        "name": "Heroin Cook",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/phoenix.mdl",
-        "name": "Heroin Cook",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
     "models": [
@@ -152,26 +228,32 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 180,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/phoenix.mdl",
-        "name": "models/player/phoenix.mdl",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T20:54:45.054Z",
+    "updatedAt": "2026-06-23T20:59:45.327Z",
     "leveling": {
       "level": 27,
-      "xp": 18500,
-      "currentXp": 335,
+      "xp": 18550,
+      "currentXp": 385,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.17035792584728401
+      "progress": 0.1957838206619022
     }
   },
   "76561198249112348": {
