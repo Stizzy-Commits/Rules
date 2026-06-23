@@ -2350,14 +2350,14 @@
     "name": "KentuckyFT",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 2322,
+    "playtimeSeconds": 2622,
     "leveling": {
       "level": 2,
-      "xp": 350,
-      "currentXp": 35,
+      "xp": 400,
+      "currentXp": 85,
       "requiredXp": 181,
       "maxLevel": 100,
-      "progress": 0.19283746556473827
+      "progress": 0.46831955922865004
     },
     "warns": {
       "active": 0,
@@ -2370,7 +2370,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30726,
+      "currency": 30926,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2380,7 +2380,7 @@
     },
     "jobs": [
       {
-        "seconds": 1140,
+        "seconds": 1440,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -2400,7 +2400,7 @@
     ],
     "models": [
       {
-        "seconds": 1140,
+        "seconds": 1440,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -2424,7 +2424,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:51:54.992Z"
+    "updatedAt": "2026-06-23T03:56:54.979Z"
   },
   "76561198050435611": {
     "steamid64": "76561198050435611",
