@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Cocaine Cook",
     "currentModel": "models/player/guerilla.mdl",
-    "playtimeSeconds": 114127,
+    "playtimeSeconds": 114427,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3969382,
+      "currency": 3968312,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -203,15 +203,15 @@
       },
       {
         "seconds": 540,
-        "model": "models/player/phoenix.mdl",
-        "name": "Heroin Cook",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 240,
         "model": "models/player/guerilla.mdl",
         "name": "Cocaine Cook",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
+      },
+      {
+        "seconds": 540,
+        "model": "models/player/phoenix.mdl",
+        "name": "Heroin Cook",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
         "seconds": 180,
@@ -235,15 +235,15 @@
       },
       {
         "seconds": 540,
-        "model": "models/player/phoenix.mdl",
-        "name": "models/player/phoenix.mdl",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
-      },
-      {
-        "seconds": 240,
         "model": "models/player/guerilla.mdl",
         "name": "models/player/guerilla.mdl",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
+      },
+      {
+        "seconds": 540,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
         "seconds": 180,
@@ -258,14 +258,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:09:45.066Z",
+    "updatedAt": "2026-06-23T21:14:45.246Z",
     "leveling": {
       "level": 27,
-      "xp": 18650,
-      "currentXp": 485,
+      "xp": 18700,
+      "currentXp": 535,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.2466356102911386
+      "progress": 0.2720615051057568
     }
   },
   "76561198249112348": {
