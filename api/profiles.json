@@ -2330,16 +2330,16 @@
     "steamid64": "76561198064572363",
     "steamid": "STEAM_0:1:52153317",
     "name": "KentuckyFT",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 222,
+    "currentJob": "Meth Cook",
+    "currentModel": "models/walter_white/walter_white.mdl",
+    "playtimeSeconds": 522,
     "leveling": {
       "level": 0,
-      "xp": 0,
-      "currentXp": 0,
+      "xp": 50,
+      "currentXp": 50,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.3333333333333333
     },
     "warns": {
       "active": 0,
@@ -2352,7 +2352,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30020,
+      "currency": 30080,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2362,10 +2362,16 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 360,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "Meth Cook",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       }
     ],
     "models": [
@@ -2376,13 +2382,19 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 60,
+        "seconds": 180,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "models/walter_white/walter_white.mdl",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
+        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:16:55.100Z"
+    "updatedAt": "2026-06-23T03:21:54.987Z"
   },
   "76561198050435611": {
     "steamid64": "76561198050435611",
