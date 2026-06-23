@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mayor",
     "currentModel": "models/player/breen.mdl",
-    "playtimeSeconds": 115327,
+    "playtimeSeconds": 115627,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 4000397,
+      "currency": 4000597,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -214,6 +214,12 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
+        "seconds": 360,
+        "model": "models/player/breen.mdl",
+        "name": "Mayor",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
+      },
+      {
         "seconds": 180,
         "model": "models/player/arctic.mdl",
         "name": "Parkour",
@@ -230,12 +236,6 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/breen.mdl",
-        "name": "Mayor",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       }
     ],
     "models": [
@@ -258,10 +258,10 @@
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
-        "seconds": 180,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
+        "seconds": 360,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       },
       {
         "seconds": 180,
@@ -270,26 +270,26 @@
         "iconKey": "profile_model_face_models-player-arctic.mdl"
       },
       {
+        "seconds": 180,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/breen.mdl",
-        "name": "models/player/breen.mdl",
-        "iconKey": "profile_model_face_models-player-breen.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:29:45.142Z",
+    "updatedAt": "2026-06-23T21:34:45.147Z",
     "leveling": {
       "level": 27,
-      "xp": 18850,
-      "currentXp": 685,
+      "xp": 18900,
+      "currentXp": 735,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.34833918954961135
+      "progress": 0.37376508436422956
     }
   },
   "76561198249112348": {
