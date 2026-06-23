@@ -2348,16 +2348,16 @@
     "steamid64": "76561198064572363",
     "steamid": "STEAM_0:1:52153317",
     "name": "KentuckyFT",
-    "currentJob": "Meth Cook",
-    "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 1122,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 1422,
     "leveling": {
       "level": 1,
-      "xp": 150,
-      "currentXp": 0,
+      "xp": 200,
+      "currentXp": 50,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.30303030303030304
     },
     "warns": {
       "active": 0,
@@ -2370,7 +2370,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30124,
+      "currency": 30226,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2380,7 +2380,7 @@
     },
     "jobs": [
       {
-        "seconds": 780,
+        "seconds": 840,
         "model": "models/walter_white/walter_white.mdl",
         "name": "Meth Cook",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
@@ -2390,14 +2390,26 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 780,
+        "seconds": 840,
         "model": "models/walter_white/walter_white.mdl",
         "name": "models/walter_white/walter_white.mdl",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 180,
@@ -2412,7 +2424,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:31:55.089Z"
+    "updatedAt": "2026-06-23T03:36:54.984Z"
   },
   "76561198050435611": {
     "steamid64": "76561198050435611",
