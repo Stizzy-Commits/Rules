@@ -2404,7 +2404,7 @@
     "name": "scoobyvu",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 30,
+    "playtimeSeconds": 139,
     "leveling": {
       "level": 0,
       "xp": 0,
@@ -2434,7 +2434,7 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -2442,12 +2442,12 @@
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:15:08.196Z"
+    "updatedAt": "2026-06-23T03:16:57.006Z"
   }
 }
