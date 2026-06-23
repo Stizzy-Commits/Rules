@@ -1734,16 +1734,16 @@
     "steamid64": "76561199610282984",
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
-    "currentJob": "Mine Worker",
-    "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 175357,
+    "currentJob": "drip goku",
+    "currentModel": "models/argentini/gokudrip.mdl",
+    "playtimeSeconds": 175657,
     "leveling": {
       "level": 31,
-      "xp": 29100,
-      "currentXp": 1808,
+      "xp": 29150,
+      "currentXp": 1858,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.6281317031257019
+      "progress": 0.6454979313987831
     },
     "warns": {
       "active": 0,
@@ -1756,7 +1756,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3762348,
+      "currency": 3762423,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1766,28 +1766,28 @@
     },
     "jobs": [
       {
-        "seconds": 45840,
+        "seconds": 46020,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 2940,
+        "seconds": 3000,
         "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "name": "tiny shrek",
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
+      },
+      {
+        "seconds": 360,
+        "model": "models/argentini/gokudrip.mdl",
+        "name": "drip goku",
+        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       },
       {
         "seconds": 300,
         "model": "models/player/link3ds_pm.mdl",
         "name": "the hero of time",
         "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
-      },
-      {
-        "seconds": 300,
-        "model": "models/argentini/gokudrip.mdl",
-        "name": "drip goku",
-        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       },
       {
         "seconds": 300,
@@ -1816,16 +1816,22 @@
     ],
     "models": [
       {
-        "seconds": 45900,
+        "seconds": 46080,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 2940,
+        "seconds": 3000,
         "model": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "name": "models/cktheamazingfrog/player/shrek/shrek.mdl",
         "iconKey": "profile_model_face_models-cktheamazingfrog-player-shrek-shrek.mdl"
+      },
+      {
+        "seconds": 360,
+        "model": "models/argentini/gokudrip.mdl",
+        "name": "models/argentini/gokudrip.mdl",
+        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
       },
       {
         "seconds": 300,
@@ -1840,12 +1846,6 @@
         "iconKey": "profile_model_face_models-player-link3ds_pm.mdl"
       },
       {
-        "seconds": 300,
-        "model": "models/argentini/gokudrip.mdl",
-        "name": "models/argentini/gokudrip.mdl",
-        "iconKey": "profile_model_face_models-argentini-gokudrip.mdl"
-      },
-      {
         "seconds": 120,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
@@ -1858,7 +1858,7 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T11:46:51.136Z"
+    "updatedAt": "2026-06-23T11:51:51.186Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
