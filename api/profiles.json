@@ -1734,16 +1734,16 @@
     "steamid64": "76561199610282984",
     "steamid": "STEAM_0:0:825008628",
     "name": "billypopdog",
-    "currentJob": "drip goku",
-    "currentModel": "models/argentini/gokudrip.mdl",
-    "playtimeSeconds": 175657,
+    "currentJob": "Mine Worker",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 175957,
     "leveling": {
       "level": 31,
-      "xp": 29150,
-      "currentXp": 1858,
+      "xp": 29200,
+      "currentXp": 1908,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.6454979313987831
+      "progress": 0.6628641596718642
     },
     "warns": {
       "active": 0,
@@ -1756,7 +1756,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3762423,
+      "currency": 3813021,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -1766,7 +1766,7 @@
     },
     "jobs": [
       {
-        "seconds": 46020,
+        "seconds": 46320,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1816,7 +1816,7 @@
     ],
     "models": [
       {
-        "seconds": 46080,
+        "seconds": 46380,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -1858,7 +1858,7 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T11:51:51.186Z"
+    "updatedAt": "2026-06-23T11:56:51.132Z"
   },
   "76561199815551508": {
     "steamid64": "76561199815551508",
