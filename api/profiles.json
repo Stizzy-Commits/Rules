@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Cocaine Cook",
-    "currentModel": "models/player/guerilla.mdl",
-    "playtimeSeconds": 115027,
+    "currentJob": "Mayor",
+    "currentModel": "models/player/breen.mdl",
+    "playtimeSeconds": 115327,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3963847,
+      "currency": 4000397,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -202,7 +202,7 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 1140,
+        "seconds": 1200,
         "model": "models/player/guerilla.mdl",
         "name": "Cocaine Cook",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
@@ -215,6 +215,12 @@
       },
       {
         "seconds": 180,
+        "model": "models/player/arctic.mdl",
+        "name": "Parkour",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
+        "seconds": 180,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
@@ -224,6 +230,12 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/breen.mdl",
+        "name": "Mayor",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       }
     ],
     "models": [
@@ -234,7 +246,7 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 1140,
+        "seconds": 1200,
         "model": "models/player/guerilla.mdl",
         "name": "models/player/guerilla.mdl",
         "iconKey": "profile_model_face_models-player-guerilla.mdl"
@@ -252,20 +264,32 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
+        "seconds": 180,
+        "model": "models/player/arctic.mdl",
+        "name": "models/player/arctic.mdl",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/breen.mdl",
+        "name": "models/player/breen.mdl",
+        "iconKey": "profile_model_face_models-player-breen.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:24:45.250Z",
+    "updatedAt": "2026-06-23T21:29:45.142Z",
     "leveling": {
       "level": 27,
-      "xp": 18800,
-      "currentXp": 635,
+      "xp": 18850,
+      "currentXp": 685,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.32291329473499314
+      "progress": 0.34833918954961135
     }
   },
   "76561198249112348": {
