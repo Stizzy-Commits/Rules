@@ -1969,16 +1969,16 @@
     "steamid64": "76561198805607993",
     "steamid": "STEAM_0:1:422671132",
     "name": "Turtle Boot",
-    "currentJob": "Elite Seller",
-    "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 20002,
+    "currentJob": "Mechanic",
+    "currentModel": "models/player/mechanic.mdl",
+    "playtimeSeconds": 20302,
     "leveling": {
       "level": 12,
-      "xp": 3500,
-      "currentXp": 292,
+      "xp": 3550,
+      "currentXp": 342,
       "requiredXp": 470,
       "maxLevel": 100,
-      "progress": 0.6210272570118897
+      "progress": 0.7272375295820085
     },
     "warns": {
       "active": 0,
@@ -1991,7 +1991,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3683580,
+      "currency": 3689333,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -2252,10 +2252,16 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/mechanic.mdl",
+        "name": "Mechanic",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
         "seconds": 120,
@@ -2272,10 +2278,16 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 300,
         "model": "models/player/riot.mdl",
         "name": "models/player/riot.mdl",
         "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/mechanic.mdl",
+        "name": "models/player/mechanic.mdl",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
         "seconds": 120,
@@ -2284,6 +2296,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T03:01:55.021Z"
+    "updatedAt": "2026-06-23T03:06:55.010Z"
   }
 }
