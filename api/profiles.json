@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Heroin Cook",
-    "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 113827,
+    "currentJob": "Cocaine Cook",
+    "currentModel": "models/player/guerilla.mdl",
+    "playtimeSeconds": 114127,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3961417,
+      "currency": 3969382,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -202,10 +202,16 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 480,
+        "seconds": 540,
         "model": "models/player/phoenix.mdl",
         "name": "Heroin Cook",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/guerilla.mdl",
+        "name": "Cocaine Cook",
+        "iconKey": "profile_model_face_models-player-guerilla.mdl"
       },
       {
         "seconds": 180,
@@ -228,10 +234,16 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 480,
+        "seconds": 540,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/guerilla.mdl",
+        "name": "models/player/guerilla.mdl",
+        "iconKey": "profile_model_face_models-player-guerilla.mdl"
       },
       {
         "seconds": 180,
@@ -246,14 +258,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-23T21:04:45.105Z",
+    "updatedAt": "2026-06-23T21:09:45.066Z",
     "leveling": {
       "level": 27,
-      "xp": 18600,
-      "currentXp": 435,
+      "xp": 18650,
+      "currentXp": 485,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.22120971547652038
+      "progress": 0.2466356102911386
     }
   },
   "76561198249112348": {
