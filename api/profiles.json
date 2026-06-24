@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 132792,
+    "currentJob": "Lord Of The Underworld",
+    "currentModel": "models/player/hostage/hostage_04.mdl",
+    "playtimeSeconds": 133092,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 813375,
+      "currency": 813475,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -114,16 +114,22 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 240,
-        "model": "models/player/hostage/hostage_02.mdl",
-        "name": "Bank Manager",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
+        "seconds": 300,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "Lord Of The Underworld",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
         "seconds": 240,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/hostage/hostage_02.mdl",
+        "name": "Bank Manager",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       },
       {
         "seconds": 180,
@@ -158,6 +164,12 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 300,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "models/player/hostage/hostage_04.mdl",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 240,
         "model": "models/player/hostage/hostage_02.mdl",
         "name": "models/player/hostage/hostage_02.mdl",
@@ -182,14 +194,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T22:48:00.606Z",
+    "updatedAt": "2026-06-24T22:53:00.519Z",
     "leveling": {
       "level": 28,
-      "xp": 21750,
-      "currentXp": 1618,
+      "xp": 21800,
+      "currentXp": 1668,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.74821917163406
+      "progress": 0.7713336214655312
     }
   },
   "76561198249112348": {
