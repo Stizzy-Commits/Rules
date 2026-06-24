@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 118092,
+    "currentJob": "Professional Grower",
+    "currentModel": "models/player/fring/gus_suit.mdl",
+    "playtimeSeconds": 118392,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3023817,
+      "currency": 3015877,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -196,28 +196,52 @@
     },
     "jobs": [
       {
+        "seconds": 240,
+        "model": "models/player/hostage/hostage_02.mdl",
+        "name": "Bank Manager",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 240,
+        "model": "models/player/hostage/hostage_02.mdl",
+        "name": "models/player/hostage/hostage_02.mdl",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
+      },
       {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T18:43:00.306Z",
+    "updatedAt": "2026-06-24T18:48:00.324Z",
     "leveling": {
       "level": 27,
-      "xp": 19300,
-      "currentXp": 1135,
+      "xp": 19350,
+      "currentXp": 1185,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.5771722428811751
+      "progress": 0.6025981376957933
     }
   },
   "76561198249112348": {
