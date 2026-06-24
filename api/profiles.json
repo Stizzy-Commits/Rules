@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Fisherman",
-    "currentModel": "models/player/group01/female_01.mdl",
-    "playtimeSeconds": 128592,
+    "currentJob": "Mine Worker",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 128892,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1455775,
+      "currency": 1455850,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -109,12 +109,18 @@
       },
       {
         "seconds": 240,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 240,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
-        "seconds": 120,
+        "seconds": 180,
         "model": "models/player/group01/female_01.mdl",
         "name": "Fisherman",
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
@@ -146,26 +152,32 @@
         "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       },
       {
+        "seconds": 240,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/group01/female_01.mdl",
+        "name": "models/player/group01/female_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/group01/female_01.mdl",
-        "name": "models/player/group01/female_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T21:38:00.332Z",
+    "updatedAt": "2026-06-24T21:43:00.310Z",
     "leveling": {
       "level": 28,
-      "xp": 21050,
-      "currentXp": 918,
+      "xp": 21100,
+      "currentXp": 968,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.4246168739934649
+      "progress": 0.447731323824936
     }
   },
   "76561198249112348": {
