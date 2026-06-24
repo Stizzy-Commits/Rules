@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 131292,
+    "currentJob": "Mine Worker",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 131592,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1457125,
+      "currency": 1457225,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -102,13 +102,13 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 1560,
+        "seconds": 1740,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 1080,
+        "seconds": 1200,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -146,13 +146,13 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 1560,
+        "seconds": 1740,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 1080,
+        "seconds": 1200,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -182,14 +182,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T22:23:00.541Z",
+    "updatedAt": "2026-06-24T22:28:00.535Z",
     "leveling": {
       "level": 28,
-      "xp": 21500,
-      "currentXp": 1368,
+      "xp": 21550,
+      "currentXp": 1418,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.6326469224767046
+      "progress": 0.6557613723081758
     }
   },
   "76561198249112348": {
