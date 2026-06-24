@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Mine Worker",
-    "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 129492,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 129792,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1456150,
+      "currency": 1456225,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -102,22 +102,22 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 840,
+        "seconds": 1080,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 240,
-        "model": "models/player/hostage/hostage_02.mdl",
-        "name": "Bank Manager",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
-      },
-      {
-        "seconds": 240,
         "model": "models/player/riot.mdl",
         "name": "Elite Seller",
         "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/hostage/hostage_02.mdl",
+        "name": "Bank Manager",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       },
       {
         "seconds": 180,
@@ -130,6 +130,12 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
@@ -140,7 +146,7 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 840,
+        "seconds": 1080,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -168,16 +174,22 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T21:53:00.413Z",
+    "updatedAt": "2026-06-24T21:58:00.540Z",
     "leveling": {
       "level": 28,
-      "xp": 21200,
-      "currentXp": 1068,
+      "xp": 21250,
+      "currentXp": 1118,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.49396022348787816
+      "progress": 0.5170746733193492
     }
   },
   "76561198249112348": {
