@@ -2693,16 +2693,16 @@
     "steamid64": "76561198000286203",
     "steamid": "STEAM_0:1:20010237",
     "name": "Ali Kebab",
-    "currentJob": "Parkour",
-    "currentModel": "models/player/arctic.mdl",
-    "playtimeSeconds": 154408,
+    "currentJob": "Elite Seller",
+    "currentModel": "models/player/riot.mdl",
+    "playtimeSeconds": 154708,
     "leveling": {
       "level": 30,
-      "xp": 25362,
-      "currentXp": 687,
+      "xp": 25412,
+      "currentXp": 737,
       "requiredXp": 2617,
       "maxLevel": 100,
-      "progress": 0.262815725173167
+      "progress": 0.2819185762735563
     },
     "warns": {
       "active": 0,
@@ -2715,7 +2715,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30835247,
+      "currency": 30811342,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -2984,10 +2984,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 300,
+        "seconds": 360,
         "model": "models/player/arctic.mdl",
         "name": "Parkour",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
     "models": [
@@ -2998,12 +3004,18 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 300,
+        "seconds": 360,
         "model": "models/player/arctic.mdl",
         "name": "models/player/arctic.mdl",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T19:03:02.381Z"
+    "updatedAt": "2026-06-24T19:08:02.340Z"
   }
 }
