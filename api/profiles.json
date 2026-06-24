@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 123792,
+    "playtimeSeconds": 124092,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2589146,
+      "currency": 2585146,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -215,6 +215,34 @@
           "icon": "",
           "equipped": false,
           "meta": "A block of weed."
+        },
+        "15": {
+          "slot": 15,
+          "amount": 1,
+          "name": "Purble Haze",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
+        },
+        "16": {
+          "slot": 16,
+          "amount": 1,
+          "name": "Purble Haze",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         }
       },
       "weapons": [],
@@ -224,7 +252,7 @@
     },
     "jobs": [
       {
-        "seconds": 5460,
+        "seconds": 5760,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -244,7 +272,7 @@
     ],
     "models": [
       {
-        "seconds": 5460,
+        "seconds": 5760,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -262,14 +290,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T20:18:00.319Z",
+    "updatedAt": "2026-06-24T20:23:00.331Z",
     "leveling": {
       "level": 28,
-      "xp": 20250,
-      "currentXp": 118,
+      "xp": 20300,
+      "currentXp": 168,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.054785676689927586
+      "progress": 0.07790012652139867
     }
   },
   "76561198249112348": {
