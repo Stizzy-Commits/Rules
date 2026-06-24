@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 119592,
+    "playtimeSeconds": 119892,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2711646,
+      "currency": 2620646,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -187,6 +187,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A block of weed."
+        },
+        "13": {
+          "slot": 13,
+          "amount": 1,
+          "name": "Colt 1911",
+          "type": "spawned_weapon",
+          "class": "m9k_colt1911",
+          "model": "models/weapons/s_dmgf_co1911.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -196,7 +210,7 @@
     },
     "jobs": [
       {
-        "seconds": 1260,
+        "seconds": 1560,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -216,7 +230,7 @@
     ],
     "models": [
       {
-        "seconds": 1260,
+        "seconds": 1560,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -234,14 +248,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T19:08:00.340Z",
+    "updatedAt": "2026-06-24T19:13:00.437Z",
     "leveling": {
       "level": 27,
-      "xp": 19550,
-      "currentXp": 1385,
+      "xp": 19600,
+      "currentXp": 1435,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.704301716954266
+      "progress": 0.7297276117688842
     }
   },
   "76561198249112348": {
