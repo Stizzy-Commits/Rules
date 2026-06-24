@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 124392,
+    "playtimeSeconds": 124692,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2584146,
+      "currency": 2581146,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -243,6 +243,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A block of weed."
+        },
+        "17": {
+          "slot": 17,
+          "amount": 1,
+          "name": "Purble Haze",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         }
       },
       "weapons": [],
@@ -252,7 +266,7 @@
     },
     "jobs": [
       {
-        "seconds": 6060,
+        "seconds": 6360,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -272,7 +286,7 @@
     ],
     "models": [
       {
-        "seconds": 6060,
+        "seconds": 6360,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -290,14 +304,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T20:28:00.425Z",
+    "updatedAt": "2026-06-24T20:33:00.434Z",
     "leveling": {
       "level": 28,
-      "xp": 20350,
-      "currentXp": 218,
+      "xp": 20400,
+      "currentXp": 268,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.10101457635286976
+      "progress": 0.12412902618434084
     }
   },
   "76561198249112348": {
