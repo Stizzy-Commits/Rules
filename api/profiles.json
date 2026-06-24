@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 130992,
+    "playtimeSeconds": 131292,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1456925,
+      "currency": 1457125,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -102,7 +102,7 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 1260,
+        "seconds": 1560,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -146,7 +146,7 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 1260,
+        "seconds": 1560,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -182,14 +182,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T22:18:00.650Z",
+    "updatedAt": "2026-06-24T22:23:00.541Z",
     "leveling": {
       "level": 28,
-      "xp": 21450,
-      "currentXp": 1318,
+      "xp": 21500,
+      "currentXp": 1368,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.6095324726452336
+      "progress": 0.6326469224767046
     }
   },
   "76561198249112348": {
