@@ -2684,5 +2684,57 @@
       }
     ],
     "updatedAt": "2026-06-23T17:24:44.962Z"
+  },
+  "76561198043075601": {
+    "steamid64": "76561198043075601",
+    "steamid": "STEAM_0:1:41404936",
+    "name": "RacistVeteran",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 15106,
+    "leveling": {
+      "level": 9,
+      "xp": 2300,
+      "currentXp": 263,
+      "requiredXp": 353,
+      "maxLevel": 100,
+      "progress": 0.7438063321029497
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 3938,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-24T18:07:11.694Z"
   }
 }
