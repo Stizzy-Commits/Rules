@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 129792,
+    "playtimeSeconds": 130092,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1456225,
+      "currency": 1456325,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -108,16 +108,22 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
-        "seconds": 240,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
+        "seconds": 360,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 240,
         "model": "models/player/hostage/hostage_02.mdl",
         "name": "Bank Manager",
         "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
         "seconds": 180,
@@ -130,12 +136,6 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
@@ -150,6 +150,12 @@
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 360,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 240,
@@ -174,22 +180,16 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T21:58:00.540Z",
+    "updatedAt": "2026-06-24T22:03:00.518Z",
     "leveling": {
       "level": 28,
-      "xp": 21250,
-      "currentXp": 1118,
+      "xp": 21300,
+      "currentXp": 1168,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.5170746733193492
+      "progress": 0.5401891231508203
     }
   },
   "76561198249112348": {
