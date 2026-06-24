@@ -2709,14 +2709,14 @@
     "name": "Ali Kebab",
     "currentJob": "Elite Seller",
     "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 154708,
+    "playtimeSeconds": 155008,
     "leveling": {
       "level": 30,
-      "xp": 25412,
-      "currentXp": 737,
+      "xp": 25462,
+      "currentXp": 787,
       "requiredXp": 2617,
       "maxLevel": 100,
-      "progress": 0.2819185762735563
+      "progress": 0.3010214273739456
     },
     "warns": {
       "active": 0,
@@ -2729,7 +2729,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30811342,
+      "currency": 30804252,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -2998,16 +2998,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
+        "seconds": 540,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/arctic.mdl",
         "name": "Parkour",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
     "models": [
@@ -3018,18 +3018,18 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
+        "seconds": 540,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 360,
         "model": "models/player/arctic.mdl",
         "name": "models/player/arctic.mdl",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T19:08:02.340Z"
+    "updatedAt": "2026-06-24T19:13:02.330Z"
   }
 }
