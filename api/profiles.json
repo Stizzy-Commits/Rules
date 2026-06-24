@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 128892,
+    "playtimeSeconds": 129192,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1455850,
+      "currency": 1456000,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -72,7 +72,7 @@
         },
         "4": {
           "slot": 4,
-          "amount": 8,
+          "amount": 7,
           "name": "Timed C4",
           "type": "spawned_weapon",
           "class": "m9k_suicide_bomb",
@@ -102,16 +102,16 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
+        "seconds": 540,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 240,
         "model": "models/player/hostage/hostage_02.mdl",
         "name": "Bank Manager",
         "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/eli.mdl",
-        "name": "Mine Worker",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 240,
@@ -140,10 +140,10 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
-        "seconds": 240,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
+        "seconds": 540,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 240,
@@ -153,9 +153,9 @@
       },
       {
         "seconds": 240,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
       },
       {
         "seconds": 180,
@@ -170,14 +170,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T21:43:00.310Z",
+    "updatedAt": "2026-06-24T21:48:00.351Z",
     "leveling": {
       "level": 28,
-      "xp": 21100,
-      "currentXp": 968,
+      "xp": 21150,
+      "currentXp": 1018,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.447731323824936
+      "progress": 0.47084577365640706
     }
   },
   "76561198249112348": {
