@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 120192,
+    "playtimeSeconds": 120492,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2615146,
+      "currency": 2610146,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -120,62 +120,6 @@
         },
         "8": {
           "slot": 8,
-          "amount": 10,
-          "name": "Nerve Gas",
-          "type": "spawned_weapon",
-          "class": "m9k_nerve_gas",
-          "model": "models/weapons/w_grenade.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "9": {
-          "slot": 9,
-          "amount": 8,
-          "name": "Prox Mine",
-          "type": "spawned_weapon",
-          "class": "m9k_proxy_mine",
-          "model": "models/weapons/w_px.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_proxy_mine_models-weapons-w_px.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "10": {
-          "slot": 10,
-          "amount": 1,
-          "name": "Lock Pick",
-          "type": "spawned_weapon",
-          "class": "lockpick",
-          "model": "models/weapons/w_crowbar.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_lockpick_models-weapons-w_crowbar.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "11": {
-          "slot": 11,
-          "amount": 1,
-          "name": "HK USP",
-          "type": "spawned_weapon",
-          "class": "m9k_usp",
-          "model": "models/weapons/w_pist_fokkususp.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_usp_models-weapons-w_pist_fokkususp.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "12": {
-          "slot": 12,
           "amount": 1,
           "name": "Purble Haze",
           "type": "zgo2_weedblock",
@@ -188,22 +132,8 @@
           "equipped": false,
           "meta": "A block of weed."
         },
-        "13": {
-          "slot": 13,
-          "amount": 1,
-          "name": "Colt 1911",
-          "type": "spawned_weapon",
-          "class": "m9k_colt1911",
-          "model": "models/weapons/s_dmgf_co1911.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "14": {
-          "slot": 14,
+        "9": {
+          "slot": 9,
           "amount": 1,
           "name": "Purble Haze",
           "type": "zgo2_weedblock",
@@ -224,7 +154,7 @@
     },
     "jobs": [
       {
-        "seconds": 1860,
+        "seconds": 2160,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -244,7 +174,7 @@
     ],
     "models": [
       {
-        "seconds": 1860,
+        "seconds": 2160,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -262,14 +192,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T19:18:00.342Z",
+    "updatedAt": "2026-06-24T19:23:00.421Z",
     "leveling": {
       "level": 27,
-      "xp": 19650,
-      "currentXp": 1485,
+      "xp": 19700,
+      "currentXp": 1535,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.7551535065835024
+      "progress": 0.7805794013981205
     }
   },
   "76561198249112348": {
