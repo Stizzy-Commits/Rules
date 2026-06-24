@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 118392,
+    "playtimeSeconds": 118692,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3015877,
+      "currency": 2984296,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -134,7 +134,7 @@
         },
         "9": {
           "slot": 9,
-          "amount": 9,
+          "amount": 8,
           "name": "Prox Mine",
           "type": "spawned_weapon",
           "class": "m9k_proxy_mine",
@@ -163,20 +163,6 @@
         "11": {
           "slot": 11,
           "amount": 1,
-          "name": "Colt 1911",
-          "type": "spawned_weapon",
-          "class": "m9k_colt1911",
-          "model": "models/weapons/s_dmgf_co1911.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "12": {
-          "slot": 12,
-          "amount": 1,
           "name": "HK USP",
           "type": "spawned_weapon",
           "class": "m9k_usp",
@@ -196,6 +182,12 @@
     },
     "jobs": [
       {
+        "seconds": 360,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 240,
         "model": "models/player/hostage/hostage_02.mdl",
         "name": "Bank Manager",
@@ -206,15 +198,15 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 360,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
       {
         "seconds": 240,
         "model": "models/player/hostage/hostage_02.mdl",
@@ -226,22 +218,16 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T18:48:00.324Z",
+    "updatedAt": "2026-06-24T18:53:00.321Z",
     "leveling": {
       "level": 27,
-      "xp": 19350,
-      "currentXp": 1185,
+      "xp": 19400,
+      "currentXp": 1235,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.6025981376957933
+      "progress": 0.6280240325104114
     }
   },
   "76561198249112348": {
