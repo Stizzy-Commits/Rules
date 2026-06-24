@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 130692,
+    "playtimeSeconds": 130992,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1456725,
+      "currency": 1456925,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -102,16 +102,16 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
+        "seconds": 1260,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
         "seconds": 1080,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 960,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 240,
@@ -146,16 +146,16 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
+        "seconds": 1260,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
         "seconds": 1080,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 960,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
         "seconds": 240,
@@ -182,14 +182,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T22:13:00.519Z",
+    "updatedAt": "2026-06-24T22:18:00.650Z",
     "leveling": {
       "level": 28,
-      "xp": 21400,
-      "currentXp": 1268,
+      "xp": 21450,
+      "currentXp": 1318,
       "requiredXp": 2163,
       "maxLevel": 100,
-      "progress": 0.5864180228137625
+      "progress": 0.6095324726452336
     }
   },
   "76561198249112348": {
