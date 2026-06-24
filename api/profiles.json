@@ -2693,16 +2693,16 @@
     "steamid64": "76561198000286203",
     "steamid": "STEAM_0:1:20010237",
     "name": "Ali Kebab",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 154108,
+    "currentJob": "Parkour",
+    "currentModel": "models/player/arctic.mdl",
+    "playtimeSeconds": 154408,
     "leveling": {
       "level": 30,
-      "xp": 25312,
-      "currentXp": 637,
+      "xp": 25362,
+      "currentXp": 687,
       "requiredXp": 2617,
       "maxLevel": 100,
-      "progress": 0.24371287407277767
+      "progress": 0.262815725173167
     },
     "warns": {
       "active": 0,
@@ -2715,7 +2715,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30835207,
+      "currency": 30835247,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -2982,6 +2982,12 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/arctic.mdl",
+        "name": "Parkour",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
     "models": [
@@ -2990,8 +2996,14 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/arctic.mdl",
+        "name": "models/player/arctic.mdl",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T18:58:03.523Z"
+    "updatedAt": "2026-06-24T19:03:02.381Z"
   }
 }
