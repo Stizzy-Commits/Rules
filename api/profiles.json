@@ -625,8 +625,8 @@
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 814045,
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 814088,
     "warns": {
       "active": 0,
       "total": 0,
@@ -849,7 +849,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T21:52:58.435Z",
+    "updatedAt": "2026-06-24T21:54:47.831Z",
     "leveling": {
       "level": 47,
       "xp": 133110,
