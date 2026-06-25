@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Lord Of The Underworld",
     "currentModel": "models/player/hostage/hostage_04.mdl",
-    "playtimeSeconds": 188242,
+    "playtimeSeconds": 188542,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1002964,
+      "currency": 1003164,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -124,16 +124,16 @@
     },
     "jobs": [
       {
+        "seconds": 8160,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "Lord Of The Underworld",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 8100,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 7860,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "Lord Of The Underworld",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
         "seconds": 1920,
@@ -162,16 +162,16 @@
     ],
     "models": [
       {
+        "seconds": 8160,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "models/player/hostage/hostage_04.mdl",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 8100,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 7860,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "models/player/hostage/hostage_04.mdl",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
         "seconds": 1920,
@@ -198,14 +198,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T19:30:15.109Z",
+    "updatedAt": "2026-06-25T19:35:15.114Z",
     "leveling": {
       "level": 32,
-      "xp": 30850,
-      "currentXp": 679,
+      "xp": 30900,
+      "currentXp": 729,
       "requiredXp": 3167,
       "maxLevel": 100,
-      "progress": 0.21449972062140407
+      "progress": 0.2302872008696597
     }
   },
   "76561198249112348": {
