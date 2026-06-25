@@ -648,9 +648,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Weapon Testing Class",
-    "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 817885,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 818176,
     "warns": {
       "active": 0,
       "total": 0,
@@ -662,7 +662,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402500028,
+      "currency": 99402500228,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -859,13 +859,13 @@
     },
     "jobs": [
       {
-        "seconds": 19740,
-        "model": "models/player/group01/male_02.mdl",
+        "seconds": 19800,
+        "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 3300,
+        "seconds": 3540,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -873,13 +873,13 @@
     ],
     "models": [
       {
-        "seconds": 19200,
+        "seconds": 19260,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 3300,
+        "seconds": 3540,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -891,14 +891,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T22:57:58.650Z",
+    "updatedAt": "2026-06-25T00:55:07.988Z",
     "leveling": {
       "level": 47,
-      "xp": 133710,
-      "currentXp": 2913,
+      "xp": 133760,
+      "currentXp": 2963,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.22024604616801347
+      "progress": 0.22402544341901856
     }
   },
   "76561198043370754": {
