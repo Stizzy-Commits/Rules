@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 143567,
+    "playtimeSeconds": 143867,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1031434,
+      "currency": 1031584,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -96,16 +96,16 @@
     },
     "jobs": [
       {
+        "seconds": 10080,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 9900,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 9780,
-        "model": "models/player/eli.mdl",
-        "name": "Mine Worker",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 3060,
@@ -146,16 +146,16 @@
     ],
     "models": [
       {
+        "seconds": 10080,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 9900,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 9780,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 3060,
@@ -194,14 +194,14 @@
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T03:48:55.691Z",
+    "updatedAt": "2026-06-25T03:53:55.706Z",
     "leveling": {
       "level": 29,
-      "xp": 23500,
-      "currentXp": 1205,
+      "xp": 23550,
+      "currentXp": 1255,
       "requiredXp": 2379,
       "maxLevel": 100,
-      "progress": 0.5065681052141351
+      "progress": 0.5275812414245633
     }
   },
   "76561198249112348": {
