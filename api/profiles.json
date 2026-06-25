@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Lord Of The Underworld",
     "currentModel": "models/player/hostage/hostage_04.mdl",
-    "playtimeSeconds": 180442,
+    "playtimeSeconds": 180742,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 998164,
+      "currency": 998364,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -148,16 +148,16 @@
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
+        "seconds": 360,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "Lord Of The Underworld",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "Lord Of The Underworld",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       }
     ],
     "models": [
@@ -186,26 +186,26 @@
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
+        "seconds": 360,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "models/player/hostage/hostage_04.mdl",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "models/player/hostage/hostage_04.mdl",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T17:20:14.973Z",
+    "updatedAt": "2026-06-25T17:25:14.963Z",
     "leveling": {
       "level": 31,
-      "xp": 29550,
-      "currentXp": 2258,
+      "xp": 29600,
+      "currentXp": 2308,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.7844277575834326
+      "progress": 0.8017939858565138
     }
   },
   "76561198249112348": {
