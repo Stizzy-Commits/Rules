@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 172342,
+    "playtimeSeconds": 172642,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 836289,
+      "currency": 862515,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -128,16 +128,16 @@
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
+        "seconds": 360,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
     "models": [
@@ -160,26 +160,26 @@
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
+        "seconds": 360,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T15:05:14.638Z",
+    "updatedAt": "2026-06-25T15:10:14.695Z",
     "leveling": {
       "level": 31,
-      "xp": 28200,
-      "currentXp": 908,
+      "xp": 28250,
+      "currentXp": 958,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.31553959421024025
+      "progress": 0.33290582248332146
     }
   },
   "76561198249112348": {
