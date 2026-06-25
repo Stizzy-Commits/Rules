@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Lord Of The Underworld",
     "currentModel": "models/player/hostage/hostage_04.mdl",
-    "playtimeSeconds": 203842,
+    "playtimeSeconds": 204142,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1012764,
+      "currency": 1012964,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -124,7 +124,7 @@
     },
     "jobs": [
       {
-        "seconds": 23460,
+        "seconds": 23760,
         "model": "models/player/hostage/hostage_04.mdl",
         "name": "Lord Of The Underworld",
         "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
@@ -162,7 +162,7 @@
     ],
     "models": [
       {
-        "seconds": 23460,
+        "seconds": 23760,
         "model": "models/player/hostage/hostage_04.mdl",
         "name": "models/player/hostage/hostage_04.mdl",
         "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
@@ -198,14 +198,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T23:50:14.933Z",
+    "updatedAt": "2026-06-25T23:55:14.931Z",
     "leveling": {
       "level": 33,
-      "xp": 33450,
-      "currentXp": 112,
+      "xp": 33500,
+      "currentXp": 162,
       "requiredXp": 3483,
       "maxLevel": 100,
-      "progress": 0.03222608502790591
+      "progress": 0.046578339799047394
     }
   },
   "76561198249112348": {
