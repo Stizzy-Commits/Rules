@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 136667,
+    "playtimeSeconds": 136967,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1022809,
+      "currency": 1028359,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -102,16 +102,16 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
+        "seconds": 3180,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 3060,
         "model": "models/player/hostage/hostage_04.mdl",
         "name": "Lord Of The Underworld",
         "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
-      },
-      {
-        "seconds": 2880,
-        "model": "models/player/eli.mdl",
-        "name": "Mine Worker",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 1860,
@@ -152,16 +152,16 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
+        "seconds": 3180,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 3060,
         "model": "models/player/hostage/hostage_04.mdl",
         "name": "models/player/hostage/hostage_04.mdl",
         "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
-      },
-      {
-        "seconds": 2880,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
       },
       {
         "seconds": 1860,
@@ -194,14 +194,14 @@
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T01:53:56.325Z",
+    "updatedAt": "2026-06-25T01:58:55.908Z",
     "leveling": {
       "level": 29,
-      "xp": 22350,
-      "currentXp": 55,
+      "xp": 22400,
+      "currentXp": 105,
       "requiredXp": 2379,
       "maxLevel": 100,
-      "progress": 0.0232659723742852
+      "progress": 0.044279108584713456
     }
   },
   "76561198249112348": {
