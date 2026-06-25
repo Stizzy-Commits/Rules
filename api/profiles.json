@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 146267,
+    "playtimeSeconds": 146567,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 982709,
+      "currency": 982859,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -87,6 +87,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
+        },
+        "5": {
+          "slot": 5,
+          "amount": 1,
+          "name": "Davy Crockett",
+          "type": "spawned_weapon",
+          "class": "m9k_davy_crockett",
+          "model": "models/weapons/w_RL7.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_davy_crockett_models-weapons-w_rl7.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -96,7 +110,7 @@
     },
     "jobs": [
       {
-        "seconds": 12480,
+        "seconds": 12780,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -146,7 +160,7 @@
     ],
     "models": [
       {
-        "seconds": 12480,
+        "seconds": 12780,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -194,14 +208,14 @@
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T04:33:56.076Z",
+    "updatedAt": "2026-06-25T04:38:55.714Z",
     "leveling": {
       "level": 29,
-      "xp": 23950,
-      "currentXp": 1655,
+      "xp": 24000,
+      "currentXp": 1705,
       "requiredXp": 2379,
       "maxLevel": 100,
-      "progress": 0.6956863311079894
+      "progress": 0.7166994673184177
     }
   },
   "76561198249112348": {
