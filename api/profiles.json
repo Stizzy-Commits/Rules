@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Lord Of The Underworld",
     "currentModel": "models/player/hostage/hostage_04.mdl",
-    "playtimeSeconds": 181642,
+    "playtimeSeconds": 181942,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 998864,
+      "currency": 999064,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -136,16 +136,16 @@
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
+        "seconds": 1560,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "Lord Of The Underworld",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "Radio Host",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 1260,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "Lord Of The Underworld",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
         "seconds": 660,
@@ -174,16 +174,16 @@
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
+        "seconds": 1560,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "models/player/hostage/hostage_04.mdl",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 1260,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "models/player/hostage/hostage_04.mdl",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
         "seconds": 660,
@@ -198,14 +198,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T17:40:14.954Z",
+    "updatedAt": "2026-06-25T17:45:14.954Z",
     "leveling": {
       "level": 31,
-      "xp": 29750,
-      "currentXp": 2458,
+      "xp": 29800,
+      "currentXp": 2508,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.8538926706757575
+      "progress": 0.8712588989488387
     }
   },
   "76561198249112348": {
