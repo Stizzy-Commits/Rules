@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mechanic",
     "currentModel": "models/player/mechanic.mdl",
-    "playtimeSeconds": 169942,
+    "playtimeSeconds": 170242,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 797579,
+      "currency": 786159,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -116,7 +116,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/mechanic.mdl",
         "name": "Mechanic",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
@@ -136,7 +136,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/mechanic.mdl",
         "name": "models/player/mechanic.mdl",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
@@ -148,14 +148,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T14:25:14.644Z",
+    "updatedAt": "2026-06-25T14:30:14.656Z",
     "leveling": {
       "level": 31,
-      "xp": 27800,
-      "currentXp": 508,
+      "xp": 27850,
+      "currentXp": 558,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.17660976802559064
+      "progress": 0.19397599629867185
     }
   },
   "76561198249112348": {
