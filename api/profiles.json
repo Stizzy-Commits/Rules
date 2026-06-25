@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Radio Host",
-    "currentModel": "models/player/alyx.mdl",
-    "playtimeSeconds": 169642,
+    "currentJob": "Mechanic",
+    "currentModel": "models/player/mechanic.mdl",
+    "playtimeSeconds": 169942,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 797509,
+      "currency": 797579,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -110,10 +110,16 @@
     },
     "jobs": [
       {
-        "seconds": 1380,
+        "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "Radio Host",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/mechanic.mdl",
+        "name": "Mechanic",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
         "seconds": 120,
@@ -124,10 +130,16 @@
     ],
     "models": [
       {
-        "seconds": 1380,
+        "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/mechanic.mdl",
+        "name": "models/player/mechanic.mdl",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
       },
       {
         "seconds": 120,
@@ -136,14 +148,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T14:20:14.623Z",
+    "updatedAt": "2026-06-25T14:25:14.644Z",
     "leveling": {
       "level": 31,
-      "xp": 27750,
-      "currentXp": 458,
+      "xp": 27800,
+      "currentXp": 508,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.15924353975250943
+      "progress": 0.17660976802559064
     }
   },
   "76561198249112348": {
