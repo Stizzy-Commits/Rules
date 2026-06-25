@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Mechanic",
-    "currentModel": "models/player/mechanic.mdl",
-    "playtimeSeconds": 170242,
+    "currentJob": "Meth Cook",
+    "currentModel": "models/walter_white/walter_white.mdl",
+    "playtimeSeconds": 170542,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 786159,
+      "currency": 784699,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -116,10 +116,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 660,
         "model": "models/player/mechanic.mdl",
         "name": "Mechanic",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "Meth Cook",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
         "seconds": 120,
@@ -136,10 +142,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 660,
         "model": "models/player/mechanic.mdl",
         "name": "models/player/mechanic.mdl",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "models/walter_white/walter_white.mdl",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
         "seconds": 120,
@@ -148,14 +160,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T14:30:14.656Z",
+    "updatedAt": "2026-06-25T14:35:14.627Z",
     "leveling": {
       "level": 31,
-      "xp": 27850,
-      "currentXp": 558,
+      "xp": 27900,
+      "currentXp": 608,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.19397599629867185
+      "progress": 0.21134222457175306
     }
   },
   "76561198249112348": {
