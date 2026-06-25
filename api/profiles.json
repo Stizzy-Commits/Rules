@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Lord Of The Underworld",
     "currentModel": "models/player/hostage/hostage_04.mdl",
-    "playtimeSeconds": 182242,
+    "playtimeSeconds": 182542,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 999264,
+      "currency": 999464,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -130,16 +130,16 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
+        "seconds": 2160,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "Lord Of The Underworld",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 1920,
         "model": "models/walter_white/walter_white.mdl",
         "name": "Meth Cook",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
-      },
-      {
-        "seconds": 1860,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "Lord Of The Underworld",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
         "seconds": 1440,
@@ -168,16 +168,16 @@
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
+        "seconds": 2160,
+        "model": "models/player/hostage/hostage_04.mdl",
+        "name": "models/player/hostage/hostage_04.mdl",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
+      },
+      {
         "seconds": 1920,
         "model": "models/walter_white/walter_white.mdl",
         "name": "models/walter_white/walter_white.mdl",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
-      },
-      {
-        "seconds": 1860,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "models/player/hostage/hostage_04.mdl",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
         "seconds": 1440,
@@ -198,14 +198,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T17:50:14.961Z",
+    "updatedAt": "2026-06-25T17:55:15.067Z",
     "leveling": {
       "level": 31,
-      "xp": 29850,
-      "currentXp": 2558,
+      "xp": 29900,
+      "currentXp": 2608,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.8886251272219199
+      "progress": 0.905991355495001
     }
   },
   "76561198249112348": {
