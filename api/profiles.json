@@ -650,7 +650,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 818701,
+    "playtimeSeconds": 818948,
     "warns": {
       "active": 0,
       "total": 0,
@@ -662,7 +662,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99338928602,
+      "currency": 99338928622,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -859,10 +859,10 @@
     },
     "jobs": [
       {
-        "seconds": 20220,
-        "model": "models/player/group01/male_01.mdl",
+        "seconds": 20520,
+        "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
         "seconds": 3540,
@@ -891,7 +891,7 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 840,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -903,7 +903,7 @@
         "iconKey": "profile_model_face_models-player-combine_super_soldier.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T03:49:50.518Z",
+    "updatedAt": "2026-06-25T03:53:57.590Z",
     "leveling": {
       "level": 47,
       "xp": 133810,
