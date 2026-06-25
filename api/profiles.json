@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 167870,
+    "playtimeSeconds": 168198,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 992779,
+      "currency": 992799,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -108,114 +108,16 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 33840,
-        "model": "models/player/eli.mdl",
-        "name": "Mine Worker",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 9900,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 3060,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "Lord Of The Underworld",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
-      },
-      {
-        "seconds": 1860,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/hostage/hostage_02.mdl",
-        "name": "Bank Manager",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/group01/female_01.mdl",
-        "name": "Fisherman",
-        "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 33840,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 9900,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 3060,
-        "model": "models/player/hostage/hostage_04.mdl",
-        "name": "models/player/hostage/hostage_04.mdl",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
-      },
-      {
-        "seconds": 1860,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/hostage/hostage_02.mdl",
-        "name": "models/player/hostage/hostage_02.mdl",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
-      },
-      {
-        "seconds": 240,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/group01/female_01.mdl",
-        "name": "models/player/group01/female_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-25T11:43:55.722Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-25T13:56:11.015Z",
     "leveling": {
       "level": 31,
-      "xp": 27500,
-      "currentXp": 208,
+      "xp": 27550,
+      "currentXp": 258,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.07241239838710345
+      "progress": 0.08977862666018464
     }
   },
   "76561198249112348": {
