@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Radio Host",
     "currentModel": "models/player/alyx.mdl",
-    "playtimeSeconds": 169342,
+    "playtimeSeconds": 169642,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 813949,
+      "currency": 797509,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -110,7 +110,7 @@
     },
     "jobs": [
       {
-        "seconds": 1080,
+        "seconds": 1380,
         "model": "models/player/alyx.mdl",
         "name": "Radio Host",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
@@ -124,7 +124,7 @@
     ],
     "models": [
       {
-        "seconds": 1080,
+        "seconds": 1380,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
@@ -136,14 +136,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T14:15:14.333Z",
+    "updatedAt": "2026-06-25T14:20:14.623Z",
     "leveling": {
       "level": 31,
-      "xp": 27700,
-      "currentXp": 408,
+      "xp": 27750,
+      "currentXp": 458,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.14187731147942825
+      "progress": 0.15924353975250943
     }
   },
   "76561198249112348": {
