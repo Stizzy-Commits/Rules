@@ -649,8 +649,8 @@
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 818587,
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 818701,
     "warns": {
       "active": 0,
       "total": 0,
@@ -662,7 +662,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99402500268,
+      "currency": 99338928602,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -869,6 +869,12 @@
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/combine_super_soldier.mdl",
+        "name": "Staff On Duty",
+        "iconKey": "profile_model_face_models-player-combine_super_soldier.mdl"
       }
     ],
     "models": [
@@ -889,9 +895,15 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/combine_super_soldier.mdl",
+        "name": "models/player/combine_super_soldier.mdl",
+        "iconKey": "profile_model_face_models-player-combine_super_soldier.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T01:01:58.789Z",
+    "updatedAt": "2026-06-25T03:49:50.518Z",
     "leveling": {
       "level": 47,
       "xp": 133810,
