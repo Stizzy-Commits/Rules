@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 154367,
+    "playtimeSeconds": 154667,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 986534,
+      "currency": 986609,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -110,7 +110,7 @@
     },
     "jobs": [
       {
-        "seconds": 20580,
+        "seconds": 20880,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -160,7 +160,7 @@
     ],
     "models": [
       {
-        "seconds": 20580,
+        "seconds": 20880,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -208,14 +208,14 @@
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T06:48:55.730Z",
+    "updatedAt": "2026-06-25T06:53:55.819Z",
     "leveling": {
       "level": 30,
-      "xp": 25300,
-      "currentXp": 625,
+      "xp": 25350,
+      "currentXp": 675,
       "requiredXp": 2617,
       "maxLevel": 100,
-      "progress": 0.23912818980868422
+      "progress": 0.25823104090907356
     }
   },
   "76561198249112348": {
