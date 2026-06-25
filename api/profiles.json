@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 135933,
+    "playtimeSeconds": 136067,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1022564,
+      "currency": 1022584,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -120,10 +120,10 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
-        "seconds": 240,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
+        "seconds": 300,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
         "seconds": 240,
@@ -132,16 +132,16 @@
         "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       },
       {
+        "seconds": 240,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      },
+      {
         "seconds": 180,
         "model": "models/player/group01/female_01.mdl",
         "name": "Fisherman",
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
     "models": [
@@ -170,6 +170,12 @@
         "iconKey": "profile_model_face_models-player-scientist.mdl"
       },
       {
+        "seconds": 300,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 240,
         "model": "models/player/hostage/hostage_02.mdl",
         "name": "models/player/hostage/hostage_02.mdl",
@@ -186,15 +192,9 @@
         "model": "models/player/group01/female_01.mdl",
         "name": "models/player/group01/female_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
-      },
-      {
-        "seconds": 120,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T01:41:42.125Z",
+    "updatedAt": "2026-06-25T01:43:55.755Z",
     "leveling": {
       "level": 28,
       "xp": 22250,
