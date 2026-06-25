@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 171742,
+    "playtimeSeconds": 172042,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 806229,
+      "currency": 806209,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -110,16 +110,16 @@
     },
     "jobs": [
       {
+        "seconds": 1680,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "Meth Cook",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
         "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "Radio Host",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 1380,
-        "model": "models/walter_white/walter_white.mdl",
-        "name": "Meth Cook",
-        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
         "seconds": 660,
@@ -136,16 +136,16 @@
     ],
     "models": [
       {
+        "seconds": 1680,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "models/walter_white/walter_white.mdl",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
         "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 1380,
-        "model": "models/walter_white/walter_white.mdl",
-        "name": "models/walter_white/walter_white.mdl",
-        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
         "seconds": 660,
@@ -160,14 +160,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T14:55:14.666Z",
+    "updatedAt": "2026-06-25T15:00:14.609Z",
     "leveling": {
       "level": 31,
-      "xp": 28100,
-      "currentXp": 808,
+      "xp": 28150,
+      "currentXp": 858,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.28080713766407783
+      "progress": 0.29817336593715904
     }
   },
   "76561198249112348": {
