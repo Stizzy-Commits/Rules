@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 170842,
+    "playtimeSeconds": 171142,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 781629,
+      "currency": 776929,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -116,16 +116,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
+        "seconds": 780,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "Meth Cook",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
         "seconds": 660,
         "model": "models/player/mechanic.mdl",
         "name": "Mechanic",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/walter_white/walter_white.mdl",
-        "name": "Meth Cook",
-        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
         "seconds": 120,
@@ -142,16 +142,16 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
+        "seconds": 780,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "models/walter_white/walter_white.mdl",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
         "seconds": 660,
         "model": "models/player/mechanic.mdl",
         "name": "models/player/mechanic.mdl",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/walter_white/walter_white.mdl",
-        "name": "models/walter_white/walter_white.mdl",
-        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
         "seconds": 120,
@@ -160,14 +160,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T14:40:14.620Z",
+    "updatedAt": "2026-06-25T14:45:14.631Z",
     "leveling": {
       "level": 31,
-      "xp": 27950,
-      "currentXp": 658,
+      "xp": 28000,
+      "currentXp": 708,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.22870845284483424
+      "progress": 0.24607468111791544
     }
   },
   "76561198249112348": {
