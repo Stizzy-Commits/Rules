@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 136067,
+    "currentJob": "Mine Worker",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 136367,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1022584,
+      "currency": 1022659,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -108,7 +108,7 @@
         "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
-        "seconds": 2280,
+        "seconds": 2580,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -158,7 +158,7 @@
         "iconKey": "profile_model_face_models-player-hostage-hostage_04.mdl"
       },
       {
-        "seconds": 2280,
+        "seconds": 2580,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -194,14 +194,14 @@
         "iconKey": "profile_model_face_models-player-group01-female_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T01:43:55.755Z",
+    "updatedAt": "2026-06-25T01:48:55.712Z",
     "leveling": {
-      "level": 28,
-      "xp": 22250,
-      "currentXp": 2118,
-      "requiredXp": 2163,
+      "level": 29,
+      "xp": 22300,
+      "currentXp": 5,
+      "requiredXp": 2379,
       "maxLevel": 100,
-      "progress": 0.9793636699487709
+      "progress": 0.0022528361638569413
     }
   },
   "76561198249112348": {
