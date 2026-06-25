@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 173242,
+    "playtimeSeconds": 173542,
     "warns": {
       "active": 0,
       "total": 0,
@@ -122,7 +122,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 960,
+        "seconds": 1260,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -154,7 +154,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 960,
+        "seconds": 1260,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -172,14 +172,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T15:20:14.627Z",
+    "updatedAt": "2026-06-25T15:25:14.648Z",
     "leveling": {
       "level": 31,
-      "xp": 28350,
-      "currentXp": 1058,
+      "xp": 28400,
+      "currentXp": 1108,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.3676382790294838
+      "progress": 0.385004507302565
     }
   },
   "76561198249112348": {
