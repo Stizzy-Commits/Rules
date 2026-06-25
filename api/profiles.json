@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 171142,
+    "playtimeSeconds": 171442,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 776929,
+      "currency": 776149,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -116,7 +116,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 780,
+        "seconds": 1080,
         "model": "models/walter_white/walter_white.mdl",
         "name": "Meth Cook",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
@@ -142,7 +142,7 @@
         "iconKey": "profile_model_face_models-player-alyx.mdl"
       },
       {
-        "seconds": 780,
+        "seconds": 1080,
         "model": "models/walter_white/walter_white.mdl",
         "name": "models/walter_white/walter_white.mdl",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
@@ -160,14 +160,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T14:45:14.631Z",
+    "updatedAt": "2026-06-25T14:50:14.636Z",
     "leveling": {
       "level": 31,
-      "xp": 28000,
-      "currentXp": 708,
+      "xp": 28050,
+      "currentXp": 758,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.24607468111791544
+      "progress": 0.2634409093909966
     }
   },
   "76561198249112348": {
