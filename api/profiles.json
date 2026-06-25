@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 173542,
+    "playtimeSeconds": 173842,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 821268,
+      "currency": 816318,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -101,6 +101,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
+        },
+        "6": {
+          "slot": 6,
+          "amount": 1,
+          "name": "Purble Haze",
+          "type": "zgo2_weedblock",
+          "class": "dc9e13b176",
+          "model": "models/zerochain/props_growop2/zgo2_weedblock.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_weedblock_dc9e13b176_models-zerochain-props_growop2-zgo2_weedblock.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A block of weed."
         }
       },
       "weapons": [],
@@ -116,16 +130,16 @@
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
+        "seconds": 1560,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "Radio Host",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 1260,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
         "seconds": 660,
@@ -148,16 +162,16 @@
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
       },
       {
+        "seconds": 1560,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 1440,
         "model": "models/player/alyx.mdl",
         "name": "models/player/alyx.mdl",
         "iconKey": "profile_model_face_models-player-alyx.mdl"
-      },
-      {
-        "seconds": 1260,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       },
       {
         "seconds": 660,
@@ -172,14 +186,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T15:25:14.648Z",
+    "updatedAt": "2026-06-25T15:30:14.660Z",
     "leveling": {
       "level": 31,
-      "xp": 28400,
-      "currentXp": 1108,
+      "xp": 28450,
+      "currentXp": 1158,
       "requiredXp": 2879,
       "maxLevel": 100,
-      "progress": 0.385004507302565
+      "progress": 0.40237073557564623
     }
   },
   "76561198249112348": {
