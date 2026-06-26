@@ -3142,16 +3142,16 @@
     "steamid64": "76561198687787502",
     "steamid": "STEAM_0:0:363760887",
     "name": "Optimized Ostrich",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 45,
+    "currentJob": "Police Chief",
+    "currentModel": "models/player/combine_soldier.mdl",
+    "playtimeSeconds": 345,
     "leveling": {
       "level": 0,
-      "xp": 0,
-      "currentXp": 0,
+      "xp": 50,
+      "currentXp": 50,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.3333333333333333
     },
     "warns": {
       "active": 0,
@@ -3164,7 +3164,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30000,
+      "currency": 30075,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3174,13 +3174,37 @@
     },
     "jobs": [
       {
+        "seconds": 240,
+        "model": "models/player/combine_soldier.mdl",
+        "name": "Police Chief",
+        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/police.mdl",
+        "name": "Civil Protection",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 240,
+        "model": "models/player/combine_soldier.mdl",
+        "name": "models/player/combine_soldier.mdl",
+        "iconKey": "profile_model_face_models-player-combine_soldier.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
+      },
       {
         "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
@@ -3188,6 +3212,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-26T09:55:16.813Z"
+    "updatedAt": "2026-06-26T10:00:16.800Z"
   }
 }
