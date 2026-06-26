@@ -3092,7 +3092,7 @@
     "name": "Schinsly",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 29,
+    "playtimeSeconds": 129,
     "leveling": {
       "level": 0,
       "xp": 0,
@@ -3112,7 +3112,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30000,
+      "currency": 29970,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3122,7 +3122,7 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -3130,12 +3130,12 @@
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-26T05:48:37.247Z"
+    "updatedAt": "2026-06-26T05:50:16.829Z"
   }
 }
