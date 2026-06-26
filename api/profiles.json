@@ -654,7 +654,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 848046,
+    "playtimeSeconds": 848101,
     "warns": {
       "active": 0,
       "total": 0,
@@ -666,7 +666,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 99338932262,
+      "currency": 99338932282,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -863,64 +863,28 @@
     },
     "jobs": [
       {
-        "seconds": 49620,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 3540,
-        "model": "models/player/scientist.mdl",
-        "name": "Weapon Testing Class ",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/combine_super_soldier.mdl",
-        "name": "Staff On Duty",
-        "iconKey": "profile_model_face_models-player-combine_super_soldier.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 46260,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 3540,
-        "model": "models/player/scientist.mdl",
-        "name": "models/player/scientist.mdl",
-        "iconKey": "profile_model_face_models-player-scientist.mdl"
-      },
-      {
-        "seconds": 3300,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/charple.mdl",
-        "name": "models/player/charple.mdl",
-        "iconKey": "profile_model_face_models-player-charple.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/combine_super_soldier.mdl",
-        "name": "models/player/combine_super_soldier.mdl",
-        "iconKey": "profile_model_face_models-player-combine_super_soldier.mdl"
       }
     ],
-    "updatedAt": "2026-06-25T11:58:55.785Z",
+    "updatedAt": "2026-06-26T01:26:17.603Z",
     "leveling": {
       "level": 47,
-      "xp": 138660,
-      "currentXp": 7863,
+      "xp": 138710,
+      "currentXp": 7913,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.5944063740175188
+      "progress": 0.598185771268524
     }
   },
   "76561198043370754": {
