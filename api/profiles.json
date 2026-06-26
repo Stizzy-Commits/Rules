@@ -3137,5 +3137,43 @@
       }
     ],
     "updatedAt": "2026-06-26T05:50:16.829Z"
+  },
+  "76561198687787502": {
+    "steamid64": "76561198687787502",
+    "steamid": "STEAM_0:0:363760887",
+    "name": "Optimized Ostrich",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 30,
+    "leveling": {
+      "level": 0,
+      "xp": 0,
+      "currentXp": 0,
+      "requiredXp": 150,
+      "maxLevel": 100,
+      "progress": 0
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 30000,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-26T09:55:01.687Z"
   }
 }
