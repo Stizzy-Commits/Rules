@@ -208,7 +208,7 @@
     "name": "Stizzy",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 705692,
+    "playtimeSeconds": 705723,
     "warns": {
       "active": 0,
       "total": 0,
@@ -369,23 +369,9 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 660,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 660,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-26T17:57:55.742Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-26T18:02:42.484Z",
     "leveling": {
       "level": 45,
       "xp": 110650,
