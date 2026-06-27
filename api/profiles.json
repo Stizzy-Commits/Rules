@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 251852,
+    "playtimeSeconds": 252152,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1681322,
+      "currency": 1681362,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -166,7 +166,7 @@
     },
     "jobs": [
       {
-        "seconds": 2100,
+        "seconds": 2400,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -174,20 +174,20 @@
     ],
     "models": [
       {
-        "seconds": 2100,
+        "seconds": 2400,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T02:05:17.160Z",
+    "updatedAt": "2026-06-27T02:10:17.147Z",
     "leveling": {
       "level": 35,
-      "xp": 41400,
-      "currentXp": 746,
+      "xp": 41450,
+      "currentXp": 796,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.1770533831730607
+      "progress": 0.18891475075251649
     }
   },
   "76561198249112348": {
