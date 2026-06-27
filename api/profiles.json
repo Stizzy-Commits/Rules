@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 858380,
+    "playtimeSeconds": 858662,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 49750,
+      "currency": 49790,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -857,51 +857,21 @@
     },
     "jobs": [
       {
-        "seconds": 1980,
-        "model": "models/player/police.mdl",
-        "name": "Civil Protection",
-        "iconKey": "profile_model_face_models-player-police.mdl"
-      },
-      {
-        "seconds": 1920,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/hostage/hostage_02.mdl",
-        "name": "Bank Manager",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 1980,
-        "model": "models/player/police.mdl",
-        "name": "models/player/police.mdl",
-        "iconKey": "profile_model_face_models-player-police.mdl"
-      },
-      {
-        "seconds": 1260,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 660,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 60,
-        "model": "models/player/hostage/hostage_02.mdl",
-        "name": "models/player/hostage/hostage_02.mdl",
-        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T05:25:19.018Z",
+    "updatedAt": "2026-06-27T20:26:06.884Z",
     "leveling": {
       "level": 47,
       "xp": 140360,
