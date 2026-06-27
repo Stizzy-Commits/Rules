@@ -1,5 +1,14 @@
 [
   {
+    "name": "STEAM_0:1:366371892",
+    "steamid": "STEAM_0:1:366371892",
+    "reason": "Exploiting/Crashing",
+    "bannedBy": "oRuin #Biceps",
+    "bannedBySteamId": "",
+    "banLength": "Permanent",
+    "unbanTime": "Never"
+  },
+  {
     "name": "Example Player",
     "steamid": "STEAM_0:1:00000000",
     "reason": "Mass RDM",
