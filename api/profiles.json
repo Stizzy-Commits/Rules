@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Professional Grower",
-    "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 249770,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 249803,
     "warns": {
       "active": 0,
       "total": 0,
@@ -164,35 +164,9 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 4680,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 2760,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 4680,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
-      },
-      {
-        "seconds": 2760,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-26T17:57:53.814Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-27T01:31:08.126Z",
     "leveling": {
       "level": 35,
       "xp": 41100,
