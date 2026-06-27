@@ -636,7 +636,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Civil Protection",
     "currentModel": "models/player/police.mdl",
-    "playtimeSeconds": 855971,
+    "playtimeSeconds": 856271,
     "warns": {
       "active": 0,
       "total": 0,
@@ -648,7 +648,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 50270,
+      "currency": 50320,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -851,10 +851,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 780,
         "model": "models/player/police.mdl",
         "name": "Civil Protection",
         "iconKey": "profile_model_face_models-player-police.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/hostage/hostage_02.mdl",
+        "name": "Bank Manager",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       }
     ],
     "models": [
@@ -865,20 +871,26 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 540,
+        "seconds": 780,
         "model": "models/player/police.mdl",
         "name": "models/player/police.mdl",
         "iconKey": "profile_model_face_models-player-police.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/hostage/hostage_02.mdl",
+        "name": "models/player/hostage/hostage_02.mdl",
+        "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T02:45:19.005Z",
+    "updatedAt": "2026-06-27T02:50:19.008Z",
     "leveling": {
       "level": 47,
-      "xp": 139960,
-      "currentXp": 9163,
+      "xp": 140010,
+      "currentXp": 9213,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.6926707025436516
+      "progress": 0.6964500997946567
     }
   },
   "76561198043370754": {
