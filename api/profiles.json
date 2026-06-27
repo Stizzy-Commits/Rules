@@ -2681,9 +2681,9 @@
     "steamid64": "76561198000286203",
     "steamid": "STEAM_0:1:20010237",
     "name": "Ali Kebab",
-    "currentJob": "Elite Seller",
-    "currentModel": "models/player/riot.mdl",
-    "playtimeSeconds": 155008,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 155070,
     "leveling": {
       "level": 30,
       "xp": 25462,
@@ -2966,45 +2966,21 @@
     },
     "jobs": [
       {
-        "seconds": 780,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/riot.mdl",
-        "name": "Elite Seller",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/arctic.mdl",
-        "name": "Parkour",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 780,
+        "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/riot.mdl",
-        "name": "models/player/riot.mdl",
-        "iconKey": "profile_model_face_models-player-riot.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/arctic.mdl",
-        "name": "models/player/arctic.mdl",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
-    "updatedAt": "2026-06-24T19:13:02.330Z"
+    "updatedAt": "2026-06-27T19:41:38.115Z"
   },
   "76561198174138721": {
     "steamid64": "76561198174138721",
