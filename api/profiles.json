@@ -634,9 +634,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 855371,
+    "currentJob": "Civil Protection",
+    "currentModel": "models/player/police.mdl",
+    "playtimeSeconds": 855671,
     "warns": {
       "active": 0,
       "total": 0,
@@ -648,7 +648,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 50100,
+      "currency": 50170,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -845,28 +845,40 @@
     },
     "jobs": [
       {
-        "seconds": 900,
+        "seconds": 960,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/police.mdl",
+        "name": "Civil Protection",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 900,
+        "seconds": 960,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 240,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T02:35:19.011Z",
+    "updatedAt": "2026-06-27T02:40:19.053Z",
     "leveling": {
       "level": 47,
-      "xp": 139860,
-      "currentXp": 9063,
+      "xp": 139910,
+      "currentXp": 9113,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.6851119080416413
+      "progress": 0.6888913052926465
     }
   },
   "76561198043370754": {
