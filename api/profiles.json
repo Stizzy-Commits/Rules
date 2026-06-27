@@ -636,7 +636,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Civil Protection",
     "currentModel": "models/player/police.mdl",
-    "playtimeSeconds": 856871,
+    "playtimeSeconds": 857171,
     "warns": {
       "active": 0,
       "total": 0,
@@ -648,7 +648,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 49470,
+      "currency": 49570,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -845,7 +845,7 @@
     },
     "jobs": [
       {
-        "seconds": 1380,
+        "seconds": 1680,
         "model": "models/player/police.mdl",
         "name": "Civil Protection",
         "iconKey": "profile_model_face_models-player-police.mdl"
@@ -865,7 +865,7 @@
     ],
     "models": [
       {
-        "seconds": 1380,
+        "seconds": 1680,
         "model": "models/player/police.mdl",
         "name": "models/player/police.mdl",
         "iconKey": "profile_model_face_models-player-police.mdl"
@@ -883,14 +883,14 @@
         "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T03:00:19.044Z",
+    "updatedAt": "2026-06-27T03:05:19.030Z",
     "leveling": {
       "level": 47,
-      "xp": 140110,
-      "currentXp": 9313,
+      "xp": 140160,
+      "currentXp": 9363,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.7040088942966669
+      "progress": 0.707788291547672
     }
   },
   "76561198043370754": {
