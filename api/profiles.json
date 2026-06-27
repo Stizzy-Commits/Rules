@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Civil Protection",
     "currentModel": "models/player/police.mdl",
-    "playtimeSeconds": 285152,
+    "playtimeSeconds": 285452,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1690072,
+      "currency": 1690172,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -166,7 +166,7 @@
     },
     "jobs": [
       {
-        "seconds": 24600,
+        "seconds": 24900,
         "model": "models/player/police.mdl",
         "name": "Civil Protection",
         "iconKey": "profile_model_face_models-player-police.mdl"
@@ -180,7 +180,7 @@
     ],
     "models": [
       {
-        "seconds": 24600,
+        "seconds": 24900,
         "model": "models/player/police.mdl",
         "name": "models/player/police.mdl",
         "iconKey": "profile_model_face_models-player-police.mdl"
@@ -192,14 +192,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T11:20:17.151Z",
+    "updatedAt": "2026-06-27T11:25:17.136Z",
     "leveling": {
       "level": 36,
-      "xp": 46950,
-      "currentXp": 2080,
+      "xp": 47000,
+      "currentXp": 2130,
       "requiredXp": 4636,
       "maxLevel": 100,
-      "progress": 0.44878653135695495
+      "progress": 0.45956959279282383
     }
   },
   "76561198249112348": {
