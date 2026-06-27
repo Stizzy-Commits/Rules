@@ -636,7 +636,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Civil Protection",
     "currentModel": "models/player/police.mdl",
-    "playtimeSeconds": 856271,
+    "playtimeSeconds": 856571,
     "warns": {
       "active": 0,
       "total": 0,
@@ -648,7 +648,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 50320,
+      "currency": 49420,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -682,6 +682,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
+        },
+        "3": {
+          "slot": 3,
+          "amount": 1,
+          "name": "OG Kush 50g THC: 50%",
+          "type": "zgo2_baggy",
+          "class": "246224726",
+          "model": "models/zerochain/props_growop2/zgo2_baggy.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "zgo2_baggy_246224726_models-zerochain-props_growop2-zgo2_baggy.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "Holds weed."
         },
         "4": {
           "slot": 4,
@@ -781,20 +795,6 @@
           "equipped": false,
           "meta": "A shooty stick!"
         },
-        "11": {
-          "slot": 11,
-          "amount": 1,
-          "name": "OG Kush 300g THC: 50%",
-          "type": "zgo2_baggy",
-          "class": "246224726",
-          "model": "models/zerochain/props_growop2/zgo2_baggy.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "zgo2_baggy_246224726_models-zerochain-props_growop2-zgo2_baggy.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "Holds weed."
-        },
         "12": {
           "slot": 12,
           "amount": 4,
@@ -845,16 +845,16 @@
     },
     "jobs": [
       {
+        "seconds": 1080,
+        "model": "models/player/police.mdl",
+        "name": "Civil Protection",
+        "iconKey": "profile_model_face_models-player-police.mdl"
+      },
+      {
         "seconds": 960,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 780,
-        "model": "models/player/police.mdl",
-        "name": "Civil Protection",
-        "iconKey": "profile_model_face_models-player-police.mdl"
       },
       {
         "seconds": 60,
@@ -865,16 +865,16 @@
     ],
     "models": [
       {
+        "seconds": 1080,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
+      },
+      {
         "seconds": 960,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 780,
-        "model": "models/player/police.mdl",
-        "name": "models/player/police.mdl",
-        "iconKey": "profile_model_face_models-player-police.mdl"
       },
       {
         "seconds": 60,
@@ -883,14 +883,14 @@
         "iconKey": "profile_model_face_models-player-hostage-hostage_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T02:50:19.008Z",
+    "updatedAt": "2026-06-27T02:55:19.023Z",
     "leveling": {
       "level": 47,
-      "xp": 140010,
-      "currentXp": 9213,
+      "xp": 140060,
+      "currentXp": 9263,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.6964500997946567
+      "progress": 0.7002294970456618
     }
   },
   "76561198043370754": {
