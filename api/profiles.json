@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 260552,
+    "currentJob": "Civil Protection",
+    "currentModel": "models/player/police.mdl",
+    "playtimeSeconds": 260852,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1682422,
+      "currency": 1682472,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -170,6 +170,12 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/police.mdl",
+        "name": "Civil Protection",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
     "models": [
@@ -178,16 +184,22 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T04:30:17.147Z",
+    "updatedAt": "2026-06-27T04:35:17.141Z",
     "leveling": {
       "level": 35,
-      "xp": 42850,
-      "currentXp": 2196,
+      "xp": 42900,
+      "currentXp": 2246,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.5210330429772781
+      "progress": 0.5328944105567339
     }
   },
   "76561198249112348": {
