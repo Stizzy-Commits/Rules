@@ -208,7 +208,7 @@
     "name": "Stizzy",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 715760,
+    "playtimeSeconds": 716061,
     "warns": {
       "active": 0,
       "total": 0,
@@ -220,7 +220,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 86799,
+      "currency": 86839,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -371,7 +371,7 @@
     },
     "jobs": [
       {
-        "seconds": 9660,
+        "seconds": 9960,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -379,20 +379,20 @@
     ],
     "models": [
       {
-        "seconds": 9660,
+        "seconds": 9960,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T03:59:04.609Z",
+    "updatedAt": "2026-06-28T04:04:05.638Z",
     "leveling": {
       "level": 45,
-      "xp": 112300,
-      "currentXp": 4464,
+      "xp": 112350,
+      "currentXp": 4514,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.4083088533780284
+      "progress": 0.4128819240517446
     }
   },
   "76561198318712668": {
