@@ -646,9 +646,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 873481,
+    "currentJob": "Mechanic",
+    "currentModel": "models/player/mechanic.mdl",
+    "playtimeSeconds": 873723,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 63222,
+      "currency": 63242,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -809,7 +809,7 @@
         },
         "12": {
           "slot": 12,
-          "amount": 4,
+          "amount": 3,
           "name": "Nerve Gas",
           "type": "spawned_weapon",
           "class": "m9k_nerve_gas",
@@ -837,7 +837,7 @@
         },
         "14": {
           "slot": 14,
-          "amount": 8,
+          "amount": 7,
           "name": "Colt 1911",
           "type": "spawned_weapon",
           "class": "m9k_colt1911",
@@ -855,9 +855,35 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-28T01:05:03.114Z",
+    "jobs": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/mechanic.mdl",
+        "name": "Mechanic",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/mechanic.mdl",
+        "name": "models/player/mechanic.mdl",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-28T01:09:04.615Z",
     "leveling": {
       "level": 47,
       "xp": 142810,
