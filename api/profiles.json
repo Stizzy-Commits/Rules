@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Medic",
     "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 872771,
+    "playtimeSeconds": 873071,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 63062,
+      "currency": 63142,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -863,16 +863,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
+        "seconds": 1440,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
         "seconds": 1200,
         "model": "models/player/odessa.mdl",
         "name": "Cardealer Job",
         "iconKey": "profile_model_face_models-player-odessa.mdl"
-      },
-      {
-        "seconds": 1140,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 540,
@@ -889,16 +889,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
+        "seconds": 1440,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
         "seconds": 1200,
         "model": "models/player/odessa.mdl",
         "name": "models/player/odessa.mdl",
         "iconKey": "profile_model_face_models-player-odessa.mdl"
-      },
-      {
-        "seconds": 1140,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 540,
@@ -913,14 +913,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T00:49:46.645Z",
+    "updatedAt": "2026-06-28T00:54:46.506Z",
     "leveling": {
       "level": 47,
-      "xp": 142660,
-      "currentXp": 11863,
+      "xp": 142710,
+      "currentXp": 11913,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.8967581540979273
+      "progress": 0.9005375513489324
     }
   },
   "76561198043370754": {
