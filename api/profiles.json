@@ -646,9 +646,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Cardealer Job",
-    "currentModel": "models/player/odessa.mdl",
-    "playtimeSeconds": 870971,
+    "currentJob": "Civil Protection",
+    "currentModel": "models/player/police.mdl",
+    "playtimeSeconds": 871271,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 62692,
+      "currency": 62762,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -863,10 +863,16 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 1080,
+        "seconds": 1200,
         "model": "models/player/odessa.mdl",
         "name": "Cardealer Job",
         "iconKey": "profile_model_face_models-player-odessa.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/police.mdl",
+        "name": "Civil Protection",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
     "models": [
@@ -877,7 +883,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 1080,
+        "seconds": 1200,
         "model": "models/player/odessa.mdl",
         "name": "models/player/odessa.mdl",
         "iconKey": "profile_model_face_models-player-odessa.mdl"
@@ -887,16 +893,22 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T00:19:46.509Z",
+    "updatedAt": "2026-06-28T00:24:46.477Z",
     "leveling": {
       "level": 47,
-      "xp": 142360,
-      "currentXp": 11563,
+      "xp": 142410,
+      "currentXp": 11613,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.8740817705918966
+      "progress": 0.8778611678429018
     }
   },
   "76561198043370754": {
