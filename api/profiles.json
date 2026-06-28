@@ -646,9 +646,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 869771,
+    "currentJob": "Cardealer Job",
+    "currentModel": "models/player/odessa.mdl",
+    "playtimeSeconds": 870071,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 51170,
+      "currency": 50710,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -857,10 +857,16 @@
     },
     "jobs": [
       {
-        "seconds": 11220,
+        "seconds": 11340,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/odessa.mdl",
+        "name": "Cardealer Job",
+        "iconKey": "profile_model_face_models-player-odessa.mdl"
       }
     ],
     "models": [
@@ -871,20 +877,26 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 300,
+        "seconds": 420,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/odessa.mdl",
+        "name": "models/player/odessa.mdl",
+        "iconKey": "profile_model_face_models-player-odessa.mdl"
       }
     ],
-    "updatedAt": "2026-06-27T23:59:46.455Z",
+    "updatedAt": "2026-06-28T00:04:46.519Z",
     "leveling": {
       "level": 47,
-      "xp": 142160,
-      "currentXp": 11363,
+      "xp": 142210,
+      "currentXp": 11413,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.8589641815878762
+      "progress": 0.8627435788388813
     }
   },
   "76561198043370754": {
