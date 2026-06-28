@@ -646,9 +646,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 883323,
+    "currentJob": "Master Thief",
+    "currentModel": "models/player/arctic.mdl",
+    "playtimeSeconds": 883623,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 58462,
+      "currency": 0,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -867,6 +867,12 @@
         "model": "models/player/mechanic.mdl",
         "name": "Mechanic",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/arctic.mdl",
+        "name": "Master Thief",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
     "models": [
@@ -881,16 +887,22 @@
         "model": "models/player/mechanic.mdl",
         "name": "models/player/mechanic.mdl",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/arctic.mdl",
+        "name": "models/player/arctic.mdl",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T03:49:04.629Z",
+    "updatedAt": "2026-06-28T03:54:04.631Z",
     "leveling": {
       "level": 48,
-      "xp": 144410,
-      "currentXp": 384,
+      "xp": 144460,
+      "currentXp": 434,
       "requiredXp": 14552,
       "maxLevel": 100,
-      "progress": 0.026397325348277278
+      "progress": 0.02983314103100919
     }
   },
   "76561198043370754": {
