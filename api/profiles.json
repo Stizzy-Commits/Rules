@@ -3195,5 +3195,57 @@
       }
     ],
     "updatedAt": "2026-06-26T10:00:16.800Z"
+  },
+  "76561198114666920": {
+    "steamid64": "76561198114666920",
+    "steamid": "STEAM_0:0:77200596",
+    "name": "Froslenne",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 10062,
+    "leveling": {
+      "level": 7,
+      "xp": 1550,
+      "currentXp": 126,
+      "requiredXp": 292,
+      "maxLevel": 100,
+      "progress": 0.4342150706910363
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 350,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-28T01:31:10.585Z"
   }
 }
