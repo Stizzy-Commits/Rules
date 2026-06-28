@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Medic",
     "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 872471,
+    "playtimeSeconds": 872771,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 62982,
+      "currency": 63062,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -869,7 +869,7 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       },
       {
-        "seconds": 840,
+        "seconds": 1140,
         "model": "models/player/kleiner.mdl",
         "name": "Medic",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
@@ -895,7 +895,7 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       },
       {
-        "seconds": 840,
+        "seconds": 1140,
         "model": "models/player/kleiner.mdl",
         "name": "models/player/kleiner.mdl",
         "iconKey": "profile_model_face_models-player-kleiner.mdl"
@@ -913,14 +913,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T00:44:46.506Z",
+    "updatedAt": "2026-06-28T00:49:46.645Z",
     "leveling": {
       "level": 47,
-      "xp": 142610,
-      "currentXp": 11813,
+      "xp": 142660,
+      "currentXp": 11863,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.8929787568469222
+      "progress": 0.8967581540979273
     }
   },
   "76561198043370754": {
