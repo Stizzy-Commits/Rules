@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Civil Protection",
     "currentModel": "models/player/police.mdl",
-    "playtimeSeconds": 871271,
+    "playtimeSeconds": 871571,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 62762,
+      "currency": 62812,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -869,7 +869,7 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       },
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/police.mdl",
         "name": "Civil Protection",
         "iconKey": "profile_model_face_models-player-police.mdl"
@@ -889,26 +889,26 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       },
       {
+        "seconds": 480,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
+      },
+      {
         "seconds": 420,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 180,
-        "model": "models/player/police.mdl",
-        "name": "models/player/police.mdl",
-        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T00:24:46.477Z",
+    "updatedAt": "2026-06-28T00:29:46.487Z",
     "leveling": {
       "level": 47,
-      "xp": 142410,
-      "currentXp": 11613,
+      "xp": 142460,
+      "currentXp": 11663,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.8778611678429018
+      "progress": 0.8816405650939069
     }
   },
   "76561198043370754": {
