@@ -3332,14 +3332,14 @@
     "name": "IrieDays",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 128,
+    "playtimeSeconds": 428,
     "leveling": {
       "level": 0,
-      "xp": 0,
-      "currentXp": 0,
+      "xp": 50,
+      "currentXp": 50,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.3333333333333333
     },
     "warns": {
       "active": 0,
@@ -3352,7 +3352,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30000,
+      "currency": 30040,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3362,7 +3362,7 @@
     },
     "jobs": [
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -3370,12 +3370,12 @@
     ],
     "models": [
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T06:44:05.639Z"
+    "updatedAt": "2026-06-28T06:49:05.675Z"
   }
 }
