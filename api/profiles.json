@@ -646,9 +646,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin #Biceps",
-    "currentJob": "Medic",
-    "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 873371,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 873481,
     "warns": {
       "active": 0,
       "total": 0,
@@ -855,72 +855,16 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 11340,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 1740,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 1200,
-        "model": "models/player/odessa.mdl",
-        "name": "Cardealer Job",
-        "iconKey": "profile_model_face_models-player-odessa.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/police.mdl",
-        "name": "Civil Protection",
-        "iconKey": "profile_model_face_models-player-police.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 10920,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 1740,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
-      },
-      {
-        "seconds": 1200,
-        "model": "models/player/odessa.mdl",
-        "name": "models/player/odessa.mdl",
-        "iconKey": "profile_model_face_models-player-odessa.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/police.mdl",
-        "name": "models/player/police.mdl",
-        "iconKey": "profile_model_face_models-player-police.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      }
-    ],
-    "updatedAt": "2026-06-28T00:59:46.495Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-28T01:05:03.114Z",
     "leveling": {
       "level": 47,
-      "xp": 142760,
-      "currentXp": 11963,
+      "xp": 142810,
+      "currentXp": 12013,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.9043169485999375
+      "progress": 0.9080963458509426
     }
   },
   "76561198043370754": {
