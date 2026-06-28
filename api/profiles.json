@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 886352,
+    "playtimeSeconds": 886652,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,12 +660,12 @@
       "recent": []
     },
     "inventory": {
-      "currency": 100320,
+      "currency": 100330,
       "slotCount": 40,
       "slots": {
         "1": {
           "slot": 1,
-          "amount": 6,
+          "amount": 4,
           "name": "Unknown",
           "type": "spawned_weapon",
           "class": "weapon_armor_patch",
@@ -709,6 +709,20 @@
           "equipped": false,
           "meta": "Holds weed."
         },
+        "4": {
+          "slot": 4,
+          "amount": 1,
+          "name": "Nerve Gas",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
         "5": {
           "slot": 5,
           "amount": 1,
@@ -719,20 +733,6 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_bkeypads_cracker_models-bkeypads-cracker.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "6": {
-          "slot": 6,
-          "amount": 10,
-          "name": "Colt 1911",
-          "type": "spawned_weapon",
-          "class": "m9k_colt1911",
-          "model": "models/weapons/s_dmgf_co1911.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -767,7 +767,7 @@
         },
         "9": {
           "slot": 9,
-          "amount": 4,
+          "amount": 3,
           "name": "Scripted Weapon",
           "type": "spawned_weapon",
           "class": "ch_mining_jackhammer",
@@ -779,37 +779,9 @@
           "equipped": false,
           "meta": "A shooty stick!"
         },
-        "10": {
-          "slot": 10,
-          "amount": 1,
-          "name": "IED Detonator",
-          "type": "spawned_weapon",
-          "class": "m9k_ied_detonator",
-          "model": "models/weapons/w_camphon2.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_ied_detonator_models-weapons-w_camphon2.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "12": {
-          "slot": 12,
-          "amount": 3,
-          "name": "Nerve Gas",
-          "type": "spawned_weapon",
-          "class": "m9k_nerve_gas",
-          "model": "models/weapons/w_grenade.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "13": {
-          "slot": 13,
-          "amount": 16,
+        "11": {
+          "slot": 11,
+          "amount": 25,
           "name": "Colt 1911",
           "type": "spawned_weapon",
           "class": "m9k_colt1911",
@@ -817,6 +789,20 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        },
+        "12": {
+          "slot": 12,
+          "amount": 1,
+          "name": "Nerve Gas",
+          "type": "spawned_weapon",
+          "class": "m9k_nerve_gas",
+          "model": "models/weapons/w_grenade.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_nerve_gas_models-weapons-w_grenade.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -829,7 +815,7 @@
     },
     "jobs": [
       {
-        "seconds": 12060,
+        "seconds": 12360,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -855,7 +841,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 2640,
+        "seconds": 2940,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -873,14 +859,14 @@
         "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T04:44:08.069Z",
+    "updatedAt": "2026-06-28T04:49:07.503Z",
     "leveling": {
       "level": 48,
-      "xp": 144910,
-      "currentXp": 884,
+      "xp": 144960,
+      "currentXp": 934,
       "requiredXp": 14552,
       "maxLevel": 100,
-      "progress": 0.06075548217559641
+      "progress": 0.06419129785832833
     }
   },
   "76561198043370754": {
