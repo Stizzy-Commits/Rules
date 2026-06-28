@@ -3202,14 +3202,14 @@
     "name": "Froslenne",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 11440,
+    "playtimeSeconds": 11740,
     "leveling": {
       "level": 8,
-      "xp": 1750,
-      "currentXp": 34,
+      "xp": 1800,
+      "currentXp": 84,
       "requiredXp": 321,
       "maxLevel": 100,
-      "progress": 0.10765990454422301
+      "progress": 0.26316236461413406
     },
     "warns": {
       "active": 0,
@@ -3232,32 +3232,32 @@
     },
     "jobs": [
       {
+        "seconds": 960,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
         "seconds": 780,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 660,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "Professional Grower",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 960,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
       {
         "seconds": 780,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 660,
-        "model": "models/player/fring/gus_suit.mdl",
-        "name": "models/player/fring/gus_suit.mdl",
-        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T01:54:08.471Z"
+    "updatedAt": "2026-06-28T01:59:08.467Z"
   }
 }
