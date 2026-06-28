@@ -3347,5 +3347,43 @@
       }
     ],
     "updatedAt": "2026-06-28T06:54:05.614Z"
+  },
+  "76561199846512064": {
+    "steamid64": "76561199846512064",
+    "steamid": "STEAM_0:0:943123168",
+    "name": "0DDGLUE",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 17149,
+    "leveling": {
+      "level": 10,
+      "xp": 2700,
+      "currentXp": 309,
+      "requiredXp": 389,
+      "maxLevel": 100,
+      "progress": 0.7952121040268862
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 8706,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-28T21:08:39.651Z"
   }
 }
