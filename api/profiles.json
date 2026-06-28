@@ -3202,14 +3202,14 @@
     "name": "Froslenne",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 10240,
+    "playtimeSeconds": 10540,
     "leveling": {
       "level": 7,
-      "xp": 1550,
-      "currentXp": 126,
+      "xp": 1600,
+      "currentXp": 176,
       "requiredXp": 292,
       "maxLevel": 100,
-      "progress": 0.4342150706910363
+      "progress": 0.6052677767679385
     },
     "warns": {
       "active": 0,
@@ -3222,7 +3222,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 370,
+      "currency": 410,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3232,7 +3232,7 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -3240,12 +3240,12 @@
     ],
     "models": [
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T01:34:08.456Z"
+    "updatedAt": "2026-06-28T01:39:09.799Z"
   }
 }
