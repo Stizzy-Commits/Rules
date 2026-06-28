@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Medic",
     "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 872171,
+    "playtimeSeconds": 872471,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 62902,
+      "currency": 62982,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -869,16 +869,16 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       },
       {
+        "seconds": 840,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
         "seconds": 540,
         "model": "models/player/police.mdl",
         "name": "Civil Protection",
         "iconKey": "profile_model_face_models-player-police.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       }
     ],
     "models": [
@@ -895,16 +895,16 @@
         "iconKey": "profile_model_face_models-player-odessa.mdl"
       },
       {
+        "seconds": 840,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      },
+      {
         "seconds": 540,
         "model": "models/player/police.mdl",
         "name": "models/player/police.mdl",
         "iconKey": "profile_model_face_models-player-police.mdl"
-      },
-      {
-        "seconds": 540,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
       },
       {
         "seconds": 420,
@@ -913,14 +913,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T00:39:46.514Z",
+    "updatedAt": "2026-06-28T00:44:46.506Z",
     "leveling": {
       "level": 47,
-      "xp": 142560,
-      "currentXp": 11763,
+      "xp": 142610,
+      "currentXp": 11813,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.8891993595959171
+      "progress": 0.8929787568469222
     }
   },
   "76561198043370754": {
