@@ -3202,14 +3202,14 @@
     "name": "Froslenne",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 11740,
+    "playtimeSeconds": 12040,
     "leveling": {
       "level": 8,
-      "xp": 1800,
-      "currentXp": 84,
+      "xp": 1850,
+      "currentXp": 134,
       "requiredXp": 321,
       "maxLevel": 100,
-      "progress": 0.26316236461413406
+      "progress": 0.41866482468404514
     },
     "warns": {
       "active": 0,
@@ -3232,7 +3232,7 @@
     },
     "jobs": [
       {
-        "seconds": 960,
+        "seconds": 1260,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -3246,7 +3246,7 @@
     ],
     "models": [
       {
-        "seconds": 960,
+        "seconds": 1260,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -3258,6 +3258,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T01:59:08.467Z"
+    "updatedAt": "2026-06-28T02:04:08.506Z"
   }
 }
