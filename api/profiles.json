@@ -3277,5 +3277,43 @@
       }
     ],
     "updatedAt": "2026-06-28T02:44:08.468Z"
+  },
+  "76561198116596323": {
+    "steamid64": "76561198116596323",
+    "steamid": "STEAM_0:1:78165297",
+    "name": "TheCammo",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 30,
+    "leveling": {
+      "level": 0,
+      "xp": 0,
+      "currentXp": 0,
+      "requiredXp": 150,
+      "maxLevel": 100,
+      "progress": 0
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 30000,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-06-28T04:05:03.881Z"
   }
 }
