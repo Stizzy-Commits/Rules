@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 874323,
+    "playtimeSeconds": 874623,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 63342,
+      "currency": 63382,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -857,40 +857,40 @@
     },
     "jobs": [
       {
+        "seconds": 720,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
         "seconds": 480,
         "model": "models/player/mechanic.mdl",
         "name": "Mechanic",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 720,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
       {
         "seconds": 480,
         "model": "models/player/mechanic.mdl",
         "name": "models/player/mechanic.mdl",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T01:19:04.588Z",
+    "updatedAt": "2026-06-28T01:24:04.604Z",
     "leveling": {
       "level": 47,
-      "xp": 142910,
-      "currentXp": 12113,
+      "xp": 142960,
+      "currentXp": 12163,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.9156551403529528
+      "progress": 0.9194345376039579
     }
   },
   "76561198043370754": {
