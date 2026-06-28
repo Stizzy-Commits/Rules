@@ -3200,16 +3200,16 @@
     "steamid64": "76561198114666920",
     "steamid": "STEAM_0:0:77200596",
     "name": "Froslenne",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 10540,
+    "currentJob": "Professional Grower",
+    "currentModel": "models/player/fring/gus_suit.mdl",
+    "playtimeSeconds": 10840,
     "leveling": {
       "level": 7,
-      "xp": 1600,
-      "currentXp": 176,
+      "xp": 1650,
+      "currentXp": 226,
       "requiredXp": 292,
       "maxLevel": 100,
-      "progress": 0.6052677767679385
+      "progress": 0.7763204828448407
     },
     "warns": {
       "active": 0,
@@ -3222,7 +3222,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 410,
+      "currency": 400,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3232,20 +3232,32 @@
     },
     "jobs": [
       {
-        "seconds": 540,
+        "seconds": 780,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 540,
+        "seconds": 780,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T01:39:09.799Z"
+    "updatedAt": "2026-06-28T01:44:08.474Z"
   }
 }
