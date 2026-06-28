@@ -3354,7 +3354,7 @@
     "name": "0DDGLUE",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 17149,
+    "playtimeSeconds": 17277,
     "leveling": {
       "level": 10,
       "xp": 2700,
@@ -3382,8 +3382,22 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-28T21:08:39.651Z"
+    "jobs": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 180,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-28T21:10:47.793Z"
   }
 }
