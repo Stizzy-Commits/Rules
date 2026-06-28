@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 886052,
+    "playtimeSeconds": 886352,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 100280,
+      "currency": 100320,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -708,20 +708,6 @@
           "icon": "",
           "equipped": false,
           "meta": "Holds weed."
-        },
-        "4": {
-          "slot": 4,
-          "amount": 1,
-          "name": "Ares Shrike",
-          "type": "spawned_weapon",
-          "class": "m9k_ares_shrike",
-          "model": "models/weapons/w_ares_shrike.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_ares_shrike_models-weapons-w_ares_shrike.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
         },
         "5": {
           "slot": 5,
@@ -823,21 +809,7 @@
         },
         "13": {
           "slot": 13,
-          "amount": 10,
-          "name": "Colt 1911",
-          "type": "spawned_weapon",
-          "class": "m9k_colt1911",
-          "model": "models/weapons/s_dmgf_co1911.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_colt1911_models-weapons-s_dmgf_co1911.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "14": {
-          "slot": 14,
-          "amount": 7,
+          "amount": 16,
           "name": "Colt 1911",
           "type": "spawned_weapon",
           "class": "m9k_colt1911",
@@ -857,7 +829,7 @@
     },
     "jobs": [
       {
-        "seconds": 11760,
+        "seconds": 12060,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -883,7 +855,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 2340,
+        "seconds": 2640,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -901,14 +873,14 @@
         "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T04:39:07.502Z",
+    "updatedAt": "2026-06-28T04:44:08.069Z",
     "leveling": {
       "level": 48,
-      "xp": 144860,
-      "currentXp": 834,
+      "xp": 144910,
+      "currentXp": 884,
       "requiredXp": 14552,
       "maxLevel": 100,
-      "progress": 0.057319666492864504
+      "progress": 0.06075548217559641
     }
   },
   "76561198043370754": {
