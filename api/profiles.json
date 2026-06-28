@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Cardealer Job",
     "currentModel": "models/player/odessa.mdl",
-    "playtimeSeconds": 870671,
+    "playtimeSeconds": 870971,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 62652,
+      "currency": 62692,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -863,7 +863,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 780,
+        "seconds": 1080,
         "model": "models/player/odessa.mdl",
         "name": "Cardealer Job",
         "iconKey": "profile_model_face_models-player-odessa.mdl"
@@ -877,7 +877,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 780,
+        "seconds": 1080,
         "model": "models/player/odessa.mdl",
         "name": "models/player/odessa.mdl",
         "iconKey": "profile_model_face_models-player-odessa.mdl"
@@ -889,14 +889,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T00:14:46.500Z",
+    "updatedAt": "2026-06-28T00:19:46.509Z",
     "leveling": {
       "level": 47,
-      "xp": 142310,
-      "currentXp": 11513,
+      "xp": 142360,
+      "currentXp": 11563,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.8703023733408916
+      "progress": 0.8740817705918966
     }
   },
   "76561198043370754": {
