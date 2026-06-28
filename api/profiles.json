@@ -3354,14 +3354,14 @@
     "name": "0DDGLUE",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 17277,
+    "playtimeSeconds": 17577,
     "leveling": {
       "level": 10,
-      "xp": 2700,
-      "currentXp": 309,
+      "xp": 2750,
+      "currentXp": 359,
       "requiredXp": 389,
       "maxLevel": 100,
-      "progress": 0.7952121040268862
+      "progress": 0.9237265338367301
     },
     "warns": {
       "active": 0,
@@ -3374,7 +3374,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 8706,
+      "currency": 8746,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3384,7 +3384,7 @@
     },
     "jobs": [
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -3392,12 +3392,12 @@
     ],
     "models": [
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T21:10:47.793Z"
+    "updatedAt": "2026-06-28T21:15:47.804Z"
   }
 }
