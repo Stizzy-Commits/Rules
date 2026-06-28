@@ -3325,5 +3325,57 @@
       }
     ],
     "updatedAt": "2026-06-28T05:27:14.331Z"
+  },
+  "76561199157898942": {
+    "steamid64": "76561199157898942",
+    "steamid": "STEAM_0:0:598816607",
+    "name": "IrieDays",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 30,
+    "leveling": {
+      "level": 0,
+      "xp": 0,
+      "currentXp": 0,
+      "requiredXp": 150,
+      "maxLevel": 100,
+      "progress": 0
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 30000,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-28T06:42:27.976Z"
   }
 }
