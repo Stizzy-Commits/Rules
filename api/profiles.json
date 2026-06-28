@@ -3202,14 +3202,14 @@
     "name": "Froslenne",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 13540,
+    "playtimeSeconds": 13840,
     "leveling": {
       "level": 9,
-      "xp": 2100,
-      "currentXp": 63,
+      "xp": 2150,
+      "currentXp": 113,
       "requiredXp": 353,
       "maxLevel": 100,
-      "progress": 0.17834284093963673
+      "progress": 0.31970871373046494
     },
     "warns": {
       "active": 0,
@@ -3222,7 +3222,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 41800,
+      "currency": 40800,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3232,7 +3232,7 @@
     },
     "jobs": [
       {
-        "seconds": 2760,
+        "seconds": 3060,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -3246,7 +3246,7 @@
     ],
     "models": [
       {
-        "seconds": 2760,
+        "seconds": 3060,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -3258,6 +3258,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T02:29:10.078Z"
+    "updatedAt": "2026-06-28T02:34:08.458Z"
   }
 }
