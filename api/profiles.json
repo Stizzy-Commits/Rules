@@ -648,7 +648,7 @@
     "name": "oRuin #Biceps",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 912450,
+    "playtimeSeconds": 912541,
     "warns": {
       "active": 0,
       "total": 0,
@@ -815,51 +815,21 @@
     },
     "jobs": [
       {
-        "seconds": 38160,
+        "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/mechanic.mdl",
-        "name": "Mechanic",
-        "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/arctic.mdl",
-        "name": "Master Thief",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 28740,
+        "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 9420,
-        "model": "models/player/group01/male_01.mdl",
-        "name": "models/player/group01/male_01.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/mechanic.mdl",
-        "name": "models/player/mechanic.mdl",
-        "iconKey": "profile_model_face_models-player-mechanic.mdl"
-      },
-      {
-        "seconds": 420,
-        "model": "models/player/arctic.mdl",
-        "name": "models/player/arctic.mdl",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
       }
     ],
-    "updatedAt": "2026-06-28T11:59:05.638Z",
+    "updatedAt": "2026-06-28T16:23:49.204Z",
     "leveling": {
       "level": 48,
       "xp": 149260,
