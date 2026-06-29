@@ -3546,9 +3546,9 @@
     "steamid64": "76561199087894705",
     "steamid": "STEAM_0:1:563814488",
     "name": "🦆Scar🦆",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 30,
+    "currentJob": "Meth Cook",
+    "currentModel": "models/walter_white/walter_white.mdl",
+    "playtimeSeconds": 285,
     "leveling": {
       "level": 0,
       "xp": 0,
@@ -3568,7 +3568,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30000,
+      "currency": 30040,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3576,8 +3576,34 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-06-29T04:31:31.298Z"
+    "jobs": [
+      {
+        "seconds": 240,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "Meth Cook",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 240,
+        "model": "models/walter_white/walter_white.mdl",
+        "name": "models/walter_white/walter_white.mdl",
+        "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-06-29T04:35:46.553Z"
   }
 }
