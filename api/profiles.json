@@ -648,7 +648,7 @@
     "name": "oRuin",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 944200,
+    "playtimeSeconds": 944500,
     "warns": {
       "active": 0,
       "total": 0,
@@ -660,7 +660,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 103900,
+      "currency": 103940,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -815,7 +815,7 @@
     },
     "jobs": [
       {
-        "seconds": 14100,
+        "seconds": 14400,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -823,20 +823,20 @@
     ],
     "models": [
       {
-        "seconds": 14100,
+        "seconds": 14400,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-06-29T02:15:44.685Z",
+    "updatedAt": "2026-06-29T02:20:44.701Z",
     "leveling": {
       "level": 48,
-      "xp": 154310,
-      "currentXp": 10284,
+      "xp": 154360,
+      "currentXp": 10334,
       "requiredXp": 14552,
       "maxLevel": 100,
-      "progress": 0.7066888305291962
+      "progress": 0.7101246462119282
     }
   },
   "76561198043370754": {
