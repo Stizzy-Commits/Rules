@@ -3548,14 +3548,14 @@
     "name": "🦆Scar🦆",
     "currentJob": "Meth Cook",
     "currentModel": "models/walter_white/walter_white.mdl",
-    "playtimeSeconds": 1185,
+    "playtimeSeconds": 1485,
     "leveling": {
       "level": 1,
-      "xp": 150,
-      "currentXp": 0,
+      "xp": 200,
+      "currentXp": 50,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.30303030303030304
     },
     "warns": {
       "active": 0,
@@ -3568,7 +3568,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 25580,
+      "currency": 24780,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3578,7 +3578,7 @@
     },
     "jobs": [
       {
-        "seconds": 1140,
+        "seconds": 1440,
         "model": "models/walter_white/walter_white.mdl",
         "name": "Meth Cook",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
@@ -3592,7 +3592,7 @@
     ],
     "models": [
       {
-        "seconds": 1140,
+        "seconds": 1440,
         "model": "models/walter_white/walter_white.mdl",
         "name": "models/walter_white/walter_white.mdl",
         "iconKey": "profile_model_face_models-walter_white-walter_white.mdl"
@@ -3604,6 +3604,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-29T04:50:46.572Z"
+    "updatedAt": "2026-06-29T04:55:47.256Z"
   }
 }
