@@ -3668,16 +3668,16 @@
     "steamid64": "76561199836870176",
     "steamid": "STEAM_0:0:938302224",
     "name": "Tommy Grunt",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 696,
+    "currentJob": "Mine Worker",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 996,
     "leveling": {
-      "level": 0,
-      "xp": 100,
-      "currentXp": 100,
-      "requiredXp": 150,
+      "level": 1,
+      "xp": 150,
+      "currentXp": 0,
+      "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0.6666666666666666
+      "progress": 0
     },
     "warns": {
       "active": 0,
@@ -3704,6 +3704,12 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
       }
     ],
     "models": [
@@ -3714,12 +3720,18 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
+        "seconds": 300,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-30T06:55:46.499Z"
+    "updatedAt": "2026-06-30T07:00:47.240Z"
   }
 }
