@@ -3669,15 +3669,15 @@
     "steamid": "STEAM_0:0:938302224",
     "name": "Tommy Grunt",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 396,
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 696,
     "leveling": {
       "level": 0,
-      "xp": 50,
-      "currentXp": 50,
+      "xp": 100,
+      "currentXp": 100,
       "requiredXp": 150,
       "maxLevel": 100,
-      "progress": 0.3333333333333333
+      "progress": 0.6666666666666666
     },
     "warns": {
       "active": 0,
@@ -3690,7 +3690,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30040,
+      "currency": 30080,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3700,20 +3700,26 @@
     },
     "jobs": [
       {
-        "seconds": 420,
-        "model": "models/player/group01/male_02.mdl",
+        "seconds": 720,
+        "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 420,
+        "seconds": 660,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-30T06:50:46.375Z"
+    "updatedAt": "2026-06-30T06:55:46.499Z"
   }
 }
