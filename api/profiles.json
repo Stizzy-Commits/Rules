@@ -3670,14 +3670,14 @@
     "name": "Tommy Grunt",
     "currentJob": "Mine Worker",
     "currentModel": "models/player/eli.mdl",
-    "playtimeSeconds": 996,
+    "playtimeSeconds": 1296,
     "leveling": {
       "level": 1,
-      "xp": 150,
-      "currentXp": 0,
+      "xp": 200,
+      "currentXp": 50,
       "requiredXp": 165,
       "maxLevel": 100,
-      "progress": 0
+      "progress": 0.30303030303030304
     },
     "warns": {
       "active": 0,
@@ -3690,7 +3690,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30080,
+      "currency": 30230,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -3706,7 +3706,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 300,
+        "seconds": 600,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -3720,7 +3720,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 300,
+        "seconds": 600,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
@@ -3732,6 +3732,6 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-06-30T07:00:47.240Z"
+    "updatedAt": "2026-06-30T07:05:46.647Z"
   }
 }
