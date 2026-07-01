@@ -208,7 +208,7 @@
     "name": "Stizzy",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 738278,
+    "playtimeSeconds": 738354,
     "warns": {
       "active": 0,
       "total": 0,
@@ -371,7 +371,7 @@
     },
     "jobs": [],
     "models": [],
-    "updatedAt": "2026-07-01T11:14:36.481Z",
+    "updatedAt": "2026-07-01T11:19:54.616Z",
     "leveling": {
       "level": 45,
       "xp": 115950,
