@@ -208,7 +208,7 @@
     "name": "Stizzy",
     "currentJob": "Mechanic",
     "currentModel": "models/player/mechanic.mdl",
-    "playtimeSeconds": 737706,
+    "playtimeSeconds": 738006,
     "warns": {
       "active": 0,
       "total": 0,
@@ -220,7 +220,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 84519,
+      "currency": 84559,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -371,7 +371,7 @@
     },
     "jobs": [
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/mechanic.mdl",
         "name": "Mechanic",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
@@ -385,7 +385,7 @@
     ],
     "models": [
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/mechanic.mdl",
         "name": "models/player/mechanic.mdl",
         "iconKey": "profile_model_face_models-player-mechanic.mdl"
@@ -397,14 +397,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-01T11:02:03.732Z",
+    "updatedAt": "2026-07-01T11:07:03.754Z",
     "leveling": {
       "level": 45,
-      "xp": 115850,
-      "currentXp": 8014,
+      "xp": 115900,
+      "currentXp": 8064,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.7329968712118771
+      "progress": 0.7375699418855932
     }
   },
   "76561198318712668": {
