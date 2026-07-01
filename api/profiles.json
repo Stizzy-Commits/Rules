@@ -206,9 +206,9 @@
     "steamid64": "76561198249112348",
     "steamid": "STEAM_0:0:144423310",
     "name": "Stizzy",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 738354,
+    "currentJob": "Medic",
+    "currentModel": "models/player/kleiner.mdl",
+    "playtimeSeconds": 738597,
     "warns": {
       "active": 0,
       "total": 0,
@@ -220,7 +220,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 84639,
+      "currency": 75679,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -362,6 +362,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
+        },
+        "11": {
+          "slot": 11,
+          "amount": 8,
+          "name": "Unknown",
+          "type": "spawned_weapon",
+          "class": "weapon_armor_patch",
+          "model": "models/weapons/w_defuser.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_weapon_armor_patch_models-weapons-w_defuser.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -369,9 +383,23 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-07-01T11:19:54.616Z",
+    "jobs": [
+      {
+        "seconds": 300,
+        "model": "models/player/kleiner.mdl",
+        "name": "Medic",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 300,
+        "model": "models/player/kleiner.mdl",
+        "name": "models/player/kleiner.mdl",
+        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+      }
+    ],
+    "updatedAt": "2026-07-01T11:23:57.880Z",
     "leveling": {
       "level": 45,
       "xp": 115950,
