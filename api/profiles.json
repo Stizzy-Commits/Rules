@@ -206,9 +206,9 @@
     "steamid64": "76561198249112348",
     "steamid": "STEAM_0:0:144423310",
     "name": "Stizzy",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 737481,
+    "currentJob": "Mechanic",
+    "currentModel": "models/player/mechanic.mdl",
+    "playtimeSeconds": 737706,
     "warns": {
       "active": 0,
       "total": 0,
@@ -220,7 +220,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 89479,
+      "currency": 84519,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -371,7 +371,13 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 180,
+        "model": "models/player/mechanic.mdl",
+        "name": "Mechanic",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -379,13 +385,19 @@
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 180,
+        "model": "models/player/mechanic.mdl",
+        "name": "models/player/mechanic.mdl",
+        "iconKey": "profile_model_face_models-player-mechanic.mdl"
+      },
+      {
+        "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-01T10:58:18.728Z",
+    "updatedAt": "2026-07-01T11:02:03.732Z",
     "leveling": {
       "level": 45,
       "xp": 115850,
