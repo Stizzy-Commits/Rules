@@ -206,9 +206,9 @@
     "steamid64": "76561198249112348",
     "steamid": "STEAM_0:0:144423310",
     "name": "Stizzy",
-    "currentJob": "Medic",
-    "currentModel": "models/player/kleiner.mdl",
-    "playtimeSeconds": 740697,
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 740773,
     "warns": {
       "active": 0,
       "total": 0,
@@ -220,7 +220,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 76199,
+      "currency": 76239,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -385,28 +385,28 @@
     },
     "jobs": [
       {
-        "seconds": 2400,
-        "model": "models/player/kleiner.mdl",
-        "name": "Medic",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 2400,
-        "model": "models/player/kleiner.mdl",
-        "name": "models/player/kleiner.mdl",
-        "iconKey": "profile_model_face_models-player-kleiner.mdl"
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-01T11:58:57.873Z",
+    "updatedAt": "2026-07-01T12:40:28.920Z",
     "leveling": {
       "level": 45,
-      "xp": 116300,
-      "currentXp": 8464,
+      "xp": 116350,
+      "currentXp": 8514,
       "requiredXp": 10933,
       "maxLevel": 100,
-      "progress": 0.7741545072753226
+      "progress": 0.7787275779490388
     }
   },
   "76561198318712668": {
