@@ -660,9 +660,9 @@
     "steamid64": "76561198120592615",
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 1018425,
+    "currentJob": "Mine Worker",
+    "currentModel": "models/player/eli.mdl",
+    "playtimeSeconds": 1018696,
     "warns": {
       "active": 0,
       "total": 0,
@@ -674,7 +674,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 108100,
+      "currency": 108175,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -829,7 +829,13 @@
     },
     "jobs": [
       {
-        "seconds": 120,
+        "seconds": 240,
+        "model": "models/player/eli.mdl",
+        "name": "Mine Worker",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -837,20 +843,26 @@
     ],
     "models": [
       {
-        "seconds": 120,
+        "seconds": 240,
+        "model": "models/player/eli.mdl",
+        "name": "models/player/eli.mdl",
+        "iconKey": "profile_model_face_models-player-eli.mdl"
+      },
+      {
+        "seconds": 180,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-02T23:40:49.059Z",
+    "updatedAt": "2026-07-02T23:45:19.938Z",
     "leveling": {
       "level": 49,
-      "xp": 166560,
-      "currentXp": 7981,
+      "xp": 166610,
+      "currentXp": 8031,
       "requiredXp": 16007,
       "maxLevel": 100,
-      "progress": 0.49860333890774156
+      "progress": 0.501726807710225
     }
   },
   "76561198043370754": {
