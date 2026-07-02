@@ -1030,14 +1030,14 @@
     "name": "Magicviper",
     "currentJob": "Citizen",
     "currentModel": "models/player/charple.mdl",
-    "playtimeSeconds": 95639,
+    "playtimeSeconds": 95939,
     "leveling": {
       "level": 25,
-      "xp": 15600,
-      "currentXp": 847,
+      "xp": 15650,
+      "currentXp": 897,
       "requiredXp": 1625,
       "maxLevel": 100,
-      "progress": 0.5217437921853083
+      "progress": 0.5525091249109964
     },
     "warns": {
       "active": 0,
@@ -1050,7 +1050,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 9055078,
+      "currency": 9055098,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1089,7 +1089,7 @@
     },
     "jobs": [
       {
-        "seconds": 6780,
+        "seconds": 7080,
         "model": "models/player/charple.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-charple.mdl"
@@ -1097,7 +1097,7 @@
     ],
     "models": [
       {
-        "seconds": 6300,
+        "seconds": 6600,
         "model": "models/player/charple.mdl",
         "name": "models/player/charple.mdl",
         "iconKey": "profile_model_face_models-player-charple.mdl"
@@ -1109,7 +1109,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-02T06:55:52.127Z"
+    "updatedAt": "2026-07-02T07:00:52.192Z"
   },
   "76561198007321449": {
     "steamid64": "76561198007321449",
