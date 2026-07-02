@@ -1023,15 +1023,15 @@
     "steamid": "STEAM_0:1:61493949",
     "name": "Magicviper",
     "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 89339,
+    "currentModel": "models/player/charple.mdl",
+    "playtimeSeconds": 89639,
     "leveling": {
       "level": 24,
-      "xp": 14550,
-      "currentXp": 1275,
+      "xp": 14600,
+      "currentXp": 1325,
       "requiredXp": 1477,
       "maxLevel": 100,
-      "progress": 0.8632389854404466
+      "progress": 0.8970808514387034
     },
     "warns": {
       "active": 0,
@@ -1044,7 +1044,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 9054278,
+      "currency": 9054318,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1057,20 +1057,6 @@
           "rarity": "",
           "color": null,
           "iconKey": "spawned_weapon_m9k_spas12_models-weapons-w_spas_12.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
-        "2": {
-          "slot": 2,
-          "amount": 1,
-          "name": "Orbital Strike Marker",
-          "type": "spawned_weapon",
-          "class": "m9k_orbital_strike",
-          "model": "models/weapons/w_binos.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_orbital_strike_models-weapons-w_binos.mdl",
           "icon": "",
           "equipped": false,
           "meta": "A shooty stick!"
@@ -1097,10 +1083,10 @@
     },
     "jobs": [
       {
-        "seconds": 480,
-        "model": "models/player/group01/male_01.mdl",
+        "seconds": 780,
+        "model": "models/player/charple.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+        "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
     "models": [
@@ -1109,9 +1095,15 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/charple.mdl",
+        "name": "models/player/charple.mdl",
+        "iconKey": "profile_model_face_models-player-charple.mdl"
       }
     ],
-    "updatedAt": "2026-07-02T05:10:52.097Z"
+    "updatedAt": "2026-07-02T05:15:52.132Z"
   },
   "76561198007321449": {
     "steamid64": "76561198007321449",
