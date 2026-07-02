@@ -661,8 +661,8 @@
     "steamid": "STEAM_0:1:80163443",
     "name": "oRuin",
     "currentJob": "Citizen",
-    "currentModel": "models/player/charple.mdl",
-    "playtimeSeconds": 1018160,
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 1018329,
     "warns": {
       "active": 0,
       "total": 0,
@@ -674,7 +674,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 108080,
+      "currency": 108100,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -829,27 +829,21 @@
     },
     "jobs": [
       {
-        "seconds": 3660,
-        "model": "models/player/charple.mdl",
+        "seconds": 60,
+        "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-charple.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 3300,
-        "model": "models/player/charple.mdl",
-        "name": "models/player/charple.mdl",
-        "iconKey": "profile_model_face_models-player-charple.mdl"
-      },
-      {
-        "seconds": 360,
+        "seconds": 60,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-02T06:05:54.618Z",
+    "updatedAt": "2026-07-02T22:55:10.234Z",
     "leveling": {
       "level": 49,
       "xp": 166560,
