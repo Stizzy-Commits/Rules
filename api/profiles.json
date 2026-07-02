@@ -3759,5 +3759,43 @@
     "jobs": [],
     "models": [],
     "updatedAt": "2026-07-01T17:56:05.971Z"
+  },
+  "76561198234962620": {
+    "steamid64": "76561198234962620",
+    "steamid": "STEAM_0:0:137348446",
+    "name": "BDubz420",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 7988,
+    "leveling": {
+      "level": 6,
+      "xp": 1250,
+      "currentXp": 92,
+      "requiredXp": 265,
+      "maxLevel": 100,
+      "progress": 0.34868871765258524
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 21457,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-07-02T23:39:49.827Z"
   }
 }
