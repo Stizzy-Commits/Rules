@@ -1344,17 +1344,17 @@
   "76561197961551415": {
     "steamid64": "76561197961551415",
     "steamid": "STEAM_0:1:642843",
-    "name": "oRuin Biceps",
+    "name": "Fucking Retard",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 144692,
+    "playtimeSeconds": 144992,
     "leveling": {
       "level": 47,
-      "xp": 133761,
-      "currentXp": 2964,
+      "xp": 133811,
+      "currentXp": 3014,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.22410103136403867
+      "progress": 0.22788042861504376
     },
     "warns": {
       "active": 1,
@@ -1374,7 +1374,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 22024989,
+      "currency": 22025189,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1553,7 +1553,7 @@
     },
     "jobs": [
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1567,7 +1567,7 @@
     ],
     "models": [
       {
-        "seconds": 240,
+        "seconds": 540,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1579,7 +1579,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:21:30.859Z"
+    "updatedAt": "2026-07-03T18:26:30.867Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
