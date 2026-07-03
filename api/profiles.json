@@ -3953,7 +3953,7 @@
     "name": "melly",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 43536,
+    "playtimeSeconds": 43721,
     "leveling": {
       "level": 18,
       "xp": 7050,
@@ -3973,7 +3973,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1486342,
+      "currency": 1486362,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -4000,8 +4000,22 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-07-03T19:08:21.534Z"
+    "jobs": [
+      {
+        "seconds": 240,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 240,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      }
+    ],
+    "updatedAt": "2026-07-03T19:11:26.948Z"
   }
 }
