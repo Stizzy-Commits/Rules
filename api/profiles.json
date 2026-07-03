@@ -3951,16 +3951,16 @@
     "steamid64": "76561199815640840",
     "steamid": "STEAM_0:0:927687556",
     "name": "melly",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 46721,
+    "currentJob": "Heroin Cook",
+    "currentModel": "models/player/phoenix.mdl",
+    "playtimeSeconds": 47021,
     "leveling": {
       "level": 18,
-      "xp": 7550,
-      "currentXp": 710,
+      "xp": 7600,
+      "currentXp": 760,
       "requiredXp": 833,
       "maxLevel": 100,
-      "progress": 0.8514803245225625
+      "progress": 0.9114332544923004
     },
     "warns": {
       "active": 0,
@@ -3973,7 +3973,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1486742,
+      "currency": 1486782,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -4006,6 +4006,12 @@
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 300,
+        "model": "models/player/phoenix.mdl",
+        "name": "Heroin Cook",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
     "models": [
@@ -4016,12 +4022,18 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
+        "seconds": 300,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
         "seconds": 60,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T20:01:26.994Z"
+    "updatedAt": "2026-07-03T20:06:26.906Z"
   }
 }
