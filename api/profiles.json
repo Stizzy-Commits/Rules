@@ -662,7 +662,7 @@
     "name": "oRuin",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 1020753,
+    "playtimeSeconds": 1021053,
     "warns": {
       "active": 0,
       "total": 0,
@@ -674,7 +674,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 108695,
+      "currency": 108735,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -829,16 +829,16 @@
     },
     "jobs": [
       {
+        "seconds": 1260,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
         "seconds": 1020,
         "model": "models/player/arctic.mdl",
         "name": "Master Thief",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
-      },
-      {
-        "seconds": 960,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
         "seconds": 480,
@@ -849,16 +849,16 @@
     ],
     "models": [
       {
+        "seconds": 1260,
+        "model": "models/player/group01/male_02.mdl",
+        "name": "models/player/group01/male_02.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
         "seconds": 1020,
         "model": "models/player/arctic.mdl",
         "name": "models/player/arctic.mdl",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
-      },
-      {
-        "seconds": 960,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
         "seconds": 480,
@@ -867,14 +867,14 @@
         "iconKey": "profile_model_face_models-player-eli.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T00:41:31.310Z",
+    "updatedAt": "2026-07-03T00:46:31.292Z",
     "leveling": {
       "level": 49,
-      "xp": 166910,
-      "currentXp": 8331,
+      "xp": 166960,
+      "currentXp": 8381,
       "requiredXp": 16007,
       "maxLevel": 100,
-      "progress": 0.5204676205251264
+      "progress": 0.52359108932761
     }
   },
   "76561198043370754": {
