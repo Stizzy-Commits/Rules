@@ -1024,19 +1024,26 @@
     "name": "Magicviper",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 116701,
+    "playtimeSeconds": 117001,
     "leveling": {
       "level": 27,
-      "xp": 19100,
-      "currentXp": 935,
+      "xp": 19150,
+      "currentXp": 985,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.4754686636227023
+      "progress": 0.5008945584373204
     },
     "warns": {
-      "active": 0,
-      "total": 0,
-      "recent": []
+      "active": 1,
+      "total": 1,
+      "recent": [
+        {
+          "date": 1783103633,
+          "reason": "cunt\n",
+          "server": "Old School RP",
+          "admin": "76561198120592615"
+        }
+      ]
     },
     "bans": {
       "active": false,
@@ -1044,7 +1051,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 9057658,
+      "currency": 9057858,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1089,7 +1096,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       },
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1103,7 +1110,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       },
       {
-        "seconds": 180,
+        "seconds": 480,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1115,7 +1122,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:31:26.975Z"
+    "updatedAt": "2026-07-03T18:36:26.875Z"
   },
   "76561198007321449": {
     "steamid64": "76561198007321449",
