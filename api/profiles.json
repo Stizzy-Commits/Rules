@@ -3946,5 +3946,62 @@
       }
     ],
     "updatedAt": "2026-07-03T18:51:26.949Z"
+  },
+  "76561199815640840": {
+    "steamid64": "76561199815640840",
+    "steamid": "STEAM_0:0:927687556",
+    "name": "melly",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 43536,
+    "leveling": {
+      "level": 18,
+      "xp": 7050,
+      "currentXp": 210,
+      "requiredXp": 833,
+      "maxLevel": 100,
+      "progress": 0.2519510248251837
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 1486342,
+      "slotCount": 20,
+      "slots": {
+        "1": {
+          "slot": 1,
+          "amount": 1,
+          "name": "AK47",
+          "type": "spawned_weapon",
+          "class": "weapon_ak472",
+          "model": "models/weapons/w_rif_ak47.mdl",
+          "rarity": "Legendary",
+          "color": {
+            "r": 253,
+            "g": 162,
+            "b": 77
+          },
+          "iconKey": "spawned_weapon_weapon_ak472_models-weapons-w_rif_ak47.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
+        }
+      },
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-07-03T19:08:21.534Z"
   }
 }
