@@ -1024,14 +1024,14 @@
     "name": "Magicviper",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 116101,
+    "playtimeSeconds": 116401,
     "leveling": {
       "level": 27,
-      "xp": 19000,
-      "currentXp": 835,
+      "xp": 19050,
+      "currentXp": 885,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.4246168739934659
+      "progress": 0.4500427688080841
     },
     "warns": {
       "active": 0,
@@ -1044,7 +1044,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 9057618,
+      "currency": 9057638,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1083,7 +1083,7 @@
     },
     "jobs": [
       {
-        "seconds": 2580,
+        "seconds": 2880,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -1091,13 +1091,13 @@
     ],
     "models": [
       {
-        "seconds": 2580,
+        "seconds": 2880,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:21:27.021Z"
+    "updatedAt": "2026-07-03T18:26:26.946Z"
   },
   "76561198007321449": {
     "steamid64": "76561198007321449",
