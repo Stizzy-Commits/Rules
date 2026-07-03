@@ -859,7 +859,7 @@
     "name": "Sosa",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 264225,
+    "playtimeSeconds": 264523,
     "warns": {
       "active": 0,
       "total": 0,
@@ -871,7 +871,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 580951,
+      "currency": 580991,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -1008,7 +1008,7 @@
     },
     "jobs": [
       {
-        "seconds": 4560,
+        "seconds": 4860,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -1016,20 +1016,20 @@
     ],
     "models": [
       {
-        "seconds": 4560,
+        "seconds": 4860,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T19:51:32.976Z",
+    "updatedAt": "2026-07-03T19:56:30.956Z",
     "leveling": {
       "level": 35,
-      "xp": 42400,
-      "currentXp": 1746,
+      "xp": 42450,
+      "currentXp": 1796,
       "requiredXp": 4215,
       "maxLevel": 100,
-      "progress": 0.41428073476217614
+      "progress": 0.4261421023416319
     }
   },
   "76561198083253627": {
