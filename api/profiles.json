@@ -3894,5 +3894,43 @@
       }
     ],
     "updatedAt": "2026-07-03T00:00:19.153Z"
+  },
+  "76561198271917214": {
+    "steamid64": "76561198271917214",
+    "steamid": "STEAM_0:0:155825743",
+    "name": "Dummy Cloudz",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_02.mdl",
+    "playtimeSeconds": 6241,
+    "leveling": {
+      "level": 5,
+      "xp": 1000,
+      "currentXp": 84,
+      "requiredXp": 241,
+      "maxLevel": 100,
+      "progress": 0.3486887176525857
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 30760,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-07-03T18:41:09.103Z"
   }
 }
