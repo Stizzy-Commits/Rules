@@ -2547,7 +2547,7 @@
     "name": "RacistVeteran",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 15182,
+    "playtimeSeconds": 15199,
     "leveling": {
       "level": 9,
       "xp": 2300,
@@ -2591,7 +2591,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:11:28.842Z"
+    "updatedAt": "2026-07-03T18:11:45.800Z"
   },
   "76561198000286203": {
     "steamid64": "76561198000286203",
