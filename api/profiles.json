@@ -3953,14 +3953,14 @@
     "name": "melly",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 44921,
+    "playtimeSeconds": 45221,
     "leveling": {
       "level": 18,
-      "xp": 7250,
-      "currentXp": 410,
+      "xp": 7300,
+      "currentXp": 460,
       "requiredXp": 833,
       "maxLevel": 100,
-      "progress": 0.4917627447041352
+      "progress": 0.5517156746738732
     },
     "warns": {
       "active": 0,
@@ -3973,7 +3973,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1486502,
+      "currency": 1486542,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -4002,7 +4002,7 @@
     },
     "jobs": [
       {
-        "seconds": 1440,
+        "seconds": 1740,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -4010,12 +4010,12 @@
     ],
     "models": [
       {
-        "seconds": 1440,
+        "seconds": 1740,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T19:31:26.972Z"
+    "updatedAt": "2026-07-03T19:36:26.914Z"
   }
 }
