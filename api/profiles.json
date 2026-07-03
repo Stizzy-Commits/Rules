@@ -4035,5 +4035,43 @@
       }
     ],
     "updatedAt": "2026-07-03T20:46:26.873Z"
+  },
+  "76561199641049128": {
+    "steamid64": "76561199641049128",
+    "steamid": "STEAM_0:0:840391700",
+    "name": "инет герой",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 30,
+    "leveling": {
+      "level": 0,
+      "xp": 0,
+      "currentXp": 0,
+      "requiredXp": 150,
+      "maxLevel": 100,
+      "progress": 0
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 30000,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-07-03T20:51:04.419Z"
   }
 }
