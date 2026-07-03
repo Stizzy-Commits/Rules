@@ -3953,14 +3953,14 @@
     "name": "melly",
     "currentJob": "Heroin Cook",
     "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 49722,
+    "playtimeSeconds": 50022,
     "leveling": {
       "level": 19,
-      "xp": 8050,
-      "currentXp": 376,
+      "xp": 8100,
+      "currentXp": 426,
       "requiredXp": 917,
       "maxLevel": 100,
-      "progress": 0.41000874929085607
+      "progress": 0.46451141289970865
     },
     "warns": {
       "active": 0,
@@ -3973,7 +3973,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1487462,
+      "currency": 1487542,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -4002,30 +4002,30 @@
     },
     "jobs": [
       {
+        "seconds": 3300,
+        "model": "models/player/phoenix.mdl",
+        "name": "Heroin Cook",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
+      {
         "seconds": 3240,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
-      },
-      {
-        "seconds": 3000,
-        "model": "models/player/phoenix.mdl",
-        "name": "Heroin Cook",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       }
     ],
     "models": [
+      {
+        "seconds": 3300,
+        "model": "models/player/phoenix.mdl",
+        "name": "models/player/phoenix.mdl",
+        "iconKey": "profile_model_face_models-player-phoenix.mdl"
+      },
       {
         "seconds": 3180,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 3000,
-        "model": "models/player/phoenix.mdl",
-        "name": "models/player/phoenix.mdl",
-        "iconKey": "profile_model_face_models-player-phoenix.mdl"
       },
       {
         "seconds": 60,
@@ -4034,7 +4034,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T20:51:27.511Z"
+    "updatedAt": "2026-07-03T20:56:27.597Z"
   },
   "76561199641049128": {
     "steamid64": "76561199641049128",
