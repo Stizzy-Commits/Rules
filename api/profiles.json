@@ -3953,14 +3953,14 @@
     "name": "melly",
     "currentJob": "Heroin Cook",
     "currentModel": "models/player/phoenix.mdl",
-    "playtimeSeconds": 53320,
+    "playtimeSeconds": 53620,
     "leveling": {
       "level": 20,
-      "xp": 8650,
-      "currentXp": 58,
+      "xp": 8700,
+      "currentXp": 108,
       "requiredXp": 1009,
       "maxLevel": 100,
-      "progress": 0.05821882963371559
+      "progress": 0.10776670564176341
     },
     "warns": {
       "active": 0,
@@ -3973,7 +3973,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1488382,
+      "currency": 1488462,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -4002,7 +4002,7 @@
     },
     "jobs": [
       {
-        "seconds": 6600,
+        "seconds": 6900,
         "model": "models/player/phoenix.mdl",
         "name": "Heroin Cook",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
@@ -4016,7 +4016,7 @@
     ],
     "models": [
       {
-        "seconds": 6600,
+        "seconds": 6900,
         "model": "models/player/phoenix.mdl",
         "name": "models/player/phoenix.mdl",
         "iconKey": "profile_model_face_models-player-phoenix.mdl"
@@ -4034,7 +4034,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T21:51:25.645Z"
+    "updatedAt": "2026-07-03T21:56:25.637Z"
   },
   "76561199641049128": {
     "steamid64": "76561199641049128",
