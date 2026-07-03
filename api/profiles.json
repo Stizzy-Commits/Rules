@@ -2559,16 +2559,16 @@
     "steamid64": "76561198043075601",
     "steamid": "STEAM_0:1:41404936",
     "name": "RacistVeteran",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 15199,
+    "currentJob": "Thief",
+    "currentModel": "models/player/arctic.mdl",
+    "playtimeSeconds": 15482,
     "leveling": {
       "level": 9,
-      "xp": 2300,
-      "currentXp": 263,
+      "xp": 2350,
+      "currentXp": 313,
       "requiredXp": 353,
       "maxLevel": 100,
-      "progress": 0.7438063321029497
+      "progress": 0.8851722048937779
     },
     "warns": {
       "active": 0,
@@ -2581,7 +2581,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 3938,
+      "currency": 908,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2591,7 +2591,19 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 120,
+        "model": "models/player/arctic.mdl",
+        "name": "Thief",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/urban.mdl",
+        "name": "S.W.A.T Officer",
+        "iconKey": "profile_model_face_models-player-urban.mdl"
+      },
+      {
+        "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
@@ -2599,13 +2611,25 @@
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 120,
+        "model": "models/player/urban.mdl",
+        "name": "models/player/urban.mdl",
+        "iconKey": "profile_model_face_models-player-urban.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/arctic.mdl",
+        "name": "models/player/arctic.mdl",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
+        "seconds": 120,
         "model": "models/player/group01/male_01.mdl",
         "name": "models/player/group01/male_01.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:11:45.800Z"
+    "updatedAt": "2026-07-03T18:16:28.701Z"
   },
   "76561198000286203": {
     "steamid64": "76561198000286203",
