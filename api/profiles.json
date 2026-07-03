@@ -1022,16 +1022,16 @@
     "steamid64": "76561198083253627",
     "steamid": "STEAM_0:1:61493949",
     "name": "Magicviper",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 116401,
+    "currentJob": "Weapon Testing Class",
+    "currentModel": "models/player/scientist.mdl",
+    "playtimeSeconds": 116701,
     "leveling": {
       "level": 27,
-      "xp": 19050,
-      "currentXp": 885,
+      "xp": 19100,
+      "currentXp": 935,
       "requiredXp": 1966,
       "maxLevel": 100,
-      "progress": 0.4500427688080841
+      "progress": 0.4754686636227023
     },
     "warns": {
       "active": 0,
@@ -1044,7 +1044,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 9057638,
+      "currency": 9057658,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1083,10 +1083,16 @@
     },
     "jobs": [
       {
-        "seconds": 2880,
-        "model": "models/player/group01/male_02.mdl",
+        "seconds": 3000,
+        "model": "models/player/group01/male_01.mdl",
         "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/scientist.mdl",
+        "name": "Weapon Testing Class ",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
       }
     ],
     "models": [
@@ -1095,9 +1101,21 @@
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 180,
+        "model": "models/player/scientist.mdl",
+        "name": "models/player/scientist.mdl",
+        "iconKey": "profile_model_face_models-player-scientist.mdl"
+      },
+      {
+        "seconds": 120,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:26:26.946Z"
+    "updatedAt": "2026-07-03T18:31:26.975Z"
   },
   "76561198007321449": {
     "steamid64": "76561198007321449",
