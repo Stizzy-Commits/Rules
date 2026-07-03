@@ -662,7 +662,7 @@
     "name": "oRuin",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 1022179,
+    "playtimeSeconds": 1022436,
     "warns": {
       "active": 0,
       "total": 0,
@@ -674,7 +674,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 108875,
+      "currency": 103895,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -827,54 +827,16 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [
-      {
-        "seconds": 2340,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "Citizen",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 1020,
-        "model": "models/player/arctic.mdl",
-        "name": "Master Thief",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/eli.mdl",
-        "name": "Mine Worker",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      }
-    ],
-    "models": [
-      {
-        "seconds": 2340,
-        "model": "models/player/group01/male_02.mdl",
-        "name": "models/player/group01/male_02.mdl",
-        "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
-      },
-      {
-        "seconds": 1020,
-        "model": "models/player/arctic.mdl",
-        "name": "models/player/arctic.mdl",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
-      },
-      {
-        "seconds": 480,
-        "model": "models/player/eli.mdl",
-        "name": "models/player/eli.mdl",
-        "iconKey": "profile_model_face_models-player-eli.mdl"
-      }
-    ],
-    "updatedAt": "2026-07-03T04:41:46.832Z",
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-07-03T04:50:53.809Z",
     "leveling": {
       "level": 49,
-      "xp": 167160,
-      "currentXp": 8581,
+      "xp": 167210,
+      "currentXp": 8631,
       "requiredXp": 16007,
       "maxLevel": 100,
-      "progress": 0.5360849645375442
+      "progress": 0.5392084333400278
     }
   },
   "76561198043370754": {
