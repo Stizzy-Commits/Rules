@@ -2598,14 +2598,14 @@
     "name": "RacistVeteran",
     "currentJob": "Thief",
     "currentModel": "models/player/arctic.mdl",
-    "playtimeSeconds": 16382,
+    "playtimeSeconds": 16682,
     "leveling": {
       "level": 10,
-      "xp": 2500,
-      "currentXp": 109,
+      "xp": 2550,
+      "currentXp": 159,
       "requiredXp": 389,
       "maxLevel": 100,
-      "progress": 0.281154384787511
+      "progress": 0.4096688145973548
     },
     "warns": {
       "active": 0,
@@ -2618,7 +2618,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 2001178,
+      "currency": 2001268,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -2628,7 +2628,7 @@
     },
     "jobs": [
       {
-        "seconds": 1020,
+        "seconds": 1320,
         "model": "models/player/arctic.mdl",
         "name": "Thief",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
@@ -2648,7 +2648,7 @@
     ],
     "models": [
       {
-        "seconds": 1020,
+        "seconds": 1320,
         "model": "models/player/arctic.mdl",
         "name": "models/player/arctic.mdl",
         "iconKey": "profile_model_face_models-player-arctic.mdl"
@@ -2666,7 +2666,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:31:28.864Z"
+    "updatedAt": "2026-07-03T18:36:28.850Z"
   },
   "76561198000286203": {
     "steamid64": "76561198000286203",
