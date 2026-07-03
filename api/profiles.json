@@ -662,7 +662,7 @@
     "name": "oRuin",
     "currentJob": "Master Thief",
     "currentModel": "models/player/arctic.mdl",
-    "playtimeSeconds": 1019296,
+    "playtimeSeconds": 1019596,
     "warns": {
       "active": 0,
       "total": 0,
@@ -674,7 +674,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 108340,
+      "currency": 108450,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -829,16 +829,16 @@
     },
     "jobs": [
       {
+        "seconds": 660,
+        "model": "models/player/arctic.mdl",
+        "name": "Master Thief",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
         "seconds": 480,
         "model": "models/player/eli.mdl",
         "name": "Mine Worker",
         "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/arctic.mdl",
-        "name": "Master Thief",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
       },
       {
         "seconds": 180,
@@ -849,16 +849,16 @@
     ],
     "models": [
       {
+        "seconds": 660,
+        "model": "models/player/arctic.mdl",
+        "name": "models/player/arctic.mdl",
+        "iconKey": "profile_model_face_models-player-arctic.mdl"
+      },
+      {
         "seconds": 480,
         "model": "models/player/eli.mdl",
         "name": "models/player/eli.mdl",
         "iconKey": "profile_model_face_models-player-eli.mdl"
-      },
-      {
-        "seconds": 360,
-        "model": "models/player/arctic.mdl",
-        "name": "models/player/arctic.mdl",
-        "iconKey": "profile_model_face_models-player-arctic.mdl"
       },
       {
         "seconds": 180,
@@ -867,14 +867,14 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-02T23:55:19.962Z",
+    "updatedAt": "2026-07-03T00:00:19.948Z",
     "leveling": {
       "level": 49,
-      "xp": 166710,
-      "currentXp": 8131,
+      "xp": 166760,
+      "currentXp": 8181,
       "requiredXp": 16007,
       "maxLevel": 100,
-      "progress": 0.5079737453151922
+      "progress": 0.5110972141176757
     }
   },
   "76561198043370754": {
