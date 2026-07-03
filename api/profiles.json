@@ -1365,14 +1365,14 @@
     "name": "Fucking Retard",
     "currentJob": "Weapon Testing Class",
     "currentModel": "models/player/scientist.mdl",
-    "playtimeSeconds": 144992,
+    "playtimeSeconds": 145292,
     "leveling": {
       "level": 47,
-      "xp": 133811,
-      "currentXp": 3014,
+      "xp": 133861,
+      "currentXp": 3064,
       "requiredXp": 13229,
       "maxLevel": 100,
-      "progress": 0.22788042861504376
+      "progress": 0.23165982586604889
     },
     "warns": {
       "active": 1,
@@ -1392,7 +1392,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 22025189,
+      "currency": 22025389,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -1571,7 +1571,7 @@
     },
     "jobs": [
       {
-        "seconds": 540,
+        "seconds": 840,
         "model": "models/player/scientist.mdl",
         "name": "Weapon Testing Class ",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1585,7 +1585,7 @@
     ],
     "models": [
       {
-        "seconds": 540,
+        "seconds": 840,
         "model": "models/player/scientist.mdl",
         "name": "models/player/scientist.mdl",
         "iconKey": "profile_model_face_models-player-scientist.mdl"
@@ -1597,7 +1597,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:26:30.867Z"
+    "updatedAt": "2026-07-03T18:31:30.890Z"
   },
   "76561198056517817": {
     "steamid64": "76561198056517817",
