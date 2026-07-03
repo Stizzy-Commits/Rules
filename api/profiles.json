@@ -859,7 +859,7 @@
     "name": "Sosa",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 259723,
+    "playtimeSeconds": 259734,
     "warns": {
       "active": 0,
       "total": 0,
@@ -1022,7 +1022,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
       }
     ],
-    "updatedAt": "2026-07-03T18:36:30.911Z",
+    "updatedAt": "2026-07-03T18:36:41.624Z",
     "leveling": {
       "level": 35,
       "xp": 41650,
