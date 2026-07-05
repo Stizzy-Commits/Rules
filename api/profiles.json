@@ -4146,14 +4146,14 @@
     "name": "Ganesha",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 2617,
+    "playtimeSeconds": 2917,
     "leveling": {
       "level": 2,
-      "xp": 400,
-      "currentXp": 85,
+      "xp": 450,
+      "currentXp": 135,
       "requiredXp": 181,
       "maxLevel": 100,
-      "progress": 0.46831955922865004
+      "progress": 0.7438016528925618
     },
     "warns": {
       "active": 0,
@@ -4166,7 +4166,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30320,
+      "currency": 30360,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -4176,7 +4176,7 @@
     },
     "jobs": [
       {
-        "seconds": 2640,
+        "seconds": 2940,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -4184,12 +4184,12 @@
     ],
     "models": [
       {
-        "seconds": 2640,
+        "seconds": 2940,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-05T11:52:57.086Z"
+    "updatedAt": "2026-07-05T11:57:57.090Z"
   }
 }
