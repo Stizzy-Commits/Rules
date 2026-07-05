@@ -662,7 +662,7 @@
     "name": "oRuin",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 1128828,
+    "playtimeSeconds": 1129075,
     "warns": {
       "active": 0,
       "total": 0,
@@ -674,7 +674,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 104095,
+      "currency": 104135,
       "slotCount": 40,
       "slots": {
         "1": {
@@ -809,7 +809,7 @@
         },
         "10": {
           "slot": 10,
-          "amount": 24,
+          "amount": 23,
           "name": "Colt 1911",
           "type": "spawned_weapon",
           "class": "m9k_colt1911",
@@ -829,7 +829,7 @@
     },
     "jobs": [
       {
-        "seconds": 1620,
+        "seconds": 1920,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
@@ -837,20 +837,20 @@
     ],
     "models": [
       {
-        "seconds": 1620,
+        "seconds": 1920,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-05T15:40:19.571Z",
+    "updatedAt": "2026-07-05T21:14:53.824Z",
     "leveling": {
       "level": 50,
-      "xp": 184560,
-      "currentXp": 9973,
+      "xp": 184610,
+      "currentXp": 10023,
       "requiredXp": 17608,
       "maxLevel": 100,
-      "progress": 0.5664110070925658
+      "progress": 0.5692505241857326
     }
   },
   "76561198043370754": {
