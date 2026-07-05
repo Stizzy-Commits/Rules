@@ -662,7 +662,7 @@
     "name": "oRuin",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 1129075,
+    "playtimeSeconds": 1129099,
     "warns": {
       "active": 0,
       "total": 0,
@@ -843,7 +843,7 @@
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
       }
     ],
-    "updatedAt": "2026-07-05T21:14:53.824Z",
+    "updatedAt": "2026-07-05T21:15:17.488Z",
     "leveling": {
       "level": 50,
       "xp": 184610,
