@@ -4295,5 +4295,43 @@
       }
     ],
     "updatedAt": "2026-07-06T02:55:08.286Z"
+  },
+  "76561199769338134": {
+    "steamid64": "76561199769338134",
+    "steamid": "STEAM_0:0:904536203",
+    "name": "Dope Ass Wizard",
+    "currentJob": "Citizen",
+    "currentModel": "models/player/group01/male_01.mdl",
+    "playtimeSeconds": 30,
+    "leveling": {
+      "level": 0,
+      "xp": 0,
+      "currentXp": 0,
+      "requiredXp": 150,
+      "maxLevel": 100,
+      "progress": 0
+    },
+    "warns": {
+      "active": 0,
+      "total": 0,
+      "recent": []
+    },
+    "bans": {
+      "active": false,
+      "total": 0,
+      "recent": []
+    },
+    "inventory": {
+      "currency": 30000,
+      "slotCount": 20,
+      "slots": {},
+      "weapons": [],
+      "items": [],
+      "vehicles": [],
+      "packages": []
+    },
+    "jobs": [],
+    "models": [],
+    "updatedAt": "2026-07-06T04:50:51.204Z"
   }
 }
