@@ -4354,7 +4354,7 @@
     "name": "@YoNeck",
     "currentJob": "Citizen",
     "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 30,
+    "playtimeSeconds": 277,
     "leveling": {
       "level": 0,
       "xp": 0,
@@ -4374,7 +4374,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 30000,
+      "currency": 30020,
       "slotCount": 20,
       "slots": {},
       "weapons": [],
@@ -4382,8 +4382,22 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-07-06T05:55:50.059Z"
+    "jobs": [
+      {
+        "seconds": 300,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 300,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      }
+    ],
+    "updatedAt": "2026-07-06T05:59:56.785Z"
   }
 }
