@@ -3,9 +3,9 @@
     "steamid64": "76561198109886253",
     "steamid": "STEAM_0:1:74810262",
     "name": "Lord Haydes",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_01.mdl",
-    "playtimeSeconds": 287561,
+    "currentJob": "Professional Grower",
+    "currentModel": "models/player/fring/gus_suit.mdl",
+    "playtimeSeconds": 287805,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1690822,
+      "currency": 1683312,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -157,6 +157,20 @@
           "icon": "",
           "equipped": false,
           "meta": "A block of weed."
+        },
+        "10": {
+          "slot": 10,
+          "amount": 1,
+          "name": "M249 LMG",
+          "type": "spawned_weapon",
+          "class": "m9k_m249lmg",
+          "model": "models/weapons/w_m249_machine_gun.mdl",
+          "rarity": "",
+          "color": null,
+          "iconKey": "spawned_weapon_m9k_m249lmg_models-weapons-w_m249_machine_gun.mdl",
+          "icon": "",
+          "equipped": false,
+          "meta": "A shooty stick!"
         }
       },
       "weapons": [],
@@ -164,9 +178,47 @@
       "vehicles": [],
       "packages": []
     },
-    "jobs": [],
-    "models": [],
-    "updatedAt": "2026-07-17T13:44:45.287Z",
+    "jobs": [
+      {
+        "seconds": 180,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "Professional Grower",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "Citizen",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/riot.mdl",
+        "name": "Elite Seller",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      }
+    ],
+    "models": [
+      {
+        "seconds": 180,
+        "model": "models/player/fring/gus_suit.mdl",
+        "name": "models/player/fring/gus_suit.mdl",
+        "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/group01/male_01.mdl",
+        "name": "models/player/group01/male_01.mdl",
+        "iconKey": "profile_model_face_models-player-group01-male_01.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/riot.mdl",
+        "name": "models/player/riot.mdl",
+        "iconKey": "profile_model_face_models-player-riot.mdl"
+      }
+    ],
+    "updatedAt": "2026-07-17T13:48:48.331Z",
     "leveling": {
       "level": 36,
       "xp": 47350,
