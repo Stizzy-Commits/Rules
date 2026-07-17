@@ -4686,9 +4686,9 @@
     "steamid64": "76561198027204734",
     "steamid": "STEAM_0:0:33469503",
     "name": "Goose",
-    "currentJob": "Citizen",
-    "currentModel": "models/player/group01/male_02.mdl",
-    "playtimeSeconds": 30,
+    "currentJob": "Civil Protection",
+    "currentModel": "models/player/police.mdl",
+    "playtimeSeconds": 149,
     "leveling": {
       "level": 0,
       "xp": 0,
@@ -4718,20 +4718,32 @@
     },
     "jobs": [
       {
-        "seconds": 60,
+        "seconds": 120,
         "model": "models/player/group01/male_02.mdl",
         "name": "Citizen",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/police.mdl",
+        "name": "Civil Protection",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
     "models": [
       {
-        "seconds": 60,
+        "seconds": 120,
         "model": "models/player/group01/male_02.mdl",
         "name": "models/player/group01/male_02.mdl",
         "iconKey": "profile_model_face_models-player-group01-male_02.mdl"
+      },
+      {
+        "seconds": 60,
+        "model": "models/player/police.mdl",
+        "name": "models/player/police.mdl",
+        "iconKey": "profile_model_face_models-player-police.mdl"
       }
     ],
-    "updatedAt": "2026-07-17T07:00:08.084Z"
+    "updatedAt": "2026-07-17T07:02:06.715Z"
   }
 }
