@@ -5,7 +5,7 @@
     "name": "Lord Haydes",
     "currentJob": "Professional Grower",
     "currentModel": "models/player/fring/gus_suit.mdl",
-    "playtimeSeconds": 293805,
+    "playtimeSeconds": 294105,
     "warns": {
       "active": 0,
       "total": 0,
@@ -17,7 +17,7 @@
       "recent": []
     },
     "inventory": {
-      "currency": 1441308,
+      "currency": 1440308,
       "slotCount": 20,
       "slots": {
         "1": {
@@ -228,20 +228,6 @@
           "equipped": false,
           "meta": "A block of weed."
         },
-        "15": {
-          "slot": 15,
-          "amount": 1,
-          "name": "M249 LMG",
-          "type": "spawned_weapon",
-          "class": "m9k_m249lmg",
-          "model": "models/weapons/w_m249_machine_gun.mdl",
-          "rarity": "",
-          "color": null,
-          "iconKey": "spawned_weapon_m9k_m249lmg_models-weapons-w_m249_machine_gun.mdl",
-          "icon": "",
-          "equipped": false,
-          "meta": "A shooty stick!"
-        },
         "16": {
           "slot": 16,
           "amount": 1,
@@ -278,7 +264,7 @@
     },
     "jobs": [
       {
-        "seconds": 6180,
+        "seconds": 6480,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "Professional Grower",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -298,7 +284,7 @@
     ],
     "models": [
       {
-        "seconds": 6180,
+        "seconds": 6480,
         "model": "models/player/fring/gus_suit.mdl",
         "name": "models/player/fring/gus_suit.mdl",
         "iconKey": "profile_model_face_models-player-fring-gus_suit.mdl"
@@ -316,14 +302,14 @@
         "iconKey": "profile_model_face_models-player-riot.mdl"
       }
     ],
-    "updatedAt": "2026-07-17T15:28:48.311Z",
+    "updatedAt": "2026-07-17T15:33:48.341Z",
     "leveling": {
       "level": 36,
-      "xp": 48350,
-      "currentXp": 3480,
+      "xp": 48400,
+      "currentXp": 3530,
       "requiredXp": 4636,
       "maxLevel": 100,
-      "progress": 0.7507122515612837
+      "progress": 0.7614953129971526
     }
   },
   "76561198249112348": {
